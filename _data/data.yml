@@ -3,21 +3,24 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
-
+    complementary_education: True # set to False if you want education in main section instead of in sidebar
+    
     # Profile information
-    name: Felipe Almeida-Fernandes
-    tagline: Astrophysics PhD.
+    first_name: Felipe
+    name: Almeida-Fernandes
+    pronoun: He / Him
+    tagline: Astrophysics PhD
     avatar: felipe_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: felipe.almeida.fernandes@usp.br
-    phone: 55 32 98426-2218
-    timezone: São Paulo timezone (GMT-3)
-    citizenship: Brazil
-    website: felipefer42.github.io
+    phone: 
+    timezone: São Paulo Timezone (GMT-3)
+    citizenship:
+    website: felipefer42.github.io #do not add http://
     linkedin: 
     xing: 
     github: felipefer42
@@ -28,7 +31,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # http://www.africau.edu/images/default/sample.pdf
+    pdf: 
 
     languages:
       title: Languages
@@ -43,17 +46,32 @@ sidebar:
           level: Learning
 
     interests:
-      title: Interests
+      title: Research Interests
       info:
-        - item: Formula 1
+        - item: Stellar Astrophysics
           link:
 
-        - item: Board Games
+        - item: Galactic Structure
+          link:
+
+        - item: Photometric Calibration
+          link:
+          
+        - item: Interstellar Asteroids
+          link:
+
+    hobbies:
+      title: Hobbies
+      info:
+        - item: Board games
+          link:
+
+        - item: Racing simulators
           link:
 
         - item: 3D printing
           link:
-
+          
 career-profile:
     title: Career Profile
     summary: |
@@ -67,7 +85,7 @@ education:
     title: Education
     info:
       - degree: PhD in Astronomy
-        university: Observatório do Valongo (OV/UFRJ)
+        university: Observatório do Valongo (UFRJ)
         time: 2015 - 2019
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -78,7 +96,7 @@ education:
             - Bullet point
             - Bullet point
       - degree: BSc in Astronomy
-        university: Universidade Federal do Rio de Janeiro (UFRJ)
+        university: Universidade Federal do Rio de Janeiro
         time: 2011 - 2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -89,12 +107,28 @@ education:
             - Bullet point
             - Bullet point
 
-experiences:
-    title: Experiences
+complementary_education:
+    title: Education+
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - degree: Visiting PhD-candidate
+        university: Universidad de La Serena
+        time: 2017
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+
+experiences:
+    title: Job Experience
+    info:
+      - role: Data Release Manager
+        time: 2019 - Present
+        company: S-PLUS survey
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -105,33 +139,44 @@ experiences:
           error sit voluptatem accusantium doloremque laudantium, totam rem
           aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
           architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+            - Data Release 2: 2021
+            - Data Release 3: 2022
+      
+      - role: Postdoctoral Researcher
+        time: 2019 - 2021 | 2023 - present
+        company: University of São Paulo
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          
 
+      - role: Visiting Researcher
+        time: 2022
+        company: NOIRLab
+        details: |
+          Supported by the Post-doctorate research internship abroad (BEPE) of 
+          FAPESP (São Paulo Research Funding Agency), I spent the year of 2022
+          working as a visiting researcher at the NOIRLab institute, in Tucson,
+          Arizona. During my time there, I worked on projects related to 
+          metal-poor stars. In particular, we used photometric criteria to 
+          select metal-poor stars in S-PLUS and studied them in greater details 
+          using data from spectroscopic follow-ups using the telescopes Blanco, 
+          Gemini and Magellan-Clay. This collaboration is still ongoing even
+          now that I'm back in Brazil.
+          
+                    
+      - role: Collaborating Professor
+        time: 2020 - 2021
+        company: University of São Paulo
+        details: |
+          Selected in the 'Attraction and Retention of Talents Program' (PART -
+          Programa de Atração e Retenção de Talentos) of the University of São
+          Paulo, I was hired as a Collaborating Professor and was responsible 
+          for teaching the class 'Introduction to Astronomy' to students of 
+          several different majors. In each of the four semesters, I had around 
+          50 students in my class.
+         
+  
 certifications:
-      title: Certifications
+      title: Teaching Experience
       list:
         - name: CV Builder
           start: 2020

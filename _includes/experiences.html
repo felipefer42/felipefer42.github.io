@@ -1,13 +1,17 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 <section class="section experiences-section">
-  <h2 class="section-title">
+  <h2 class="section-title-wbutton">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
     </span>
     {{ experiences.title }}
   </h2>
+  
+  <div class="button-container">
+    <button onclick="toggleJobDetails()" class="button-18">Show/hide details</button>
+  </div>  
 
   {% for experience in experiences.info %}
   <div class="item">
@@ -24,9 +28,10 @@
     </div><!--//meta-->
 
     {% if experience.details %}
-    <div class="details">
-      {{ experience.details | markdownify }}
-    </div><!--//details-->
+      <div class="job-details">
+        {{ experience.details | markdownify }}
+      </div>
+    <!--//details-->
     {% endif %}
 
   </div><!--//item-->

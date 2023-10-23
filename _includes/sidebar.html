@@ -7,10 +7,18 @@
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
 
+    {% if sidebar.first_name %}
+    <h4 class="first_name">{{ sidebar.first_name }}</h4>
+    {% endif %}
+    
     {% if sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
 
+    {% if sidebar.first_name %}
+    <h4 class="pronoun">({{ sidebar.pronoun }})</h4>
+    {% endif %}
+    
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
@@ -23,9 +31,14 @@
     {% include education.html %}
   {% endif %}
 
+  {% if sidebar.complementary_education %}
+    {% include complementary_education.html %}
+  {% endif %}
+
   {% include language.html %}
   {% include interests.html %}
-
+  {% include hobbies.html %}
+  
   {% if sidebar.about %}
     {% include about.html %}
   {% endif %}

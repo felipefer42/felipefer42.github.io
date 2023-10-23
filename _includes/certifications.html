@@ -1,13 +1,17 @@
 {% assign certifications = site.data.data.certifications %} {% if certifications %}
 <section class="section certifications-section">
-  <h2 class="section-title">
+  <h2 class="section-title-wbutton">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
     </span>
     {{ certifications.title }}
   </h2>
-
+  
+  <div class="button-container">
+    <button onclick="toggleTeachDetails()" class="button-18">Show/hide details</button>
+  </div>  
+  
   {% for certifications in certifications.list %}
   <div class="item">
     <div class="meta">
@@ -39,7 +43,7 @@
     </div>
     <!--//meta-->
 
-    <div class="details">{{ certifications.details | markdownify }}</div>
+    <div class="teach-details">{{ certifications.details | markdownify }}</div>
   </div>
   <!--//item-->
   {% endfor %}

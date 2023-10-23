@@ -9,6 +9,10 @@ layout: default
   {% include education.html %}
 {% endunless %}
 
+{% unless site.data.data.sidebar.complementary_education %}
+  {% include education.html %}
+{% endunless %}
+
 {% include experiences.html %}
 
 {% include certifications.html %}
