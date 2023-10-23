@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    position: left # position of the sidebar : left or right
+    position: right # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
     complementary_education: True # set to False if you want education in main section instead of in sidebar
@@ -75,12 +75,32 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I hold a bachelor's degree in Astronomy from the Federal University of Rio 
+      de Janeiro and completed my Ph.D. in Astronomy, at the Valongo Observatory 
+      (OV/UFRJ), with a CAPES scholarship. The main focus of my doctoral thesis 
+      was stellar dating through Galactic kinematics, involving work with 
+      theoretical evolutionary models and Bayesian isochronal dating. I am 
+      currently working on the S-PLUS survey, where I am responsible for the 
+      photometric calibration and the organization of the Main Survey Data 
+      Releases. As a postdoctoral fellow at the University of São Paulo, 
+      supported by a FAPESP fellowship, my main areas of research are the 
+      Galactic structure and the exploration and characterization of 
+      low-metallicity stars. I also have international academic experience as a 
+      year-long Research Visitor at the NOIRLab institute, supported by a FAPESP 
+      research internship abroad (BEPE).
+    summary-more:
+      During my postdoctoral fellowship, I was selected as a
+      Collaborating Professor under the "USP's Talent Attraction and Retention
+      Program", where I instructed the "Introduction to Astronomy" course for
+      four semesters. Furthermore, I completed two teaching internships during
+      my Ph.D. and served as a student tutor for three semesters during my
+      undergraduate years. 
+      <br><br>
+      I also have experience in the field of science
+      outreach, as one of the founders of the Astrotubers YouTube channel, a
+      contributor to the Ad Astra program, and an organizer of the "Astronomia
+      ao Meio Dia" lecture series. Additionaly, for a year during my Ph.D., 
+      I held the position of Graduate Student's representative.
 education:
     title: Education
     info:
@@ -111,16 +131,22 @@ complementary_education:
     title: Education+
     info:
       - degree: Visiting PhD-candidate
-        university: Universidad de La Serena
+        university: Universidad de La Serena (Chile)
         time: 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Ciclo de Cursos Especiais do Observatório Nacional
+        university: Observatório Nacional (Brazil)
+        time: 4x (2015, 2016, 2017, 2018)
+        details: |
+      - degree: Winter School of the Valongo Observatory
+        university: Observatório do Valongo (Brazil)
+        time: 3x (2015, 2017, 2019)
+        details: |
+      - degree: IX LaPIS on Astronomy and Geophysics
+        university: La Plata (Argentina)
+        time: 2020
+        details: |
+
 
 
 experiences:
@@ -178,46 +204,41 @@ experiences:
 certifications:
       title: Teaching Experience
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: Introduction to Astronomy (AGA210)
+          start: Professor
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: 2020.1, 2020.2, 2021.1, 2021.2
+          credentialid:
+          credentialurl: x
+          credentialname: IAG/USP
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Astrobiology (OVL504)
+          start: Teaching Internship
+          end:
+          organization: 2015.1
+          credentialid:
+          credentialurl: x
+          credentialname: OV/UFRJ
+          details: |
+        - name: General Astrophysics (OVL241)
+          start: Teaching Internship
+          end:
+          organization: 2015.2
+          credentialid:
+          credentialurl: x
+          credentialname: OV/UFRJ
+          details: |    
+        - name: Physics III (FIM231)
+          start: Student Tutor
+          end:
+          organization: 2012.2, 2014.1, 2014.2
+          credentialid:
+          credentialurl: x
+          credentialname: IF/UFRJ
+          details: |  
 
 projects:
-    title: Projects
+    title: Outreach Experience
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -307,4 +328,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>...and adapted, with much less <i class="fas fa-heart"></i>, by <a href="felipefer42.github.io" target="_blank" rel="nofollow">Felipe Almeida-Fernandes</a>

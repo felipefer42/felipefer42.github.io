@@ -93,7 +93,7 @@ p {
     //used for profile image
     max-width: 200px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
+    border: 5px solid $theme-color;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
@@ -127,7 +127,8 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
   }
-  .education-container {
+  .education-container,
+  .complementary_education-container{
     .item {
       margin-bottom: 15px;
       &:last-child {
@@ -172,6 +173,15 @@ p {
     }
   }
 }
+
+.navbar-wrapper {
+  order: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background-color: $smoky-white;
+  border-bottom: 1px solid $theme-color;
+ }
 
 .main-wrapper {
   grid-column: span 8;
@@ -330,7 +340,24 @@ p {
     background: $darker-grey;
     color: $lighter-grey;
   }
+  .summary-container {
+    border-bottom: 1px solid $theme-color;
+    min-height: 292px;
+  }
+  .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
+  .summary-more{
+    display: none;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 20px;
+  }
 }
 
 .skillset {
@@ -366,3 +393,45 @@ p {
   }
 }
 
+.nav ul {
+  list-style-type: none;
+  order: $navbar-order;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $smoky-white;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  color: $text-color;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: $lighter-grey;
+  color: $text-color;
+}
+
+.nav .active {
+  background-color: $theme-color;
+  color: $smoky-white;
+  font-weight: 900;
+  border-bottom: 1px solid $theme-color;
+}
+
+.nav li a:hover {
+  background-color: $lighter-grey;
+  color: $text-color;
+}
+
+.nav-right {
+  border: 1px solid $theme-color;
+  border-bottom: 0px;
+}

@@ -8,13 +8,19 @@
 {% include head.html %}
 
 <body>
+  <div class="navbar-wrapper">
+    {% include navbar.html %}
+  </div>
+
   <div class="wrapper">
+
     {% include sidebar.html %}
 
     <div class="main-wrapper">
-        {{ content }}
+      {{ content }}
     </div>
   </div>
+
 
   {% include footer.html %}
 

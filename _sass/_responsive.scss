@@ -4,6 +4,20 @@
     padding: 0;
   }
 
+  .navbar-outer-wrapper{
+    display: block;
+   }
+
+   .navbar-wrapper {
+    position: static;
+    display: block;
+   }
+
+  .side-navbar-wrapper {
+    position: static;
+    width: inherit;
+  }
+
   .sidebar-wrapper {
     position: static;
     width: inherit;
