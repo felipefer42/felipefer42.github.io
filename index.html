@@ -2,10 +2,6 @@
 layout: default
 ---
 
-
-
-{% include career-profile.html %}
-
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
@@ -18,7 +14,13 @@ layout: default
 
 {% include certifications.html %}
 
+{% include teaching.html %}
+
+{% include outreach.html %}
+
 {% include projects.html %}
+
+{% include research.html %}
 
 {% include oss-contributions.html %}
 

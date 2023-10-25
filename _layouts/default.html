@@ -17,7 +17,12 @@
     {% include sidebar.html %}
 
     <div class="main-wrapper">
-      {{ content }}
+      <div class="main-header">
+        {% include career-profile.html %}
+      </div>
+      <div class="main-content">
+        {{ content }}
+      </div>
     </div>
   </div>
 

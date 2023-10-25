@@ -89,6 +89,7 @@ career-profile:
       year-long Research Visitor at the NOIRLab institute, supported by a FAPESP 
       research internship abroad (BEPE).
     summary-more:
+      <br>
       During my postdoctoral fellowship, I was selected as a
       Collaborating Professor under the "USP's Talent Attraction and Retention
       Program", where I instructed the "Introduction to Astronomy" course for
@@ -148,12 +149,11 @@ complementary_education:
         details: |
 
 
-
 experiences:
     title: Job Experience
     info:
-      - role: Data Release Manager
-        time: 2019 - Present
+      - role: Data-Release Manager
+        time: 2019 - present
         company: S-PLUS survey
         details: |
           Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -200,132 +200,285 @@ experiences:
           several different majors. In each of the four semesters, I had around 
           50 students in my class.
          
-  
 certifications:
+      title:
+      list:
+        - name:
+          start:
+          end:
+          organization:
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+        - name:
+          start:
+          end:
+          organization:
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+
+teaching:
       title: Teaching Experience
       list:
         - name: Introduction to Astronomy (AGA210)
-          start: Professor
-          end:
-          organization: 2020.1, 2020.2, 2021.1, 2021.2
-          credentialid:
-          credentialurl: x
-          credentialname: IAG/USP
+          role: Professor
+          semester: 2020.1, 2020.2, 2021.1, 2021.2
+          location: IAG/USP
           details: |
         - name: Astrobiology (OVL504)
-          start: Teaching Internship
-          end:
-          organization: 2015.1
-          credentialid:
-          credentialurl: x
-          credentialname: OV/UFRJ
+          role: Teaching Internship
+          semester: 2015.1
+          location: OV/UFRJ
           details: |
         - name: General Astrophysics (OVL241)
-          start: Teaching Internship
-          end:
-          organization: 2015.2
-          credentialid:
-          credentialurl: x
-          credentialname: OV/UFRJ
+          role: Teaching Internship
+          semester: 2015.2
+          location: OV/UFRJ
           details: |    
         - name: Physics III (FIM231)
-          start: Student Tutor
-          end:
-          organization: 2012.2, 2014.1, 2014.2
-          credentialid:
-          credentialurl: x
-          credentialname: IF/UFRJ
+          role: Student Tutor
+          semester: 2012.2, 2014.1, 2014.2
+          location: IF/UFRJ
+          details: |  
+        - name: + Invited Lectures
+          role:
+          semester:
+          location: IAG/USP, OV/UFRJ & UFU
           details: |  
 
-projects:
-    title: Outreach Experience
+outreach:
+      title: Outreach Experience
+      list:
+        - name: Astrotubers
+          role: Co-founder
+          time: 2018-2020
+          location: Youtube Channel
+          details: |
+        - name: Ad Astra
+          role: Collaborator
+          time: 2018-2019
+          location: IMPAR (Cidade de Deus, RJ)
+          details: |
+        - name: Astronomia ao Meio Dia
+          role: Organizer
+          time: 2019-2020
+          location: IMPAR
+          details: |
+        - name: Outreach Talks
+          role: Speaker
+          time: 2015-
+          location: Several locations
+          details: |
+
+research:
+    title: Main Research Topics
     intro: >
-      You can list your side projects in this
+      You can list your research topics in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
+    topics:
+      - title: Stellar Ages
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: DevStudio
+      - title: Low Metallicity Stars
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
+      - title: Galactic Structure
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Atom
+      - title: Interstellar Asteroids
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
+      - title: Photometric Calibration Techniques
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+projects:
+    title: 
+    intro: 
+    assignments:
+      - title: 
+        link: 
+        tagline: 
+          
+      - title: 
+        link: 
+        tagline: 
+          
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title:
+    intro:
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title:
+        link:
+        tagline:
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title:
+        link:
+        tagline:
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
+        authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
+        more: and 14 more
+        journal: eprint arXiv:2310.15158, 10/2023 (Accepted, MNRAS)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230911533X/abstract"
+        authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
+        more: and 10 more
+        journal: eprint arXiv:2309.11533, 09/2023 (Submitted, ApJ)
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Chemodynamical properties and ages of metal-poor stars in S-PLUS"
+        link: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2934A/abstract"
+        authors: Almeida-Fernandes, F.; Placco, V. M.; Rocha-Pinto, H. J.;
+        more: and 10 more
+        journal: MNRAS, v.523 p.2934, 08/2023
+
+      - title: "An Extended Catalogue of galaxy morphology using Deep Learning in Southern Photometric Local Universe Survey Data Release 3"
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230608684B/abstract"
+        authors: Bom, C. R.; Cortesi, A.; Ribeiro, U.; ... (12th) Almeida-Fernandes, F.;
+        more: and 21 more
+        journal: eprint arXiv:2306.08684, 06/2023 (Submitted, MNRAS)
+
+      - title: "Search and characterization of Satellite Galaxies and Stellar Streams of the Milky Way in the S-PLUS survey"
+        link: "https://ui.adsabs.harvard.edu/abs/2023BoSAB..34..209R/abstract"
+        authors: Ré, P. Augusto; Almeida-Fernandes, F.; Mendes de Oliveira, C.; Perottoni, H. D.
+        more:
+        journal: Boletim da Sociedade Astrônomica Brasileira. Proceedings da XLV Reunião Anual da SAB, p.209-213, 2023
+
+      - title: "Mining S-PLUS for Metal-poor Stars in the Milky Way"
+        link: "https://ui.adsabs.harvard.edu/abs/2022ApJS..262....8P/abstract"
+        authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Arentsen, Anke;
+        more: and 4 more
+        journal: ApJS, v.262 p.8, 09/2022
+
+      - title: "Photometric and Morphological Analysis of Fornax Galaxies through S-PLUS"
+        link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..253S/abstract"
+        authors: Smith Castelli, A. V.; Lopes, A. R.; Cortesi, A.; ... (8th) Almeida-Fernandes, F.;
+        more: and 9 more
+        journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
+
+      - title: "Statistical analysis of global properties of galaxies in the direction of the Fornax cluster with S-PLUS"
+        link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..244C/abstract"
+        authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (5th) Almeida-Fernandes, F.;
+        more: and 2 more
+        journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
+
+      - title: "Data Release 2 of S-PLUS: Accurate template-fitting based photometry covering 1000 deg2 in 12 optical filters"
+        link: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.4590A/abstract"
+        authors: Almeida-Fernandes, F.; SamPedro, L.; Herpich, F. R.;
+        more: and 32 more
+        journal: MNRAS, v.511 p.4590, 04/2022
+
+      - title: "Canis Major OB1 stellar group contents revealed by Gaia"
+        link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.1033S/abstract"
+        authors: Santos-Silva, T.; Perottoni, H. D.; Almeida-Fernandes, F.
+        more: and 15 more
+        journal: MNRAS, v.508 p.1033, 11/2021
+
+      - title: "On the discovery of stars, quasars, and galaxies in the Southern Hemisphere with S-PLUS DR2"
+        link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.5847N/abstract"
+        authors: Nakazono, L.; Mendes de Oliveira, C.; Hirata, N. S. T; ... (15th) Almeida-Fernandes, F.;
+        more: and 24 more
+        journal: MNRAS, v.507 p.5847, 11/2021
+
+      - title: "SPLUS J210428.01-004934.2: An Ultra Metal-poor Star Identified from Narrowband Photometry"
+        link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912L..32P/abstract"
+        authors: Placco, Vinicius M.; Roederer, Ian U.; Lee, Young Sun; Almeida-Fernandes, Felipe;
+        more: and 5 more
+        journal: ApJ Letters, v.912 p.32, 05/2021
+
+      - title: "The Photometric Metallicity and Carbon Distributions of the Milky Way's Halo and Solar Neighborhood from S-PLUS Observations of SDSS Stripe 82"
+        link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912..147W/abstract"
+        authors: Whitten, Devin D.; Placco, Vinicius M.; Beers, Timothy C.; ... (6th) Almeida-Fernandes, Felipe;
+        more: and 13 more
+        journal: ApJ, v.912 p.147, 05/2021
+
+      - title: "The Abundance Pattern of α Elements in the Triangulum-Andromeda Overdensity"
+        link: "https://ui.adsabs.harvard.edu/abs/2020ApJ...901...27S/abstract"
+        authors: Silva, J. V. Sales; Cunha, K.; Perottoni, H. D.; ... (6th) Almeida-Fernandes, F.;
+        more: and 4 more
+        journal: ApJ, v.901 p.27, 09/2020
+
+      - title: "Triangulum-Andromeda Overdensity: a Region with a Complex Stellar Population"
+        link: "https://ui.adsabs.harvard.edu/abs/2019ApJ...886..113S/abstract"
+        authors: Sales Silva, J. V.; Perottoni, H. D.; Cunha, K.; ... (5th) Almeida-Fernandes, F.;
+        more: and 3 more
+        journal: ApJ, v.886 p.113, 12/2019
+
+      - title: "The Southern Photometric Local Universe Survey (S-PLUS): improved SEDs, morphologies, and redshifts with 12 optical filters"
+        link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..241M/abstract"
+        authors: Mendes de Oliveira, C.; Ribeiro, T.; Schoenell, W.; ... (24th) Almeida-Fernandes, F.;
+        more: and 141 more
+        journal: MNRAS, v.489 p.241, 10/2019
+
+      - title: "The Nature of the Triangulum-Andromeda Stellar Structures"
+        link: "https://ui.adsabs.harvard.edu/abs/2019IAUS..344..122S/abstract"
+        authors: Silva, J. V. Sales; Perottoni, H.; Cunha, K.; ... (6th) Almeida-Fernandes. F.
+        more: and 2 more
+        journal: Proceedings of the International Astronomical Union, IAU Symposium, v.344 p.122-124, 10/2019
+
+      - title: "A cold stellar stream in Pegasus"
+        link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.486..843P/abstract"
+        authors: Perottoni, Hélio D.; Martin, Charles; Newberg, Heidi Jo; ... (5th) Almeida-Fernandes, Felipe;
+        more: and 2 more
+        journal: MNRAS, v.486 p.843, 06/2019
+
+      - title: "A kinematical age for the interstellar object 1I/`Oumuamua"
+        link: "https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.4903A/abstract"
+        authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
+        more:
+        journal: MNRAS, v.480 p.4903, 11/2018
+
+      - title: "A method to estimate stellar ages from kinematical data"
+        link: "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..184A/abstract"
+        authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
+        more:
+        journal: MNRAS, v.486 p.843, 05/2018
 
 skills:
     title: Skills &amp; Proficiency
-
+    intro: |
+      A quick and not too serious guestimate of my proficience levels with 
+      different tools. All levels are set relative to my percepted proficience 
+      with python programming, which itself is very far from an absolute 100.
+      
+      The scale basically goes from "I built the python package that does the 
+      photometric calibration for the S-PLUS survey" to "I can commit/push, 
+      and usually can clone, github repositories".
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 99%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Topcat / Stilts
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Inkscape
+        level: 80%
+
+      - name: Blender
+        level: 80%
+
+      - name: LaTeX
+        level: 60%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 50%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Github
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>...and adapted, with much less <i class="fas fa-heart"></i>, by <a href="felipefer42.github.io" target="_blank" rel="nofollow">Felipe Almeida-Fernandes</a>

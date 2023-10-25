@@ -10,6 +10,12 @@
     {{ skills.title }}
   </h2>
 
+  {% if skills.intro %}
+  <div class="intro">
+    {{ skills.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
   <div class="skillset">
 
     {% for skill in skills.toolset %}
