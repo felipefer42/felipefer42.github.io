@@ -229,7 +229,8 @@ p {
     }
   }
   .course-role,
-  .event-role{
+  .event-role,
+  .upcoming-contrib{
     position: absolute;
     right: 0;
     top: 0;
@@ -255,7 +256,8 @@ p {
   }
 
   .course-title,
-  .event-title{
+  .event-title,
+  .upcoming-title{
     color: $theme-color;
     font-size: 16px;
     margin-top: 0;
@@ -264,10 +266,15 @@ p {
     flex: 75%;
    }
 
+  .upcoming-title a{
+    color: $theme-color;
+  }
+
   .time,
   .cert-url,
   .course-semester,
-  .event-time{
+  .event-time,
+  .upcoming-date{
     position: absolute;
     right: 0;
     top: 0;
@@ -278,7 +285,8 @@ p {
   .university,
   .cert-org,
   .course-loc,
-  .event-loc{
+  .event-loc,
+  .upcoming-loc{
     margin-bottom: 10px;
     color: $text-grey;
   }
@@ -291,8 +299,16 @@ p {
     margin-bottom: 5px;
     color: $theme-color;
   }
+   .research-title a {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: $theme-color;
+  }
   .projects-section,
-  .research-section {
+  .research-section,
+  .upcoming-section {
     .intro {
       margin-bottom: 30px;
     }
@@ -333,7 +349,8 @@ p {
   .details,
   .job-details,
   .teach-details,
-  .outreach-details{
+  .outreach-details,
+  .event-details {
     display: none;
     background-color: $smoky-white;
     padding: 10px;
@@ -343,6 +360,12 @@ p {
   .button-container {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+
+  .button-container-center {
+    display: flex;
+    justify-content: center;
   }
   
   .button-18 {
@@ -365,7 +388,6 @@ p {
     padding: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 20px;
     text-align: center;
     touch-action: manipulation;
     user-select: none;
@@ -464,16 +486,22 @@ p {
 }
 
 .nav li a:hover:not(.active) {
-  background-color: $lighter-grey;
-  color: $text-color;
+  background-color: darken($lighter-grey, 15%);
+  color: $smoky-white;
+  @include box-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
 }
 
 .nav .active {
   background-color: $theme-color;
   color: $smoky-white;
-  font-weight: 900;
   border-bottom: 1px solid $theme-color;
+  @include box-shadow(0px 1px 4px rgba(0, 0, 0, 0.5));
 }
+
+.nav .active a:visited{
+  color: $smoky-white;
+}
+
 
 .nav li a:hover {
   background-color: $lighter-grey;

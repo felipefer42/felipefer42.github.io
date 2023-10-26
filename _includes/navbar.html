@@ -1,8 +1,25 @@
+{% assign navbar = site.data.data.navbar %}
+
 <ul class="nav">
-  <li><a class="active" href="#home"><i class="fa fa-fw fa-home"></i>  Home</a></li>
-  <li><a href="#publications"><i class="fa fa-fw fa-book"></i> Publications</a></li>
-  <li><a href="#talks"><i class="fa-solid fa-presentation-screen"></i> Talks and Events</a></li>
-  <li><a href="#lectures"><i class="fa-solid fa-person-chalkboard"></i> Lectures</a></li>
-  <li><a href="#projects"><i class="fa-solid fa-telescope"></i> Projects</a></li>
-  <li class="nav-right" style="float:right;"><a href="#blog"><i class="fa fa-fw fa-newspaper"></i> Blog</a></li>
+  {% for item in navbar.pages %}
+      <li class="{% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url }}">
+          {% if item.icon %}
+            <i class="{{ item.icon }}"></i>
+          {% endif %}
+          {{ item.title }}
+        </a>
+      </li>
+  {% endfor %}
+
+  {% if navbar.blog-title %}
+  <li class="nav-right" style="float:right;">
+    <a href="{{ navbar.blog-url }}">
+      {% if navbar.blog-icon %}
+        <i class="{{ navbar.blog-icon}}"></i>
+      {% endif %}
+      {{ navbar.blog-title }}
+    </a>
+  </li>
+  {% endif %}
 </ul>

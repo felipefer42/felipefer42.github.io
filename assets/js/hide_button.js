@@ -31,6 +31,17 @@ function toggleOutreachDetails() {
   });
 }
 
+function toggleUpcomingDetails() {
+  var elements = document.querySelectorAll('.upcoming-details');
+  elements.forEach(function(element) {
+    if (element.style.display === "none" || element.style.display === "") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  });
+}
+
 function toggleCareerSumamry() {
   var elements = document.querySelectorAll('.summary-more');
   elements.forEach(function(element) {
