@@ -12,7 +12,7 @@ navbar:
       icon: "fa fa-fw fa-book"
 
     - title: Talks and Events
-      url: "/events"
+      url: "/events.html"
       icon: "fa-solid fa-presentation-screen"
 
     - title: Lectures
@@ -225,7 +225,22 @@ experiences:
           for teaching the class 'Introduction to Astronomy' to students of 
           several different majors. In each of the four semesters, I had around 
           50 students in my class.
-         
+
+experiences_plus:
+    title: Additional Experience
+    info:
+      - role: Peer-Reviewer for Astronomy and Computing
+        time: 2023
+        company: Astronomy and Computing
+
+      - role: Peer-Reviewer for The Astrophysical Journal
+        time: 2022
+        company: AAS Journals
+
+      - role: Graduate Student's representative
+        time: 2017 - 2018
+        company: Observatório do Valongo
+
 certifications:
       title:
       list:
@@ -554,8 +569,8 @@ publications:
         refereed: True
 
 event-participation:
-    home-title: Upcoming events
-    title: Talks and Meetings
+    upcoming-title: Upcoming events
+    title: Past participations
     intro:
     events:
       - title: "XXV Ciclo de Cursos Especiais"
@@ -563,8 +578,8 @@ event-participation:
         date:  06-10/Nov/2023
         location: Observatório Nacional, RJ, Brazil
         country-code: br
-        contribution: Poster presentation
-        show-home: True
+        contribution: Poster
+        upcoming: true
 
       - title: "Invited Lecture"
         link: "https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/astronomia-e-astrofisica/ensino/cce/cce-2023"
@@ -572,31 +587,31 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         contribution: Lecture
-        show-home: True
+        upcoming: true
 
       - title: "ESO-Metals 2023"
         link: "https://www.eso.org/sci/meetings/2023/METALS.html"
         date:  13-17/Nov/2023
         location: ESO, Santiago, Chile
         country-code: cl
-        contribution: Talk presentation
-        show-home: True
+        contribution: Talk
+        upcoming: true
 
       - title: "Invited Talk"
         link: ""
         date:  24/Nov/2023
         location: Universidad de La Plata, Argentina
         country-code: ar
-        contribution: Talk presentation
-        show-home: True
+        contribution: Talk
+        upcoming: true
 
       - title: "XVII Reunión Regional Latinoamericana de la UAI "
         link: "https://rrla-larim-2023.uy/es/17-2/"
         date:  27/Nov-01/Dec/2023
         location: Montevideo, Uruguay
         country-code: uy
-        contribution: Talk presentation
-        show-home: True
+        contribution: Talk
+        upcoming: true
 
       - title: "6a Reunião Anual SBAstrobio "
         link: ""
@@ -604,7 +619,134 @@ event-participation:
         location: USP, São Paulo, Brasil
         country-code: br
         contribution: TBD
-        show-home: True
+        upcoming: true
+
+      - title: "2023"
+        year-mark: true
+        upcoming: false
+
+      - title: "31º Simpósio Internacional de Iniciação Científica e Tecnológica da USP"
+        link: "https://www1.fob.usp.br/31o-simposio-internacional-de-iniciacao-cientifica-e-tecnologica-da-usp-siicusp-2023/"
+        date: 25-26/Out/2023
+        location: USP, SP, Brazil
+        country-code: br
+        contribution: Evaluator
+        upcoming: false
+
+      - title: "31º Simpósio Internacional de Iniciação Científica e Tecnológica da USP"
+        link: "https://www1.fob.usp.br/31o-simposio-internacional-de-iniciacao-cientifica-e-tecnologica-da-usp-siicusp-2023/"
+        date: 25-26/Out/2023
+        location: USP, SP, Brazil
+        country-code: br
+        contribution: Evaluator
+        upcoming: false
+
+      - title: "XLVI Reunião Anual da SAB"
+        link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/xlvi-reuniao-anual-da-sab-2/"
+        date: 02-05/Out/2023
+        location: Planetário da Gávea, Rio de Janeiro, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "S-PLUS: 18th Collaboration Meeting"
+        link: "https://sites.usp.br/splus/"
+        date: 21-23/Aug/2023
+        location: Observatório Nacional, Rio de Janeiro, Brazil
+        country-code: br
+        contribution: SOC/Talk
+        upcoming: false
+
+      - title: "Ciclo de debates em Astronomia"
+        link: https://www.youtube.com/live/qg-y4bCt-nE?si=aIKZ1p7uWTvSekls
+        date: 27/Apr/2023
+        location: Universidade Federal de Uberlândia, Brazil (remote participation)
+        country-code: br
+        contribution: Invited Talk
+        upcoming: false
+
+      - title: "Invited Lecture"
+        link:
+        date: 17/Apr/2023
+        location: Observatório do Valongo, Rio de Janeiro, Brazil
+        country-code: br
+        contribution: Lecture
+        upcoming: false
+
+      - title: "S-PLUS: DR4 Hands-on meeting"
+        link:
+        date: 07-12/Jan/2023
+        location: Juiz de Fora, Brazil
+        country-code: br
+        contribution: LOC/SOC
+        upcoming: false
+
+      - title: "2022"
+        year-mark: true
+        upcoming: false
+
+      - title: "XLV Reunião Anual da SAB"
+        link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlv-reuniao-anual-da-sab/"
+        date: 26-30/Sep/2023
+        location: Remote meeting
+        country-code:
+        contribution: Talk
+        upcoming: false
+
+      - title: "DECam at 10 years – Looking Back, Looking Forward"
+        link: "https://noirlab.edu/science/events/websites/DECam/schedule"
+        date: 12-14/Sep/2022
+        location: Tucson, AZ, USA
+        country-code: us
+        contribution: Poster/Flash Talk
+        upcoming: false
+
+      - title: "VLASS22: in the Multiwavelength Spotlight"
+        link: "https://web.cvent.com/event/e705a49c-1886-48a4-bbc2-365f5c35e419/summary"
+        date: 07-09/Sep/2022
+        location: Socorro, NM, USA
+        country-code: us
+        contribution: Poster/Flash Talk
+        upcoming: false
+
+      - title: "Guided tour to the Very Large Array radio telescopes"
+        link: ""
+        date: 10/Sep/2022
+        location: Magdalena, NM, USA
+        country-code: us
+        contribution: Attended
+        upcoming: false
+
+      - title: "S-PLUS: 17th Collaboration Meeting"
+        link: "https://sites.usp.br/splus/17-meeting/"
+        date: 29-31/Aug/2022
+        location: CBPF, Rio de Janeiro, Brazil (remote participation)
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "Ciclo de Seminários do Observatório do Valongo"
+        link:
+        date: 28/Jun/2022
+        location: OV, Rio de Janeiro, Brazil (remote participation)
+        country-code: br
+        contribution: Invited Talk
+        upcoming: false
+
+      - title: "FLASH: Friday Scientific Lunch Talks"
+        link: "https://noirlab.edu/science/events/flash-talks"
+        date: 08/Apr/2022
+        location: NOIRLab, AZ, USA
+        country-code: us
+        contribution: Invited Talk
+        upcoming: false
+
+      - title: "2021"
+        year-mark: true
+        upcoming: false
+
+
+
 skills:
     title: Skills &amp; Proficiency
     intro: |

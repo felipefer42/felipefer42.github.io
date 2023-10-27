@@ -197,6 +197,15 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
   }
+  .section-subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: darken($theme-color, 15%);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .main-header {
     padding: 30px 40px;
     border-bottom: 0px solid $theme-color;
@@ -230,7 +239,8 @@ p {
   }
   .course-role,
   .event-role,
-  .upcoming-contrib{
+  .upcoming-contrib,
+  .event-contrib {
     position: absolute;
     right: 0;
     top: 0;
@@ -257,7 +267,8 @@ p {
 
   .course-title,
   .event-title,
-  .upcoming-title{
+  .upcoming-title,
+  .event-title {
     color: $theme-color;
     font-size: 16px;
     margin-top: 0;
@@ -266,7 +277,8 @@ p {
     flex: 75%;
    }
 
-  .upcoming-title a{
+  .upcoming-title a,
+  .event-title a{
     color: $theme-color;
   }
 
@@ -274,7 +286,8 @@ p {
   .cert-url,
   .course-semester,
   .event-time,
-  .upcoming-date{
+  .upcoming-date,
+  .event-date{
     position: absolute;
     right: 0;
     top: 0;
@@ -286,7 +299,8 @@ p {
   .cert-org,
   .course-loc,
   .event-loc,
-  .upcoming-loc{
+  .upcoming-loc,
+  .event-loc {
     margin-bottom: 10px;
     color: $text-grey;
   }
@@ -308,7 +322,8 @@ p {
   }
   .projects-section,
   .research-section,
-  .upcoming-section {
+  .upcoming-section,
+  .events-section {
     .intro {
       margin-bottom: 30px;
     }

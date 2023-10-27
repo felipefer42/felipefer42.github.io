@@ -1,7 +1,7 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
 <section class="section publications-section">
-  (Showing {{ publications.papers | size }} results)
+  <!-- (Showing {{ publications.papers | size }} results) -->
 
   {% if publications.intro %}
   <div class="intro">
@@ -9,9 +9,15 @@
   </div><!--//intro-->
   {% endif %}
 
-  <h3>Refereed</h3>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
+    </span>
+    Refereed Papers
+  </h2>
 
-  <h4>First Author</h4>
+  <h3 class="section-subtitle">First Author</h3>
   {% for publication in publications.papers %}
     {% if publication.refereed == true and publication.first-author == true %}
       <div class="item">
@@ -31,7 +37,7 @@
     {% endif %}
   {% endfor %}
 
-  <h4>Co-author</h4>
+  <h3 class="section-subtitle">Co-author</h3>
   {% for publication in publications.papers %}
     {% if publication.refereed == true and publication.first-author == false %}
       <div class="item">
@@ -51,7 +57,13 @@
     {% endif %}
   {% endfor %}
 
-  <h3>Non-refereed</h3>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-hourglass-start fa-stack-1x fa-inverse"></i>
+    </span>
+    Non-refereed Papers
+  </h2>
   {% for publication in publications.papers %}
     {% if publication.refereed == false %}
       <div class="item">

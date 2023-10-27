@@ -1,0 +1,100 @@
+{% assign events = site.data.data.event-participation %}
+<section class="section events-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-plane-departure fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ events.upcoming-title }}
+  </h2>
+
+  {% for event in events.events %}
+    {% if event.upcoming == true %}
+      <div class="item">
+        <div class="meta">
+          <div class="upper-row">
+            <div class="event-title">
+            {% if event.link %}
+              <a href="{{ event.link }}" target="_blank">{{ event.title }}</a>
+            {% else %}
+              {{ event.title }}
+            {% endif %}
+            </div>
+            <div class="event-contrib">
+              {{ event.contribution }}
+            </div>
+          </div>
+          <!--//upper-row-->
+
+          <div class="second-upper-row">
+            <div class="event-loc">
+              {% if event.country-code %}
+                <span class="fi fi-{{ event.country-code }}"></span>
+              {% endif %}
+              {{ event.location }}
+            </div>
+            <div class="event-date">
+              {{ event.date }}
+            </div>
+          </div>
+        </div>
+        <!--//meta-->
+
+        <div class="event-details">{{ event.details | markdownify }}</div>
+      </div>
+    {% endif %}
+  <!--//item-->
+  {% endfor %}
+  <br>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-timeline-arrow fa-flip-horizontal fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ events.title }}
+  </h2>
+
+  {% for event in events.events %}
+    {% if event.upcoming == false %}
+      {% if event.year-mark %}
+      <h3 class="section-subtitle"> {{ event.title }}</h3>
+      {% else %}
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <div class="event-title">
+              {% if event.link %}
+                <a href="{{ event.link }}" target="_blank">{{ event.title }}</a>
+              {% else %}
+                {{ event.title }}
+              {% endif %}
+              </div>
+              <div class="event-contrib">
+                {{ event.contribution }}
+              </div>
+            </div>
+            <!--//upper-row-->
+
+            <div class="second-upper-row">
+              <div class="event-loc">
+                {% if event.country-code %}
+                  <span class="fi fi-{{ event.country-code }}"></span>
+                {% endif %}
+                {{ event.location }}
+              </div>
+              <div class="event-date">
+                {{ event.date }}
+              </div>
+            </div>
+          </div>
+          <!--//meta-->
+
+          <div class="event-details">{{ event.details | markdownify }}</div>
+        </div>
+      {% endif %}
+    {% endif %}
+    <!--//item-->
+  {% endfor %}
+
+</section>
+<!--//section-->
