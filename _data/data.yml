@@ -24,7 +24,7 @@ navbar:
       icon: "fa-solid fa-telescope"
 
   blog-title: Blog
-  blog-url: "#blog"
+  blog-url: "https://falmeidafernandes.wixsite.com/my-site"
   blog-icon: "fa fa-fw fa-newspaper"
 
 
@@ -157,22 +157,28 @@ education:
 complementary_education:
     title: Education+
     info:
-      - degree: Visiting PhD-candidate
-        university: Universidad de La Serena (Chile)
-        time: 2017
-        details: |
-      - degree: Ciclo de Cursos Especiais do Observatório Nacional
-        university: Observatório Nacional (Brazil)
-        time: 4x (2015, 2016, 2017, 2018)
+      - degree: IX LaPIS on Astronomy and Geophysics
+        university: La Plata (Argentina)
+        time: 2020
         details: |
       - degree: Winter School of the Valongo Observatory
         university: Observatório do Valongo (Brazil)
         time: 3x (2015, 2017, 2019)
         details: |
-      - degree: IX LaPIS on Astronomy and Geophysics
-        university: La Plata (Argentina)
-        time: 2020
+      - degree: Ciclo de Cursos Especiais do Observatório Nacional
+        university: Observatório Nacional (Brazil)
+        time: 4x (2015, 2016, 2017, 2018)
         details: |
+      - degree: Visiting PhD-candidate
+        university: Universidad de La Serena (Chile)
+        time: 2017
+        details: |
+      - degree: Escola de Inverno 2013 - Astronomia
+        university: Observatório Nacional (Brazil)
+        time: 2013
+        details: |
+
+
 
 
 experiences:
@@ -602,7 +608,7 @@ event-participation:
         date:  24/Nov/2023
         location: Universidad de La Plata, Argentina
         country-code: ar
-        contribution: Talk
+        contribution: Invited Lecture
         upcoming: true
 
       - title: "XVII Reunión Regional Latinoamericana de la UAI "
@@ -633,13 +639,14 @@ event-participation:
         contribution: Evaluator
         upcoming: false
 
-      - title: "31º Simpósio Internacional de Iniciação Científica e Tecnológica da USP"
-        link: "https://www1.fob.usp.br/31o-simposio-internacional-de-iniciacao-cientifica-e-tecnologica-da-usp-siicusp-2023/"
-        date: 25-26/Out/2023
+      - title: "Congresso de Pós-Doutorandos da USP"
+        link: "http://www.congressoposdocs.kinghost.net/"
+        date: 17-19/Out/2023
         location: USP, SP, Brazil
         country-code: br
-        contribution: Evaluator
+        contribution: Poster
         upcoming: false
+        blog-url: https://falmeidafernandes.wixsite.com/my-site/post/participa%C3%A7%C3%A3o-no-congresso-de-p%C3%B3s-docs-da-usp
 
       - title: "XLVI Reunião Anual da SAB"
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/xlvi-reuniao-anual-da-sab-2/"
@@ -660,8 +667,9 @@ event-participation:
       - title: "Ciclo de debates em Astronomia"
         link: https://www.youtube.com/live/qg-y4bCt-nE?si=aIKZ1p7uWTvSekls
         date: 27/Apr/2023
-        location: Universidade Federal de Uberlândia, Brazil (remote participation)
+        location: Universidade Federal de Uberlândia, Brazil
         country-code: br
+        remote: true
         contribution: Invited Talk
         upcoming: false
 
@@ -689,6 +697,7 @@ event-participation:
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlv-reuniao-anual-da-sab/"
         date: 26-30/Sep/2023
         location: Remote meeting
+        remote: true
         country-code:
         contribution: Talk
         upcoming: false
@@ -720,16 +729,18 @@ event-participation:
       - title: "S-PLUS: 17th Collaboration Meeting"
         link: "https://sites.usp.br/splus/17-meeting/"
         date: 29-31/Aug/2022
-        location: CBPF, Rio de Janeiro, Brazil (remote participation)
+        location: CBPF, Rio de Janeiro, Brazil
         country-code: br
+        remote: true
         contribution: Talk
         upcoming: false
 
       - title: "Ciclo de Seminários do Observatório do Valongo"
         link:
         date: 28/Jun/2022
-        location: OV, Rio de Janeiro, Brazil (remote participation)
+        location: OV, Rio de Janeiro, Brazil
         country-code: br
+        remote: true
         contribution: Invited Talk
         upcoming: false
 
@@ -756,8 +767,9 @@ event-participation:
       - title: "Astronomical databases and astrostatistics in the era of big data"
         link: "https://docs.google.com/document/d/1xnse62TdCIqcSTz_rfmJdIvINJ_vtjbAY7YQVTHMihA"
         date: 12-23/Jul/2021
-        location: Remote (organized in IAG/USP, SP, Brazil)
+        location: Remote IAG/USP graduate course
         country-code: br
+        remote: true
         contribution: Lecture
         upcoming: false
 
@@ -772,17 +784,266 @@ event-participation:
       - title: "S-PLUS: 15th Collaboration Meeting"
         link: "https://sites.usp.br/splus/category/15th-meeting/"
         date: 01-03/Jun/2021
-        location: Remote
-        country-code: br
+        location: Remote meeting
+        country-code:
+        remote: true
         contribution: Talk
         upcoming: false
-        
+
+      - title: "Article: The asteroid 1I/'Oumuamua"
+        link: "https://sab-astro.org.br/wp-content/uploads/2021/02/RAB-9.pdf"
+        date: Jan-Mar/2021
+        location: Revista Brasileira de Astronomia
+        country-code: br
+        contribution: Outreach article
+        upcoming: false
+
       - title: "2020"
         year-mark: true
         upcoming: false
 
+      - title: "S-PLUS: 14th Collaboration Meeting"
+        link: "https://sites.usp.br/splus/category/14th-meeting/"
+        date: 15-17/Dec/2020
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        upcoming: false
 
-        
+      - title: "S-PLUS: 13th Collaboration Meeting"
+        link: "https://sites.usp.br/splus/category/13th-meeting/"
+        date: 18-20/May/2020
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        upcoming: false
+
+      - title: "IX La Plata International School (LAPIS) on Astronomy and Geophysics"
+        link: "https://congresos.unlp.edu.ar/ixlapis/"
+        date: 17-21/Feb/2020
+        location: La Plata, Argentina
+        country-code: ar
+        contribution: Talk
+        upcoming: false
+
+      - title: "2019"
+        year-mark: true
+        upcoming: false
+
+      - title: "Ad Astra Brazil: 2019"
+        link: http://www.adastra.world/brazil-2018.html
+        date: 16-20/Dec/2019
+        location: INPAR, RJ, Brazil
+        country-code: br
+        contribution: Outreach Lectures
+        upcoming: false
+
+      - title: "S-PLUS: 12th Collaboration Meeting"
+        link:
+        date: 30/Oct-01/Nov/2019
+        location: Remote (organized in IAG/USP, SP, Brazil)
+        country-code: br
+        contribution: Loc/Talk
+        upcoming: false
+
+      - title: "Sessão Cidadã Especial: 'Oumuamua: um asteroide interestelar ou uma nava espacial?"
+        link: https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/umapaz/planetario_municipal_prof_acacio_riberi/programacao_mensal/index.php?p=283490
+        date: 19/Oct/2019
+        location: Planetário do Carmo, SP, Brazil
+        country-code: br
+        contribution: Outreach Talk
+        upcoming: false
+
+      - title: "Sessão Cidadã Especial: 'Oumuamua: um asteroide interestelar ou uma nava espacial?"
+        link: https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/umapaz/planetario_municipal_prof_acacio_riberi/programacao_mensal/index.php?p=283490
+        date: 06/Oct/2019
+        location: Planetário do Ibirapuera, SP, Brazil
+        country-code: br
+        contribution: Outreach Talk
+        upcoming: false
+
+      - title: "S-PLUS meeting in La Serena"
+        link:
+        date: Jul/2019
+        location: La Serena, Chile
+        country-code: cl
+        contribution: Talk
+        upcoming: false
+
+      - title: "S-PLUS: 11th Collaboration Meeting"
+        link:
+        date: Jun/2019
+        location: IAG/USP, SP, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "Thesis Defence: Nova Metodologia de Datação Estelar: Idades Cinemáticas e Suas Aplicações"
+        link:
+        date: 21/Mar/2019
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Thesis Defence
+        upcoming: false
+
+      - title: "2018"
+        year-mark: true
+        upcoming: false
+
+      - title: "Astronomia para Poetas: Via Láctea"
+        link: https://www.facebook.com/ValongoUFRJ/posts/pfbid0gp4GcfPYpfsbNWYCf12HXsjfNmqcjBHsJkTuRj7479MYKgEtteF1hJekifQPCqL6l
+        date: 05/Dec/2018
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Outreach Talk
+        upcoming: false
+
+      - title: "Ad Astra Brazil: 2018"
+        link: http://www.adastra.world/brazil-2018.html
+        date: 26-30/Nov/2018
+        location: INPAR, RJ, Brazil
+        country-code: br
+        contribution: Outreach Lectures
+        upcoming: false
+
+      - title: "AstrobiON"
+        link: www.youtube.com/playlist?list=PLoJbRY7k3wHMsSDp-LEJ3RYEwUZn_-ylC
+        date: 01-05/Oct/2018
+        location: IAG/USP, SP, Brazil
+        country-code: br
+        contribution: Attended
+        upcoming: false
+
+      - title: "9th S-PLUS meeting"
+        link:
+        date: 26-28/Sep/2018
+        location: IAG/USP, SP, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "Precision Spectroscopy: From the First Stars to Exoplanets Workshop"
+        link:
+        date: 10-11/Sep/2018
+        location: IAG/USP, SP, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "XXII Ciclo de Cursos Especiais"
+        link:
+        date: 14-17/Aug/2018
+        location: Observatório Nacional, RJ, Brazil
+        country-code: br
+        contribution: Attended
+        upcoming: false
+
+      - title: "XLII Reunião Anual da Sociedade Astronomica Brasileira"
+        link:
+        date: 09-12/Jul/2018
+        location: UNICSUL, SP, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "Hiperorgânicos - Simpósio Internacional de Pesquisa em Arte, Hibridização, Biotelemática e Transculturalismo"
+        link: https://archive.org/details/Hiperorganicos8-Ancestrofuturismo-MAST
+        date: 22-23/May/2018
+        location: MAST, RJ, Brazil
+        country-code: br
+        contribution: Outreach talk
+        upcoming: false
+
+      - title: "2017"
+        year-mark: true
+        upcoming: false
+
+      - title: "Comuna Intergaláctica"
+        link: https://sacieartscience.wordpress.com/2017/11/14/programacao-da-comuna-intergalactica/
+        date: 17-18/Dec/2017
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Assistente de Produção
+        upcoming: false
+
+      - title: "Astronomia para Poetas: Via Láctea"
+        link: https://www.facebook.com/ValongoUFRJ/posts/pfbid0DqQPB3JU5ACtMPVMdyJL55yRDzLYXZa32excxJiaq9bdUA8faecfXXCXV3Q8NBb9l
+        date: 20/Sep/2017
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Outreach Talk
+        upcoming: false
+
+      - title: "XXI Ciclo de Cursos Especiais"
+        link:
+        date: 21-24/Aug/2017
+        location: Observatório Nacional, RJ, Brazil
+        country-code: br
+        contribution: Attended
+        upcoming: false
+
+      - title: "Third Winter School of the Valongo Observatory"
+        link:
+        date: 22-26/May/2017
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Attended
+        upcoming: false
+
+      - title: "2015"
+        year-mark: true
+        upcoming: false
+
+      - title: "Seminário Anual de Avaliação do Programa de pós-graduação em Astronomia"
+        link:
+        date: 27-29/Oct/2015
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "Second Winter School of the Valongo Observatory"
+        link:
+        date: 09-13/Jun/2015
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        contribution: Attended
+        upcoming: false
+
+      - title: "2014"
+        year-mark: true
+        upcoming: false
+
+      - title: "XXXVI Jornada Giulio Massarani de Iniciação Científica, Tecnológica, Artistica e Cultural da UFRJ"
+        link:
+        date: 06-10/Oct/2014
+        location: UFRJ, RJ, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "2013"
+        year-mark: true
+        upcoming: false
+
+      - title: "XXXV Jornada Giulio Massarani de Iniciação Científica, Tecnológica, Artistica e Cultural da UFRJ"
+        link:
+        date: 30/Sep-04/Oct/2013
+        location: UFRJ, RJ, Brazil
+        country-code: br
+        contribution: Talk
+        upcoming: false
+
+      - title: "Escola de Inverno 2013 - Astronomia"
+        link:
+        date: 12-15/Aug/2013
+        location: Observatório Nacional, RJ, Brazil
+        country-code: br
+        contribution: Attended
+        upcoming: false
+
 skills:
     title: Skills &amp; Proficiency
     intro: |

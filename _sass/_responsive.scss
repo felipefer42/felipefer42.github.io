@@ -41,6 +41,22 @@
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 500px) {
+  .item-column {
+    width: 100%;
+  }
+  .item-column2 {
+    width: 100%;
+  }
+  .item-column2-1 {
+    text-align: left;
+  }
+  .item-container {
+  margin: 20px 0px;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }
