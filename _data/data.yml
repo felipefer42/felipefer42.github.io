@@ -764,6 +764,14 @@ event-participation:
         contribution: VOC/Talk
         upcoming: false
 
+      - title: "29º Simpósio Internacional de Iniciação Científica e Tecnológica da USP"
+        link: ""
+        date: 21-22/Out/2021
+        location: USP, SP, Brazil
+        country-code: br
+        contribution: Evaluator
+        upcoming: false
+
       - title: "Astronomical databases and astrostatistics in the era of big data"
         link: "https://docs.google.com/document/d/1xnse62TdCIqcSTz_rfmJdIvINJ_vtjbAY7YQVTHMihA"
         date: 12-23/Jul/2021
@@ -856,6 +864,14 @@ event-participation:
         contribution: Outreach Talk
         upcoming: false
 
+      - title: "2ª Reunião da Sociedade Brasileira de Astrobiologia 17 e 18 de Outubro de 2019"
+        link: http://portal.if.usp.br/imprensa/pt-br/node/2029
+        date: 17-18/Oct/2019
+        location: IAG/USP, SP, Brazil
+        country-code: br
+        contribution: Poster
+        upcoming: false
+        
       - title: "Sessão Cidadã Especial: 'Oumuamua: um asteroide interestelar ou uma nava espacial?"
         link: https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/umapaz/planetario_municipal_prof_acacio_riberi/programacao_mensal/index.php?p=283490
         date: 06/Oct/2019
