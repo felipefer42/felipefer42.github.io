@@ -636,6 +636,7 @@ event-participation:
         date: 25-26/Out/2023
         location: USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Evaluator
         upcoming: false
 
