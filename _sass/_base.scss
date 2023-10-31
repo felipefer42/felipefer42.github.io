@@ -250,6 +250,10 @@ p {
   .event-contrib {
     color: $text-color;
   }
+  .event-contrib-icon {
+    font-size: 11px;
+    color: $text-grey;
+  }
   .event-title {
     color: $theme-color;
     font-size: 16px;
@@ -262,6 +266,9 @@ p {
   }
   .event-date {
     color: $text-grey;
+  }
+  .event-state-flag {
+    font-size: 10px;
   }
 
   .title-container {
@@ -281,7 +288,7 @@ p {
    display: block;
    clear: both;
    margin-top: 10px;
-   margin-bottom: 10px;
+   margin-bottom: 15px;
    width: 100%;
    float: left
   }

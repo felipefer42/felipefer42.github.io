@@ -297,7 +297,7 @@ teaching:
           details: |  
 
 outreach:
-      title: Outreach Experience
+      title: Outreach Activities
       list:
         - name: Astrotubers
           role: Co-founder
@@ -307,17 +307,22 @@ outreach:
         - name: Ad Astra
           role: Collaborator
           time: 2018-2019
-          location: IMPAR (Cidade de Deus, RJ)
+          location: INPAR (Cidade de Deus), RJ)
           details: |
         - name: Astronomia ao Meio Dia
           role: Organizer
           time: 2019-2020
           location: IAG/USP
           details: |
+        - name: Outreach telescope observations
+          role: Guide
+          time: 2014-2017
+          location: OV/UFRJ
+          details: |
         - name: Outreach Talks
           role: Speaker
           time: 2015-
-          location: Several locations
+          location: Multiple locations
           details: |
 
 research:
@@ -595,6 +600,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: true
 
       - title: "Invited Lecture"
@@ -619,7 +625,7 @@ event-participation:
         date:  24/Nov/2023
         location: Universidad de La Plata, Argentina
         country-code: ar
-        contribution: Invited Lecture
+        contribution: Invited Talk
         upcoming: true
 
       - title: "XVII Reunión Regional Latinoamericana de la UAI "
@@ -650,6 +656,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Evaluator
+        contrib-icon: fa-hundred-points
         upcoming: false
 
       - title: "Congresso de Pós-Doutorandos da USP"
@@ -659,6 +666,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: false
         blog-url: https://falmeidafernandes.wixsite.com/my-site/post/participa%C3%A7%C3%A3o-no-congresso-de-p%C3%B3s-docs-da-usp
 
@@ -669,6 +677,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "S-PLUS: 18th Collaboration Meeting"
@@ -678,6 +687,8 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: SOC/Talk
+        contrib-icon: fa-people-group
+        contrib-icon2: fa-person-chalkboard
         upcoming: false
 
       - title: "Ciclo de debates em Astronomia"
@@ -688,6 +699,7 @@ event-participation:
         state-code: br-mg
         remote: true
         contribution: Invited Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Invited Lecture"
@@ -697,6 +709,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Lecture
+        contrib-icon: fa-chalkboard-user
         upcoming: false
 
       - title: "S-PLUS: DR4 Hands-on meeting"
@@ -706,19 +719,31 @@ event-participation:
         country-code: br
         state-code: br-mg
         contribution: LOC/SOC
+        contrib-icon: fa-people-group
         upcoming: false
 
       - title: "2022"
         year-mark: true
         upcoming: false
 
+      - title: "S-PLUS Collaboration telecon: metal-poor stars in S-PLUS"
+        link: ""
+        date: 29/Nov/2022
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
       - title: "XLV Reunião Anual da SAB"
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlv-reuniao-anual-da-sab/"
-        date: 26-30/Sep/2023
+        date: 26-30/Sep/2022
         location: Remote meeting
         remote: true
         country-code:
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "DECam at 10 years – Looking Back, Looking Forward"
@@ -727,6 +752,7 @@ event-participation:
         location: Tucson, AZ, USA
         country-code: us
         contribution: Poster/Flash Talk
+        contrib-icon: fa-presentation-screen
         upcoming: false
 
       - title: "VLASS22: in the Multiwavelength Spotlight"
@@ -735,6 +761,7 @@ event-participation:
         location: Socorro, NM, USA
         country-code: us
         contribution: Poster/Flash Talk
+        contrib-icon: fa-presentation-screen
         upcoming: false
 
       - title: "Guided tour to the Very Large Array radio telescopes"
@@ -743,6 +770,7 @@ event-participation:
         location: Magdalena, NM, USA
         country-code: us
         contribution: Attended
+        contrib-icon: fa-screen-users
         upcoming: false
 
       - title: "S-PLUS: 17th Collaboration Meeting"
@@ -753,6 +781,7 @@ event-participation:
         state-code: br-rj
         remote: true
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Ciclo de Seminários do Observatório do Valongo"
@@ -763,6 +792,7 @@ event-participation:
         state-code: br-rj
         remote: true
         contribution: Invited Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "FLASH: Friday Scientific Lunch Talks"
@@ -771,6 +801,17 @@ event-participation:
         location: NOIRLab, AZ, USA
         country-code: us
         contribution: Invited Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
+      - title: "S-PLUS Collaboration telecon: S-PLUS iDR4"
+        link: ""
+        date: 07/Mar/2022
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "2021"
@@ -784,15 +825,28 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: VOC/Talk
+        contrib-icon: fa-people-group
+        contrib-icon2: fa-person-chalkboard
         upcoming: false
 
       - title: "29º Simpósio Internacional de Iniciação Científica e Tecnológica da USP"
         link: ""
-        date: 21-22/Out/2021
+        date: 21-22/Oct/2021
         location: USP, SP, Brazil
         country-code: br
         state-code: br-sp
         contribution: Evaluator
+        contrib-icon: fa-hundred-points
+        upcoming: false
+
+      - title: "S-PLUS Collaboration telecon: updates for iDR4"
+        link: ""
+        date: 18/Oct/2021
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Astronomical databases and astrostatistics in the era of big data"
@@ -803,6 +857,7 @@ event-participation:
         state-code: br-sp
         remote: true
         contribution: Lecture
+        contrib-icon: fa-chalkboard-user
         upcoming: false
 
       - title: "Interview: Stellar Fossil"
@@ -812,6 +867,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Interviewed
+        contrib-icon: fa-microphone-lines
         upcoming: false
 
       - title: "S-PLUS: 15th Collaboration Meeting"
@@ -821,6 +877,17 @@ event-participation:
         country-code:
         remote: true
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
+      - title: "S-PLUS Collaboration telecon: DR2 paper"
+        link: ""
+        date: 08/Mar/2020
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Article: The asteroid 1I/'Oumuamua"
@@ -842,6 +909,27 @@ event-participation:
         country-code:
         remote: true
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
+      - title: "S-PLUS Collaboration telecon: updates for iDR3"
+        link: ""
+        date: 21/Sep/2020
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
+      - title: "S-PLUS Collaboration telecon: calibration pipeline"
+        link: ""
+        date: 10/Aug/2020
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "S-PLUS: 13th Collaboration Meeting"
@@ -851,6 +939,7 @@ event-participation:
         country-code:
         remote: true
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "IX La Plata International School (LAPIS) on Astronomy and Geophysics"
@@ -859,6 +948,7 @@ event-participation:
         location: La Plata, Argentina
         country-code: ar
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "2019"
@@ -872,6 +962,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Outreach Lectures
+        contrib-icon: fa-rocket-launch
         upcoming: false
 
       - title: "S-PLUS: 12th Collaboration Meeting"
@@ -880,7 +971,9 @@ event-participation:
         location: IAG/USP, SP, Brazil)
         country-code: br
         state-code: br-sp
-        contribution: Loc/Talk
+        contribution: LOC/Talk
+        contrib-icon: fa-people-group
+        contrib-icon2: fa-person-chalkboard
         upcoming: false
 
       - title: "Sessão Cidadã Especial: 'Oumuamua: um asteroide interestelar ou uma nava espacial?"
@@ -890,6 +983,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Outreach Talk
+        contrib-icon: fa-rocket-launch
         upcoming: false
 
       - title: "2ª Reunião da Sociedade Brasileira de Astrobiologia 17 e 18 de Outubro de 2019"
@@ -899,6 +993,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: false
         
       - title: "Sessão Cidadã Especial: 'Oumuamua: um asteroide interestelar ou uma nava espacial?"
@@ -908,6 +1003,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Outreach Talk
+        contrib-icon: fa-rocket-launch
         upcoming: false
 
       - title: "XLIII Reunião Anual da SAB"
@@ -917,14 +1013,26 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: false
-        
+
+      - title: "Talk in 'Astronomia ao Meio Dia'"
+        link: http://www.astro.iag.usp.br/~astro12h/files/2019/index2019B2.html
+        date: 22/Aug/2019
+        location: IAG/USP, SP, Brazil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
       - title: "S-PLUS meeting in La Serena"
         link:
         date: Jul/2019
         location: La Serena, Chile
         country-code: cl
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "S-PLUS: 11th Collaboration Meeting"
@@ -934,6 +1042,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Thesis Defence: Nova Metodologia de Datação Estelar: Idades Cinemáticas e Suas Aplicações"
@@ -943,6 +1052,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Thesis Defence
+        contrib-icon: fa-user-graduate
         upcoming: false
 
       - title: "2018"
@@ -956,6 +1066,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Outreach Talk
+        contrib-icon: fa-rocket-launch
         upcoming: false
 
       - title: "Ad Astra Brazil: 2018"
@@ -965,6 +1076,25 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Outreach Lectures
+        contrib-icon: fa-rocket-launch
+        upcoming: false
+
+      - title: "Interview by Veja: 'Oumuamua"
+        link: "https://veja.abril.com.br/ciencia/cientistas-rejeitam-teoria-de-que-objeto-interestelar-seja-nave-alienigena#google_vignette"
+        date: 09/Nov/2018
+        location: Veja - Ciência
+        country-code: br
+        contribution: Interviewed
+        contrib-icon: fa-microphone-lines
+        upcoming: false
+
+      - title: "Interview by G1: 'Oumuamua"
+        link: "https://g1.globo.com/ciencia-e-saude/noticia/2018/11/08/idade-estimada-para-oumuamua-afasta-hipotese-de-origem-alienigena-dizem-pesquisadores-brasileiros-em-estudo.ghtml"
+        date: 08/Nov/2018
+        location: G1 - Ciência e Saúde
+        country-code: br
+        contribution: Interviewed
+        contrib-icon: fa-microphone-lines
         upcoming: false
 
       - title: "AstrobiON"
@@ -974,6 +1104,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attended
+        contrib-icon: fa-screen-users
         upcoming: false
 
       - title: "9th S-PLUS meeting"
@@ -983,6 +1114,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Precision Spectroscopy: From the First Stars to Exoplanets Workshop"
@@ -992,6 +1124,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "XXII Ciclo de Cursos Especiais"
@@ -1001,6 +1134,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attended
+        contrib-icon: fa-screen-users
         upcoming: false
 
       - title: "XLII Reunião Anual da Sociedade Astronomica Brasileira"
@@ -1010,6 +1144,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Hiperorgânicos - Simpósio Internacional de Pesquisa em Arte, Hibridização, Biotelemática e Transculturalismo"
@@ -1019,6 +1154,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Outreach talk
+        contrib-icon: fa-rocket-launch
         upcoming: false
 
       - title: "2017"
@@ -1031,7 +1167,8 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Assistente de Produção
+        contribution: LOC
+        contrib-icon: fa-people-group
         upcoming: false
 
       - title: "Astronomia para Poetas: Via Láctea"
@@ -1041,6 +1178,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Outreach Talk
+        contrib-icon: fa-rocket-launch
         upcoming: false
 
       - title: "XLI Reunião Anual da Sociedade Astronomica Brasileira"
@@ -1050,6 +1188,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Poster/Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
         
       - title: "XXI Ciclo de Cursos Especiais"
@@ -1059,6 +1198,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attended
+        contrib-icon: fa-screen-users
         upcoming: false
 
       - title: "Third Winter School of the Valongo Observatory"
@@ -1068,6 +1208,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attended
+        contrib-icon: fa-screen-users
         upcoming: false
 
       - title: "2016"
@@ -1081,6 +1222,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: false
         
       - title: "2015"
@@ -1094,6 +1236,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "XXXIX Reunião Anual da Sociedade Astronomica Brasileira"
@@ -1103,6 +1246,7 @@ event-participation:
         country-code: br
         state-code: br-mg
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: false
         
       - title: "Second Winter School of the Valongo Observatory"
@@ -1112,6 +1256,17 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attended
+        contrib-icon: fa-screen-users
+        upcoming: false
+
+      - title: "Undergraduate Final Project presentation"
+        link:
+        date: 26/Mar/2015
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        state-code: br-rj
+        contribution: TCC
+        contrib-icon: fa-user-graduate
         upcoming: false
 
       - title: "2014"
@@ -1125,6 +1280,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "XXXVIII Reunião Anual da Sociedade Astronomica Brasileira"
@@ -1134,6 +1290,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Poster
+        contrib-icon: fa-presentation-screen
         upcoming: false
         
       - title: "2013"
@@ -1147,6 +1304,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Talk
+        contrib-icon: fa-person-chalkboard
         upcoming: false
         
       - title: "Escola de Inverno 2013 - Astronomia"
@@ -1156,6 +1314,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attended
+        contrib-icon: fa-screen-users
         upcoming: false
 
 skills:

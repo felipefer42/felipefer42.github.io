@@ -25,7 +25,7 @@
                 <span class="fi fi-{{ event.country-code }}"></span>
               {% endif %}
               {% if event.state-code %}
-                <span class="fi fi-{{ event.state-code }}"></span>
+                <span class="fi fi-{{ event.state-code }} event-state-flag"></span>
               {% endif %}
               {{ event.location }}
             </div>
@@ -84,7 +84,7 @@
                   <span class="fi fi-{{ event.country-code }}"></span>
                 {% endif %}
                 {% if event.state-code %}
-                  <span class="fi fi-{{ event.state-code }}"></span>
+                  <span class="fi fi-{{ event.state-code }} event-state-flag"></span>
                 {% endif %}
                 {{ event.location }}
                 {% if event.remote %}
@@ -94,7 +94,17 @@
             </div>
             <div class="item-column2">
               <div class="item-column2-1">
-                <div class="event-contrib">{{ event.contribution }}</div>
+                <div class="event-contrib">
+                  {{ event.contribution }}
+                  <!--
+                  {% if event.contrib-icon %}
+                    <span class="fa-solid {{ event.contrib-icon }} event-contrib-icon "></span>
+                  {% endif %}
+                  {% if event.contrib-icon2 %}
+                    <span class="fa-solid {{ event.contrib-icon2 }} event-contrib-icon "></span>
+                  {% endif %}
+                  -->
+                </div>
                 <div class="event-date">{{ event.date }}</div>
               </div>
               <div class="item-column2-2">
