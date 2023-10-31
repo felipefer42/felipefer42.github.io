@@ -376,6 +376,15 @@ publications:
     title: Publications
     intro:
     papers:
+      - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231017024P/abstract"
+        authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Holmbeck, Erika M.,
+        more: and 33 more
+        journal: eprint arXiv:2310.17024, 10/2023 (Accepted, ApJ)
+        show-home: False
+        first-author: False
+        refereed: True
+        
       - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
         authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
