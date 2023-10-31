@@ -275,4 +275,9 @@
   @include flag-icon(ta);
   @include flag-icon(un);
   @include flag-icon(xk);
+
+  // State flags
+  @include flag-icon(br-mg);
+  @include flag-icon(br-rj);
+  @include flag-icon(br-sp);
 }
