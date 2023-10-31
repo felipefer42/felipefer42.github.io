@@ -24,6 +24,9 @@
               {% if event.country-code %}
                 <span class="fi fi-{{ event.country-code }}"></span>
               {% endif %}
+              {% if event.state-code %}
+                <span class="fi fi-{{ event.state-code }}"></span>
+              {% endif %}
               {{ event.location }}
             </div>
           </div>
@@ -79,6 +82,9 @@
               <div class="event-loc">
                 {% if event.country-code %}
                   <span class="fi fi-{{ event.country-code }}"></span>
+                {% endif %}
+                {% if event.state-code %}
+                  <span class="fi fi-{{ event.state-code }}"></span>
                 {% endif %}
                 {{ event.location }}
                 {% if event.remote %}
