@@ -584,6 +584,7 @@ event-participation:
         date:  06-10/Nov/2023
         location: Observatório Nacional, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Poster
         upcoming: true
 
@@ -592,6 +593,7 @@ event-participation:
         date:  08/Nov/2023
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Lecture
         upcoming: true
 
@@ -624,6 +626,7 @@ event-participation:
         date:  07-08/Dec/2023
         location: USP, São Paulo, Brasil
         country-code: br
+        state-code: br-sp
         contribution: TBD
         upcoming: true
 
@@ -645,6 +648,7 @@ event-participation:
         date: 17-19/Out/2023
         location: USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Poster
         upcoming: false
         blog-url: https://falmeidafernandes.wixsite.com/my-site/post/participa%C3%A7%C3%A3o-no-congresso-de-p%C3%B3s-docs-da-usp
@@ -654,6 +658,7 @@ event-participation:
         date: 02-05/Out/2023
         location: Planetário da Gávea, Rio de Janeiro, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Talk
         upcoming: false
 
@@ -662,6 +667,7 @@ event-participation:
         date: 21-23/Aug/2023
         location: Observatório Nacional, Rio de Janeiro, Brazil
         country-code: br
+        state-code: br-rj
         contribution: SOC/Talk
         upcoming: false
 
@@ -670,6 +676,7 @@ event-participation:
         date: 27/Apr/2023
         location: Universidade Federal de Uberlândia, Brazil
         country-code: br
+        state-code: br-mg
         remote: true
         contribution: Invited Talk
         upcoming: false
@@ -679,6 +686,7 @@ event-participation:
         date: 17/Apr/2023
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Lecture
         upcoming: false
 
@@ -687,6 +695,7 @@ event-participation:
         date: 07-12/Jan/2023
         location: Juiz de Fora, Brazil
         country-code: br
+        state-code: br-mg
         contribution: LOC/SOC
         upcoming: false
 
@@ -732,6 +741,7 @@ event-participation:
         date: 29-31/Aug/2022
         location: CBPF, Rio de Janeiro, Brazil
         country-code: br
+        state-code: br-rj
         remote: true
         contribution: Talk
         upcoming: false
@@ -741,6 +751,7 @@ event-participation:
         date: 28/Jun/2022
         location: OV, Rio de Janeiro, Brazil
         country-code: br
+        state-code: br-rj
         remote: true
         contribution: Invited Talk
         upcoming: false
@@ -762,6 +773,7 @@ event-participation:
         date: 01-03/Dec/2021
         location: Ubatuba, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: VOC/Talk
         upcoming: false
 
@@ -770,6 +782,7 @@ event-participation:
         date: 21-22/Out/2021
         location: USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Evaluator
         upcoming: false
 
@@ -778,6 +791,7 @@ event-participation:
         date: 12-23/Jul/2021
         location: Remote IAG/USP graduate course
         country-code: br
+        state-code: br-sp
         remote: true
         contribution: Lecture
         upcoming: false
@@ -787,6 +801,7 @@ event-participation:
         date: 08/Jun/2021
         location: Revista Fapesp, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Interviewed
         upcoming: false
 
@@ -846,14 +861,16 @@ event-participation:
         date: 16-20/Dec/2019
         location: INPAR, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Outreach Lectures
         upcoming: false
 
       - title: "S-PLUS: 12th Collaboration Meeting"
         link:
         date: 30/Oct-01/Nov/2019
-        location: Remote (organized in IAG/USP, SP, Brazil)
+        location: IAG/USP, SP, Brazil)
         country-code: br
+        state-code: br-sp
         contribution: Loc/Talk
         upcoming: false
 
@@ -862,6 +879,7 @@ event-participation:
         date: 19/Oct/2019
         location: Planetário do Carmo, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Outreach Talk
         upcoming: false
 
@@ -870,6 +888,7 @@ event-participation:
         date: 17-18/Oct/2019
         location: IAG/USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Poster
         upcoming: false
         
@@ -878,6 +897,7 @@ event-participation:
         date: 06/Oct/2019
         location: Planetário do Ibirapuera, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Outreach Talk
         upcoming: false
 
@@ -894,6 +914,7 @@ event-participation:
         date: Jun/2019
         location: IAG/USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Talk
         upcoming: false
 
@@ -902,6 +923,7 @@ event-participation:
         date: 21/Mar/2019
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Thesis Defence
         upcoming: false
 
@@ -914,6 +936,7 @@ event-participation:
         date: 05/Dec/2018
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Outreach Talk
         upcoming: false
 
@@ -922,14 +945,16 @@ event-participation:
         date: 26-30/Nov/2018
         location: INPAR, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Outreach Lectures
         upcoming: false
 
       - title: "AstrobiON"
         link: www.youtube.com/playlist?list=PLoJbRY7k3wHMsSDp-LEJ3RYEwUZn_-ylC
         date: 01-05/Oct/2018
-        location: IAG/USP, SP, Brazil
+        location: Observatório Nacional, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Attended
         upcoming: false
 
@@ -938,6 +963,7 @@ event-participation:
         date: 26-28/Sep/2018
         location: IAG/USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Talk
         upcoming: false
 
@@ -946,6 +972,7 @@ event-participation:
         date: 10-11/Sep/2018
         location: IAG/USP, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Talk
         upcoming: false
 
@@ -954,6 +981,7 @@ event-participation:
         date: 14-17/Aug/2018
         location: Observatório Nacional, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Attended
         upcoming: false
 
@@ -962,6 +990,7 @@ event-participation:
         date: 09-12/Jul/2018
         location: UNICSUL, SP, Brazil
         country-code: br
+        state-code: br-sp
         contribution: Talk
         upcoming: false
 
@@ -970,6 +999,7 @@ event-participation:
         date: 22-23/May/2018
         location: MAST, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Outreach talk
         upcoming: false
 
@@ -982,6 +1012,7 @@ event-participation:
         date: 17-18/Dec/2017
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Assistente de Produção
         upcoming: false
 
@@ -990,6 +1021,7 @@ event-participation:
         date: 20/Sep/2017
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Outreach Talk
         upcoming: false
 
@@ -998,6 +1030,7 @@ event-participation:
         date: 21-24/Aug/2017
         location: Observatório Nacional, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Attended
         upcoming: false
 
@@ -1006,6 +1039,7 @@ event-participation:
         date: 22-26/May/2017
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Attended
         upcoming: false
 
@@ -1018,6 +1052,7 @@ event-participation:
         date: 27-29/Oct/2015
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Talk
         upcoming: false
 
@@ -1026,6 +1061,7 @@ event-participation:
         date: 09-13/Jun/2015
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Attended
         upcoming: false
 
@@ -1038,6 +1074,7 @@ event-participation:
         date: 06-10/Oct/2014
         location: UFRJ, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Talk
         upcoming: false
 
@@ -1050,6 +1087,7 @@ event-participation:
         date: 30/Sep-04/Oct/2013
         location: UFRJ, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Talk
         upcoming: false
 
@@ -1058,6 +1096,7 @@ event-participation:
         date: 12-15/Aug/2013
         location: Observatório Nacional, RJ, Brazil
         country-code: br
+        state-code: br-rj
         contribution: Attended
         upcoming: false
 
