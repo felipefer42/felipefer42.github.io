@@ -901,6 +901,15 @@ event-participation:
         contribution: Outreach Talk
         upcoming: false
 
+      - title: "XLIII Reunião Anual da SAB"
+        link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xliii-reuniao-anual-da-sab/"
+        date: 09-12/Sep/2019
+        location: USP, SP, Brazil
+        country-code: br
+        state-code: br-sp
+        contribution: Poster
+        upcoming: false
+        
       - title: "S-PLUS meeting in La Serena"
         link:
         date: Jul/2019
@@ -986,9 +995,9 @@ event-participation:
         upcoming: false
 
       - title: "XLII Reunião Anual da Sociedade Astronomica Brasileira"
-        link:
+        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlii-reuniao-anual-da-sab/
         date: 09-12/Jul/2018
-        location: UNICSUL, SP, Brazil
+        location: Unicsul, SP, Brazil
         country-code: br
         state-code: br-sp
         contribution: Talk
@@ -1025,6 +1034,15 @@ event-participation:
         contribution: Outreach Talk
         upcoming: false
 
+      - title: "XLI Reunião Anual da Sociedade Astronomica Brasileira"
+        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xli-sao-paulo/
+        date: 04-08/Sep/2017
+        location: USP, SP, Brazil
+        country-code: br
+        state-code: br-sp
+        contribution: Poster/Talk
+        upcoming: false
+        
       - title: "XXI Ciclo de Cursos Especiais"
         link:
         date: 21-24/Aug/2017
@@ -1043,6 +1061,19 @@ event-participation:
         contribution: Attended
         upcoming: false
 
+      - title: "2016"
+        year-mark: true
+        upcoming: false
+        
+      - title: "XL Reunião Anual da Sociedade Astronomica Brasileira"
+        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xl/
+        date: 28-31/Aug/2016
+        location: Ribeirão Preto, SP, Brazil
+        country-code: br
+        state-code: br-sp
+        contribution: Poster
+        upcoming: false
+        
       - title: "2015"
         year-mark: true
         upcoming: false
@@ -1056,6 +1087,15 @@ event-participation:
         contribution: Talk
         upcoming: false
 
+      - title: "XXXIX Reunião Anual da Sociedade Astronomica Brasileira"
+        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xxxix/
+        date: 27/Sep-01/Oct/2015
+        location: Ouro Preto, MG, Brazil
+        country-code: br
+        state-code: br-mg
+        contribution: Poster
+        upcoming: false
+        
       - title: "Second Winter School of the Valongo Observatory"
         link:
         date: 09-13/Jun/2015
@@ -1091,6 +1131,15 @@ event-participation:
         contribution: Talk
         upcoming: false
 
+      - title: "XXXVIII Reunião Anual da Sociedade Astronomica Brasileira"
+        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xxxviii/
+        date: 31/Aug-04/Sep/2015
+        location: Búzios, RJ, Brazil
+        country-code: br
+        state-code: br-rj
+        contribution: Poster
+        upcoming: false
+        
       - title: "Escola de Inverno 2013 - Astronomia"
         link:
         date: 12-15/Aug/2013
