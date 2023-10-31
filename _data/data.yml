@@ -1127,6 +1127,15 @@ event-participation:
         contribution: Talk
         upcoming: false
 
+      - title: "XXXVIII Reunião Anual da Sociedade Astronomica Brasileira"
+        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xxxviii/
+        date: 31/Aug-04/Sep/2014
+        location: Búzios, RJ, Brazil
+        country-code: br
+        state-code: br-rj
+        contribution: Poster
+        upcoming: false
+        
       - title: "2013"
         year-mark: true
         upcoming: false
@@ -1138,15 +1147,6 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Talk
-        upcoming: false
-
-      - title: "XXXVIII Reunião Anual da Sociedade Astronomica Brasileira"
-        link: https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xxxviii/
-        date: 31/Aug-04/Sep/2015
-        location: Búzios, RJ, Brazil
-        country-code: br
-        state-code: br-rj
-        contribution: Poster
         upcoming: false
         
       - title: "Escola de Inverno 2013 - Astronomia"
