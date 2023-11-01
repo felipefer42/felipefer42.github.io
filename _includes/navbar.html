@@ -3,7 +3,7 @@
 <ul class="nav">
   {% for item in navbar.pages %}
       <li class="{% if item.url == page.url %}active{% endif %}">
-        <a href="{{ item.url }}">
+        <a href="{{ item.url }}" style="color:#f5f5f5">
           {% if item.icon %}
             <i class="{{ item.icon }}"></i>
           {% endif %}
