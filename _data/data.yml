@@ -1079,7 +1079,7 @@ event-participation:
         contrib-icon: fa-rocket-launch
         upcoming: false
 
-      - title: "Interview by Veja: 'Oumuamua"
+      - title: "Interview with Veja: 'Oumuamua"
         link: "https://veja.abril.com.br/ciencia/cientistas-rejeitam-teoria-de-que-objeto-interestelar-seja-nave-alienigena#google_vignette"
         date: 09/Nov/2018
         location: Veja - Ciência
@@ -1088,7 +1088,7 @@ event-participation:
         contrib-icon: fa-microphone-lines
         upcoming: false
 
-      - title: "Interview by G1: 'Oumuamua"
+      - title: "Interview with G1: 'Oumuamua"
         link: "https://g1.globo.com/ciencia-e-saude/noticia/2018/11/08/idade-estimada-para-oumuamua-afasta-hipotese-de-origem-alienigena-dizem-pesquisadores-brasileiros-em-estudo.ghtml"
         date: 08/Nov/2018
         location: G1 - Ciência e Saúde
