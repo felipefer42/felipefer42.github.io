@@ -37,7 +37,7 @@ p {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   background: $theme-color;
-  max-width: 1000px;
+  max-width: 980px;
   margin: 0 auto;
   position: relative;
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
@@ -176,7 +176,7 @@ p {
 
 .navbar-wrapper {
   order: 1;
-  max-width: 1000px;
+  max-width: 980px;
   margin: 0 auto;
   position: relative;
   background-color: $smoky-white;
@@ -583,7 +583,7 @@ p {
   display: block;
   color: $text-color;
   text-align: center;
-  padding: 5px 20px;
+  padding: 5px 19px;
   text-decoration: none;
 }
 

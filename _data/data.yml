@@ -24,7 +24,7 @@ navbar:
       icon: "fa-solid fa-telescope"
 
   blog-title: Blog
-  blog-url: "#blog"
+  blog-url: "https://www.blog.astrofelipe.com"
   blog-icon: "fa fa-fw fa-newspaper"
 
 
