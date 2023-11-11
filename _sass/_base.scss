@@ -644,8 +644,7 @@ p {
 }
 
 .button-6-active {
-  background-color: $theme-color;
-  color: #fff;
+  background-color: lighten($theme-color, 20%);
 }
 
 .button-6:hover,
