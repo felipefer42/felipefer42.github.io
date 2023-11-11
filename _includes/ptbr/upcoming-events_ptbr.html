@@ -31,6 +31,9 @@
               {% if event.country-code %}
                 <span class="fi fi-{{ event.country-code }}"></span>
               {% endif %}
+              {% if event.state-code %}
+                <span class="fi fi-{{ event.state-code }} event-state-flag"></span>
+              {% endif %}
               {{ event.location }}
             </div>
             <div class="upcoming-date">
