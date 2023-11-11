@@ -5,20 +5,20 @@
 <!--[if IE 8]> <html lang="pt" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="pt" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="pt"> <!--<![endif]-->
-{% include head_ptbr.html %}
+{% include ptbr/head_ptbr.html %}
 
 <body>
   <div class="navbar-wrapper">
-    {% include navbar_ptbr.html %}
+    {% include ptbr/navbar_ptbr.html %}
   </div>
 
   <div class="wrapper">
 
-    {% include sidebar_ptbr.html %}
+    {% include ptbr/sidebar_ptbr.html %}
 
     <div class="main-wrapper">
       <div class="main-header">
-        {% include career-profile_ptbr.html %}
+        {% include ptbr/career-profile_ptbr.html %}
       </div>
       <div class="main-content">
         {{ content }}
@@ -27,7 +27,7 @@
   </div>
 
 
-  {% include footer_ptbr.html %}
+  {% include ptbr/footer_ptbr.html %}
 
 {% include scripts.html %}
 </body>
