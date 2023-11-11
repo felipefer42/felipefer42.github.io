@@ -1,7 +1,7 @@
 {% assign navbar = site.data.data_ptbr.navbar %}
 
-<button class="button-6" role="button"><span class="fi fi-br"></span>  PT-BR</button>
-<button class="button-6" role="button"><span class="fi fi-gb"></span>  EN-US</button>
+<a class="button-6 active" role="button" href="{{page.url}}"><span class="fi fi-br"></span>  PT-BR</a>
+<a class="button-6" role="button"  href="/"><span class="fi fi-gb"></span>  EN-US</a>
 
 <ul class="nav">
   {% for item in navbar.pages %}
