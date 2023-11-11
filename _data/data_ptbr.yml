@@ -4,23 +4,23 @@
 navbar:
   pages:
     - title: Página Inicial
-      url: "/"
+      url: "/ptbr"
       icon: "fa fa-fw fa-home"
 
     - title: Publicações
-      url: "/publications.html"
+      url: "/publicacoes.html"
       icon: "fa fa-fw fa-book"
 
     - title: Palestras e Eventos
-      url: "/events.html"
+      url: "/eventos.html"
       icon: "fa-solid fa-presentation-screen"
 
     - title: Aulas
-      url: "/lectures"
+      url: "/aulas"
       icon: "fa-solid fa-person-chalkboard"
 
     - title: Projetos
-      url: "/projects"
+      url: "/projetos"
       icon: "fa-solid fa-telescope"
 
   blog-title: Blog
@@ -259,87 +259,87 @@ certifications:
           details: |
 
 teaching:
-      title: Teaching Experience
+      title: Experiência de Ensino
       list:
-        - name: Introduction to Astronomy (AGA210)
+        - name: Introdução à Astronomia (AGA210)
           role: Professor
           semester: 2020.1, 2020.2, 2021.1, 2021.2
           location: IAG/USP
           details: |
-        - name: Astrobiology (OVL504)
-          role: Teaching Internship
+        - name: Astrobiologia (OVL504)
+          role: Estágio de Docência
           semester: 2015.1
           location: OV/UFRJ
           details: |
-        - name: General Astrophysics (OVL241)
-          role: Teaching Internship
+        - name: Astrofísica Geral (OVL241)
+          role: Estágio de Docência
           semester: 2015.2
           location: OV/UFRJ
           details: |    
-        - name: Physics III (FIM231)
-          role: Student Tutor
+        - name: Física III (FIM231)
+          role: Monitor
           semester: 2012.2, 2014.1, 2014.2
           location: IF/UFRJ
           details: |  
-        - name: + Invited Lectures
+        - name: + Aulas Convidadas
           role:
           semester:
           location: IAG/USP, OV/UFRJ & UFU
           details: |  
 
 outreach:
-      title: Outreach Activities
+      title: Atividades de Extensão
       list:
         - name: Astrotubers
-          role: Co-founder
+          role: Co-fundador
           time: 2018-2020
-          location: Youtube Channel
+          location: Canal de Youtube
           details: |
         - name: Ad Astra
-          role: Collaborator
+          role: Colaborador
           time: 2018-2019
           location: INPAR (Cidade de Deus), RJ)
           details: |
         - name: Astronomia ao Meio Dia
-          role: Organizer
+          role: Organizador
           time: 2019-2020
           location: IAG/USP
           details: |
-        - name: Outreach telescope observations
-          role: Guide
+        - name: Atividades de observação com telescópio
+          role: Guia
           time: 2014-2017
           location: OV/UFRJ
           details: |
-        - name: Outreach Talks
-          role: Speaker
+        - name: Palestras de divulgação
+          role: Palestrante
           time: 2015-
           location: Multiple locations
           details: |
 
 research:
-    title: Main Research Topics
+    title: Principais Tópicos de Pesquisa
     intro: >
       You can list your research topics in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     topics:
-      - title: Stellar Ages
+      - title: Idades Estelares
         link: "#hook"
         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Low Metallicity Stars
+      - title: Estrelas de Baixa Metalicidade
         link: "#"
         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Galactic Structure
+      - title: Estrutura da Galáxia
         link: "#"
         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Interstellar Asteroids
+      - title: Asteroides Interestelares
         link: "#"
         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Photometric Calibration Techniques
+      - title: Técnicas de Calibração Fotométrica
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
@@ -368,8 +368,8 @@ oss:
         tagline:
 
 publications:
-    home-title: Top-10 Publications
-    title: Publications
+    home-title: Top-10 Publicações
+    title: Publicações
     intro:
     papers:
       - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
@@ -580,7 +580,7 @@ publications:
         refereed: True
 
 event-participation:
-    upcoming-title: Upcoming events
+    upcoming-title: Próximos Eventos
     title: Past participations
     intro:
     events:
@@ -606,6 +606,15 @@ event-participation:
         location: Montevideo, Uruguay
         country-code: uy
         contribution: Talk
+        upcoming: true
+
+      - title: "Hands-on S-PLUS meeting"
+        link: ""
+        date:  01-06/Dec/2023
+        location: Ubatuba, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Participation
         upcoming: true
 
       - title: "6a Reunião Anual SBAstrobio "
