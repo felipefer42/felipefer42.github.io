@@ -1,0 +1,25 @@
+{% assign navbar = site.data.data_ptbr.navbar %}
+
+<ul class="nav">
+  {% for item in navbar.pages %}
+      <li class="{% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url }}">
+          {% if item.icon %}
+            <i class="{{ item.icon }}"></i>
+          {% endif %}
+          {{ item.title }}
+        </a>
+      </li>
+  {% endfor %}
+
+  {% if navbar.blog-title %}
+  <li class="nav-right" style="float:right;">
+    <a href="{{ navbar.blog-url }}">
+      {% if navbar.blog-icon %}
+        <i class="{{ navbar.blog-icon}}"></i>
+      {% endif %}
+      {{ navbar.blog-title }}
+    </a>
+  </li>
+  {% endif %}
+</ul>

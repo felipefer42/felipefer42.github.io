@@ -1,0 +1,46 @@
+{% assign sidebar = site.data.data_ptbr.sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+
+    {% if sidebar.avatar %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if sidebar.first_name %}
+    <h4 class="first_name">{{ sidebar.first_name }}</h4>
+    {% endif %}
+    
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.first_name %}
+    <h4 class="pronoun">({{ sidebar.pronoun }})</h4>
+    {% endif %}
+    
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+
+  </div><!--//profile-container-->
+
+  {% include contact_ptbr.html %}
+
+  {% if sidebar.education %}
+    {% include education_ptbr.html %}
+  {% endif %}
+
+  {% if sidebar.complementary_education %}
+    {% include complementary_education_ptbr.html %}
+  {% endif %}
+
+  {% include language_ptbr.html %}
+  {% include interests_ptbr.html %}
+  {% include hobbies_ptbr.html %}
+  
+  {% if sidebar.about %}
+    {% include about.html %}
+  {% endif %}
+
+</div><!--//sidebar-wrapper-->
