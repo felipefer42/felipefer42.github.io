@@ -1,5 +1,7 @@
 {% assign navbar = site.data.data_ptbr.navbar %}
 
+page.url
+
 <ul class="nav">
   {% for item in navbar.pages %}
       <li class="{% if item.url == page.url %}active{% endif %}">

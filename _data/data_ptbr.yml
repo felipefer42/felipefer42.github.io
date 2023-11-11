@@ -589,15 +589,15 @@ event-participation:
         date:  13-17/Nov/2023
         location: ESO, Santiago, Chile
         country-code: cl
-        contribution: Talk
+        contribution: Palestra
         upcoming: true
 
-      - title: "Invited Talk"
+      - title: "Palestra Convidada"
         link: ""
         date:  24/Nov/2023
         location: Universidad de La Plata, Argentina
         country-code: ar
-        contribution: Invited Talk
+        contribution: Palestra Convidada
         upcoming: true
 
       - title: "XVII Reunión Regional Latinoamericana de la UAI "
@@ -605,7 +605,7 @@ event-participation:
         date:  27/Nov-01/Dec/2023
         location: Montevideo, Uruguay
         country-code: uy
-        contribution: Talk
+        contribution: Palestra
         upcoming: true
 
       - title: "Hands-on S-PLUS meeting"
@@ -614,7 +614,7 @@ event-participation:
         location: Ubatuba, São Paulo, Brasil
         country-code: br
         state-code: br-sp
-        contribution: Participation
+        contribution: Participação
         upcoming: true
 
       - title: "6a Reunião Anual SBAstrobio "
@@ -676,7 +676,7 @@ event-participation:
         location: Planetário da Gávea, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -686,7 +686,7 @@ event-participation:
         location: Observatório Nacional, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        contribution: SOC/Talk
+        contribution: SOC/Palestra
         contrib-icon: fa-people-group
         contrib-icon2: fa-person-chalkboard
         upcoming: false
@@ -698,7 +698,7 @@ event-participation:
         country-code: br
         state-code: br-mg
         remote: true
-        contribution: Invited Talk
+        contribution: Palestra Convidada
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -732,7 +732,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -742,7 +742,7 @@ event-participation:
         location: Remote meeting
         remote: true
         country-code:
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -751,7 +751,7 @@ event-participation:
         date: 12-14/Sep/2022
         location: Tucson, AZ, USA
         country-code: us
-        contribution: Poster/Flash Talk
+        contribution: Poster/Palestra Curta
         contrib-icon: fa-presentation-screen
         upcoming: false
 
@@ -760,7 +760,7 @@ event-participation:
         date: 07-09/Sep/2022
         location: Socorro, NM, USA
         country-code: us
-        contribution: Poster/Flash Talk
+        contribution: Poster/Palestra Curta
         contrib-icon: fa-presentation-screen
         upcoming: false
 
@@ -769,7 +769,7 @@ event-participation:
         date: 10/Sep/2022
         location: Magdalena, NM, USA
         country-code: us
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
@@ -780,7 +780,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -791,7 +791,7 @@ event-participation:
         country-code: br
         state-code: br-rj
         remote: true
-        contribution: Invited Talk
+        contribution: Palestra Convidada
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -800,7 +800,7 @@ event-participation:
         date: 08/Apr/2022
         location: NOIRLab, AZ, USA
         country-code: us
-        contribution: Invited Talk
+        contribution: Palestra Convidada
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -810,7 +810,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -824,7 +824,7 @@ event-participation:
         location: Ubatuba, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: VOC/Talk
+        contribution: VOC/Palestra
         contrib-icon: fa-people-group
         contrib-icon2: fa-person-chalkboard
         upcoming: false
@@ -845,7 +845,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -876,7 +876,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -886,7 +886,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -908,7 +908,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -918,7 +918,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -928,7 +928,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -938,7 +938,7 @@ event-participation:
         location: Remote meeting
         country-code:
         remote: true
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -947,7 +947,7 @@ event-participation:
         date: 17-21/Feb/2020
         location: La Plata, Argentina
         country-code: ar
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -971,7 +971,7 @@ event-participation:
         location: IAG/USP, SP, Brazil)
         country-code: br
         state-code: br-sp
-        contribution: LOC/Talk
+        contribution: LOC/Palestra
         contrib-icon: fa-people-group
         contrib-icon2: fa-person-chalkboard
         upcoming: false
@@ -982,7 +982,7 @@ event-participation:
         location: Planetário do Carmo, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Outreach Talk
+        contribution: Palestra de Divulgação
         contrib-icon: fa-rocket-launch
         upcoming: false
 
@@ -1002,7 +1002,7 @@ event-participation:
         location: Planetário do Ibirapuera, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Outreach Talk
+        contribution: Palestra de Divulgação
         contrib-icon: fa-rocket-launch
         upcoming: false
 
@@ -1022,7 +1022,7 @@ event-participation:
         location: IAG/USP, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1031,7 +1031,7 @@ event-participation:
         date: Jul/2019
         location: La Serena, Chile
         country-code: cl
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1041,7 +1041,7 @@ event-participation:
         location: IAG/USP, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1065,7 +1065,7 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Outreach Talk
+        contribution: Palestra de Divulgação
         contrib-icon: fa-rocket-launch
         upcoming: false
 
@@ -1103,7 +1103,7 @@ event-participation:
         location: Observatório Nacional, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
@@ -1113,7 +1113,7 @@ event-participation:
         location: IAG/USP, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1123,7 +1123,7 @@ event-participation:
         location: IAG/USP, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1133,7 +1133,7 @@ event-participation:
         location: Observatório Nacional, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
@@ -1143,7 +1143,7 @@ event-participation:
         location: Unicsul, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1153,7 +1153,7 @@ event-participation:
         location: MAST, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Outreach talk
+        contribution: Palestra de Divulgação
         contrib-icon: fa-rocket-launch
         upcoming: false
 
@@ -1177,7 +1177,7 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Outreach Talk
+        contribution: Palestra de Divulgação
         contrib-icon: fa-rocket-launch
         upcoming: false
 
@@ -1187,7 +1187,7 @@ event-participation:
         location: USP, SP, Brazil
         country-code: br
         state-code: br-sp
-        contribution: Poster/Talk
+        contribution: Poster/Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
         
@@ -1197,7 +1197,7 @@ event-participation:
         location: Observatório Nacional, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
@@ -1207,7 +1207,7 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
@@ -1235,7 +1235,7 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1255,7 +1255,7 @@ event-participation:
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
@@ -1279,7 +1279,7 @@ event-participation:
         location: UFRJ, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1303,7 +1303,7 @@ event-participation:
         location: UFRJ, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Talk
+        contribution: Palestra
         contrib-icon: fa-person-chalkboard
         upcoming: false
         
@@ -1313,7 +1313,7 @@ event-participation:
         location: Observatório Nacional, RJ, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Attended
+        contribution: Participação
         contrib-icon: fa-screen-users
         upcoming: false
 
