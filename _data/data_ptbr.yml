@@ -4,7 +4,7 @@
 navbar:
   pages:
     - title: Página Inicial
-      url: "/ptbr"
+      url: "/ptbr.html"
       icon: "fa fa-fw fa-home"
 
     - title: Publicações
