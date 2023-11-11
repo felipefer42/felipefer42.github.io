@@ -5,6 +5,7 @@ body {
   background: $smoky-white;
   font-size: 14px;
   padding: 30px;
+  padding-top: 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -629,6 +630,7 @@ p {
   justify-content: center;
   line-height: 1.25;
   margin: 0;
+  margin-bottom: 20px;
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
