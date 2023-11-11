@@ -654,8 +654,9 @@ p {
   transform: translateY(-1px);
 }
 
-.button-6:active {
-  background-color: #F0F0F1;
+.button-6:active a {
+  background-color: $theme-color;
+  color: $fff;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color: rgba(0, 0, 0, 0.65);
