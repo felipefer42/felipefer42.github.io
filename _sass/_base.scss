@@ -632,7 +632,7 @@ p {
   margin: 0;
   margin-bottom: 20px;
   min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  padding: calc(.875rem - 1px) calc(2rem - 1px);
   position: relative;
   text-decoration: none;
   transition: all 250ms;
@@ -644,7 +644,8 @@ p {
 }
 
 .button-6-active {
-  background-color: lighten($theme-color, 50%);
+  background-color: $theme-color;
+  color: #fff;
 }
 
 .button-6:hover,
