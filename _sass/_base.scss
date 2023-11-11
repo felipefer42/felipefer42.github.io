@@ -643,6 +643,11 @@ p {
   width: auto;
 }
 
+.button-6-active {
+  background-color: $theme-color;
+  color: #fff;
+}
+
 .button-6:hover,
 .button-6:focus {
   border-color: rgba(0, 0, 0, 0.15);
