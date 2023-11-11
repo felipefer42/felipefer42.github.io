@@ -665,3 +665,11 @@ p {
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
 }
+
+.temporary {
+  padding: 150px 0;
+  border: 1px solid $theme-color;
+  text-align: center;
+  margin: 30px;
+  font-size: 18px;
+}

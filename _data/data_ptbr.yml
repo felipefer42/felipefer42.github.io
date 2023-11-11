@@ -4,23 +4,23 @@
 navbar:
   pages:
     - title: Página Inicial
-      url: "/ptbr.html"
+      url: "/index_ptbr.html"
       icon: "fa fa-fw fa-home"
 
     - title: Publicações
-      url: "/publicacoes.html"
+      url: "/publications_ptbr.html"
       icon: "fa fa-fw fa-book"
 
     - title: Palestras e Eventos
-      url: "/eventos.html"
+      url: "/events_ptbr.html"
       icon: "fa-solid fa-presentation-screen"
 
     - title: Aulas
-      url: "/aulas"
+      url: "/lectures_ptbr.html"
       icon: "fa-solid fa-person-chalkboard"
 
     - title: Projetos
-      url: "/projetos"
+      url: "/projects_ptbr.html"
       icon: "fa-solid fa-telescope"
 
   blog-title: Blog

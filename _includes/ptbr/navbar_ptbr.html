@@ -1,7 +1,8 @@
 {% assign navbar = site.data.data_ptbr.navbar %}
 
-<a class="button-6" href="/"><span class="fi fi-gb"></span> &nbsp; EN-US</a>
-<a class="button-6 button-6-active" href="{{page.url}}"><span class="fi fi-br"></span> &nbsp; PT-BR</a>
+<a class="button-6" href={{ page.url | replace: "_ptbr.html", ".html" }}><span class="fi fi-gb"></span> &nbsp; english</a>
+<a class="button-6 button-6-active" href={{page.url}}><span class="fi fi-br"></span> &nbsp; portuguese</a>
+<a class="button-6" href={{ page.url | replace: "._ptbr.html", "_es.html" }}><span class="fi fi-es"></span> &nbsp; español</a>
 
 <ul class="nav">
   {% for item in navbar.pages %}
