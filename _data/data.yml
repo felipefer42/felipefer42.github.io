@@ -27,6 +27,31 @@ navbar:
   blog-url: "https://www.blog.astrofelipe.com"
   blog-icon: "fa fa-fw fa-newspaper"
 
+navbar_ptbr:
+  pages:
+    - title: Página Inicial
+      url: "/index_ptbr.html"
+      icon: "fa fa-fw fa-home"
+
+    - title: Publicações
+      url: "/publications_ptbr.html"
+      icon: "fa fa-fw fa-book"
+
+    - title: Palestras e Eventos
+      url: "/events_ptbr.html"
+      icon: "fa-solid fa-presentation-screen"
+
+    - title: Aulas
+      url: "/lectures_ptbr.html"
+      icon: "fa-solid fa-person-chalkboard"
+
+    - title: Projetos
+      url: "/projects_ptbr.html"
+      icon: "fa-solid fa-telescope"
+
+  blog-title: Blog
+  blog-url: "https://www.blog.astrofelipe.com"
+  blog-icon: "fa fa-fw fa-newspaper"
 
 sidebar:
     position: right # position of the sidebar : left or right
@@ -97,7 +122,59 @@ sidebar:
 
         - item: 3D printing
           link:
-          
+
+sidebar_ptbr:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    complementary_education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    first_name: Felipe
+    name: Almeida-Fernandes
+    pronoun: Ele / Dele
+    tagline: Doutor em Astrofísica
+    avatar: felipe_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    languages:
+      title: Idiomas
+      info:
+        - idiom: Português
+          level: Nativo
+
+        - idiom: Inglês
+          level: Fluente
+
+        - idiom: Espanhol
+          level: Aprendendo
+
+    interests:
+      title: Interesses de Pesquisa
+      info:
+        - item: Astrofísica Estelar
+          link:
+
+        - item: Estrutura da Galáxia
+          link:
+
+        - item: Calibração Fotométrica
+          link:
+
+        - item: Asteroides Interestelares
+          link:
+
+    hobbies:
+      title: Hobbies
+      info:
+        - item: Jogos de Tabuleiro
+          link:
+
+        - item: Simuladores de Corrida
+          link:
+
+        - item: Impressão 3D
+          link:
+
 career-profile:
     title: Career Profile
     summary: |
@@ -128,6 +205,29 @@ career-profile:
       contributor to the Ad Astra program, and an organizer of the "Astronomia
       ao Meio Dia" lecture series. Additionaly, for a year during my Ph.D., 
       I held the position of Graduate Student's representative.
+
+career-profile_ptbr:
+    title: Perfil de Carreira
+    summary: |
+      Possuo graduação em Astronomia pela Universidade Federal do Rio de Janeiro e concluí meu doutorado em 
+      Astronomia no Observatório do Valongo (OV/UFRJ), com bolsa CAPES. O foco principal da minha tese de 
+      doutorado foi a datação estelar por meio da cinemática galáctica, envolvendo o uso de modelos estelares evolutivos 
+      teóricos e datação isocronal Bayesiana. Atualmente, estou trabalhando no levantamento S-PLUS, onde sou 
+      responsável pela calibração fotométrica e organização das divulgações de dados do levantamento principal. Como 
+      pós-doutorando na Universidade de São Paulo, com apoio de uma bolsa da FAPESP, minhas principais áreas de 
+      pesquisa incluem a estrutura galáctica e a busca e caracterização de estrelas de baixa metalicidade. 
+      Também tenho experiência acadêmica internacional como Pesquisador Visitante, durante um ano, no instituto NOIRLab,
+      com apoio de uma Bolsa de Estágio de Pesquisa no Exterior (FAPESP/BEPE)."
+    summary-more:
+      <br>
+      Durante meu pós-doutorado, fui selecionado como Professor Colaborador através do "Programa de Atração e Retenção 
+      de Talentos da USP", onde ministrei o curso "Introdução à Astronomia" por quatro semestres. Além disso, realizei 
+      dois estágios de docência durante meu doutorado e atuei como monitor por três semestres durante minha graduação. 
+      <br><br>
+      Tenho também experiência na área de divulgação científica, sendo um dos fundadores do canal Astrotubers no 
+      YouTube, colaborador do programa Ad Astra, e organizador da série de palestras "Astronomia ao Meio Dia". 
+      Além disso, durante meu doutorado, ocupei o cargo de representante dos estudantes de pós-graduação.
+
 education:
     title: Education
     info:
@@ -143,6 +243,32 @@ education:
             - Bullet point
             - Bullet point
       - degree: BSc in Astronomy
+        university: Universidade Federal do Rio de Janeiro
+        time: 2011 - 2015
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+education_ptbr:
+    title: Formação Acadêmcia
+    info:
+      - degree: Doutorado em Astronomia
+        university: Observatório do Valongo (UFRJ)
+        time: 2015 - 2019
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: Graduação em Astronomia
         university: Universidade Federal do Rio de Janeiro
         time: 2011 - 2015
         details: |
@@ -178,8 +304,29 @@ complementary_education:
         time: 2013
         details: |
 
-
-
+complementary_education_ptbr:
+    title: Formação Acadêmica+
+    info:
+      - degree: IX LaPIS on Astronomy and Geophysics
+        university: La Plata (Argentina)
+        time: 2020
+        details: |
+      - degree: Escola de Inverno do Observatório do Valongo
+        university: Observatório do Valongo (Brazil)
+        time: 3x (2015, 2017, 2019)
+        details: |
+      - degree: Ciclo de Cursos Especiais do Observatório Nacional
+        university: Observatório Nacional (Brazil)
+        time: 4x (2015, 2016, 2017, 2018)
+        details: |
+      - degree: Pesquisador Visitante (pós-grauação)
+        university: Universidad de La Serena (Chile)
+        time: 2017
+        details: |
+      - degree: Escola de Inverno 2013 - Astronomia
+        university: Observatório Nacional (Brazil)
+        time: 2013
+        details: |
 
 experiences:
     title: Job Experience
@@ -232,6 +379,57 @@ experiences:
           several different majors. In each of the four semesters, I had around 
           50 students in my class.
 
+experiences_ptbr:
+    title: Experiência Profissional
+    info:
+      - role: Gerente de Divulgação de Dados
+        time: 2019 - presente
+        company: Levantamento S-PLUS
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Data Release 2: 2021
+            - Data Release 3: 2022
+
+      - role: Pesquisador (Pós-doutorado)
+        time: 2019 - 2021 | 2023 - presente
+        company: Universidade de São Paulo
+        details: |
+          
+
+      - role: Pesquisador Visitante
+        time: 2022
+        company: NOIRLab
+        details: |
+          Supported by the Post-doctorate research internship abroad (BEPE) of 
+          FAPESP (São Paulo Research Funding Agency), I spent the year of 2022
+          working as a visiting researcher at the NOIRLab institute, in Tucson,
+          Arizona. During my time there, I worked on projects related to 
+          metal-poor stars. In particular, we used photometric criteria to 
+          select metal-poor stars in S-PLUS and studied them in greater details 
+          using data from spectroscopic follow-ups using the telescopes Blanco, 
+          Gemini and Magellan-Clay. This collaboration is still ongoing even
+          now that I'm back in Brazil.
+          
+
+      - role: Professor Colaborador
+        time: 2020 - 2021
+        company: Universidade de São Paulo
+        details: |
+          Selected in the 'Attraction and Retention of Talents Program' (PART -
+          Programa de Atração e Retenção de Talentos) of the University of São
+          Paulo, I was hired as a Collaborating Professor and was responsible 
+          for teaching the class 'Introduction to Astronomy' to students of 
+          several different majors. In each of the four semesters, I had around 
+          50 students in my class.
+
 experiences_plus:
     title: Additional Experience
     info:
@@ -247,7 +445,42 @@ experiences_plus:
         time: 2017 - 2018
         company: Observatório do Valongo
 
+experiences_plus_ptbr:
+    title: Additional Experience
+    info:
+      - role: Peer-Reviewer for Astronomy and Computing
+        time: 2023
+        company: Elsevier
+
+      - role: Peer-Reviewer for The Astrophysical Journal
+        time: 2022
+        company: AAS Journals
+
+      - role: Graduate Student's representative
+        time: 2017 - 2018
+        company: Observatório do Valongo
+
 certifications:
+      title:
+      list:
+        - name:
+          start:
+          end:
+          organization:
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+        - name:
+          start:
+          end:
+          organization:
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+
+certifications_ptbr:
       title:
       list:
         - name:
@@ -296,6 +529,35 @@ teaching:
           location: IAG/USP, OV/UFRJ & UFU
           details: |  
 
+teaching_ptbr:
+      title: Experiência de Ensino
+      list:
+        - name: Introdução à Astronomia (AGA210)
+          role: Professor
+          semester: 2020.1, 2020.2, 2021.1, 2021.2
+          location: IAG/USP
+          details: |
+        - name: Astrobiologia (OVL504)
+          role: Estágio de Docência
+          semester: 2015.1
+          location: OV/UFRJ
+          details: |
+        - name: Astrofísica Geral (OVL241)
+          role: Estágio de Docência
+          semester: 2015.2
+          location: OV/UFRJ
+          details: |    
+        - name: Física III (FIM231)
+          role: Monitor
+          semester: 2012.2, 2014.1, 2014.2
+          location: IF/UFRJ
+          details: |  
+        - name: + Aulas Convidadas
+          role:
+          semester:
+          location: IAG/USP, OV/UFRJ & UFU
+          details: |  
+
 outreach:
       title: Outreach Activities
       list:
@@ -321,6 +583,35 @@ outreach:
           details: |
         - name: Outreach Talks
           role: Speaker
+          time: 2015-
+          location: Multiple locations
+          details: |
+
+outreach_ptbr:
+      title: Atividades de Extensão
+      list:
+        - name: Astrotubers
+          role: Co-fundador
+          time: 2018-2020
+          location: Canal de Youtube
+          details: |
+        - name: Ad Astra
+          role: Colaborador
+          time: 2018-2019
+          location: INPAR (Cidade de Deus), RJ)
+          details: |
+        - name: Astronomia ao Meio Dia
+          role: Organizador
+          time: 2019-2020
+          location: IAG/USP
+          details: |
+        - name: Atividades de observação com telescópio
+          role: Guia
+          time: 2014-2017
+          location: OV/UFRJ
+          details: |
+        - name: Palestras de divulgação
+          role: Palestrante
           time: 2015-
           location: Multiple locations
           details: |
@@ -352,6 +643,33 @@ research:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+research_ptbr:
+    title: Principais Tópicos de Pesquisa
+    intro: >
+      You can list your research topics in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    topics:
+      - title: Idades Estelares
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Estrelas de Baixa Metalicidade
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Estrutura da Galáxia
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Asteroides Interestelares
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Técnicas de Calibração Fotométrica
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
 projects:
     title: 
     intro: 
@@ -363,8 +681,32 @@ projects:
       - title: 
         link: 
         tagline: 
-          
+
+projects_ptbr:
+    title:
+    intro:
+    assignments:
+      - title:
+        link:
+        tagline:
+
+      - title:
+        link:
+        tagline:
+
 oss:
+    title:
+    intro:
+    contributions:
+      - title:
+        link:
+        tagline:
+
+      - title:
+        link:
+        tagline:
+
+oss_ptbr:
     title:
     intro:
     contributions:
@@ -378,13 +720,16 @@ oss:
 
 publications:
     home-title: Top-10 Publications
+    home-title_ptbr: Top-10 Publicações
     title: Publications
+    title_ptbr: Publicações
     intro:
+    intro_ptbr:
     papers:
       - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231017024P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Holmbeck, Erika M.,
-        more: and 33 more
+        more: 33
         journal: eprint arXiv:2310.17024, 10/2023 (Accepted, ApJ)
         show-home: False
         first-author: False
@@ -393,7 +738,7 @@ publications:
       - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
         authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
-        more: and 14 more
+        more: 14
         journal: eprint arXiv:2310.15158, 10/2023 (Accepted, MNRAS)
         show-home: False
         first-author: False
@@ -402,7 +747,7 @@ publications:
       - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230911533X/abstract"
         authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
-        more: and 10 more
+        more: 10
         journal: eprint arXiv:2309.11533, 09/2023 (Submitted, ApJ)
         show-home: False
         first-author: False
@@ -411,7 +756,7 @@ publications:
       - title: "Chemodynamical properties and ages of metal-poor stars in S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2934A/abstract"
         authors: Almeida-Fernandes, F.; Placco, V. M.; Rocha-Pinto, H. J.;
-        more: and 10 more
+        more: 10
         journal: MNRAS, v.523 p.2934, 08/2023
         show-home: True
         first-author: True
@@ -420,7 +765,7 @@ publications:
       - title: "Principal Component Analysis of galaxies in the direction of the Fornax cluster using S-PLUS data"
         link: "https://ui.adsabs.harvard.edu/abs/2023BAAA...64..259C/abstract"
         authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (6th) Almeida Fernandes, F.
-        more: and 3 more
+        more: 3
         journal: Boletín de la Asociación Argentina de Astronomía, v. 64 p.259-261, 08/2023
         show-home: False
         first-author: False
@@ -429,7 +774,7 @@ publications:
       - title: "SExtractor detection and measurement of Fornax galaxies in S-PLUS images"
         link: "https://ui.adsabs.harvard.edu/abs/2023BAAA...64..217H/abstract"
         authors: Haack, R. F.; Smith Castelli, A. V.; Faifer, F. R.; ... (5th) Almeida Fernandes, F.
-        more: and 2 more
+        more: 2
         journal: Boletín de la Asociación Argentina de Astronomía, v. 64 p.217-219, 08/2023
         show-home: False
         first-author: False
@@ -438,7 +783,7 @@ publications:
       - title: "An Extended Catalogue of galaxy morphology using Deep Learning in Southern Photometric Local Universe Survey Data Release 3"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230608684B/abstract"
         authors: Bom, C. R.; Cortesi, A.; Ribeiro, U.; ... (12th) Almeida-Fernandes, F.;
-        more: and 21 more
+        more: 21
         journal: eprint arXiv:2306.08684, 06/2023 (Submitted, MNRAS)
         show-home: False
         first-author: False
@@ -456,7 +801,7 @@ publications:
       - title: "Mining S-PLUS for Metal-poor Stars in the Milky Way"
         link: "https://ui.adsabs.harvard.edu/abs/2022ApJS..262....8P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Arentsen, Anke;
-        more: and 4 more
+        more: 4
         journal: ApJS, v.262 p.8, 09/2022
         show-home: True
         first-author: False
@@ -465,7 +810,7 @@ publications:
       - title: "Photometric and Morphological Analysis of Fornax Galaxies through S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..253S/abstract"
         authors: Smith Castelli, A. V.; Lopes, A. R.; Cortesi, A.; ... (8th) Almeida-Fernandes, F.;
-        more: and 9 more
+        more: 9
         journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
         show-home: False
         first-author: False
@@ -474,7 +819,7 @@ publications:
       - title: "Statistical analysis of global properties of galaxies in the direction of the Fornax cluster with S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..244C/abstract"
         authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (5th) Almeida-Fernandes, F.;
-        more: and 2 more
+        more: 2
         journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
         show-home: False
         first-author: False
@@ -483,7 +828,7 @@ publications:
       - title: "Data Release 2 of S-PLUS: Accurate template-fitting based photometry covering 1000 deg2 in 12 optical filters"
         link: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.4590A/abstract"
         authors: Almeida-Fernandes, F.; SamPedro, L.; Herpich, F. R.;
-        more: and 32 more
+        more: 32
         journal: MNRAS, v.511 p.4590, 04/2022
         show-home: True
         first-author: True
@@ -492,7 +837,7 @@ publications:
       - title: "Canis Major OB1 stellar group contents revealed by Gaia"
         link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.1033S/abstract"
         authors: Santos-Silva, T.; Perottoni, H. D.; Almeida-Fernandes, F.
-        more: and 15 more
+        more: 15
         journal: MNRAS, v.508 p.1033, 11/2021
         show-home: True
         first-author: False
@@ -501,7 +846,7 @@ publications:
       - title: "On the discovery of stars, quasars, and galaxies in the Southern Hemisphere with S-PLUS DR2"
         link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.5847N/abstract"
         authors: Nakazono, L.; Mendes de Oliveira, C.; Hirata, N. S. T; ... (15th) Almeida-Fernandes, F.;
-        more: and 24 more
+        more: 24
         journal: MNRAS, v.507 p.5847, 11/2021
         show-home: False
         first-author: False
@@ -510,7 +855,7 @@ publications:
       - title: "SPLUS J210428.01-004934.2: An Ultra Metal-poor Star Identified from Narrowband Photometry"
         link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912L..32P/abstract"
         authors: Placco, Vinicius M.; Roederer, Ian U.; Lee, Young Sun; Almeida-Fernandes, Felipe;
-        more: and 5 more
+        more: 5
         journal: ApJ Letters, v.912 p.32, 05/2021
         show-home: True
         first-author: False
@@ -519,7 +864,7 @@ publications:
       - title: "The Photometric Metallicity and Carbon Distributions of the Milky Way's Halo and Solar Neighborhood from S-PLUS Observations of SDSS Stripe 82"
         link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912..147W/abstract"
         authors: Whitten, Devin D.; Placco, Vinicius M.; Beers, Timothy C.; ... (6th) Almeida-Fernandes, Felipe;
-        more: and 13 more
+        more: 13
         journal: ApJ, v.912 p.147, 05/2021
         show-home: True
         first-author: False
@@ -528,7 +873,7 @@ publications:
       - title: "The Abundance Pattern of α Elements in the Triangulum-Andromeda Overdensity"
         link: "https://ui.adsabs.harvard.edu/abs/2020ApJ...901...27S/abstract"
         authors: Silva, J. V. Sales; Cunha, K.; Perottoni, H. D.; ... (6th) Almeida-Fernandes, F.;
-        more: and 4 more
+        more: 4
         journal: ApJ, v.901 p.27, 09/2020
         show-home: False
         first-author: False
@@ -537,7 +882,7 @@ publications:
       - title: "Triangulum-Andromeda Overdensity: a Region with a Complex Stellar Population"
         link: "https://ui.adsabs.harvard.edu/abs/2019ApJ...886..113S/abstract"
         authors: Sales Silva, J. V.; Perottoni, H. D.; Cunha, K.; ... (5th) Almeida-Fernandes, F.;
-        more: and 3 more
+        more: 3
         journal: ApJ, v.886 p.113, 12/2019
         show-home: False
         first-author: False
@@ -546,7 +891,7 @@ publications:
       - title: "The Southern Photometric Local Universe Survey (S-PLUS): improved SEDs, morphologies, and redshifts with 12 optical filters"
         link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..241M/abstract"
         authors: Mendes de Oliveira, C.; Ribeiro, T.; Schoenell, W.; ... (24th) Almeida-Fernandes, F.;
-        more: and 141 more
+        more: 141
         journal: MNRAS, v.489 p.241, 10/2019
         show-home: True
         first-author: False
@@ -555,7 +900,7 @@ publications:
       - title: "The Nature of the Triangulum-Andromeda Stellar Structures"
         link: "https://ui.adsabs.harvard.edu/abs/2019IAUS..344..122S/abstract"
         authors: Silva, J. V. Sales; Perottoni, H.; Cunha, K.; ... (6th) Almeida-Fernandes. F.
-        more: and 2 more
+        more: 2
         journal: Proceedings of the International Astronomical Union, IAU Symposium, v.344 p.122-124, 10/2019
         show-home: False
         first-author: False
@@ -564,7 +909,7 @@ publications:
       - title: "A cold stellar stream in Pegasus"
         link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.486..843P/abstract"
         authors: Perottoni, Hélio D.; Martin, Charles; Newberg, Heidi Jo; ... (5th) Almeida-Fernandes, Felipe;
-        more: and 2 more
+        more: 2
         journal: MNRAS, v.486 p.843, 06/2019
         show-home: True
         first-author: False
@@ -590,7 +935,9 @@ publications:
 
 event-participation:
     upcoming-title: Upcoming events
+    upcoming-title_ptbr: Próximos Eventos
     title: Past participations
+    title_ptbr: Participações Passadas
     intro:
     events:
       - title: "ESO-Metals 2023"
@@ -1358,5 +1705,40 @@ skills:
       - name: Github
         level: 30%
 
+skills_ptbr:
+    title: Skills &amp; Proficiency
+    intro: |
+      A quick and not too serious guestimate of my proficience levels with 
+      different tools. All levels are set relative to my percepted proficience 
+      with python programming, which itself is very far from an absolute 100.
+      
+      The scale basically goes from "I built the python package that does the 
+      photometric calibration for the S-PLUS survey" to "I almost always can 
+      commit/push, and usually can clone, github repositories".
+    toolset:
+      - name: Python
+        level: 99%
+
+      - name: Topcat / Stilts
+        level: 90%
+
+      - name: Inkscape
+        level: 80%
+
+      - name: Blender
+        level: 80%
+
+      - name: LaTeX
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 50%
+
+      - name: Github
+        level: 30%
+
 footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>...and adapted, with much less <i class="fas fa-heart"></i>, by <a href="felipefer42.github.io" target="_blank" rel="nofollow">Felipe Almeida-Fernandes</a>
+
+footer_ptbr: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a><br>...and adapted, with much less <i class="fas fa-heart"></i>, by <a href="felipefer42.github.io" target="_blank" rel="nofollow">Felipe Almeida-Fernandes</a>

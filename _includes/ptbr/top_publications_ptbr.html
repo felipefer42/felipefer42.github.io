@@ -1,4 +1,4 @@
-{% assign publications = site.data.data.publications_ptbr %}
+{% assign publications = site.data.data.publications %}
 {% if publications %}
 <section class="section publications-section">
 
@@ -7,13 +7,13 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
     </span>
-    {{ publications.home-title }}
+    {{ publications.home-title_ptbr }}
   </h2>
   <!-- <h5>({{ publications.papers | size }} results)</h5> -->
 
-  {% if publications.intro %}
+  {% if publications.intro_ptbr %}
   <div class="intro">
-    {{ publications.intro | markdownify }}
+    {{ publications.intro_ptbr | markdownify }}
   </div><!--//intro-->
   {% endif %}
 
@@ -21,23 +21,23 @@
     {% if publication.show-home %}
       <div class="item">
         {% if publication.link %}
-          <a href="{{ publication.link }}">{{ publication.title }}</a>
+          <a href="{{ publication.link }}"> {% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}</a>
         {% else %}
-          {{ publication.title }}
+          {% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}
         {% endif %}
         <div class="publication-authors">
-          {{ publication.authors }}
+          {% if publication.authors_ptbr %} {{ publication.authors_ptbr }} {% else %} {{ publication.authors }} {% endif %}
           {% if publication.more %}
-          <span class="publication-more"> {{ publication.more }}</span>
+          <span class="publication-more"> {% if publication.more %} e {{ publication.authors_ptbr }} mais {% else %} and {{ publication.authors }} more {% endif %} </span>
           {% endif %}
         </div>
-        <div class="publication-journal">{{ publication.journal }}</div>
+        <div class="publication-journal">{% if publication.journal_ptbr %} {{ publication.journal_ptbr }} {% else %} {{ publication.journal }} {% endif %} </div>
       </div><!--//item-->
     {% endif %}
   {% endfor %}
   <div class="button-container-center">
     <a href="/publications" target="_blank">
-      <button class="button-18 ">See all {{ publications.papers | size }} publications</button>
+      <button class="button-18 ">Ver todas as {{ publications.papers | size }} publicações</button>
     </a>
   </div>
 

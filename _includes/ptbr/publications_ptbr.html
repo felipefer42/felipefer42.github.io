@@ -1,11 +1,11 @@
-{% assign publications = site.data.data_ptbr.publications %}
+{% assign publications = site.data.data.publications %}
 {% if publications %}
 <section class="section publications-section">
   <!-- (Showing {{ publications.papers | size }} results) -->
 
-  {% if publications.intro %}
+  {% if publications.intro_ptbr %}
   <div class="intro">
-    {{ publications.intro | markdownify }}
+    {{ publications.intro_ptbr | markdownify }}
   </div><!--//intro-->
   {% endif %}
 
@@ -14,45 +14,45 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-thumbs-up fa-stack-1x fa-inverse"></i>
     </span>
-    Refereed Papers
+    Com Revisão por Pares
   </h2>
 
-  <h3 class="section-subtitle">First Author</h3>
+  <h3 class="section-subtitle">Primeiro autor</h3>
   {% for publication in publications.papers %}
     {% if publication.refereed == true and publication.first-author == true %}
       <div class="item">
         {% if publication.link %}
-          <a href="{{ publication.link }}">{{ publication.title }}</a>
+          <a href="{{ publication.link }}">{% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}</a>
         {% else %}
-          {{ publication.title }}
+          {% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}
         {% endif %}
         <div class="publication-authors">
-          {{ publication.authors }}
+          {% if publication.authors_ptbr %} {{ publication.authors_ptbr }} {% else %} {{ publication.authors }} {% endif %}
           {% if publication.more %}
-          <span class="publication-more"> {{ publication.more }}</span>
+          <span class="publication-more"> {% if publication.more %} e {{ publication.authors_ptbr }} mais {% else %} and {{ publication.authors }} more {% endif %} </span>
           {% endif %}
         </div>
-        <div class="publication-journal">{{ publication.journal }}</div>
+        <div class="publication-journal">{% if publication.journal_ptbr %} {{ publication.journal_ptbr }} {% else %} {{ publication.journal }} {% endif %}</div>
       </div><!--//item-->
     {% endif %}
   {% endfor %}
 
-  <h3 class="section-subtitle">Co-author</h3>
+  <h3 class="section-subtitle">Co-autor</h3>
   {% for publication in publications.papers %}
     {% if publication.refereed == true and publication.first-author == false %}
       <div class="item">
         {% if publication.link %}
-          <a href="{{ publication.link }}">{{ publication.title }}</a>
+          <a href="{{ publication.link }}">{% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}</a>
         {% else %}
-          {{ publication.title }}
+          {% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}
         {% endif %}
         <div class="publication-authors">
           {{ publication.authors }}
           {% if publication.more %}
-          <span class="publication-more"> {{ publication.more }}</span>
+          <span class="publication-more"> {% if publication.more %} e {{ publication.authors_ptbr }} mais {% else %} and {{ publication.authors }} more {% endif %} </span>
           {% endif %}
         </div>
-        <div class="publication-journal">{{ publication.journal }}</div>
+        <div class="publication-journal">{% if publication.journal_ptbr %} {{ publication.journal_ptbr }} {% else %} {{ publication.journal }} {% endif %}</div>
       </div><!--//item-->
     {% endif %}
   {% endfor %}
@@ -62,23 +62,23 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-hourglass-start fa-stack-1x fa-inverse"></i>
     </span>
-    Non-refereed Papers
+    Ainda sem revisão por pares
   </h2>
   {% for publication in publications.papers %}
     {% if publication.refereed == false %}
       <div class="item">
         {% if publication.link %}
-          <a href="{{ publication.link }}">{{ publication.title }}</a>
+          <a href="{{ publication.link }}">{% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}</a>
         {% else %}
-          {{ publication.title }}
+          {% if publication.title_ptbr %} {{ publication.title_ptbr }} {% else %} {{ publication.title }} {% endif %}
         {% endif %}
         <div class="publication-authors">
           {{ publication.authors }}
           {% if publication.more %}
-          <span class="publication-more"> {{ publication.more }}</span>
+          <span class="publication-more"> {% if publication.more %} e {{ publication.authors_ptbr }} mais {% else %} and {{ publication.authors }} more {% endif %} </span>
           {% endif %}
         </div>
-        <div class="publication-journal">{{ publication.journal }}</div>
+        <div class="publication-journal">{% if publication.journal_ptbr %} {{ publication.journal_ptbr }} {% else %} {{ publication.journal }} {% endif %}</div>
       </div><!--//item-->
     {% endif %}
   {% endfor %}

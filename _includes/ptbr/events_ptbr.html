@@ -1,11 +1,11 @@
-{% assign events = site.data.data_ptbr.event-participation %}
+{% assign events = site.data.data.event-participation %}
 <section class="section events-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-plane-departure fa-stack-1x fa-inverse"></i>
     </span>
-    {{ events.upcoming-title }}
+    {{ events.upcoming-title_ptbr }}
   </h2>
 
   {% for event in events.events %}
@@ -15,9 +15,9 @@
           <div class="item-column">
             <div class="event-title">
               {% if event.link %}
-                <a href="{{ event.link }}" target="_blank">{{ event.title }}</a>
+                <a href="{{ event.link }}" target="_blank"> {% if event.title_ptbr %} {{ event.title_ptbr }} {% else %} {{ event.title }} {% endif %} </a>
               {% else %}
-                {{ event.title }}
+                {% if event.title_ptbr %} {{ event.title_ptbr }} {% else %} {{ event.title }} {% endif %}
               {% endif %}
             </div>
             <div class="event-loc">
@@ -27,13 +27,13 @@
               {% if event.state-code %}
                 <span class="fi fi-{{ event.state-code }} event-state-flag"></span>
               {% endif %}
-              {{ event.location }}
+              {% if event.location_ptbr %} {{ event.location_ptbr }} {% else %} {{ event.location }} {% endif %}
             </div>
           </div>
           <div class="item-column2">
             <div class="item-column2-1">
-              <div class="event-contrib">{{ event.contribution }}</div>
-              <div class="event-date">{{ event.date }}</div>
+              <div class="event-contrib">{% if event.contribution_ptbr %} {{ event.contribution_ptbr }} {% else %} {{ event.contribution }} {% endif %}</div>
+              <div class="event-date">{% if event.date_ptbr %} {{ event.date_ptbr }} {% else %} {{ event.date }} {% endif %}</div>
             </div>
             <div class="item-column2-2">
               {% if event.blog-url %}
@@ -58,7 +58,7 @@
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-timeline-arrow fa-flip-horizontal fa-stack-1x fa-inverse"></i>
     </span>
-    {{ events.title }}
+    {{ events.title_ptbr }}
   </h2>
   </div>
 
@@ -74,9 +74,9 @@
             <div class="item-column">
               <div class="event-title">
                 {% if event.link %}
-                  <a href="{{ event.link }}" target="_blank">{{ event.title }}</a>
+                  <a href="{{ event.link }}" target="_blank"> {% if event.title_ptbr %} {{ event.title_ptbr }} {% else %} {{ event.title }} {% endif %} </a>
                 {% else %}
-                  {{ event.title }}
+                  {% if event.title_ptbr %} {{ event.title_ptbr }} {% else %} {{ event.title }} {% endif %}
                 {% endif %}
               </div>
               <div class="event-loc">
@@ -86,7 +86,7 @@
                 {% if event.state-code %}
                   <span class="fi fi-{{ event.state-code }} event-state-flag"></span>
                 {% endif %}
-                {{ event.location }}
+                {% if event.location_ptbr %} {{ event.location_ptbr }} {% else %} {{ event.location }} {% endif %}
                 {% if event.remote %}
                  <span class="fa-regular fa-globe"></span>
                 {% endif %}
@@ -95,7 +95,7 @@
             <div class="item-column2">
               <div class="item-column2-1">
                 <div class="event-contrib">
-                  {{ event.contribution }}
+                  {% if event.contribution_ptbr %} {{ event.contribution_ptbr }} {% else %} {{ event.contribution }} {% endif %}
                   <!--
                   {% if event.contrib-icon %}
                     <span class="fa-solid {{ event.contrib-icon }} event-contrib-icon "></span>
@@ -105,7 +105,7 @@
                   {% endif %}
                   -->
                 </div>
-                <div class="event-date">{{ event.date }}</div>
+                <div class="event-date">{% if event.date_ptbr %} {{ event.date_ptbr }} {% else %} {{ event.date }} {% endif %}</div>
               </div>
               <div class="item-column2-2">
                 {% if event.blog-url %}

@@ -1,11 +1,11 @@
-{% assign upcoming = site.data.data_ptbr.event-participation %} {% if upcoming.upcoming-title %}
+{% assign upcoming = site.data.data.event-participation %} {% if upcoming.upcoming-title %}
 <section class="section upcoming-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-plane-departure fa-stack-1x fa-inverse"></i>
     </span>
-    {{ upcoming.upcoming-title }}
+    {{ upcoming.upcoming-title_ptbr }}
   </h2>
 
   {% for event in upcoming.events %}
@@ -15,13 +15,13 @@
           <div class="upper-row">
             <div class="upcoming-title">
             {% if event.link %}
-              <a href="{{ event.link }}" target="_blank">{{ event.title }}</a>
+              <a href="{{ event.link }}" target="_blank">{% if event.title_ptbr %} {{ event.title_ptbr }} {% else %} {{ event.title }} {% endif %}</a>
             {% else %}
-              {{ event.title }}
+              {% if event.title_ptbr %} {{ event.title_ptbr }} {% else %} {{ event.title }} {% endif %}
             {% endif %}
             </div>
             <div class="upcoming-contrib">
-              {{ event.contribution }}
+              {% if event.contribution_ptbr %} {{ event.contribution_ptbr }} {% else %} {{ event.contribution }} {% endif %}
             </div>
           </div>
           <!--//upper-row-->
@@ -34,10 +34,10 @@
               {% if event.state-code %}
                 <span class="fi fi-{{ event.state-code }} event-state-flag"></span>
               {% endif %}
-              {{ event.location }}
+              {% if event.location_ptbr %} {{ event.location_ptbr }} {% else %} {{ event.location }} {% endif %}
             </div>
             <div class="upcoming-date">
-              {{ event.date }}
+              {% if event.date_ptbr %} {{ event.date_ptbr }} {% else %} {{ event.date }} {% endif %}
             </div>
           </div>
         </div>
