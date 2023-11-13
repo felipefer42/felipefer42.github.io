@@ -629,7 +629,8 @@ research:
       - title: Photometric Calibration Techniques
         link: "#"
         tagline: Template-fitting technique for multiband surveys; Calibration using Gaia DR3 spectra.
-        
+
+research_ptbr:
     title: Principais Tópicos de Pesquisa
     intro: >
       You can list your research topics in this
