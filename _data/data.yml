@@ -595,9 +595,6 @@ outreach_ptbr:
 research:
     title: Main Research Topics
     intro: >
-      You can list your research topics in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     topics:
       - title: Stellar Ages
         link: "#hook"
@@ -622,9 +619,6 @@ research:
 research_ptbr:
     title: Principais Tópicos de Pesquisa
     intro: >
-      You can list your research topics in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     topics:
       - title: Idades Estelares
         link: "#hook"
