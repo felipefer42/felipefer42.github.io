@@ -386,23 +386,11 @@ experiences_ptbr:
         time: 2019 - presente
         company: Levantamento S-PLUS
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Data Release 2: 2021
-            - Data Release 3: 2022
 
       - role: Pesquisador (Pós-doutorado)
         time: 2019 - 2021 | 2023 - presente
         company: Universidade de São Paulo
         details: |
-          
 
       - role: Pesquisador Visitante
         time: 2022
@@ -417,7 +405,6 @@ experiences_ptbr:
           using data from spectroscopic follow-ups using the telescopes Blanco, 
           Gemini and Magellan-Clay. This collaboration is still ongoing even
           now that I'm back in Brazil.
-          
 
       - role: Professor Colaborador
         time: 2020 - 2021
@@ -446,17 +433,17 @@ experiences_plus:
         company: Observatório do Valongo
 
 experiences_plus_ptbr:
-    title: Additional Experience
+    title: Experiência Adicional
     info:
-      - role: Peer-Reviewer for Astronomy and Computing
+      - role: Revisor para a revista "Astronomy and Computing"
         time: 2023
         company: Elsevier
 
-      - role: Peer-Reviewer for The Astrophysical Journal
+      - role: Revisor para a revista "The Astrophysical Journal"
         time: 2022
         company: AAS Journals
 
-      - role: Graduate Student's representative
+      - role: Representante Discente (pós-graduandos)
         time: 2017 - 2018
         company: Observatório do Valongo
 
@@ -625,25 +612,24 @@ research:
     topics:
       - title: Stellar Ages
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: Evolution of kinematical properties in the disk; Model-dependent ages; Isochrones; 
 
       - title: Low Metallicity Stars
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
+        tagline: Use of narrow-band photometry to identify metal-poor stars; chrono-chemo-dynamical characterization of low metallicity stars. 
+        
       - title: Galactic Structure
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: Characterization of halo substructures using photometric metallicities; Metallicity gradient in the Sagittarius Stream.
 
       - title: Interstellar Asteroids
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: Constraining the age of interstellar asteroids from its Galactic orbit; Age for 1I/'Oumuamua
 
       - title: Photometric Calibration Techniques
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-research_ptbr:
+        tagline: Template-fitting technique for multiband surveys; Calibration using Gaia DR3 spectra.
+        
     title: Principais Tópicos de Pesquisa
     intro: >
       You can list your research topics in this
@@ -652,23 +638,23 @@ research_ptbr:
     topics:
       - title: Idades Estelares
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: Evolution of kinematical properties in the disk; Model-dependent ages; Isochrones; 
 
       - title: Estrelas de Baixa Metalicidade
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: Use of narrow-band photometry to identify metal-poor stars; chrono-chemo-dynamical characterization of low metallicity stars. 
 
       - title: Estrutura da Galáxia
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: Characterization of halo substructures using photometric metallicities; Metallicity gradient in the Sagittarius Stream.
 
       - title: Asteroides Interestelares
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: Constraining the age of interstellar asteroids from its Galactic orbit; Age for 1I/'Oumuamua
 
       - title: Técnicas de Calibração Fotométrica
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: Template-fitting technique for multiband surveys; Calibration using Gaia DR3 spectra.
 
 projects:
     title: 
