@@ -964,6 +964,7 @@ event-participation:
         state-code: br-rj
         contribution: Lecture
         upcoming: false
+        blog-url: https://www.blog.astrofelipe.com/post/aula-sobre-filtros-fotom%C3%A9tricos-no-observat%C3%B3rio-do-valongo
 
       - title: "XXV Ciclo de Cursos Especiais"
         link: "https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/astronomia-e-astrofisica/ensino/cce/cce-2023"
@@ -984,6 +985,7 @@ event-participation:
         contribution: Evaluator
         contrib-icon: fa-hundred-points
         upcoming: false
+        blog-url: https://www.blog.astrofelipe.com/post/avaliador-no-31-simp%C3%B3sio-internacional-de-inicia%C3%A7%C3%A3o-cient%C3%ADfica-e-tecnol%C3%B3gica-da-usp
 
       - title: "Congresso de Pós-Doutorandos da USP"
         link: "http://www.congressoposdocs.kinghost.net/"
@@ -994,7 +996,7 @@ event-participation:
         contribution: Poster
         contrib-icon: fa-presentation-screen
         upcoming: false
-        blog-url: https://falmeidafernandes.wixsite.com/my-site/post/participa%C3%A7%C3%A3o-no-congresso-de-p%C3%B3s-docs-da-usp
+        blog-url: https://www.blog.astrofelipe.com/post/participa%C3%A7%C3%A3o-no-congresso-de-p%C3%B3s-docs-da-usp
 
       - title: "XLVI Reunião Anual da SAB"
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/xlvi-reuniao-anual-da-sab-2/"
@@ -1005,7 +1007,7 @@ event-participation:
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
-
+        
       - title: "S-PLUS: 18th Collaboration Meeting"
         link: "https://sites.usp.br/splus/"
         date: 21-23/Aug/2023
@@ -1016,7 +1018,8 @@ event-participation:
         contrib-icon: fa-people-group
         contrib-icon2: fa-person-chalkboard
         upcoming: false
-
+        blog.url: https://www.blog.astrofelipe.com/post/18-encontro-da-colabora%C3%A7%C3%A3o-s-plus-participei-e-ajudei-a-organizar
+        
       - title: "Ciclo de debates em Astronomia"
         link: https://www.youtube.com/live/qg-y4bCt-nE?si=aIKZ1p7uWTvSekls
         date: 27/Apr/2023
