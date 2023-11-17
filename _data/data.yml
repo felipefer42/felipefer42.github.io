@@ -910,14 +910,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "ESO-Metals 2023"
-        link: "https://www.eso.org/sci/meetings/2023/METALS.html"
-        date:  13-17/Nov/2023
-        location: ESO, Santiago, Chile
-        country-code: cl
-        contribution: Talk
-        upcoming: true
-
       - title: "Invited Talk"
         link: ""
         date:  24/Nov/2023
@@ -954,6 +946,14 @@ event-participation:
 
       - title: "2023"
         year-mark: true
+        upcoming: false
+        
+      - title: "ESO-Metals 2023"
+        link: "https://www.eso.org/sci/meetings/2023/METALS.html"
+        date:  13-17/Nov/2023
+        location: ESO, Santiago, Chile
+        country-code: cl
+        contribution: Talk
         upcoming: false
 
       - title: "Invited Lecture"
