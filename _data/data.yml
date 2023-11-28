@@ -696,20 +696,20 @@ publications:
     intro:
     intro_ptbr:
     papers:
+      - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
+        authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
+        more: 14
+        journal: MNRAS, v.527, pp.1733-1744, Jan/2024
+        show-home: False
+        first-author: False
+        refereed: True
+        
       - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231017024P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Holmbeck, Erika M.,
         more: 33
         journal: eprint arXiv:2310.17024, 10/2023 (Accepted, ApJ)
-        show-home: False
-        first-author: False
-        refereed: True
-        
-      - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
-        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
-        authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
-        more: 14
-        journal: eprint arXiv:2310.15158, 10/2023 (Accepted, MNRAS)
         show-home: False
         first-author: False
         refereed: True
@@ -910,14 +910,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Invited Talk"
-        link: ""
-        date:  24/Nov/2023
-        location: Universidad de La Plata, Argentina
-        country-code: ar
-        contribution: Invited Talk
-        upcoming: true
-
       - title: "XVII Reunión Regional Latinoamericana de la UAI "
         link: "https://rrla-larim-2023.uy/es/17-2/"
         date:  27/Nov-01/Dec/2023
@@ -946,6 +938,22 @@ event-participation:
 
       - title: "2023"
         year-mark: true
+        upcoming: false
+
+      - title: "Invited Talk"
+        link: ""
+        date:  24/Nov/2023
+        location: Universidad de La Plata, Argentina
+        country-code: ar
+        contribution: Invited Talk
+        upcoming: false
+
+      - title: "Technical Visit to the T80-South Telescope"
+        link: ""
+        date:  20-22/Nov/2023
+        location: Cerro Tololo, Chile
+        country-code: cl
+        contribution: Technical Visit
         upcoming: false
         
       - title: "ESO-Metals 2023"
