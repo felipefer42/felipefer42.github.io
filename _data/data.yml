@@ -947,6 +947,7 @@ event-participation:
         country-code: ar
         contribution: Invited Talk
         upcoming: false
+        blog-url: https://www.blog.astrofelipe.com/post/talk-em-la-plata
 
       - title: "Technical Visit to the T80-South Telescope"
         link: ""
@@ -955,6 +956,7 @@ event-participation:
         country-code: cl
         contribution: Technical Visit
         upcoming: false
+        blog-url: https://www.blog.astrofelipe.com/post/visita-t%C3%A9cnica-ao-telesc%C3%B3pio-t80-sul
         
       - title: "ESO-Metals 2023"
         link: "https://www.eso.org/sci/meetings/2023/METALS.html"
@@ -963,6 +965,7 @@ event-participation:
         country-code: cl
         contribution: Talk
         upcoming: false
+        blog-url: https://www.blog.astrofelipe.com/post/eso-metals-2023-apresenta%C3%A7%C3%A3o-em-evento-internacional
 
       - title: "Invited Lecture"
         link: "https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/astronomia-e-astrofisica/ensino/cce/cce-2023"
