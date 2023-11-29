@@ -1030,7 +1030,7 @@ event-participation:
         contrib-icon: fa-people-group
         contrib-icon2: fa-person-chalkboard
         upcoming: false
-        blog.url: https://www.blog.astrofelipe.com/post/18-encontro-da-colabora%C3%A7%C3%A3o-s-plus-participei-e-ajudei-a-organizar
+        blog-url: https://www.blog.astrofelipe.com/post/18-encontro-da-colabora%C3%A7%C3%A3o-s-plus-participei-e-ajudei-a-organizar
         
       - title: "Ciclo de debates em Astronomia"
         link: https://www.youtube.com/live/qg-y4bCt-nE?si=aIKZ1p7uWTvSekls
