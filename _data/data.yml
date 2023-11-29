@@ -1018,6 +1018,7 @@ event-participation:
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
+        blog-url: https://www.blog.astrofelipe.com/post/xlvi-reuni%C3%A3o-anual-da-sab-participa%C3%A7%C3%A3o-com-apresenta%C3%A7%C3%A3o-em-plen%C3%A1ria-e-sap
         
       - title: "S-PLUS: 18th Collaboration Meeting"
         link: "https://sites.usp.br/splus/"
