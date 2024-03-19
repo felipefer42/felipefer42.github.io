@@ -696,6 +696,15 @@ publications:
     intro:
     intro_ptbr:
     papers:
+      - title: "The S-PLUS Fornax Project (S+FP): A first 12-band glimpse of the Fornax galaxy cluster "
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
+        authors: Smith Castelli, A. V.; Cortesi, A.; Haack, R. F.;... (39th) Almeida-Fernandes, F.;  
+        more: 39
+        journal: eprint arXiv:2403.10697, Mar/2024 (Accepted, MNRAS)
+        show-home: False
+        first-author: False
+        refereed: True
+        
       - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
         authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
@@ -727,10 +736,10 @@ publications:
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230911533X/abstract"
         authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
         more: 10
-        journal: eprint arXiv:2309.11533, 09/2023 (Submitted, ApJ)
+        journal: eprint arXiv:2309.11533, 09/2023 (Accepted, ApJ)
         show-home: False
         first-author: False
-        refereed: False
+        refereed: True
 
       - title: "Chemodynamical properties and ages of metal-poor stars in S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2934A/abstract"
