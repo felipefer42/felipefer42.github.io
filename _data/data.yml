@@ -919,15 +919,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Hands-on S-PLUS meeting: TBD"
-        link: ""
-        date:  Feb/2024
-        location: Ubatuba, São Paulo, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Participation
-        upcoming: true
-
       - title: "S-PLUS: 19th Collaboration Meeting"
         link: ""
         date:  Aug/2024
@@ -936,6 +927,19 @@ event-participation:
         state-code: br-rj
         contribution: TBD
         upcoming: true
+
+      - title: "2024"
+        year-mark: true
+        upcoming: false
+
+      - title: "Hands-on S-PLUS meeting: TBD"
+        link: ""
+        date:  28/Jan-02/Feb/2024
+        location: Gonçalves, Minas Gerais, Brasil
+        country-code: br
+        state-code: br-mg
+        contribution: Participation
+        upcoming: false
 
       - title: "2023"
         year-mark: true
