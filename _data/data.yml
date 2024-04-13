@@ -696,6 +696,24 @@ publications:
     intro:
     intro_ptbr:
     papers:
+      - title: "The S-PLUS Fornax Project (S+FP): SExtractor detection and measurement of nearby galaxies in large photometric surveys"
+        link: ""
+        authors: Haack, R. F.; Smith Castelli, A. V.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;  
+        more: 5
+        journal: 2024 (Accepted, MNRAS)
+        show-home: False
+        first-author: False
+        refereed: True
+        
+      - title: "The Quasar Catalogue for S-PLUS DR4 (QuCatS) and the estimation of photometric redshifts"
+        link: ""
+        authors: L. Nakazono; R. R. Valença; G. Soares;... (10th) Almeida-Fernandes, F.;
+        more: 11
+        journal: 2024 (Accepted, MNRAS)
+        show-home: False
+        first-author: False
+        refereed: True
+        
       - title: "The S-PLUS Fornax Project (S+FP): A first 12-band glimpse of the Fornax galaxy cluster "
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
         authors: Smith Castelli, A. V.; Cortesi, A.; Haack, R. F.;... (39th) Almeida-Fernandes, F.;  
