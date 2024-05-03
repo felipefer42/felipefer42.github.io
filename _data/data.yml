@@ -185,8 +185,10 @@ career-profile:
       theoretical evolutionary models and Bayesian isochronal dating. I am 
       currently working on the S-PLUS survey, where I am responsible for the 
       photometric calibration and the organization of the Main Survey Data 
-      Releases. As a postdoctoral fellow at the University of São Paulo, 
-      supported by a FAPESP fellowship, my main areas of research are the 
+      Releases. I was a postdoctoral fellow at the University of São Paulo, 
+      supported by a FAPESP fellowship; and I am currently a postdoctoral fellow
+      at the Observatório do Valongo, supported by a CAPES fellowship.
+      My main areas of research are the 
       Galactic structure and the exploration and characterization of 
       low-metallicity stars. I also have international academic experience as a 
       year-long Research Visitor at the NOIRLab institute, supported by a FAPESP 
@@ -213,8 +215,9 @@ career-profile_ptbr:
       Astronomia no Observatório do Valongo (OV/UFRJ), com bolsa CAPES. O foco principal da minha tese de 
       doutorado foi a datação estelar por meio da cinemática galáctica, envolvendo o uso de modelos estelares evolutivos 
       teóricos e datação isocronal Bayesiana. Atualmente, estou trabalhando no levantamento S-PLUS, onde sou 
-      responsável pela calibração fotométrica e organização das divulgações de dados do levantamento principal. Como 
-      pós-doutorando na Universidade de São Paulo, com apoio de uma bolsa da FAPESP, minhas principais áreas de 
+      responsável pela calibração fotométrica e organização das divulgações de dados do levantamento principal. Realizei um 
+      pós-doutorando na Universidade de São Paulo (IAG/USP), com apoio de uma bolsa da FAPESP. Atualmente sou pós-doutorando no
+      Observatório do Valongo (OV/UFRJ), com apoio de uma bolsa CAPES. Minhas principais áreas de 
       pesquisa incluem a estrutura galáctica e a busca e caracterização de estrelas de baixa metalicidade. 
       Também tenho experiência acadêmica internacional como Pesquisador Visitante, durante um ano, no instituto NOIRLab,
       com apoio de uma Bolsa de Estágio de Pesquisa no Exterior (FAPESP/BEPE)."
@@ -331,16 +334,21 @@ complementary_education_ptbr:
 experiences:
     title: Job Experience
     info:
+    
+      - role: Postdoctoral Researcher
+        time: 2024 - present
+        company: Valongo Observatory
+        details: |
+
       - role: Data Release Manager
         time: 2023 - present
         company: S-PLUS survey
         details: |
-      
+
       - role: Postdoctoral Researcher
-        time: 2019 - 2021 | 2023 - present
+        time: 2019 - 2021 | 2023 - 2024
         company: University of São Paulo
-        details: |
-          
+        details: |          
 
       - role: Visiting Researcher
         time: 2022
@@ -371,13 +379,18 @@ experiences:
 experiences_ptbr:
     title: Experiência Profissional
     info:
+      - role: Pesquisador (Pós-doutorado)
+        time: 2024 - presente
+        company: Observatório do Valongo
+        details: |
+        
       - role: Gerente de Liberação de Dados
         time: 2023 - presente
         company: Levantamento S-PLUS
         details: |
 
       - role: Pesquisador (Pós-doutorado)
-        time: 2019 - 2021 | 2023 - presente
+        time: 2019 - 2021 | 2023 - 2024
         company: Universidade de São Paulo
         details: |
 
