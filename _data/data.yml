@@ -708,21 +708,21 @@ publications:
     title_ptbr: Publicações
     intro:
     intro_ptbr:
-    papers:
-      - title: "The S-PLUS Fornax Project (S+FP): SExtractor detection and measurement of nearby galaxies in large photometric surveys"
+    papers:       
+      - title: "Fine Structure of the Age-Chromospheric Activity Relation in Solar-Type Stars: II. Hα Line"
         link: ""
-        authors: Haack, R. F.; Smith Castelli, A. V.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;  
-        more: 5
+        authors: Souza dos Santos, P. V. ; Porto de Mello, G. F. ; Costa-Bhering, E.;... (5th) Almeida-Fernandes, F.;
+        more: 3
         journal: 2024 (Accepted, MNRAS)
         show-home: False
         first-author: False
         refereed: True
-        
+
       - title: "The Quasar Catalogue for S-PLUS DR4 (QuCatS) and the estimation of photometric redshifts"
         link: ""
         authors: L. Nakazono; R. R. Valença; G. Soares;... (10th) Almeida-Fernandes, F.;
         more: 11
-        journal: 2024 (Accepted, MNRAS)
+        journal: MNRAS, v.531, pp.327-339, Jun/2024
         show-home: False
         first-author: False
         refereed: True
@@ -731,7 +731,34 @@ publications:
         link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
         authors: Smith Castelli, A. V.; Cortesi, A.; Haack, R. F.;... (39th) Almeida-Fernandes, F.;  
         more: 39
-        journal: eprint arXiv:2403.10697, Mar/2024 (Accepted, MNRAS)
+        journal: MNRAS, v.530, pp.3787-3811, Jun/2024
+        show-home: False
+        first-author: False
+        refereed: True
+
+      - title: "The S-PLUS Fornax Project (S+FP): SExtractor detection and measurement of nearby galaxies in large photometric surveys"
+        link: ""
+        authors: Haack, R. F.; Smith Castelli, A. V.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;  
+        more: 5
+        journal: MNRAS, v.530, pp.3195-3207, May/2024
+        show-home: False
+        first-author: False
+        refereed: True
+        
+       - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
+        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230911533X/abstract"
+        authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
+        more: 10
+        journal: ApJ, v.271, i.2, id.41, Apr/2024
+        show-home: False
+        first-author: False
+        refereed: True
+
+      - title: "An Extended Catalogue of galaxy morphology using Deep Learning in Southern Photometric Local Universe Survey Data Release 3"
+        link: ""
+        authors: Bom, C.; Cortesi, A.; Ribeiro, U.;... (12th) Almeida-Fernandes, F.;
+        more: 21
+        journal: MNRAS, v.528, pp.4188-4208, Mar/2024
         show-home: False
         first-author: False
         refereed: True
@@ -745,30 +772,12 @@ publications:
         first-author: False
         refereed: True
 
-      - title: "An Extended Catalogue of galaxy morphology using Deep Learning in Southern Photometric Local Universe Survey Data Release 3"
-        link: ""
-        authors: Bom, C.; Cortesi, A.; Ribeiro, U.;... (12th) Almeida-Fernandes, F.;
-        more: 21
-        journal: MNRAS, Accepted, Dec/2023
-        show-home: False
-        first-author: False
-        refereed: True
-
       - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
         link: "https://ui.adsabs.harvard.edu/abs/2023ApJ...959...60P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Holmbeck, Erika M.,
         more: 33
         journal: ApJ, v.959, id60, Dec/2023
         show-home: True
-        first-author: False
-        refereed: True
-
-      - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
-        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230911533X/abstract"
-        authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
-        more: 10
-        journal: eprint arXiv:2309.11533, 09/2023 (Accepted, ApJ)
-        show-home: False
         first-author: False
         refereed: True
 
@@ -962,6 +971,16 @@ event-participation:
       - title: "2024"
         year-mark: true
         upcoming: false
+
+      - title: "Invited Lecture"
+        link:
+        date:  21/06/2024
+        location: Observatório do Valongo, RJ, Brazil
+        country-code: br
+        state-code: br-rj
+        contribution: Lecture
+        upcoming: false
+        blog-url: 
 
       - title: "Hands-on S-PLUS meeting: TBD"
         link: ""
