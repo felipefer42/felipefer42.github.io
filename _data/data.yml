@@ -709,64 +709,65 @@ publications:
     intro:
     intro_ptbr:
     papers:
-      - title: "The Quasar Catalogue for S-PLUS DR4 (QuCatS) and the estimation of photometric redshifts"
-        link: ""
-        authors: Souza dos Santos, P. V. ; Porto de Mello, G. F. ; Costa-Bhering, E.;... (5th) Almeida-Fernandes, F.;
-        more: 3
-        journal: 2024 (Accepted, MNRAS)
+
+      - title: "Fine Structure of the Age-Chromospheric Activity Relation in Solar-Type Stars: II. H_alpha Line "
+        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv240612519S/abstract"
+        authors: Souza dos Santos, P.; Porto de Mello, G.; Costa-Bhering, E.;... (5th) Almeida-Fernandes, F.;
+        more: "+3"
+        journal: (Accepted, MNRAS, 2024)
         show-home: False
         first-author: False
         refereed: True
 
       - title: "The Quasar Catalogue for S-PLUS DR4 (QuCatS) and the estimation of photometric redshifts"
-        link: ""
+        link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.531..327N/abstract"
         authors: L. Nakazono; R. R. Valença; G. Soares;... (10th) Almeida-Fernandes, F.;
-        more: 11
+        more: "+11"
         journal: MNRAS, v.531, pp.327-339, Jun/2024
         show-home: False
         first-author: False
         refereed: True
         
       - title: "The S-PLUS Fornax Project (S+FP): A first 12-band glimpse of the Fornax galaxy cluster "
-        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
+        link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3787S/abstract"
         authors: Smith Castelli, A. V.; Cortesi, A.; Haack, R. F.;... (39th) Almeida-Fernandes, F.;  
-        more: 39
+        more: "+39"
         journal: MNRAS, v.530, pp.3787-3811, Jun/2024
         show-home: False
         first-author: False
         refereed: True
 
-      - title: "The S-PLUS Fornax Project (S+FP): SExtractor detection and measurement of nearby galaxies in large photometric surveys"
-        link: ""
+      - title: "The S-PLUS Fornax Project (S+FP): SEXTRACTOR detection and measurement of nearby galaxies in large photometric surveys"
+        link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3195H/abstract"
         authors: Haack, R. F.; Smith Castelli, A. V.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;  
-        more: 5
+        more: "+5"
         journal: MNRAS, v.530, pp.3195-3207, May/2024
         show-home: False
         first-author: False
         refereed: True
-        
-       - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
-        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv230911533X/abstract"
+
+      - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
+        link: "https://ui.adsabs.harvard.edu/abs/2024ApJS..271...41X/abstract"
         authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
-        more: 10
-        journal: ApJ, v.271, i.2, id.41, Apr/2024
+        more: "+10"
+        journal: ApJS, v.271, id.41, Apr/2024
         show-home: False
         first-author: False
         refereed: True
 
       - title: "An Extended Catalogue of galaxy morphology using Deep Learning in Southern Photometric Local Universe Survey Data Release 3"
-        link: ""
+        link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.4188B/abstract"
         authors: Bom, C.; Cortesi, A.; Ribeiro, U.;... (12th) Almeida-Fernandes, F.;
-        more: 21
+        more: "+21"
         journal: MNRAS, v.528, pp.4188-4208, Mar/2024
         show-home: False
         first-author: False
         refereed: True
-        
+
       - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
-        link: "https://ui.adsabs.harvard.edu/abs/2023arXiv231015158F/abstract"
+        link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.1733F/abstract"
         authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
-        more: 14
+        more: "+14"
         journal: MNRAS, v.527, pp.1733-1744, Jan/2024
         show-home: False
         first-author: False
@@ -775,7 +776,7 @@ publications:
       - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
         link: "https://ui.adsabs.harvard.edu/abs/2023ApJ...959...60P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Holmbeck, Erika M.,
-        more: 33
+        more: "+33"
         journal: ApJ, v.959, id60, Dec/2023
         show-home: True
         first-author: False
@@ -784,7 +785,7 @@ publications:
       - title: "Chemodynamical properties and ages of metal-poor stars in S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2934A/abstract"
         authors: Almeida-Fernandes, F.; Placco, V. M.; Rocha-Pinto, H. J.;
-        more: 10
+        more: "+10"
         journal: MNRAS, v.523 p.2934, 08/2023
         show-home: True
         first-author: True
@@ -793,7 +794,7 @@ publications:
       - title: "Principal Component Analysis of galaxies in the direction of the Fornax cluster using S-PLUS data"
         link: "https://ui.adsabs.harvard.edu/abs/2023BAAA...64..259C/abstract"
         authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (6th) Almeida Fernandes, F.
-        more: 3
+        more: "+3"
         journal: Boletín de la Asociación Argentina de Astronomía, v. 64 p.259-261, 08/2023
         show-home: False
         first-author: False
@@ -802,7 +803,7 @@ publications:
       - title: "SExtractor detection and measurement of Fornax galaxies in S-PLUS images"
         link: "https://ui.adsabs.harvard.edu/abs/2023BAAA...64..217H/abstract"
         authors: Haack, R. F.; Smith Castelli, A. V.; Faifer, F. R.; ... (5th) Almeida Fernandes, F.
-        more: 2
+        more: "+2"
         journal: Boletín de la Asociación Argentina de Astronomía, v. 64 p.217-219, 08/2023
         show-home: False
         first-author: False
@@ -820,7 +821,7 @@ publications:
       - title: "Mining S-PLUS for Metal-poor Stars in the Milky Way"
         link: "https://ui.adsabs.harvard.edu/abs/2022ApJS..262....8P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Arentsen, Anke;
-        more: 4
+        more: "+4"
         journal: ApJS, v.262 p.8, 09/2022
         show-home: True
         first-author: False
@@ -829,7 +830,7 @@ publications:
       - title: "Photometric and Morphological Analysis of Fornax Galaxies through S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..253S/abstract"
         authors: Smith Castelli, A. V.; Lopes, A. R.; Cortesi, A.; ... (8th) Almeida-Fernandes, F.;
-        more: 9
+        more: "+9"
         journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
         show-home: False
         first-author: False
@@ -838,7 +839,7 @@ publications:
       - title: "Statistical analysis of global properties of galaxies in the direction of the Fornax cluster with S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..244C/abstract"
         authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (5th) Almeida-Fernandes, F.;
-        more: 2
+        more: "+2"
         journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
         show-home: False
         first-author: False
@@ -847,7 +848,7 @@ publications:
       - title: "Data Release 2 of S-PLUS: Accurate template-fitting based photometry covering 1000 deg2 in 12 optical filters"
         link: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.4590A/abstract"
         authors: Almeida-Fernandes, F.; SamPedro, L.; Herpich, F. R.;
-        more: 32
+        more: "+32"
         journal: MNRAS, v.511 p.4590, 04/2022
         show-home: True
         first-author: True
@@ -856,7 +857,7 @@ publications:
       - title: "Canis Major OB1 stellar group contents revealed by Gaia"
         link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.1033S/abstract"
         authors: Santos-Silva, T.; Perottoni, H. D.; Almeida-Fernandes, F.
-        more: 15
+        more: "+15"
         journal: MNRAS, v.508 p.1033, 11/2021
         show-home: True
         first-author: False
@@ -865,7 +866,7 @@ publications:
       - title: "On the discovery of stars, quasars, and galaxies in the Southern Hemisphere with S-PLUS DR2"
         link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.5847N/abstract"
         authors: Nakazono, L.; Mendes de Oliveira, C.; Hirata, N. S. T; ... (15th) Almeida-Fernandes, F.;
-        more: 24
+        more: "+24"
         journal: MNRAS, v.507 p.5847, 11/2021
         show-home: False
         first-author: False
@@ -874,7 +875,7 @@ publications:
       - title: "SPLUS J210428.01-004934.2: An Ultra Metal-poor Star Identified from Narrowband Photometry"
         link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912L..32P/abstract"
         authors: Placco, Vinicius M.; Roederer, Ian U.; Lee, Young Sun; Almeida-Fernandes, Felipe;
-        more: 5
+        more: "+5"
         journal: ApJ Letters, v.912 p.32, 05/2021
         show-home: True
         first-author: False
@@ -883,7 +884,7 @@ publications:
       - title: "The Photometric Metallicity and Carbon Distributions of the Milky Way's Halo and Solar Neighborhood from S-PLUS Observations of SDSS Stripe 82"
         link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912..147W/abstract"
         authors: Whitten, Devin D.; Placco, Vinicius M.; Beers, Timothy C.; ... (6th) Almeida-Fernandes, Felipe;
-        more: 13
+        more: "+13"
         journal: ApJ, v.912 p.147, 05/2021
         show-home: True
         first-author: False
@@ -892,7 +893,7 @@ publications:
       - title: "The Abundance Pattern of α Elements in the Triangulum-Andromeda Overdensity"
         link: "https://ui.adsabs.harvard.edu/abs/2020ApJ...901...27S/abstract"
         authors: Silva, J. V. Sales; Cunha, K.; Perottoni, H. D.; ... (6th) Almeida-Fernandes, F.;
-        more: 4
+        more: "+4"
         journal: ApJ, v.901 p.27, 09/2020
         show-home: False
         first-author: False
@@ -901,7 +902,7 @@ publications:
       - title: "Triangulum-Andromeda Overdensity: a Region with a Complex Stellar Population"
         link: "https://ui.adsabs.harvard.edu/abs/2019ApJ...886..113S/abstract"
         authors: Sales Silva, J. V.; Perottoni, H. D.; Cunha, K.; ... (5th) Almeida-Fernandes, F.;
-        more: 3
+        more: "+3"
         journal: ApJ, v.886 p.113, 12/2019
         show-home: False
         first-author: False
@@ -910,7 +911,7 @@ publications:
       - title: "The Southern Photometric Local Universe Survey (S-PLUS): improved SEDs, morphologies, and redshifts with 12 optical filters"
         link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..241M/abstract"
         authors: Mendes de Oliveira, C.; Ribeiro, T.; Schoenell, W.; ... (24th) Almeida-Fernandes, F.;
-        more: 141
+        more: "+141"
         journal: MNRAS, v.489 p.241, 10/2019
         show-home: True
         first-author: False
@@ -919,7 +920,7 @@ publications:
       - title: "The Nature of the Triangulum-Andromeda Stellar Structures"
         link: "https://ui.adsabs.harvard.edu/abs/2019IAUS..344..122S/abstract"
         authors: Silva, J. V. Sales; Perottoni, H.; Cunha, K.; ... (6th) Almeida-Fernandes. F.
-        more: 2
+        more: "+2"
         journal: Proceedings of the International Astronomical Union, IAU Symposium, v.344 p.122-124, 10/2019
         show-home: False
         first-author: False
@@ -928,7 +929,7 @@ publications:
       - title: "A cold stellar stream in Pegasus"
         link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.486..843P/abstract"
         authors: Perottoni, Hélio D.; Martin, Charles; Newberg, Heidi Jo; ... (5th) Almeida-Fernandes, Felipe;
-        more: 2
+        more: "+2"
         journal: MNRAS, v.486 p.843, 06/2019
         show-home: False
         first-author: False
@@ -973,7 +974,7 @@ event-participation:
         upcoming: false
 
       - title: "Invited Lecture"
-        link:
+        link: ""
         date:  21/06/2024
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
@@ -1049,7 +1050,7 @@ event-participation:
         blog-url: https://www.blog.astrofelipe.com/post/eso-metals-2023-apresenta%C3%A7%C3%A3o-em-evento-internacional
 
       - title: "Invited Lecture"
-        link: "https://www.gov.br/observatorio/pt-br/assuntos/areas-de-atuacao/astronomia-e-astrofisica/ensino/cce/cce-2023"
+        link: ""
         date:  08/Nov/2023
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
