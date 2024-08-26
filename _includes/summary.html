@@ -12,7 +12,7 @@
         {% if info.link %}
         <a href="{{ info.link }}" target="_blank"><td>{{ info.value }}</td></a>
         {% else %}
-        <td>{{ info.value }}</td>
+        <td style="color: #ccc">{{ info.value }}</td>
         {% endif %}
       </tr>
     {% endfor %}
@@ -29,7 +29,7 @@
         {% if info.link %}
         <td><a href="{{ info.link }}" target="_blank">{{ info.value }}</a></td>
         {% else %}
-        <td>{{ info.value }}</td>
+        <td style="color: #ccc">{{ info.value }}</td>
         {% endif %}
       </tr>
     {% endfor %}
@@ -46,7 +46,7 @@
       {% if info.link %}
       <a href="{{ info.link }}" target="_blank"><td>{{ info.value }}</td></a>
       {% else %}
-      <td>{{ info.value }}</td>
+      <td style="color: #ccc">{{ info.value }}</td>
       {% endif %}
     </tr>
   {% endfor %}
@@ -63,7 +63,7 @@
       {% if info.link %}
       <a href="{{ info.link }}" target="_blank"><td>{{ info.value }}</td></a>
       {% else %}
-      <td>{{ info.value }}</td>
+      <td style="color: #ccc">{{ info.value }}</td>
       {% endif %}
     </tr>
   {% endfor %}
