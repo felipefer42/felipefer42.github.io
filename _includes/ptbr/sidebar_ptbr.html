@@ -16,31 +16,38 @@
     {% endif %}
 
     {% if sidebar.first_name %}
-    <h4 class="pronoun">({{ sidebar.pronoun }})</h4>
+    <h4 class="pronoun">
+      ({{ sidebar.pronoun }})
+    </h4>
     {% endif %}
     
     {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    <h3 class="tagline">
+      {% if sidebar.country-code %}
+      <span class="fi fi-{{ sidebar.country-code }}" style="border: 0px"></span>
+      {% endif %}
+      {{ sidebar.tagline }}
+    </h3>
     {% endif %}
 
   </div><!--//profile-container-->
 
+  {% if sidebar.about %}
+    {% include ptbr/about_ptbr.html %}
+  {% endif %}
+
   {% include ptbr/contact_ptbr.html %}
+  <hr>
 
   {% if sidebar.education %}
     {% include ptbr/education_ptbr.html %}
+    <hr>
   {% endif %}
 
   {% if sidebar.complementary_education %}
     {% include ptbr/complementary_education_ptbr.html %}
   {% endif %}
 
-  {% include ptbr/language_ptbr.html %}
-  {% include ptbr/interests_ptbr.html %}
-  {% include ptbr/hobbies_ptbr.html %}
-  
-  {% if sidebar.about %}
-    {% include ptbr/about_ptbr.html %}
-  {% endif %}
+  {% include ptbr/summary_ptbr.html %}
 
 </div><!--//sidebar-wrapper-->

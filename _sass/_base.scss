@@ -19,6 +19,10 @@ h6 {
   font-weight: 700;
 }
 
+h2 {
+  padding-bottom: 10px;
+}
+
 a {
   color: darken($theme-color, 15%);
   &:hover {
@@ -36,7 +40,7 @@ p {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(11, 1fr);
   background: $theme-color;
   max-width: 980px;
   margin: 0 auto;
@@ -45,7 +49,7 @@ p {
 }
 
 .sidebar-wrapper {
-  grid-column: span 4;
+  grid-column: span 3;
   order: $sidebar-order;
   background: $theme-color;
   color: #fff;
@@ -60,20 +64,20 @@ p {
     color: #fff;
   }
   .first_name {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0px;
     color: #ddd;
   }
   .name {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 0;
   }
   .pronoun {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -83,7 +87,7 @@ p {
     color: rgba(256, 256, 256, 0.6);
     font-size: 16px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 0;
   }
   .profile {
@@ -114,10 +118,10 @@ p {
     }
   }
   .container-block {
-    padding: 30px;
+    padding: 15px;
   }
   .container-block-title {
-    text-transform: uppercase;
+    //text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
     margin-top: 0;
@@ -127,6 +131,7 @@ p {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
+    font-weight: 500;
   }
   .education-container,
   .complementary_education-container{
@@ -210,7 +215,7 @@ p {
   .main-header {
     padding: 30px 40px;
     border-bottom: 0px solid $theme-color;
-    min-height: 381px;
+    min-height: 370px;
     @include box-shadow(0px 2px 8px rgba(0, 0, 0, 0.1));
   }
   .main-content {
@@ -357,7 +362,7 @@ p {
   }
 
   .course-title,
-  .upcoming-title, {
+  .upcoming-title {
     align-items: center;
     color: $theme-color;
     font-size: 16px;
@@ -387,7 +392,7 @@ p {
   .university,
   .cert-org,
   .course-loc,
-  .upcoming-loc, {
+  .upcoming-loc {
     margin-bottom: 10px;
     color: $text-grey;
   }
@@ -410,7 +415,8 @@ p {
   .projects-section,
   .research-section,
   .upcoming-section,
-  .events-section {
+  .events-section
+  .selections-section {
     .intro {
       margin-bottom: 30px;
     }
@@ -438,17 +444,31 @@ p {
   .publication-authors {
     font-style: italic;
     color: $darker-grey;
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 1px;
   }
   .publication-more {
     font-style: italic;
     color: $text-grey;
+    font-size: 11px;
     margin-bottom: 1px;
   }
-  .publication-journal {
-    font-size: 12px;
-    color: $text-grey;
+
+  .publication-col2 {
+    font-size: 11px;
+  }
+
+  .publication-id {
+    font-weight: 900;
+    background-color: $theme-color;
+    color: #fff;
+  }
+
+  .publication-journal,
+  .publication-volume,
+  .publication-page {
+    font-size: 11px;
+    color: $darker-grey;
   }
   .publications-section {
     .intro {
@@ -464,15 +484,19 @@ p {
   .outreach-details,
   .event-details {
     display: none;
-    background-color: $smoky-white;
-    padding: 10px;
-    border-bottom: 1px solid $theme-color;
+    background-color: #fff;
+    padding: 0;
+    margin: 0 0 25px 0;
+    border-bottom: 0px solid $theme-color;
+    text-align: justify;
+    text-justify: inter-word;
   }
   
   .button-container {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;
   }
 
   .button-container-center {
@@ -576,6 +600,7 @@ p {
   }
 }
 
+
 .nav ul {
   list-style-type: none;
   order: $navbar-order;
@@ -592,7 +617,7 @@ p {
 .nav li a {
   display: block;
   color: $text-color;
-  text-align: center;
+  text-align: left;
   padding: 5px 19px;
   text-decoration: none;
 }
@@ -623,6 +648,37 @@ p {
 .nav-right {
   border: 1px solid $theme-color;
   border-bottom: 0px;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  z-index: 9999;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+nav ul li ul li {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+}
+
+nav ul li ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+nav ul li ul li a:hover {
+  background-color: #f0f0f0;
 }
 
 .button-6 {
@@ -681,4 +737,67 @@ p {
   text-align: center;
   margin: 30px;
   font-size: 18px;
+}
+
+.selections-section table,
+.publications-section table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.selections-section th,
+.publications-section th {
+  color: #ffffff;
+  background-color: $theme-color;
+}
+
+.selections-section td, th,
+.publications-section td, th {
+  border: 1px solid $lighter-grey;
+  text-align: center;
+  padding: 8px;
+}
+
+.selections-section tr:nth-child(even),
+.publications-section tr:nth-child(even) {
+  background-color: lighten($smoky-white, 3%);
+}
+.selections-section tr:nth-child(odd),
+.publications-section tr:nth-child(odd) {
+  background-color: $smoky-white;
+}
+
+.summary table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.summary td {
+  text-align: left;
+  padding: 8px 15px;
+  color: $smoky-white;
+}
+
+.summary th {
+  border: 0;
+  text-align: left;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.sidebar-wrapper hr {
+  width: auto;
+  margin: 10px 0 15px 0;
+  border: 1px solid darken($theme-color, 5%);
+  @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.events-section hr {
+  @include box-shadow(0px 1px 0px rgba(0, 0, 0, 0.2));
 }

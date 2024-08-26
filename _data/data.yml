@@ -23,6 +23,32 @@ navbar:
       url: "/projects"
       icon: "fa-solid fa-telescope"
 
+  pages-extra:
+    - title: Thesis and Books
+      url: "/thesis_and_books"
+      icon: "fa-solid fa-book"
+    - title: Databases
+      url: "/databases"
+      icon: "fa-solid fa-database"
+    - title: Figures and Plots
+      url: "/figures"
+      icon: "fa-solid fa-image"
+    - title: Videos
+      url: "/videos"
+      icon: "fa-solid fa-play"
+    - title: 3D-models
+      url: "/models"
+      icon: "fa-solid fa-cube"
+    - title: Press Releases
+      url: "/press"
+      icon: "fa-solid fa-microphone-stand"
+    - title: My Applications
+      url: "/selections"
+      icon: "fa-solid fa-ranking-star"
+    - title: Open applications
+      url: "/applications"
+      icon: "fa-solid fa-bolt-lightning"
+
   blog-title: Blog
   blog-url: "https://www.blog.astrofelipe.com"
   blog-icon: "fa fa-fw fa-newspaper"
@@ -53,24 +79,173 @@ navbar_ptbr:
   blog-url: "https://www.blog.astrofelipe.com"
   blog-icon: "fa fa-fw fa-newspaper"
 
+  pages-extra:
+    - title: Teses e Livros
+      url: "/thesis_and_books_ptbr"
+      icon: "fa-solid fa-book"
+    - title: Bases de Dados
+      url: "/databases_ptbr"
+      icon: "fa-solid fa-database"
+    - title: Figuras e Gráficos
+      url: "/figures_ptbr"
+      icon: "fa-solid fa-image"
+    - title: Vídeos
+      url: "/videos_ptbr"
+      icon: "fa-solid fa-play"
+    - title: Modelos 3D
+      url: "/models_ptbr"
+      icon: "fa-solid fa-cube"
+    - title: Comunicados de Imprensa
+      url: "/press_ptbr"
+      icon: "fa-solid fa-microphone-stand"
+    - title: Minhas Aplicações
+      url: "/selections_ptbr"
+      icon: "fa-solid fa-ranking-star"
+    - title: Aplicações Abertas
+      url: "/applications_ptbr"
+      icon: "fa-solid fa-bolt-lightning"
+
+summary:
+    personal-title: Personal Information
+    personal-info:
+      - key: Full name
+        value: Felipe de Almeida Fernandes
+        link:
+      - key: Born
+        value: March, 20, 1993; Juiz de Fora, MG, Brazil
+        link:
+      - key: Nationality
+        value: Brazilian
+        link:
+    academic-title: Academic Information
+    academic-info:
+      - key: Alma mater
+        value: Universidade Federal do Rio de Janeiro
+        link:
+      - key: Research Institutes
+        value: OV/UFRJ; IAG/USP; CSDC/NOIRLab
+        link:
+      - key: Research Groups
+        value: S-PLUS (2017-); Tapirapé (2018-); LASEX (2024-)
+        link:
+      - key: Advisors
+        value: Helio J. Rocha-Pinto
+        link:
+      - key: Supervisors
+        value: Claudia Mendes de Oliveira, Vinicius M. Placco, Karin M. Delmestre
+        link:
+      - key: Students
+        value: Pierre R. Martho, Guilherme F. Bolutavicius
+        link:
+    publication-title: Publications (Qualis A1)
+    publication-info:
+      - key: Publications
+        value: 24 (4 as 1st author)
+        link:
+      - key: H-index
+        value: 10
+        link:
+      - key: Citations
+        value: 362
+        link:
+      - key: Most-cited paper
+        value: Mendes de Oliveira et al. (2019) - 134 citations
+        link:
+      - key: 1st Paper
+        value: Almeida-Fernandes & Rocha-Pinto (2018a)
+        link:
+      - key: Most-recent paper
+        value: Souza dos Santos et al. (2024)
+        link: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..563S/abstract
+    additional-title: Additional Information
+    additional-info:
+      - key: Languages
+        value: Portuguese (native); English (fluent); Spanish (learning)
+        link:
+      - key: Research Interests
+        value: Stellar Astrophysics, Galactic Structure, Photometric Calibration, Interstellar Asteroids
+
+summary_ptbr:
+    personal-title: Informação Pessoal
+    personal-info:
+      - key: Nome Completo
+        value: Felipe de Almeida Fernandes
+        link:
+      - key: Naturalidade
+        value: Março, 20, 1993; Juiz de Fora, MG, Brazil
+        link:
+      - key: Nacionalidade
+        value: Brasileiro
+        link:
+    academic-title: Informações Acadêmicas
+    academic-info:
+      - key: Alma mater
+        value: Universidade Federal do Rio de Janeiro
+        link:
+      - key: Institutos de Pesquisa
+        value: OV/UFRJ; IAG/USP; CSDC/NOIRLab
+        link:
+      - key: Grupos de Pesquisa
+        value: S-PLUS (2017-); Tapirapé (2018-); LASEX (2024-)
+        link:
+      - key: Orientadores
+        value: Helio J. Rocha-Pinto
+        link:
+      - key: Supervisores
+        value: Claudia Mendes de Oliveira, Vinicius M. Placco, Karin M. Delmestre
+        link:
+      - key: Estudantes
+        value: Pierre R. Martho, Guilherme F. Bolutavicius
+        link:
+    publication-title: Publicações (Qualis A1)
+    publication-info:
+      - key: Publicações
+        value: 24 (4 de 1° autor)
+        link:
+      - key: H-index
+        value: 10
+        link:
+      - key: Citações
+        value: 362
+        link:
+      - key: Artigo mais citado
+        value: Mendes de Oliveira et al. (2019) - 134 citations
+        link:
+      - key: 1° Artigo
+        value: Almeida-Fernandes & Rocha-Pinto (2018a)
+        link:
+      - key: Artigo mais recente
+        value: Souza dos Santos et al. (2024)
+        link: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..563S/abstract
+    additional-title: Informações Adicionais
+    additional-info:
+      - key: Idiomas
+        value: Português (nativo); Inglês (fluente); Espanhol (aprendendo)
+        link:
+      - key: Interesses de Pesquisa
+        value: Astrofísica Estelar, Estrutura Galáctica, Calibração Fotométrica, Asteroides Interestelares
+
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
     complementary_education: True # set to False if you want education in main section instead of in sidebar
     
     # Profile information
     first_name: Felipe
     name: Almeida-Fernandes
+    country-code: br
     pronoun: He / Him
-    tagline: Astrophysics PhD
+    tagline: Astrophysicist
     avatar: felipe_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: felipe.almeida.fernandes@usp.br
+    contact-title: Contact
+    email: felipe@ov.ufrj.br
     phone: 
-    timezone: São Paulo Timezone (GMT-3)
-    citizenship:
+    lattes: 3565984584227844
+    ads: author:"almeida-fernandes" 
+    ads-link: https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=OR&filter_author_facet_hier_fq_author=author_facet_hier%3A%220%2FAlmeida%20Fernandes%2C%20F%22&filter_author_facet_hier_fq_author=author_facet_hier%3A%220%2FAlmeida-Fernandes%2C%20F%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%220%2FAlmeida%20Fernandes%2C%20F%22%20OR%20author_facet_hier%3A%220%2FAlmeida-Fernandes%2C%20F%22)&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22almeida-fernandes%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
     website: astrofelipe.com #do not add http://
     linkedin: 
     xing: 
@@ -83,6 +258,13 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: 
+    orcid: 0000-0002-8048-8717
+    citizenship:
+    institute: Observatório do Valongo
+    institute-link: https://ov.ufrj.br/
+    address: 
+    timezone: São Paulo Timezone (GMT-3)
+
 
     languages:
       title: Languages
@@ -125,7 +307,7 @@ sidebar:
 
 sidebar_ptbr:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
     complementary_education: True # set to False if you want education in main section instead of in sidebar
 
@@ -133,8 +315,35 @@ sidebar_ptbr:
     first_name: Felipe
     name: Almeida-Fernandes
     pronoun: Ele / Dele
-    tagline: Doutor em Astrofísica
+    tagline: Astrofísico
+    country-code: br
     avatar: felipe_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    contact-title: Contato
+    email: felipe@ov.ufrj.br
+    phone: 
+    lattes: 3565984584227844
+    ads: author:"almeida-fernandes" 
+    ads-link: https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=OR&filter_author_facet_hier_fq_author=author_facet_hier%3A%220%2FAlmeida%20Fernandes%2C%20F%22&filter_author_facet_hier_fq_author=author_facet_hier%3A%220%2FAlmeida-Fernandes%2C%20F%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%220%2FAlmeida%20Fernandes%2C%20F%22%20OR%20author_facet_hier%3A%220%2FAlmeida-Fernandes%2C%20F%22)&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22almeida-fernandes%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
+    website: astrofelipe.com #do not add http://
+    linkedin: 
+    xing: 
+    github: felipefer42
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@Astro_FelipeAF'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+    orcid: 0000-0002-8048-8717
+    citizenship:
+    institute: Observatório do Valongo
+    institute-link: https://ov.ufrj.br/
+    address: 
+    timezone: São Paulo Timezone (GMT-3)
 
     languages:
       title: Idiomas
@@ -272,7 +481,7 @@ education_ptbr:
             - Bullet point
             - Bullet point
       - degree: Graduação em Astronomia
-        university: Universidade Federal do Rio de Janeiro
+        university: UFRJ
         time: 2011 - 2015
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -422,12 +631,16 @@ experiences_ptbr:
 experiences_plus:
     title: Additional Experience
     info:
+      - role: Peer-Reviewer for Astronomy and Astrophysics
+        time: 2024 - 
+        company: EDP Sciences
+
       - role: Peer-Reviewer for Astronomy and Computing
-        time: 2023
+        time: 2023 - 
         company: Elsevier
 
       - role: Peer-Reviewer for The Astrophysical Journal
-        time: 2022
+        time: 2022 - 
         company: AAS Journals
 
       - role: Graduate Student's representative
@@ -558,7 +771,7 @@ outreach:
         - name: Ad Astra
           role: Collaborator
           time: 2018-2019
-          location: INPAR (Cidade de Deus), RJ)
+          location: INPAR (Cidade de Deus, RJ)
           details: |
         - name: Astronomia ao Meio Dia
           role: Organizer
@@ -710,248 +923,422 @@ publications:
     intro_ptbr:
     papers:
 
-      - title: "Fine Structure of the Age-Chromospheric Activity Relation in Solar-Type Stars: II. H_alpha Line "
-        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv240612519S/abstract"
-        authors: Souza dos Santos, P.; Porto de Mello, G.; Costa-Bhering, E.;... (5th) Almeida-Fernandes, F.;
-        more: "+3"
-        journal: (Accepted, MNRAS, 2024)
+      - title: "Determination of metallicities of red giant stars using Machine Learning techniques applied to the narrow and broadband photometry of the S-PLUS survey"
+        link: ""
+        authors: F. Molina-Jorquera, G. Damke, D. Fernández-Olivares, ..., (5th) F. Almeida-Fernandes;
+        more: "+7"
+        journal: A&A
+        volume:
+        page:
+        year: Acpt
         show-home: False
         first-author: False
         refereed: True
+        rank: 5
+
+      - title: "The Fourth S-PLUS Data Release: 12-filter photometry covering ∼3000 square degrees in the southern hemisphere"
+        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv240720701H/abstract"
+        authors:  Herpich, F. R.; Almeida-Fernandes, F.; Oliveira Schwarz, G. B.; 
+        more: "+68"
+        journal: A&A
+        volume:
+        page:
+        year: Acpt
+        show-home: True
+        first-author: False
+        refereed: True
+        rank: 2
+
+      - title: "The S-PLUS Ultra-Short Survey: first data release "
+        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv240705004P/abstract"
+        authors:  Perottoni, H. D.; Placco, V. M.; Almeida-Fernandes, F.; Herpich, Fábio R. ; 
+        more: "+14"
+        journal: A&A
+        volume:
+        page:
+        year: Acpt
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 3
+
+      - title: "Fine Structure of the Age-Chromospheric Activity Relation in Solar-Type Stars: II. H_alpha Line "
+        link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..563S/abstract"
+        authors: Souza dos Santos, P.; Porto de Mello, G.; Costa-Bhering, E.;... (5th) Almeida-Fernandes, F.;
+        more: "+3"
+        journal: MNRAS
+        volume: 532
+        page: 563
+        month: 07
+        year: 2024
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 5
 
       - title: "The Quasar Catalogue for S-PLUS DR4 (QuCatS) and the estimation of photometric redshifts"
         link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.531..327N/abstract"
         authors: L. Nakazono; R. R. Valença; G. Soares;... (10th) Almeida-Fernandes, F.;
         more: "+11"
-        journal: MNRAS, v.531, pp.327-339, Jun/2024
+        journal: MNRAS
+        volume: 531
+        page: 327
+        month: 06
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
+        rank: 10
         
       - title: "The S-PLUS Fornax Project (S+FP): A first 12-band glimpse of the Fornax galaxy cluster "
         link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3787S/abstract"
         authors: Smith Castelli, A. V.; Cortesi, A.; Haack, R. F.;... (39th) Almeida-Fernandes, F.;  
         more: "+39"
-        journal: MNRAS, v.530, pp.3787-3811, Jun/2024
+        journal: MNRAS
+        volume: 530
+        page: 3787
+        month: 06
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
+        rank: 39
 
       - title: "The S-PLUS Fornax Project (S+FP): SEXTRACTOR detection and measurement of nearby galaxies in large photometric surveys"
         link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.3195H/abstract"
         authors: Haack, R. F.; Smith Castelli, A. V.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;  
         more: "+5"
-        journal: MNRAS, v.530, pp.3195-3207, May/2024
+        journal: MNRAS
+        volume: 530
+        page: 3195
+        month: 05
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
+        rank: 4
 
       - title: "S-PLUS: Photometric Re-calibration with the Stellar Color Regression Method and an Improved Gaia XP Synthetic Photometry Method"
         link: "https://ui.adsabs.harvard.edu/abs/2024ApJS..271...41X/abstract"
         authors: Xiao, Kai; Huang, Yang; Yuan, Haibo;... (7th) Almeida-Fernandes, Felipe
         more: "+10"
-        journal: ApJS, v.271, id.41, Apr/2024
+        journal: ApJS
+        volume: 271
+        page: id41
+        month: 04
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
+        rank: 7
 
       - title: "An Extended Catalogue of galaxy morphology using Deep Learning in Southern Photometric Local Universe Survey Data Release 3"
         link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.528.4188B/abstract"
         authors: Bom, C.; Cortesi, A.; Ribeiro, U.;... (12th) Almeida-Fernandes, F.;
         more: "+21"
-        journal: MNRAS, v.528, pp.4188-4208, Mar/2024
+        journal: MNRAS
+        volume: 528
+        page: 4188
+        month: 03
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
+        rank: 12
 
       - title: "Ages and metallicities of stellar clusters using S-PLUS narrow-band integrated photometry: the Small Magellanic Cloud"
         link: "https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.1733F/abstract"
         authors: Fabiano de Souza, Gabriel; Westera, Pieter; Almeida-Fernandes, Felipe
         more: "+14"
-        journal: MNRAS, v.527, pp.1733-1744, Jan/2024
+        journal: MNRAS
+        volume: 527
+        page: 1733
+        month: 01
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
+        rank: 3
 
       - title: "SPLUS J142445.34-254247.1: An R-Process Enhanced, Actinide-Boost, Extremely Metal-Poor star observed with GHOST"
         link: "https://ui.adsabs.harvard.edu/abs/2023ApJ...959...60P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Holmbeck, Erika M.,
         more: "+33"
-        journal: ApJ, v.959, id60, Dec/2023
+        journal: ApJ
+        volume: 959
+        page: id60
+        month: 12
+        year: 2023
         show-home: True
         first-author: False
         refereed: True
+        rank: 2
 
       - title: "Chemodynamical properties and ages of metal-poor stars in S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2023MNRAS.523.2934A/abstract"
         authors: Almeida-Fernandes, F.; Placco, V. M.; Rocha-Pinto, H. J.;
         more: "+10"
-        journal: MNRAS, v.523 p.2934, 08/2023
+        journal: MNRAS
+        volume: 523
+        page: 2934
+        month: 08
+        year: 2023
         show-home: True
         first-author: True
         refereed: True
+        rank: 1
 
       - title: "Principal Component Analysis of galaxies in the direction of the Fornax cluster using S-PLUS data"
         link: "https://ui.adsabs.harvard.edu/abs/2023BAAA...64..259C/abstract"
         authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (6th) Almeida Fernandes, F.
         more: "+3"
-        journal: Boletín de la Asociación Argentina de Astronomía, v. 64 p.259-261, 08/2023
+        journal: Boletin de la Asociacion Argentina de Astronomia
+        volume: 64
+        page: 259
+        month: 08
+        year: 2023
         show-home: False
         first-author: False
-        refereed: True
+        refereed: False
+        rank: 6
 
       - title: "SExtractor detection and measurement of Fornax galaxies in S-PLUS images"
         link: "https://ui.adsabs.harvard.edu/abs/2023BAAA...64..217H/abstract"
         authors: Haack, R. F.; Smith Castelli, A. V.; Faifer, F. R.; ... (5th) Almeida Fernandes, F.
         more: "+2"
-        journal: Boletín de la Asociación Argentina de Astronomía, v. 64 p.217-219, 08/2023
+        journal: Boletin de la Asociacion Argentina de Astronomia
+        volume: 64
+        page: 217
+        month: 08
+        year: 2023
         show-home: False
         first-author: False
-        refereed: True
+        refereed: False
+        rank: 5
 
       - title: "Search and characterization of Satellite Galaxies and Stellar Streams of the Milky Way in the S-PLUS survey"
         link: "https://ui.adsabs.harvard.edu/abs/2023BoSAB..34..209R/abstract"
         authors: Ré, P. Augusto; Almeida-Fernandes, F.; Mendes de Oliveira, C.; Perottoni, H. D.
         more:
-        journal: Boletim da Sociedade Astrônomica Brasileira. Proceedings da XLV Reunião Anual da SAB, p.209-213, 2023
+        journal: Boletim da Sociedade Astrônomica Brasileira. 
+        volume: Proceedings da XLV Reunião Anual da SAB
+        page: 209
+        month: 
+        year: 2023
         show-home: False
         first-author: False
         refereed: False
+        rank: 2
 
       - title: "Mining S-PLUS for Metal-poor Stars in the Milky Way"
         link: "https://ui.adsabs.harvard.edu/abs/2022ApJS..262....8P/abstract"
         authors: Placco, Vinicius M.; Almeida-Fernandes, Felipe; Arentsen, Anke;
         more: "+4"
-        journal: ApJS, v.262 p.8, 09/2022
+        journal: ApJS
+        volume: 262
+        page: id8
+        month: 09
+        year: 2022
         show-home: True
         first-author: False
         refereed: True
+        rank: 2
 
       - title: "Photometric and Morphological Analysis of Fornax Galaxies through S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..253S/abstract"
         authors: Smith Castelli, A. V.; Lopes, A. R.; Cortesi, A.; ... (8th) Almeida-Fernandes, F.;
         more: "+9"
-        journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
+        journal: Boletin de la Asociacion Argentina de Astronomia
+        volume: 63
+        page: 253
+        month: 07
+        year: 2022
         show-home: False
         first-author: False
-        refereed: True
+        refereed: False
+        rank: 8
 
       - title: "Statistical analysis of global properties of galaxies in the direction of the Fornax cluster with S-PLUS"
         link: "https://ui.adsabs.harvard.edu/abs/2022BAAA...63..244C/abstract"
         authors: Calderón, J. P.; Smith Castelli, A. V.; de Lima, E. V. R.; ... (5th) Almeida-Fernandes, F.;
         more: "+2"
-        journal: Boletín de la Asociación Argentina de Astronomía, v.63 p.244-246, 07/2022
+        journal: Boletin de la Asociacion Argentina de Astronomia
+        volume: 63
+        page: 244
+        month: 07
+        year: 2022
         show-home: False
         first-author: False
-        refereed: True
+        refereed: False
+        rank: 5
 
       - title: "Data Release 2 of S-PLUS: Accurate template-fitting based photometry covering 1000 deg2 in 12 optical filters"
         link: "https://ui.adsabs.harvard.edu/abs/2022MNRAS.511.4590A/abstract"
         authors: Almeida-Fernandes, F.; SamPedro, L.; Herpich, F. R.;
         more: "+32"
-        journal: MNRAS, v.511 p.4590, 04/2022
+        journal: MNRAS
+        volume: 511
+        page: 4590
+        month: 04
+        year: 2022
         show-home: True
         first-author: True
         refereed: True
+        rank: 1
 
       - title: "Canis Major OB1 stellar group contents revealed by Gaia"
         link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.508.1033S/abstract"
         authors: Santos-Silva, T.; Perottoni, H. D.; Almeida-Fernandes, F.
         more: "+15"
-        journal: MNRAS, v.508 p.1033, 11/2021
-        show-home: True
+        journal: MNRAS
+        volume: 508
+        page: 1033
+        month: 11
+        year: 2021
+        show-home: False
         first-author: False
         refereed: True
+        rank: 3
 
       - title: "On the discovery of stars, quasars, and galaxies in the Southern Hemisphere with S-PLUS DR2"
         link: "https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.5847N/abstract"
         authors: Nakazono, L.; Mendes de Oliveira, C.; Hirata, N. S. T; ... (15th) Almeida-Fernandes, F.;
         more: "+24"
-        journal: MNRAS, v.507 p.5847, 11/2021
+        journal: MNRAS
+        volume: 507
+        page: 5847
+        month: 11
+        year: 2021
         show-home: False
         first-author: False
         refereed: True
+        rank: 15
 
       - title: "SPLUS J210428.01-004934.2: An Ultra Metal-poor Star Identified from Narrowband Photometry"
         link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912L..32P/abstract"
         authors: Placco, Vinicius M.; Roederer, Ian U.; Lee, Young Sun; Almeida-Fernandes, Felipe;
         more: "+5"
-        journal: ApJ Letters, v.912 p.32, 05/2021
+        journal: ApJL
+        volume: 912
+        page: 32
+        month: 05
+        year: 2021
         show-home: True
         first-author: False
         refereed: True
+        rank: 4
 
       - title: "The Photometric Metallicity and Carbon Distributions of the Milky Way's Halo and Solar Neighborhood from S-PLUS Observations of SDSS Stripe 82"
         link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...912..147W/abstract"
         authors: Whitten, Devin D.; Placco, Vinicius M.; Beers, Timothy C.; ... (6th) Almeida-Fernandes, Felipe;
         more: "+13"
-        journal: ApJ, v.912 p.147, 05/2021
+        journal: ApJ
+        volume: 912
+        page: 147
+        month: 05
+        year: 2021
         show-home: True
         first-author: False
         refereed: True
+        rank: 6
 
       - title: "The Abundance Pattern of α Elements in the Triangulum-Andromeda Overdensity"
         link: "https://ui.adsabs.harvard.edu/abs/2020ApJ...901...27S/abstract"
         authors: Silva, J. V. Sales; Cunha, K.; Perottoni, H. D.; ... (6th) Almeida-Fernandes, F.;
         more: "+4"
-        journal: ApJ, v.901 p.27, 09/2020
+        journal: ApJ
+        volume: 901
+        page: 27
+        month: 09
+        year: 2020
         show-home: False
         first-author: False
         refereed: True
+        rank: 6
 
       - title: "Triangulum-Andromeda Overdensity: a Region with a Complex Stellar Population"
         link: "https://ui.adsabs.harvard.edu/abs/2019ApJ...886..113S/abstract"
         authors: Sales Silva, J. V.; Perottoni, H. D.; Cunha, K.; ... (5th) Almeida-Fernandes, F.;
         more: "+3"
-        journal: ApJ, v.886 p.113, 12/2019
+        journal: ApJ
+        volume: 886
+        page: 113
+        month: 12
+        year: 2019
         show-home: False
         first-author: False
         refereed: True
+        rank: 5
 
       - title: "The Southern Photometric Local Universe Survey (S-PLUS): improved SEDs, morphologies, and redshifts with 12 optical filters"
         link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489..241M/abstract"
         authors: Mendes de Oliveira, C.; Ribeiro, T.; Schoenell, W.; ... (24th) Almeida-Fernandes, F.;
         more: "+141"
-        journal: MNRAS, v.489 p.241, 10/2019
+        journal: MNRAS
+        volume: 489
+        page: 241
+        month: 10
+        year: 2019
         show-home: True
         first-author: False
         refereed: True
+        rank: 24
 
       - title: "The Nature of the Triangulum-Andromeda Stellar Structures"
         link: "https://ui.adsabs.harvard.edu/abs/2019IAUS..344..122S/abstract"
         authors: Silva, J. V. Sales; Perottoni, H.; Cunha, K.; ... (6th) Almeida-Fernandes. F.
         more: "+2"
-        journal: Proceedings of the International Astronomical Union, IAU Symposium, v.344 p.122-124, 10/2019
+        journal: Proceedings of the International Astronomical Union, IAU Symposium
+        volume: 344 
+        page: 122
+        month: 10
+        year: 2019
         show-home: False
         first-author: False
         refereed: False
+        rank: 6
 
       - title: "A cold stellar stream in Pegasus"
         link: "https://ui.adsabs.harvard.edu/abs/2019MNRAS.486..843P/abstract"
         authors: Perottoni, Hélio D.; Martin, Charles; Newberg, Heidi Jo; ... (5th) Almeida-Fernandes, Felipe;
         more: "+2"
-        journal: MNRAS, v.486 p.843, 06/2019
+        journal: MNRAS
+        volume: 486
+        page: 843
+        month: 06
+        year: 2019
         show-home: False
         first-author: False
         refereed: True
+        rank: 5
 
       - title: "A kinematical age for the interstellar object 1I/`Oumuamua"
         link: "https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.4903A/abstract"
         authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
         more:
-        journal: MNRAS, v.480 p.4903, 11/2018
+        journal: MNRAS
+        volume: 480
+        page: 4903
+        month: 11
+        year: 2018
         show-home: True
         first-author: True
         refereed: True
+        rank: 1
 
       - title: "A method to estimate stellar ages from kinematical data"
         link: "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..184A/abstract"
         authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
         more:
-        journal: MNRAS, v.486 p.843, 05/2018
+        journal: MNRAS
+        volume: 486
+        page: 843
+        month: 05
+        year: 2018
         show-home: True
         first-author: True
         refereed: True
+        rank: 1
 
 event-participation:
     upcoming-title: Upcoming events
@@ -960,22 +1347,70 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "S-PLUS: 19th Collaboration Meeting"
+
+      - title: "VII Reunião Anual - Soc. Bras. de Astrobiologia"
         link: ""
-        date:  Aug/2024
-        location: Rio de Janeiro, Brasil
+        date:  04-06/Sep/2024
+        location: Observatório Nacional, Rio de Janeiro, Brasil
         country-code: br
         state-code: br-rj
-        contribution: TBD
+        contribution: Poster
         upcoming: true
+
+      - title: "V Astrobiology School at Observatório Nacional"
+        link: ""
+        date:  09-13/Sep/2024
+        location: Observatório Nacional, Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: Attend
+        upcoming: true
+
+      - title: "XLVII Reunião Anual da Sociedade Astronômica Brasileira"
+        link: ""
+        date:  22-26/Sep/2024
+        location: Águas de Lindóia, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk/Chair/Workshop
+        upcoming: true
+
+      - title: "Ciclo de Seminários do Observatório do Valongo"
+        link:
+        date: 08/Oct/2024
+        location: Observatório do Valongo, Rio de Janeiro, Brazil
+        country-code: br
+        state-code: br-rj
+        remote: true
+        contribution: Invited Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: True
 
       - title: "2024"
         year-mark: true
         upcoming: false
 
+      - title: "Qualificação de Doutorado: Paulo Vitor Souza dos Santos"
+        link: ""
+        date:  26/Aug/2024
+        location: Observatório do Valongo, Rio de Janeiro, Brazil
+        country-code: br
+        state-code: br-rj
+        contribution: Banca (suplente)
+        upcoming: false
+        
+      - title: "S-PLUS: 19th Collaboration Meeting"
+        link: ""
+        date:  19-21/Aug/2024
+        location: Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: SOC/Talk
+        upcoming: false
+
       - title: "Invited Lecture"
         link: ""
-        date:  21/06/2024
+        date:  21/Jun/2024
         location: Observatório do Valongo, RJ, Brazil
         country-code: br
         state-code: br-rj
@@ -1097,7 +1532,7 @@ event-participation:
         location: Planetário da Gávea, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        contribution: Talk
+        contribution: Talk/Chair
         contrib-icon: fa-person-chalkboard
         upcoming: false
         blog-url: https://www.blog.astrofelipe.com/post/xlvi-reuni%C3%A3o-anual-da-sab-participa%C3%A7%C3%A3o-com-apresenta%C3%A7%C3%A3o-em-plen%C3%A1ria-e-sap
@@ -1165,7 +1600,7 @@ event-participation:
         location: Remote meeting
         remote: true
         country-code:
-        contribution: Talk
+        contribution: Talk/Chair
         contrib-icon: fa-person-chalkboard
         upcoming: false
 
@@ -1739,6 +2174,406 @@ event-participation:
         contribution: Attended
         contrib-icon: fa-screen-users
         upcoming: false
+
+selections:
+    home_title: Top-5 Selection Processes Performance
+    home_title_ptbr: Top-5 Performance em Processos Seletivos
+    title: Selection Processes' Performance
+    title_ptbr: Performance em Processos Seletivos
+    intro: |
+      During my academic life, I had to undergo a series of selection process, which are 
+      detailed below. The tables include the status of the application (e.g. Approved / 
+      not Approved), as well as my ranking and number of applicants, the number of available 
+      spots for the position and the ratio between applicants and spots available. 
+      In some cases, the ranking or number of candidates were not published and is listed as 
+      "??". In some other cases, the application is not directly competitive against other
+      candidates, these are listed as a single spot with no assigned ranking or ratio.
+
+      I have applied for multiple positions for every step of my academic trajectory. For that
+      reason, the "Approved" status is not an indication that I have accepted the position.
+      Refer to the home page for a detailed history of my academic history.
+
+      For transparency, all failed and withdrawn applications are also included. 
+    intro_ptbr:
+    types:
+      - name: Vestibular
+      - name: PG
+      - name: Postdoc
+      - name: Job
+      - name: Ongoing
+      - name: Withdrawn
+
+    process:
+      - title: "University Admittance Exams"
+        title_ptbr: "Vestibulares"
+        type: Vestibular
+        title-mark: true
+        intro: |
+          In Brazil, the admittance to universities happens through competitive exams. Here I list
+          my results in such exams.
+
+      - title: Admittance Exam UFRJ-2011 - Astronomy
+        title_ptbr: Vestibular UFRJ-2011 - Astronomia
+        location: Universidade Federal do Rio de Janeiro 
+        link: 
+        date: 2011
+        status: Approved
+        rank: 1
+        candidates: 178
+        spots: 8
+        ratio: 22.25 
+        type: Vestibular
+        top5: true
+
+      - title: PISM UFJF-2011 - Exact Sciences
+        title_ptbr: PISM UFJF-2011 - Ciências Exatas
+        location: Universidade Federal de Juiz de Fora
+        link:
+        date: 2011
+        status: Approved
+        rank: 2
+        candidates: 372
+        spots: 216
+        ratio: 1.72
+        type: Vestibular
+        top5: false
+
+      - title: SISU/ENEM UFJF-2011 - Exact Sciences
+        title_ptbr: SISU/ENEM UFJF-2011 - Ciências Exatas
+        location: Universidade Federal de Juiz de Fora
+        link:
+        date: 2011
+        status: Approved
+        rank: 0
+        candidates: 1671
+        spots: 96
+        ratio: 17.41
+        type: Vestibular
+        top5: false
+
+      - title: Admittance Exam UERJ-2011 - Physics
+        title_ptbr: Vestibular Estadual UERJ-2011 - Física
+        location: Universidade Estadual do Rio de Janeiro
+        link:
+        date: 2011
+        status: Approved
+        rank: 4
+        candidates: 364
+        spots: 178
+        ratio: 2.04
+        type: Vestibular
+        top5: false
+
+      - title: Admittance Exam FUVEST-2011 - Astronomy
+        title_ptbr: Vestibular FUVEST-2011 - Astronomia
+        location: Universidade de São Paulo
+        link:
+        date: 2011
+        status: Approved
+        rank: 0
+        candidates: 900
+        spots: 15
+        ratio: 60
+        type: Vestibular
+        top5: true
+
+      - title: Admittance Exam UFJF/EAD-2018 - Physics
+        title_ptbr: Vestibular UFJF/EAD-2018 - Licenciatura em Física
+        location: Universidade Federal de Juiz de Fora
+        link:
+        date: 2018
+        status: Approved
+        rank: 1
+        candidates: 39
+        spots: 25
+        ratio: 1.56
+        type: Vestibular
+        top5: false
+
+      - title: "Graduate Program Admittance Process"
+        title_ptbr: "Seleção em Programa de Pós-Graduação"
+        type: PG
+        title-mark: true
+
+      - title: MSc Admittance Process - OV/2015.1
+        title_ptbr: Processo Seletivo - Mestrado OV/2015.1
+        location: Observatório do Valongo / UFRJ
+        link:
+        date: 2014
+        status: Approved
+        rank: 1
+        candidates: 6
+        spots: 3
+        ratio: 2
+        type: PG
+        top5: false
+
+      - title: MSc Admittance Process - ON/2015.1
+        title_ptbr: Processo Seletivo - Mestrado ON/2015.1
+        location: Observatório Nacional
+        link:
+        date: 2014
+        status: Approved
+        rank: 0
+        candidates: 
+        spots: 
+        ratio: 
+        type: PG
+        top5: false
+
+      - title: Direct PhD Admittance Process - OV/2015.1
+        title_ptbr: Processo Seletivo - Doutorado Direto OV/2015.1
+        location: Observatório do Valongo / UFRJ
+        link:
+        date: 2014
+        status: Approved
+        rank: 1
+        candidates: 1
+        spots: 1
+        ratio: 1
+        type: PG
+        top5: true
+
+      - title: "Postdoc Admittance Process"
+        title_ptbr: "Seleção em Programa de Pós-Doutorado"
+        type: Postdoc
+        title-mark: true
+        intro: |
+          Here I list the feedback received for the two postdoc applications I was 
+          not approved for: <br>
+          - University of Edinburgh: "We were fortunate to receive a great level of 
+          interest for the role and after reviewing your application thoroughly, we felt 
+          that other applicants were better suited for the role." <br>
+          - University of Bologna: "The call for selection requires a Master Degree (art. 2).
+          A PhD title can only be an asset (art. 4) and not replace the 
+          requirement."
+
+      - title: FAPESP Fellowship - Postdoc
+        title_ptbr: Bolsa de Pós-Doutorado FAPESP
+        location: IAG/USP
+        link:
+        date: 2018
+        status: Approved
+        rank: -1
+        candidates: 1
+        spots: 1
+        ratio: "-"
+        type: Postdoc
+        top5: true
+
+      - title: FAPESP Fellowship - Postdoc/BEPE
+        title_ptbr: Bolsa de Estágio em Pesquisa no Exterior (FAPESP/BEPE)
+        location: NOIRLab, AZ, USA
+        link:
+        date: 2021
+        status: Approved
+        rank: -1
+        candidates: 1
+        spots: 1
+        ratio: "-"
+        type: Postdoc
+        top5: true
+      
+      - title: Postdoctoral Research Associate in Galaxy Archaeology
+        title_ptbr: Pós-Doutorado em Arqueologia Galáctica
+        location: Institute for Astronomy, University of Edinburgh
+        link:
+        date: 2024
+        status: Not approved
+        aproved: false
+        rank: 0
+        candidates: "??"
+        spots: 1
+        ratio: "??"
+        type: Postdoc
+        top5: false
+        note: |
+          Feedback: We were fortunate to receive a great level of interest for 
+          the role and after reviewing your application thoroughly, we felt 
+          that other applicants were better suited for the role.
+
+      - title: Research Fellowship in Galaxy Archaeology
+        title_ptbr: Pós-Doutorado em Arqueologia Galáctica
+        location: Dipartimento di Fisica e Astronomia, University of Bologna
+        link:
+        date: 2024
+        status: Not approved
+        aproved: false
+        rank: 0
+        candidates: "??"
+        spots: 1
+        ratio: "??"
+        type: Postdoc
+        top5: false
+        note: |
+          Feedback: "The call for selection requires a Master Degree (art. 2).
+          A PhD title can only be an asset (art. 4) and not replace the 
+          requirement."
+
+      - title: CAPES/PDPG Fellowship - Postdoc
+        title_ptbr: Pós-Doutorado com bolsa CAPES/PDPG
+        location: Observatório do Valongo
+        link:
+        date: 2024
+        status: Approved
+        rank: 1
+        candidates: 5
+        spots: 1
+        ratio: 5
+        type: Postdoc
+        top5: true
+
+      - title: FUNARBE - Postdoc
+        title_ptbr: Pós-Doutorado com bolsa FUNARBE
+        location: Observatório do Valongo
+        link:
+        date: 2024
+        status: Approved
+        rank: -1
+        candidates: 1
+        spots: 1
+        ratio: "-"
+        type: Postdoc
+        top5: true
+
+      - title: "Job's Selection Processes"
+        title_ptbr: "Processo de Seleção em Vagas de Emprego"
+        type: Job
+        title-mark: true
+        intro: |
+         In Brazil, most applications for the Researcher Carreer as a government employee 
+         involve a selection process known as "concurso público". The concursos can 
+         include exams, test classes, defense of academic trajectory, academic titles, 
+         and project proposas. <br><br>
+
+         Note: In Observatorio Nacional I was considered 'approved' in the concurso, but only
+         a single spot was available. Which means I would only be offered the position in case
+         a new spot was created within 12 months after the 'concurso'.
+
+      - title: Collaborating Professor Ms3.1 (USP/PART)
+        title_ptbr: Professor Colaborador Ms3.1 (USP/PART)
+        location: IAG, Universidade de São Paulo
+        link:
+        date: 2020
+        status: Approved
+        rank: 0
+        candidates: 665
+        spots: 220
+        ratio: 3.02
+        type: Job
+        top5: true
+        note: |
+          Programa de Atração e Retenção de Talentos da USP
+
+      - title: Concurso Público - Researcher (Stellar Astrophysics)
+        title_ptbr: Concurso Público - Pesquisador (Astrofísica Estelar)
+        location: Observatório Nacional
+        link:
+        date: 2024
+        status: Approved*
+        rank: 2
+        candidates: 17
+        spots: 1
+        ratio: 17
+        type: Job
+        top5: true
+        note: |
+          Aprovado no concurso, porém não classificado dentro do 
+          quantitativo de vagas (1 vaga).
+
+      - title: Concurso Público - Researcher
+        title_ptbr: Concurso Público - Pesquisador
+        location: Laboratório Nacional de Astrofísica
+        link:
+        date: 2024
+        status: Approved
+        rank: 4
+        candidates: 70
+        spots: 5
+        ratio: 14
+        type: Job
+        top5: true
+        note:
+
+      - title: Young-Researcher - FAPESP Fellowship
+        title_ptbr: Jovem Pesquisador - FAPESP
+        location: Instituto Nacional de Pesquisas Espaciais
+        link:
+        date: 2024
+        status: Approved
+        rank: -1
+        candidates: 1
+        spots: 1
+        ratio: "-"
+        type: Job
+        top5: 
+        note:
+
+      - title: "Ongoing Selection Processes"
+        title_ptbr: "Processo de Seleção em Andamento"
+        title-mark: true
+        type: Ongoing
+
+      - title: Concurso Público - Researcher (Stellar Astrophysics)
+        title_ptbr: Concurso Público - Pesquisador (Astrofísica Estelar)
+        location: Instituto Nacional de Pesquisas Espaciais
+        link:
+        date: 2024
+        status: Ongoing
+        rank: 
+        candidates: 30
+        spots: 1
+        ratio: 30
+        type: Ongoing
+        top5: 
+        note: 
+
+      - title: Concurso Público - Professor (General Astrophysics)
+        title_ptbr: Concurso Público - Professor Doutor (Astrofísica Geral)
+        location: Observatório do Valongo
+        link:
+        date: 2024
+        status: Ongoing
+        rank: 
+        candidates: 
+        spots: 1
+        ratio: 
+        type: Ongoing
+        top5: 
+        note: 
+  
+      - title: "Withdrawn"
+        title_ptbr: "Desistências"
+        type: Withdrawn
+        title-mark: true
+
+      - title: Concurso Público - Professor (Stellar Astrophysics)
+        title_ptbr: Concurso Público - Professor Doutor (Astrofísica Estelar)
+        location: Universidade Federal de Minas Gerais
+        link:
+        date: 2024
+        status: Withdrawn
+        rank: 
+        candidates: 
+        spots: 1
+        ratio: 
+        type: Withdrawn
+        top5: 
+        note: 
+
+      - title: Concurso Público - Professor (General Astrophysics)
+        title_ptbr: Concurso Público - Professor Doutor (Astrofísica Geral)
+        location: IAG/USP
+        link:
+        date: 2024
+        status: Withdrawn
+        rank: 
+        candidates: 17
+        spots: 1
+        ratio: 17
+        type: Withdrawn
+        top5: 
+        note: 
 
 skills:
     title: Skills &amp; Proficiency

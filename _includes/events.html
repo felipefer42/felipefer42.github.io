@@ -1,8 +1,8 @@
 {% assign events = site.data.data.event-participation %}
 <section class="section events-section">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
+    <span class="fa-stack fa-sm">
+      <i class="fas fa-square fa-stack-2x"></i>
       <i class="fas fa-plane-departure fa-stack-1x fa-inverse"></i>
     </span>
     {{ events.upcoming-title }}
@@ -54,18 +54,24 @@
 
   <div class="title-container">
   <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
+    <span class="fa-stack fa-sm">
+      <i class="fas fa-square fa-stack-2x"></i>
       <i class="fas fa-timeline-arrow fa-flip-horizontal fa-stack-1x fa-inverse"></i>
     </span>
     {{ events.title }}
   </h2>
   </div>
-
+  
+  {% assign first-year = true %}
   {% for event in events.events %}
     {% if event.upcoming == false %}
       {% if event.year-mark %}
         <div class="subtitle-container">
+          {% if first-year == true %}
+            {% assign first-year = false %}
+          {% else %}
+            <hr>
+          {% endif %}
           <h3 class="section-subtitle"> {{ event.title }}</h3>
         </div>
       {% else %}

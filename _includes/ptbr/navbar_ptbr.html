@@ -4,6 +4,7 @@
 <a class="button-6 button-6-active" href={{page.url}}><span class="fi fi-br"></span> &nbsp; portuguese</a>
 <a class="button-6" href={{ page.url | replace: "._ptbr.html", "_es.html" }}><span class="fi fi-es"></span> &nbsp; español</a>
 
+<nav>
 <ul class="nav">
   {% for item in navbar.pages %}
       <li class="{% if item.url == page.url %}active{% endif %}">
@@ -16,6 +17,25 @@
       </li>
   {% endfor %}
 
+  <li>
+    <a href="{{ item.url }}">
+      <i class="fa-solid fa-caret-down"></i>
+      Conteúdo Extra
+    </a>
+    <ul>
+      {% for item in navbar.pages-extra %}
+        <li class="{% if item.url == page.url %}active{% endif %}">
+          <a href="{{ item.url }}">
+            {% if item.icon %}
+              <i class="{{ item.icon }} fa-fw"></i>
+            {% endif %}
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </li>
+
   {% if navbar.blog-title %}
   <li class="nav-right" style="float:right;">
     <a href="{{ navbar.blog-url }}">
@@ -27,3 +47,4 @@
   </li>
   {% endif %}
 </ul>
+</nav>
