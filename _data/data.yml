@@ -1121,8 +1121,22 @@ publications:
         authors: Ré, P. Augusto; Almeida-Fernandes, F.; Mendes de Oliveira, C.; Perottoni, H. D.
         more:
         journal: Boletim da Sociedade Astrônomica Brasileira. 
-        volume: Proceedings da XLV Reunião Anual da SAB
+        volume: 34
         page: 209
+        month: 
+        year: 2023
+        show-home: False
+        first-author: False
+        refereed: False
+        rank: 2
+
+      - title: "Determination of stellar parameters for S-PLUS stars through Bayesian SED fitting"
+        link: "https://ui.adsabs.harvard.edu/abs/2023BoSAB..34..209R/abstract"
+        authors: Bolutavicius, G.; Almeida-Fernandes, F.; Mendes de Oliveira, C.
+        more:
+        journal: Boletim da Sociedade Astrônomica Brasileira. 
+        volume: 34
+        page: 111
         month: 
         year: 2023
         show-home: False
