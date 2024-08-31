@@ -132,7 +132,7 @@ summary:
         value: Helio J. Rocha-Pinto
         link:
       - key: Supervisors
-        value: Claudia Mendes de Oliveira, Vinicius M. Placco, Karin M. Delmestre
+        value: Claudia Mendes de Oliveira; Vinícius M. Placco; Karín M. Delmestre
         link:
       - key: Students
         value: Pierre R. Martho, Guilherme F. Bolutavicius
@@ -192,7 +192,7 @@ summary_ptbr:
         value: Helio J. Rocha-Pinto
         link:
       - key: Supervisores
-        value: Claudia Mendes de Oliveira, Vinicius M. Placco, Karin M. Delmestre
+        value: Claudia Mendes de Oliveira; Vinícius M. Placco; Karín M. Delmestre
         link:
       - key: Estudantes
         value: Pierre R. Martho, Guilherme F. Bolutavicius
@@ -1312,6 +1312,20 @@ publications:
         refereed: True
         rank: 5
 
+      - title: "Stellar ages: combination of the Kinematical and Isochronal methods"
+        link: ""
+        authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
+        more:
+        journal: Boletim da Sociedade Astronômica Brasileira
+        volume: 30 
+        page: 138
+        month: 
+        year: 2018
+        show-home: False
+        first-author: True
+        refereed: False
+        rank: 1
+
       - title: "A kinematical age for the interstellar object 1I/`Oumuamua"
         link: "https://ui.adsabs.harvard.edu/abs/2018MNRAS.480.4903A/abstract"
         authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
@@ -1354,7 +1368,7 @@ event-participation:
         location: Observatório Nacional, Rio de Janeiro, Brasil
         country-code: br
         state-code: br-rj
-        contribution: Poster
+        contribution: Talk
         upcoming: true
 
       - title: "V Astrobiology School at Observatório Nacional"
@@ -1372,7 +1386,16 @@ event-participation:
         location: Águas de Lindóia, São Paulo, Brasil
         country-code: br
         state-code: br-sp
-        contribution: Talk/Chair/Workshop
+        contribution: Talk/Chair
+        upcoming: true
+
+      - title: "S-PLUS Workshop at XLVII RASAB"
+        link: ""
+        date:  26/Sep/2024
+        location: Águas de Lindóia, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Organizer
         upcoming: true
 
       - title: "Ciclo de Seminários do Observatório do Valongo"
