@@ -1375,16 +1375,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-
-      - title: "VII Reunião Anual - Soc. Bras. de Astrobiologia"
-        link: ""
-        date:  04-06/Sep/2024
-        location: Observatório Nacional, Rio de Janeiro, Brasil
-        country-code: br
-        state-code: br-rj
-        contribution: Talk
-        upcoming: true
-
       - title: "V Astrobiology School at Observatório Nacional"
         link: ""
         date:  09-13/Sep/2024
