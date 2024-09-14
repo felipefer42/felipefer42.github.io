@@ -237,7 +237,7 @@ sidebar:
     country-code: br
     pronoun: He / Him
     tagline: Astrophysicist
-    avatar: felipe_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: felipe_profile_v2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     contact-title: Contact
@@ -253,7 +253,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@Astro_FelipeAF'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -317,7 +317,7 @@ sidebar_ptbr:
     pronoun: Ele / Dele
     tagline: Astrofísico
     country-code: br
-    avatar: felipe_profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: felipe_profile_v2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     contact-title: Contato
@@ -333,7 +333,7 @@ sidebar_ptbr:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@Astro_FelipeAF'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -1375,15 +1375,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "V Astrobiology School at Observatório Nacional"
-        link: ""
-        date:  09-13/Sep/2024
-        location: Observatório Nacional, Rio de Janeiro, Brasil
-        country-code: br
-        state-code: br-rj
-        contribution: Attend
-        upcoming: true
-
       - title: "XLVII Reunião Anual da Sociedade Astronômica Brasileira"
         link: ""
         date:  22-26/Sep/2024
