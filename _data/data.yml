@@ -146,17 +146,17 @@ summary:
         value: 10
         link:
       - key: Citations
-        value: 362
+        value: 416
         link:
       - key: Most-cited paper
-        value: Mendes de Oliveira et al. (2019) - 134 citations
+        value: Mendes de Oliveira et al. (2019) - 145 citations
         link:
       - key: 1st Paper
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Most-recent paper
-        value: Souza dos Santos et al. (2024)
-        link: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..563S/abstract
+        value: Schwarz et al. (2025)
+        link: https://ui.adsabs.harvard.edu/abs/2025A%26C....5100899S/abstract
     additional-title: Additional Information
     additional-info:
       - key: Languages
@@ -923,14 +923,40 @@ publications:
     intro_ptbr:
     papers:
 
-      - title: "Determination of metallicities of red giant stars using Machine Learning techniques applied to the narrow and broadband photometry of the S-PLUS survey"
-        link: ""
-        authors: F. Molina-Jorquera, G. Damke, D. Fernández-Olivares, ..., (5th) F. Almeida-Fernandes;
-        more: "+7"
+      - title: "Stellar atmospheric parameters and chemical abundances of about 5 million stars from S-PLUS multi-band photometry"
+        link: "https://ui.adsabs.harvard.edu/abs/2025A%26C....5100899S/abstract"
+        authors: Schwarz, G. B. O.; Herpich, F. ; Almeida-Fernandes, F. ; Nakazono, L.;
+        more: "+9"
+        journal: Astronomy & Computing
+        volume: 51
+        page: id.100899
+        year: 2025
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 3
+        
+      - title: "Stellar atmospheric parameters and chemical abundances of about 5 million stars from S-PLUS multi-band photometry"
+        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv241118748F/abstract"
+        authors:  Ferreira Lopes, C. E.; Gutiérrez-Soto, L. A.; Ferreira Alberice, V. S.; ...; (9th) F. Almeida-Fernandes;
+        more: "+29"
         journal: A&A
         volume:
         page:
         year: Acpt
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 9
+        
+      - title: "Determination of metallicities of red giant stars using Machine Learning techniques applied to the narrow and broadband photometry of the S-PLUS survey"
+        link: "https://ui.adsabs.harvard.edu/abs/2024A%26A...691A.144M/abstract"
+        authors: F. Molina-Jorquera, G. Damke, D. Fernández-Olivares, ..., (5th) F. Almeida-Fernandes;
+        more: "+7"
+        journal: A&A
+        volume: 691
+        page: id.A144
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
@@ -941,22 +967,22 @@ publications:
         authors:  Herpich, F. R.; Almeida-Fernandes, F.; Oliveira Schwarz, G. B.; 
         more: "+68"
         journal: A&A
-        volume:
-        page:
-        year: Acpt
+        volume: 689
+        page: id.A249
+        year: 2024
         show-home: True
         first-author: False
         refereed: True
         rank: 2
 
       - title: "The S-PLUS Ultra-Short Survey: first data release "
-        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv240705004P/abstract"
+        link: "https://ui.adsabs.harvard.edu/abs/2024A%26A...691A.138P/abstract"
         authors:  Perottoni, H. D.; Placco, V. M.; Almeida-Fernandes, F.; Herpich, Fábio R. ; 
         more: "+14"
         journal: A&A
-        volume:
-        page:
-        year: Acpt
+        volume: 691
+        page: id.A138
+        year: 2024
         show-home: False
         first-author: False
         refereed: True
@@ -1375,6 +1401,15 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
+      - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
+        link: "https://congresos.unlp.edu.ar/xilapis/"
+        date: 07-10/Apr/2025
+        location: La Plata, Argentina
+        country-code: ar
+        contribution: Lecturer
+        contrib-icon: fa-person-chalkboard
+        upcoming: true
+        
       - title: "XLVII Reunião Anual da Sociedade Astronômica Brasileira"
         link: ""
         date:  22-26/Sep/2024
@@ -1382,7 +1417,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Talk/Chair
-        upcoming: true
+        upcoming: false
 
       - title: "S-PLUS Workshop at XLVII RASAB"
         link: ""
@@ -1391,7 +1426,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Organizer
-        upcoming: true
+        upcoming: false
 
       - title: "Ciclo de Seminários do Observatório do Valongo"
         link:
@@ -1402,7 +1437,7 @@ event-participation:
         remote: true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
-        upcoming: True
+        upcoming: false
 
       - title: "2024"
         year-mark: true
