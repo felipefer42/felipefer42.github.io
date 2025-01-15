@@ -94,13 +94,42 @@ p {
     margin-bottom: 15px;
   }
 
+  .avatar-parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
   .avatar {
     //used for profile image
+    position: relative;
+    top: 0;
+    left: 0;
     max-width: 160px;
     margin-bottom: 15px;
-    border: 5px solid $theme-color;
+    border-bottom: 5px solid $theme-color;
+    border-right: 5px solid $theme-color;
     border-radius: 40%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  .institute-logo-container {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    min-height: 60px;
+    max-width: 60px;
+    border-bottom: 5px solid darken($theme-color, 10%);
+    border-right: 5px solid darken($theme-color, 10%);
+    border-radius: 40%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: $theme-color;
+    display: flex;
+    align-items: center;
+  }
+  .institute-logo {
+    //used for profile image
+    width: 80%;
+    margin: auto;
   }
   .contact-list {
     .fas,
@@ -623,8 +652,8 @@ p {
 }
 
 .nav li a:hover:not(.active) {
-  background-color: darken($lighter-grey, 15%);
-  color: $smoky-white;
+  background-color: lighten($lighter-grey, 5%);
+  color: $theme-color;
   @include box-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
 }
 

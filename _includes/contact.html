@@ -97,6 +97,24 @@
     </li>
     {% endif %}
 
+    {% if sidebar.lattes %}
+    <li class="phone"><img src="/assets/logos/lattes.png" alt="orcid" style="float:left;width:18px;height:18px;margin-right:10px">
+      <a href="http://lattes.cnpq.br/{{ sidebar.lattes  }}" target="_blank">lattes: {{ sidebar.lattes }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.orcid %}
+    <li class="phone"><img src="/assets/logos/orcid.png" alt="orcid" style="float:left;width:18px;height:18px;margin-right:10px">
+      <a href="https://orcid.org/{{ sidebar.orcid  }}" target="_blank">orcid: {{ sidebar.orcid }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.ads %}
+    <li class="phone"><img src="/assets/logos/ads.png" alt="orcid" style="float:left;width:18px;height:18px;margin-right:10px">
+      <a href="{{ sidebar.ads-link  }}" target="_blank">ads: {{ sidebar.ads }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.address %}
     <li class="timezone"><i class="fas fa-location-dot"></i>
       <a href="">{{ sidebar.address }}</a>
@@ -108,24 +126,5 @@
       <a href="">{{ sidebar.timezone }}</a>
     </li>
     {% endif %}
-
-    {% if sidebar.lattes %}
-    <li class="phone"><img src="/assets/logos/lattes.png" alt="orcid" style="float:left;width:18px;height:18px;margin-right:10px">
-      <a href="http://lattes.cnpq.br/{{ sidebar.lattes  }}" target="_blank">{{ sidebar.lattes }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.orcid %}
-    <li class="phone"><img src="/assets/logos/orcid.png" alt="orcid" style="float:left;width:18px;height:18px;margin-right:10px">
-      <a href="https://orcid.org/{{ sidebar.orcid  }}" target="_blank">{{ sidebar.orcid }}</a>
-    </li>
-    {% endif %}
-
-    {% if sidebar.ads %}
-    <li class="phone"><img src="/assets/logos/ads.png" alt="orcid" style="float:left;width:18px;height:18px;margin-right:10px">
-      <a href="{{ sidebar.ads-link  }}" target="_blank">{{ sidebar.ads }}</a>
-    </li>
-    {% endif %}
-
   </ul>
 </div><!--//contact-container-->

@@ -112,8 +112,11 @@ summary:
         value: Felipe de Almeida Fernandes
         link:
       - key: Born
-        value: March, 20, 1993; Juiz de Fora, MG, Brazil
+        value: March 20, 1993 (age 31)
         link:
+      - key: Place of Birth
+        value: Juiz de Fora, MG, Brazil
+        link: 
       - key: Nationality
         value: Brazilian
         link:
@@ -122,7 +125,9 @@ summary:
       - key: Alma mater
         value: Universidade Federal do Rio de Janeiro
         link:
-      - key: Research Institutes
+      - key: Current Institute
+        value: Instituto Nacional de Pesquisas Espaciais
+      - key: Former Institutes
         value: OV/UFRJ; IAG/USP; CSDC/NOIRLab
         link:
       - key: Research Groups
@@ -140,7 +145,7 @@ summary:
     publication-title: Publications (Qualis A1)
     publication-info:
       - key: Publications
-        value: 24 (4 as 1st author)
+        value: 26 (4 as 1st author)
         link:
       - key: H-index
         value: 10
@@ -156,7 +161,7 @@ summary:
         link:
       - key: Most-recent paper
         value: Schwarz et al. (2025)
-        link: https://ui.adsabs.harvard.edu/abs/2025A%26C....5100899S/abstract
+        link: 
     additional-title: Additional Information
     additional-info:
       - key: Languages
@@ -235,16 +240,17 @@ sidebar:
     first_name: Felipe
     name: Almeida-Fernandes
     country-code: br
-    pronoun: He / Him
+    pronoun: PhD - He/Him
     tagline: Astrophysicist
     avatar: felipe_profile_v2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    institute-logo: inpe_branco.png
 
     # Sidebar links
     contact-title: Contact
     email: felipe@ov.ufrj.br
     phone: 
     lattes: 3565984584227844
-    ads: author:"almeida-fernandes" 
+    ads: "almeida-fernandes" 
     ads-link: https://ui.adsabs.harvard.edu/search/filter_author_facet_hier_fq_author=OR&filter_author_facet_hier_fq_author=author_facet_hier%3A%220%2FAlmeida%20Fernandes%2C%20F%22&filter_author_facet_hier_fq_author=author_facet_hier%3A%220%2FAlmeida-Fernandes%2C%20F%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(author_facet_hier%3A%220%2FAlmeida%20Fernandes%2C%20F%22%20OR%20author_facet_hier%3A%220%2FAlmeida-Fernandes%2C%20F%22)&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=author%3A%22almeida-fernandes%22&sort=date%20desc%2C%20bibcode%20desc&p_=0
     website: astrofelipe.com #do not add http://
     linkedin: 
@@ -260,8 +266,8 @@ sidebar:
     pdf: 
     orcid: 0000-0002-8048-8717
     citizenship:
-    institute: Observatório do Valongo
-    institute-link: https://ov.ufrj.br/
+    institute: INPE
+    institute-link: https://www.gov.br/inpe/pt-br
     address: 
     timezone: São Paulo Timezone (GMT-3)
 
@@ -318,6 +324,7 @@ sidebar_ptbr:
     tagline: Astrofísico
     country-code: br
     avatar: felipe_profile_v2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    institute-logo: inpe_branco.png
 
     # Sidebar links
     contact-title: Contato
@@ -340,8 +347,8 @@ sidebar_ptbr:
     pdf: 
     orcid: 0000-0002-8048-8717
     citizenship:
-    institute: Observatório do Valongo
-    institute-link: https://ov.ufrj.br/
+    institute: INPE
+    institute-link: https://www.gov.br/inpe/pt-br
     address: 
     timezone: São Paulo Timezone (GMT-3)
 
@@ -495,22 +502,21 @@ education_ptbr:
 complementary_education:
     title: Education+
     info:
-      - degree: IX LaPIS on Astronomy and Geophysics
-        university: La Plata (Argentina)
-        time: 2020
-        details: |
       - degree: Winter School of the Valongo Observatory
         university: Observatório do Valongo (Brazil)
         time: 3x (2015, 2017, 2019)
         details: |
+
       - degree: Ciclo de Cursos Especiais do Observatório Nacional
         university: Observatório Nacional (Brazil)
-        time: 4x (2015, 2016, 2017, 2018)
+        time: 5x (2015, 2016, 2017, 2018, 2023)
         details: |
+
       - degree: Visiting PhD-candidate
         university: Universidad de La Serena (Chile)
         time: 2017
         details: |
+
       - degree: Escola de Inverno 2013 - Astronomia
         university: Observatório Nacional (Brazil)
         time: 2013
@@ -519,22 +525,21 @@ complementary_education:
 complementary_education_ptbr:
     title: Formação Acadêmica+
     info:
-      - degree: IX LaPIS on Astronomy and Geophysics
-        university: La Plata (Argentina)
-        time: 2020
-        details: |
       - degree: Escola de Inverno do Observatório do Valongo
         university: Observatório do Valongo (Brazil)
         time: 3x (2015, 2017, 2019)
         details: |
+        
       - degree: Ciclo de Cursos Especiais do Observatório Nacional
         university: Observatório Nacional (Brazil)
-        time: 4x (2015, 2016, 2017, 2018)
+        time: 5x (2015, 2016, 2017, 2018, 2023)
         details: |
+
       - degree: Pesquisador Visitante (pós-grauação)
         university: Universidad de La Serena (Chile)
         time: 2017
         details: |
+
       - degree: Escola de Inverno 2013 - Astronomia
         university: Observatório Nacional (Brazil)
         time: 2013
@@ -544,14 +549,19 @@ experiences:
     title: Job Experience
     info:
     
-      - role: Postdoctoral Researcher
-        time: 2024 - present
-        company: Valongo Observatory
+      - role: Researcher
+        time: 2025 - present
+        company: Instituto Nacional de Pesquisas Espaciais
         details: |
 
       - role: Data Release Manager
         time: 2023 - present
         company: S-PLUS survey
+        details: |
+        
+      - role: Postdoctoral Researcher
+        time: 2024
+        company: Valongo Observatory
         details: |
 
       - role: Postdoctoral Researcher
@@ -589,7 +599,7 @@ experiences_ptbr:
     title: Experiência Profissional
     info:
       - role: Pesquisador (Pós-doutorado)
-        time: 2024 - presente
+        time: 2024
         company: Observatório do Valongo
         details: |
         
@@ -923,7 +933,7 @@ publications:
     intro_ptbr:
     papers:
 
-      - title: "Stellar atmospheric parameters and chemical abundances of about 5 million stars from S-PLUS multi-band photometry"
+      - title: "MAR: A Multiband Astronomical Reduction package"
         link: "https://ui.adsabs.harvard.edu/abs/2025A%26C....5100899S/abstract"
         authors: Schwarz, G. B. O.; Herpich, F. ; Almeida-Fernandes, F. ; Nakazono, L.;
         more: "+9"
@@ -1401,6 +1411,19 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
+      - title: "2025"
+        year-mark: true
+        upcoming: false
+
+      - title: "Hands-on S-PLUS meeting: DR5 paper"
+        link: ""
+        date:  02-05/Jan/2025
+        location: Ubatuba, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Participation
+        upcoming: true
+        
       - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
         link: "https://congresos.unlp.edu.ar/xilapis/"
         date: 07-10/Apr/2025
@@ -1409,7 +1432,11 @@ event-participation:
         contribution: Lecturer
         contrib-icon: fa-person-chalkboard
         upcoming: true
-        
+
+      - title: "2024"
+        year-mark: true
+        upcoming: false
+
       - title: "XLVII Reunião Anual da Sociedade Astronômica Brasileira"
         link: ""
         date:  22-26/Sep/2024
@@ -1437,10 +1464,6 @@ event-participation:
         remote: true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
-        upcoming: false
-
-      - title: "2024"
-        year-mark: true
         upcoming: false
 
       - title: "Qualificação de Doutorado: Paulo Vitor Souza dos Santos"
@@ -1471,7 +1494,7 @@ event-participation:
         upcoming: false
         blog-url: 
 
-      - title: "Hands-on S-PLUS meeting: TBD"
+      - title: "Hands-on S-PLUS meeting"
         link: ""
         date:  28/Jan-02/Feb/2024
         location: Gonçalves, Minas Gerais, Brasil
@@ -2252,6 +2275,7 @@ selections:
       - name: Vestibular
       - name: PG
       - name: Postdoc
+      - name: Temporary
       - name: Job
       - name: Ongoing
       - name: Withdrawn
@@ -2489,19 +2513,11 @@ selections:
         type: Postdoc
         top5: true
 
-      - title: "Job's Selection Processes"
-        title_ptbr: "Processo de Seleção em Vagas de Emprego"
-        type: Job
+      - title: "Temporary Positions"
+        title_ptbr: "Vagas Temporárias"
+        type: Temporary
         title-mark: true
         intro: |
-         In Brazil, most applications for the Researcher Carreer as a government employee 
-         involve a selection process known as "concurso público". The concursos can 
-         include exams, test classes, defense of academic trajectory, academic titles, 
-         and project proposas. <br><br>
-
-         Note: In Observatorio Nacional I was considered 'approved' in the concurso, but only
-         a single spot was available. Which means I would only be offered the position in case
-         a new spot was created within 12 months after the 'concurso'.
 
       - title: Collaborating Professor Ms3.1 (USP/PART)
         title_ptbr: Professor Colaborador Ms3.1 (USP/PART)
@@ -2513,10 +2529,38 @@ selections:
         candidates: 665
         spots: 220
         ratio: 3.02
-        type: Job
+        type: Temporary
         top5: true
         note: |
           Programa de Atração e Retenção de Talentos da USP
+
+      - title: Young-Researcher - FAPESP Fellowship
+        title_ptbr: Jovem Pesquisador - FAPESP
+        location: Instituto Nacional de Pesquisas Espaciais
+        link:
+        date: 2024
+        status: Approved
+        rank: -1
+        candidates: 1
+        spots: 1
+        ratio: "-"
+        type: Temporary
+        top5: true
+        note:
+
+      - title: "Permanent Positions"
+        title_ptbr: "Vagas Permanentes"
+        type: Job
+        title-mark: true
+        intro: |
+         In Brazil, most applications for the Researcher Carreer as a government employee 
+         involve a selection process known as "concurso público". The concursos can 
+         include exams, test classes, defense of academic trajectory, academic titles, 
+         and project proposals. <br><br>
+
+         Note: In Observatorio Nacional I was considered 'approved' in the concurso, but only
+         a single spot was available. Which means I would only be offered the position in case
+         a new spot was created within 12 months after the 'concurso'.
 
       - title: Concurso Público - Researcher (Stellar Astrophysics)
         title_ptbr: Concurso Público - Pesquisador (Astrofísica Estelar)
@@ -2548,38 +2592,24 @@ selections:
         top5: true
         note:
 
-      - title: Young-Researcher - FAPESP Fellowship
-        title_ptbr: Jovem Pesquisador - FAPESP
-        location: Instituto Nacional de Pesquisas Espaciais
-        link:
-        date: 2024
-        status: Approved
-        rank: -1
-        candidates: 1
-        spots: 1
-        ratio: "-"
-        type: Job
-        top5: 
-        note:
-
-      - title: "Ongoing Selection Processes"
-        title_ptbr: "Processo de Seleção em Andamento"
-        title-mark: true
-        type: Ongoing
-
       - title: Concurso Público - Researcher (Stellar Astrophysics)
         title_ptbr: Concurso Público - Pesquisador (Astrofísica Estelar)
         location: Instituto Nacional de Pesquisas Espaciais
         link:
         date: 2024
-        status: Ongoing
-        rank: 
+        status: Approved
+        rank: 1
         candidates: 30
         spots: 1
         ratio: 30
-        type: Ongoing
+        type: Job
         top5: 
         note: 
+
+      - title: "Ongoing Selection Processes"
+        title_ptbr: "Processo de Seleção em Andamento"
+        title-mark: true
+        type: Ongoing
 
       - title: Concurso Público - Professor (General Astrophysics)
         title_ptbr: Concurso Público - Professor Doutor (Astrofísica Geral)

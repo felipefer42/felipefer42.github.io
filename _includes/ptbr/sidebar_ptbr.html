@@ -4,7 +4,17 @@
   <div class="profile-container">
 
     {% if sidebar.avatar %}
+    <div class="avatar-parent">
+
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+
+    {% if sidebar.institute-logo %}
+    <div class="institute-logo-container">
+      <img class="institute-logo" src="{{ site.baseurl }}/assets/images/{{ sidebar.institute-logo }}" alt="institute logo" />
+    </div>
+    {% endif %}
+
+    </div>
     {% endif %}
 
     {% if sidebar.first_name %}
