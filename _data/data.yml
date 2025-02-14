@@ -947,17 +947,30 @@ publications:
         rank: 3
         
       - title: "Stellar atmospheric parameters and chemical abundances of about 5 million stars from S-PLUS multi-band photometry"
-        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv241118748F/abstract"
+        link: "https://ui.adsabs.harvard.edu/abs/2025A%26A...693A.306F/abstract"
         authors:  Ferreira Lopes, C. E.; Gutiérrez-Soto, L. A.; Ferreira Alberice, V. S.; ...; (9th) F. Almeida-Fernandes;
         more: "+29"
         journal: A&A
-        volume:
-        page:
-        year: Acpt
+        volume: 693
+        page: id.A306
+        year: 2025
         show-home: False
         first-author: False
         refereed: True
         rank: 9
+        
+      - title: "BD+44°493: Chemo-dynamical Analysis and Constraints on Companion Planetary Masses from WIYN/NEID Spectroscopy"
+        link: "https://ui.adsabs.harvard.edu/abs/2024ApJ...977...12P/abstract"
+        authors:   Placco, V M.; Gupta, A. F.; Almeida-Fernandes, F.; Logsdon, S. E.; 
+        more: "+10"
+        journal: ApJ
+        volume: 977
+        page: id.12
+        year: 2024
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 3    
         
       - title: "Determination of metallicities of red giant stars using Machine Learning techniques applied to the narrow and broadband photometry of the S-PLUS survey"
         link: "https://ui.adsabs.harvard.edu/abs/2024A%26A...691A.144M/abstract"
@@ -1422,7 +1435,7 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Participation
-        upcoming: true
+        upcoming: false
         
       - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
         link: "https://congresos.unlp.edu.ar/xilapis/"
