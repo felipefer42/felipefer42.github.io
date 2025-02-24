@@ -1428,15 +1428,15 @@ event-participation:
         year-mark: true
         upcoming: false
 
-      - title: "Hands-on S-PLUS meeting: DR5 paper"
+      - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
         link: ""
-        date:  02-05/Jan/2025
-        location: Ubatuba, São Paulo, Brasil
+        date:  19-23/May/2025
+        location: CBPF, Rio de Janeiro, Brasil
         country-code: br
-        state-code: br-sp
-        contribution: Participation
-        upcoming: false
-        
+        state-code: br-rj
+        contribution: Poster
+        upcoming: true
+
       - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
         link: "https://congresos.unlp.edu.ar/xilapis/"
         date: 07-10/Apr/2025
@@ -1446,6 +1446,15 @@ event-participation:
         contrib-icon: fa-person-chalkboard
         upcoming: true
 
+      - title: "Hands-on S-PLUS meeting: DR5 paper"
+        link: ""
+        date:  02-05/Jan/2025
+        location: Ubatuba, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Participation
+        upcoming: false
+        
       - title: "2024"
         year-mark: true
         upcoming: false
