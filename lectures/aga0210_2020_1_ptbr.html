@@ -1,0 +1,16 @@
+---
+layout: page_ptbr
+---
+
+{% assign courses = site.data.data.lectures.courses %}
+
+{% for course in courses %}
+  
+  {% if {{course.code}} == "AGA0210" %}
+    {% if {{course.semester}} == '2020.1' %}
+        
+       {% include ptbr/single_course_ptbr.html %}
+
+    {% endif %}
+  {% endif %}
+{% endfor %}

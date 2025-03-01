@@ -320,7 +320,7 @@ sidebar_ptbr:
     # Profile information
     first_name: Felipe
     name: Almeida-Fernandes
-    pronoun: Ele / Dele
+    pronoun: Dr. - Ele / Dele
     tagline: Astrofísico
     country-code: br
     avatar: felipe_profile_v2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
@@ -513,14 +513,14 @@ education_ptbr:
             - Bullet point
             - Bullet point
 
-      - role: Pós-doutorado
+      - degree: Pós-doutorado
         time: 2019 - 2024
-        company: Universidade de São Paulo
+        university: IAG (USP)
         details: |
 
-      - role: Pós-doutorado
+      - degree: Pós-doutorado
         time: 2024
-        company: Observatório do Valongo
+        university: Observatório do Valongo (UFRJ)
         details: |
 
 complementary_education:
@@ -1437,13 +1437,14 @@ event-participation:
         year-mark: true
         upcoming: false
 
-      - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
+      - title: "Seminários do Instituto Nacional de Pesquisas Espaciais"
         link: ""
-        date:  19-23/May/2025
-        location: CBPF, Rio de Janeiro, Brasil
+        date: 25/Mar/2025
+        location: São José dos Campos, Brasil
         country-code: br
-        state-code: br-rj
-        contribution: Poster
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: 
         upcoming: true
 
       - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
@@ -1453,6 +1454,15 @@ event-participation:
         country-code: ar
         contribution: Lecturer
         contrib-icon: fa-person-chalkboard
+        upcoming: true
+
+      - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
+        link: ""
+        date:  19-23/May/2025
+        location: CBPF, Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: Poster
         upcoming: true
 
       - title: "Hands-on S-PLUS meeting: DR5 paper"
@@ -2761,15 +2771,25 @@ footer_ptbr: >
 
 lectures:
     title_ongoing: Ongoing Lectures
+    title_ongoing_ptbr: Aulas em Andamento
     intro_ongoing: |
-      At this precise moment, the universe has conspired to grant me a brief intermission from lecturing. This is either a cosmic oversight or a rare act of mercy—interpret as you will. <br><br><br>
+      No ongoing classes at the moment =) <br><br><br>
+    intro_ongoing_ptbr: |
+      Sem aulas em andamento =) <br><br><br>
+        
     title_finished: Finished Lectures
     intro_finished:
+    title_finished_ptbr: Cursos Concluídos
+    intro_finished_ptbr:
+
     title_upcoming: Upcoming Lectures
     intro_upcoming:
+    title_upcoming_ptbr: Cursos Planejados
+    intro_upcoming_ptbr:
+
     courses:
 
-      - name: Introdução à Astronomia
+      - name: Introduction to Astronomy
         link: lectures/aga0210_2021_2.html
         intro: |
           Observação: vídeo-aulas gravadas nos semestres 2020.1 e 2020.2
@@ -2805,13 +2825,25 @@ lectures:
             value: Semester-long
           - key: Language
             value: Portuguese
+        
+        info_ptbr:
+          - key: Créditos Aula
+            value: 4
+          - key: Créditos Trabalho
+            value: 0
+          - key: Horas Totais
+            value: 60h
+          - key: Tipo
+            value: Semestral
+          - key: Idioma
+            value: Português
           
         language-code: br
         language: portuguese 
         code: AGA0210
         semester: '2021.2'
         type: finished
-        background-color: "#D5A959"
+        background-color: "#DB6D00"
         text-color: "#FFF"
 
         documents:
@@ -3187,7 +3219,7 @@ lectures:
             drive: 
             blog: 
 
-      - name: Introdução à Astronomia
+      - name: Introduction to Astronomy
         link: xx
         intro:
         name_ptbr: Introdução à Astronomia
@@ -3197,7 +3229,7 @@ lectures:
         code: AGA0210
         semester: '2021.1'
         type: finished
-        background-color: "#B7914D"
+        background-color: "#DB8802"
         text-color: "#FFF"
         sections:
           - name: Apresentação
@@ -3221,7 +3253,7 @@ lectures:
             pdf:
             extra:
 
-      - name: Introdução à Astronomia
+      - name: Introduction to Astronomy
         link: xx
         intro:
         name_ptbr: Introdução à Astronomia
@@ -3231,7 +3263,7 @@ lectures:
         code: AGA0210
         semester: '2020.2'
         type: finished
-        background-color: "#AA9163"
+        background-color: "#DBA800"
         text-color: "#FFF"
 
         documents:
@@ -3261,7 +3293,7 @@ lectures:
             pdf:
             extra:
 
-      - name: Introdução à Astronomia
+      - name: Introduction to Astronomy
         link: lectures/aga0210_2020_1.html
         intro:
         description: |
@@ -3296,13 +3328,25 @@ lectures:
             value: Semester-long
           - key: Language
             value: Portuguese
-          
+
+        info_ptbr:
+          - key: Créditos Aula
+            value: 4
+          - key: Créditos Trabalho
+            value: 0
+          - key: Horas Totais
+            value: 60h
+          - key: Tipo
+            value: Semestral
+          - key: Idioma
+            value: Português
+
         language-code: br
         language: portuguese 
         code: AGA0210
         semester: '2020.1'
         type: finished
-        background-color: "#C8AB74"
+        background-color: "#DBB945"
         text-color: "#FFF"
 
         documents:
@@ -3362,7 +3406,8 @@ lectures:
             pdf:
             drive:
 
-      - name: Estrutura da Galáxia
+      - name: Galactic Structure
+        name_ptbr: Estrutura da Galáxia
         link: xx
         intro:
         institute: INPE

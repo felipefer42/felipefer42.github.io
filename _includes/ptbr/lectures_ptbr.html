@@ -11,12 +11,12 @@
       <i class="fas fa-square fa-stack-2x"></i>
       <i class="fas fa-person-chalkboard fa-stack-1x fa-inverse"></i>
     </span>
-    {{ lectures.title_ongoing }}
+    {{ lectures.title_ongoing_ptbr }}
   </h2>
 
-  {% if lectures.intro_ongoing %}
+  {% if lectures.intro_ongoing_ptbr %}
   <div class="intro">
-    {{ lectures.intro_ongoing | markdownify }}
+    {{ lectures.intro_ongoing_ptbr | markdownify }}
   </div><!--//intro-->
   {% endif %}
 
@@ -29,7 +29,7 @@
   <div class="course-cards">
     {% for course in lectures.courses %}
       {% if course.type == "ongoing" %}
-      <a class="course-card" href="{{ course.link }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
+      <a class="course-card" href="{{ course.link | replace: '.html', '_ptbr.html' }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
         <h3>
           {% if course.language-code %}
           <span class="fi fi-{{ course.language-code }}" style="border-color: #aaa"></span>
@@ -37,7 +37,7 @@
           {{ course.code }} - {{ course.semester }}
         </h3>
         <h4>
-          {{ course.name }}
+          {{ course.name_ptbr }}
         </h4>
         <h5>
           {{ course.institute }}
@@ -54,13 +54,13 @@
       <i class="fas fa-square fa-stack-2x"></i>
       <i class="fas fa-calendar-clock fa-stack-1x fa-inverse"></i>
     </span>
-    {{ lectures.title_upcoming }}
+    {{ lectures.title_upcoming_ptbr }}
   </h2>
 
   <div class="course-cards">
     {% for course in lectures.courses %}
       {% if course.type == "upcoming" %}
-      <a class="course-card" href="{{ course.link }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
+      <a class="course-card" href="{{ course.link | replace: '.html', '_ptbr.html' }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
         <h3>
           {% if course.language-code %}
           <span class="fi fi-{{ course.language-code }}" style="border-color: #aaa"></span>
@@ -68,7 +68,7 @@
           {{ course.code }} - {{ course.semester }}
         </h3>
         <h4>
-          {{ course.name }}
+          {{ course.name_ptbr }}
         </h4>
         <h5>
           {{ course.institute }}
@@ -87,13 +87,13 @@
       <i class="fas fa-square fa-stack-2x"></i>
       <i class="fas fa-chalkboard fa-stack-1x fa-inverse"></i>
     </span>
-    {{ lectures.title_finished }}
+    {{ lectures.title_finished_ptbr }}
   </h2>
 
   <div class="course-cards">
   {% for course in lectures.courses %}
     {% if course.type == "finished" %}
-    <a class="course-card"  href="{{ course.link }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
+    <a class="course-card"  href="{{ course.link | replace: '.html', '_ptbr.html' }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
       <h3>
         {% if course.language-code %}
         <span class="fi fi-{{ course.language-code }}" style="border-color: #aaa"></span>
@@ -101,7 +101,7 @@
         {{ course.code }} - {{ course.semester }}
       </h3>
       <h4>
-        {{ course.name }}
+        {{ course.name_ptbr }}
       </h4>
       <h5>
         {{ course.institute }}
