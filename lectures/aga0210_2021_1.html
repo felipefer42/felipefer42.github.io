@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+{% assign courses = site.data.data.lectures.courses %}
+
+{% for course in courses %}
+  
+  {% if {{course.code}} == "AGA0210" %}
+    {% if {{course.semester}} == '2021.1' %}
+        
+       {% include single_course.html %}
+
+    {% endif %}
+  {% endif %}
+{% endfor %}

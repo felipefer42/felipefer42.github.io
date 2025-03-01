@@ -48,7 +48,8 @@ p {
   @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
-.sidebar-wrapper {
+.sidebar-wrapper,
+.sidebar-wrapper-smallscreen {
   grid-column: span 3;
   order: $sidebar-order;
   background: $theme-color;
@@ -56,13 +57,15 @@ p {
   a {
     color: #fff;
   }
-  .profile-container {
+  .profile-container,
+  .profile-container-smallscreen{
     padding: 30px;
     //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
+
   .first_name {
     font-size: 18px;
     font-weight: 500;
@@ -209,6 +212,10 @@ p {
   }
 }
 
+.sidebar-wrapper-smallscreen{
+  display: none;
+}
+
 .navbar-wrapper {
   order: 1;
   max-width: 980px;
@@ -240,6 +247,18 @@ p {
     position: relative;
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .section-subsubtitle {
+    font-size: 15px;
+    font-weight: 500;
+    color: darken($theme-color, 15%);
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .section-subsubsubtitle {
+    font-size: 14px;
+    font-weight: 600;
   }
   .main-header {
     padding: 30px 40px;
@@ -579,7 +598,8 @@ p {
     background: $darker-grey;
     color: $lighter-grey;
   }
-  .summary {
+  .summary,
+  .career-summary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -587,7 +607,8 @@ p {
     text-justify: inter-word;
   }
 
-  .summary-more{
+  .summary-more,
+  .career-summary-more{
     display: none;
     text-align: justify;
     text-justify: inter-word;
@@ -829,4 +850,162 @@ nav ul li ul li a:hover {
 
 .events-section hr {
   @include box-shadow(0px 1px 0px rgba(0, 0, 0, 0.2));
+}
+
+.course-cards{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .course-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .course-cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+.course-card {
+  background-color: $darker-grey;
+  color: white;
+  padding: 1em;
+  height: 8em;
+}
+
+.course-card:hover{
+  text-decoration: none;
+  opacity:0.8;
+}
+
+
+.course-card h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.course-card h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 0 0.5em 0;
+  margin: 0;
+}
+
+.course-card h5 {
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 0 0 0.5em 0;
+  font-style: italic;
+  margin: 0;
+}
+
+.course-summary table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.course-summary td {
+  text-align: left;
+  padding: 8px 15px;
+  color: $theme-color;
+}
+
+.course-summary th {
+  border: 0;
+  text-align: left;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.single_course-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  color: #FFF;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.lecture-table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.lecture-table td {
+  border: 0;
+  text-align: left;
+  padding: 8px 8px;
+  color: $theme-color;
+}
+
+.lecture-table td a{
+  font-size: 1em;
+}
+
+.lecture-table th {
+  border: 0;
+  text-align: left;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.lecture-icon {
+  font-size: 1.5em;
+}
+
+.doc-cards{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 600px) {
+  .doc-cards { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .doc-cards { grid-template-columns: repeat(6, 1fr); }
+}
+
+.doc-card {
+  background-color: $smoky-white;
+  border: 1px $theme-color solid;
+  color: $theme-color;
+  padding: 0.2em;
+  height: 10em;
+  text-align: center;
+}
+
+.doc-card:hover{
+  text-decoration: none;
+  opacity:0.8;
+}
+
+.doc-icon {
+  font-size: 3em;
+  padding-top: 0.2em;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous a :hover{
+  background-color: #ddd;
+  text-decoration: none;
 }

@@ -23,6 +23,19 @@
     width: inherit;
   }
 
+  .summary, 
+  .education-container,
+  .complementary_education-container,
+  .profile-container {
+    display: none !important;
+  }
+
+  .sidebar-wrapper-smallscreen,
+  .profile-container-smallscreen{
+    display: block;
+  }
+
+
   .wrapper {
     display: block;
   }
@@ -64,6 +77,10 @@
   .item-container {
   margin: 20px 0px;
   }
+  .summary {
+    display: none !important;
+  }
+  
 }
 
 /* Small devices (tablets, 768px and up) */
