@@ -7,7 +7,9 @@
 > Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
 
 
-[sharu725](hhttps://github.com/sharu725/online-cv) have made this into a Jekyll Theme. I have kept this README as written by him. Checkout the live demo [here](https://online-cv.webjeda.com).
+>[sharu725](hhttps://github.com/sharu725/online-cv) have made this into a Jekyll Theme. I have kept this README as >written by him. 
+
+Checkout the live demo [here](https://online-cv.webjeda.com).
 
 <table>
   <tr>

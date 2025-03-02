@@ -220,7 +220,7 @@ summary_ptbr:
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Artigo mais recente
-        value: Souza dos Santos et al. (2024)
+        value: Schwarz et al. (2025)
         link: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..563S/abstract
     additional-title: Informações Adicionais
     additional-info:
@@ -2934,11 +2934,11 @@ lectures:
         lectures:
           - name: 'Apresentação do Curso'
             intro:
-            link: 
+            link: https://youtu.be/nQd4PRUcC-g
             section: Apresentação
             language-code: br
             date: 16/08
-            video: 
+            video: https://youtu.be/nQd4PRUcC-g
             pdf: 
             drive: 
             blog:
@@ -3067,44 +3067,44 @@ lectures:
 
           - name: 'Aula 11: Estrelas II'
             intro:
-            link: 
+            link: https://youtu.be/MzS21lNtW60
             section: Parte 2
             language-code: br
             date: 27/09
-            video: 
+            video: https://youtu.be/MzS21lNtW60
             pdf: https://drive.google.com/file/d/1jVs2CY3pbS3U3d6q7pD4ka8lJ6wTf3pf/view?usp=drive_link
             drive: https://docs.google.com/presentation/d/1M8TAppWFaUkAKgOWoEe_bppG_iF3bdOhaUmPkDKLFe8/edit?usp=drive_link
             blog: 
 
           - name: 'Aula 12: Estrelas III'
             intro:
-            link: 
+            link: https://youtu.be/MXHi1i8gFzI
             section: Parte 2
             language-code: br
             date: 27/09
-            video: 
+            video: https://youtu.be/MXHi1i8gFzI
             pdf: https://drive.google.com/file/d/17zNB1TnZ-9YIc6yzjj86mboAMz7ROVmU/view?usp=drive_link
             drive: https://docs.google.com/presentation/d/1xjaowe2j298FdlEKu2n-EPNtj3xZHthF1VmVpZ8MfUk/edit?usp=drive_link
             blog: 
 
           - name: 'Aula 13: Estrelas IV'
             intro:
-            link: 
+            link: https://youtu.be/LpKZfTIReyc
             section: Parte 2
             language-code: br
             date: 04/10
-            video: 
+            video: https://youtu.be/LpKZfTIReyc
             pdf: https://drive.google.com/file/d/1K6COMsKt8wBANn5MEwm48E0uCHmnrzG_/view?usp=drive_link
             drive: https://docs.google.com/presentation/d/1X4Bk4A-5vvYytsrCGk--X0ccaZIob7mnJG_lyULddy4/edit?usp=drive_link
             blog: 
 
           - name: 'Aula 14: Estrelas V'
             intro:
-            link: 
+            link: https://youtu.be/zJ8xHnT57l4
             section: Parte 2
             language-code: br
             date: 04/10
-            video: 
+            video: https://youtu.be/zJ8xHnT57l4
             pdf: https://drive.google.com/file/d/1yOgqW-NdtYzc4mpTaBWmhkZxuCAHBkCw/view?usp=drive_link
             drive: https://docs.google.com/presentation/d/1X4v3r3VtoXw1XS964CG_Kl8DWruE4TMiGCeZEDRcoz4/edit?usp=drive_link
             blog: 
@@ -3122,77 +3122,77 @@ lectures:
 
           - name: 'Aula 15_1: A Galáxia I'
             intro:
-            link: 
+            link: https://youtu.be/pPW24g--d78
             section: Parte 3
             language-code: br
             date: 18/10
-            video: 
+            video: https://youtu.be/pPW24g--d78
             pdf: https://drive.google.com/file/d/1-PUQislvdUOdXLodI8IJEy4vO3zlPKug/view?usp=drive_link
             drive: 
             blog: 
 
           - name: 'Aula 15_2: A Galáxia II'
             intro:
-            link: 
+            link: https://youtu.be/pPW24g--d78
             section: Parte 3
             language-code: br
             date: 18/10
-            video: 
+            video: https://youtu.be/pPW24g--d78
             pdf: https://drive.google.com/file/d/19r_6Aq-042UC3YPLvC6wI3hgcMNSRgKa/view?usp=drive_link
             drive: 
             blog: 
 
           - name: 'Aula 16: Outras Galáxias'
             intro:
-            link: 
+            link: https://youtu.be/GR-Q2Hv5Bzg
             section: Parte 3
             language-code: br
             date: 18/10
-            video: 
+            video: https://youtu.be/GR-Q2Hv5Bzg
             pdf: https://drive.google.com/file/d/1bIf8ib0p9igc2r_sOoH2X_yFOcYez5sP/view?usp=drive_link
             drive: 
             blog: 
 
           - name: 'Aula 17: Estrutura do Universo'
             intro:
-            link: 
+            link: https://youtu.be/F1FKfwucQaM
             section: Parte 3
             language-code: br
             date: 25/10
-            video: 
+            video: https://youtu.be/F1FKfwucQaM
             pdf: https://drive.google.com/file/d/123-AJAxvijvGI7NSrdHMLldcirpneNmH/view?usp=drive_link
             drive: 
             blog: 
 
           - name: 'Aula 18: Galáxias Peculiares'
             intro:
-            link: 
+            link: https://youtu.be/PS5emWjJPT4
             section: Parte 3
             language-code: br
             date: 25/10
-            video: 
+            video: https://youtu.be/PS5emWjJPT4
             pdf: https://drive.google.com/file/d/1tXM__CKa-QJew-fuKSpafMudps7P8dr0/view?usp=drive_link
             drive: 
             blog: 
 
           - name: 'Aula 19: Cosmologia I'
             intro:
-            link: 
+            link: https://youtu.be/c2W67btbUUY
             section: Parte 3
             language-code: br
             date: 08/11
-            video: 
+            video: https://youtu.be/c2W67btbUUY
             pdf: https://drive.google.com/file/d/1h55-FvgLPc_A4v4LulcgQd5DdzPCpYvu/view?usp=drive_link
             drive: 
             blog: 
 
           - name: 'Aula 20: Cosmologia II'
             intro:
-            link: 
+            link: https://youtu.be/c2W67btbUUY
             section: Parte 3
             language-code: br
             date: 08/11
-            video: 
+            video: https://youtu.be/c2W67btbUUY
             pdf: https://drive.google.com/file/d/17QkDZonQwVH3jI5j7I-iO4p3PzhhR5q6/view?usp=drive_link
             drive: 
             blog: 
@@ -3215,8 +3215,8 @@ lectures:
             language-code: br
             date: 22/11
             video: 
-            pdf: 
-            drive: 
+            pdf: https://drive.google.com/file/d/1nWGN3bgYuJsB6RG037sS3Rven7vlWZdP/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1wqMtPuKjbwtBux4vB3hRp6dVOIQp45IHmAHwOmwLT8o/edit?usp=drive_link
             blog: 
 
       - name: Introduction to Astronomy
