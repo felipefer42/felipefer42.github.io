@@ -1456,6 +1456,16 @@ event-participation:
         contrib-icon: fa-person-chalkboard
         upcoming: true
 
+      - title: "Seminar of the Astronomy Department at IAG/USP"
+        link: ""
+        date: 14/May/2025
+        location: São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: 
+        upcoming: true
+
       - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
         link: ""
         date:  19-23/May/2025
