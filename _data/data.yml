@@ -1446,25 +1446,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Seminários do Instituto Nacional de Pesquisas Espaciais"
-        link: ""
-        date: 25/Mar/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Talk
-        contrib-icon: 
-        upcoming: true
-
-      - title: "Defesa de Doutorado: Denis Bernardes"
-        link: ""
-        date: 27/Mar/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Banca
-        contrib-icon: 
-        upcoming: true
 
       - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
         link: "https://congresos.unlp.edu.ar/xilapis/"
@@ -1506,6 +1487,26 @@ event-participation:
 
       - title: "2025"
         year-mark: true
+        upcoming: false
+
+      - title: "Defesa de Doutorado: Denis Bernardes"
+        link: ""
+        date: 27/Mar/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "Seminários do Instituto Nacional de Pesquisas Espaciais"
+        link: ""
+        date: 25/Mar/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: 
         upcoming: false
 
       - title: "Hands-on S-PLUS meeting: DR5 paper"
