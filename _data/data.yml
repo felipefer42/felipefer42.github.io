@@ -112,7 +112,7 @@ summary:
         value: Felipe de Almeida Fernandes
         link:
       - key: Born
-        value: March 20, 1993 (age 31)
+        value: March, 1993 (age 31)
         link:
       - key: Place of Birth
         value: Juiz de Fora, MG, Brazil
@@ -177,7 +177,7 @@ summary_ptbr:
         value: Felipe de Almeida Fernandes
         link:
       - key: Naturalidade
-        value: Março, 20, 1993; Juiz de Fora, MG, Brazil
+        value: Março, 1993; Juiz de Fora, MG, Brazil
         link:
       - key: Nacionalidade
         value: Brasileiro
@@ -942,6 +942,19 @@ publications:
     intro_ptbr:
     papers:
 
+      - title: "CHANCES, The Chilean Cluster Galaxy Evolution Survey: selection and initial characterization of clusters and superclusters"
+        link: "https://ui.adsabs.harvard.edu/abs/2024arXiv241113655S/abstract"
+        authors:   Sifón, C.; Finoguenov, A.; Haines, C.; ...; (14th) Almeida-Fernandes, F.;
+        more: "+42"
+        journal: A&A
+        volume: ACPT
+        page: 
+        year: 2025
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 14   
+
       - title: "MAR: A Multiband Astronomical Reduction package"
         link: "https://ui.adsabs.harvard.edu/abs/2025A%26C....5100899S/abstract"
         authors: Schwarz, G. B. O.; Herpich, F. ; Almeida-Fernandes, F. ; Nakazono, L.;
@@ -967,7 +980,7 @@ publications:
         first-author: False
         refereed: True
         rank: 9
-        
+
       - title: "BD+44°493: Chemo-dynamical Analysis and Constraints on Companion Planetary Masses from WIYN/NEID Spectroscopy"
         link: "https://ui.adsabs.harvard.edu/abs/2024ApJ...977...12P/abstract"
         authors:   Placco, V M.; Gupta, A. F.; Almeida-Fernandes, F.; Logsdon, S. E.; 
@@ -1433,10 +1446,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "2025"
-        year-mark: true
-        upcoming: false
-
       - title: "Seminários do Instituto Nacional de Pesquisas Espaciais"
         link: ""
         date: 25/Mar/2025
@@ -1444,6 +1453,16 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Talk
+        contrib-icon: 
+        upcoming: true
+
+      - title: "Defesa de Doutorado: Denis Bernardes"
+        link: ""
+        date: 27/Mar/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca
         contrib-icon: 
         upcoming: true
 
@@ -1475,6 +1494,20 @@ event-participation:
         contribution: Poster
         upcoming: true
 
+      - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
+        link: ""
+        date: 14-18/Jul/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Lecture
+        contrib-icon: 
+        upcoming: true
+
+      - title: "2025"
+        year-mark: true
+        upcoming: false
+
       - title: "Hands-on S-PLUS meeting: DR5 paper"
         link: ""
         date:  02-05/Jan/2025
@@ -1483,9 +1516,31 @@ event-participation:
         state-code: br-sp
         contribution: Participation
         upcoming: false
-        
+
       - title: "2024"
         year-mark: true
+        upcoming: false
+
+      - title: "13a SIAC UFRJ"
+        link: https://siac.ufrj.br/
+        date: 25-29/Nov/2024
+        location: UFRJ, Rio de Janeiro, Brazil
+        country-code: br
+        state-code: br-rj
+        remote: true
+        contribution: Evaluator
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+
+      - title: "Semana da Pós - ProAstro"
+        link: https://siac.ufrj.br/
+        date: 04-07/Nov/2024
+        location: Observatório do Valongo, Rio de Janeiro, Brazil
+        country-code: br
+        state-code: br-rj
+        remote: true
+        contribution: Evaluator
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "XLVII Reunião Anual da Sociedade Astronômica Brasileira"
@@ -2933,11 +2988,11 @@ lectures:
           - name: Apresentação
             color: "#4F5459"
           - name: Parte 1
-            color: "#345672"
+            color: "#e28a32"
           - name: Parte 2
-            color: "#5C92BF"
+            color: "#DB6D00"
           - name: Parte 3
-            color: "#44A4F2"
+            color: "#c56200"
           - name: Conteúdo Extra
             color: "#4F5459"
 
@@ -3220,48 +3275,445 @@ lectures:
 
           - name: 'Aula 21: Vida no Contexto Cósmico'
             intro:
-            link: 
+            link: https://youtu.be/eP_fyKS2D6U
             section: Conteúdo Extra
             language-code: br
             date: 22/11
-            video: 
+            video: https://youtu.be/eP_fyKS2D6U
             pdf: https://drive.google.com/file/d/1nWGN3bgYuJsB6RG037sS3Rven7vlWZdP/view?usp=drive_link
             drive: https://docs.google.com/presentation/d/1wqMtPuKjbwtBux4vB3hRp6dVOIQp45IHmAHwOmwLT8o/edit?usp=drive_link
             blog: 
 
+
       - name: Introduction to Astronomy
-        link: xx
-        intro:
+        link: lectures/aga0210_2021_1.html
+        intro: |
+          Observação: vídeo-aulas gravadas nos semestres 2020.1 e 2020.2
+        description: |
+          (1) Descrição do Céu: Constelações - Aspectos Históricos - Movimento aparente dos astros. Movimentos dos Planetas - Fases da Lua - Eclipses. Estações do Ano - Movimentos da Terra. Marés.
+          (2) Ferramentas do Astrônomo.
+          (3) Sistema Solar: estrutura e origem.
+          (4) Estrelas: propriedades, espectro e classificação - O Sol - Estrelas binárias, variáveis e explosivas - Aglomerados estelares - Evolução Estelar - Objetos compactos: estrelas de nêutrons, buracos negros.
+          (5) Matéria interestelar e a Galáxia: componentes e evolução.
+          (6) Estrutura do Universo: Objetos extragalácticos. Cosmologia.
         name_ptbr: Introdução à Astronomia
+        
+        bibliography: |
+          “Astronomia - Uma visão geral do universo", 2a Ed., A. C. S. Friaça, E. Dal Pino, L. Sodré Jr., V. Jatenco-Pereira (orgs.), (2003), ISBN 85-314-0462-2, EDUSP <br>
+          “O céu que nos envolve", E. Picazzio (org.), (2011), ISBN 978-85-7876-021-2, Odysseus. <br>
+          “Astronomia & Astrofísica", K. F. Oliveira, M. R. O. Saraiva, M.F., (2014), LF Editorial. <br>
+          “Fundamental Astronomy", 5a Ed., H. Karttunen, et al., (2007), Springer-Verlag <br>
+          “Astronomy Today", 8a Ed., E. Chaisson & S. McMillan, (2013), Addison Wesley <br>
+          “Voyages through the universe", 3a Ed., A. Fraknoi, D. Morrison, S.C. Wolff, (2005), ISBN 978-0495017899 <br>
         institute: IAG/USP
-        institute-link: 
-        language-code: br 
+        institute_long: Universidade de São Paulo
+        department: Instituto de Astronomia, Geofísica e Ciências Atmosféricas
+        institute-link: "https://uspdigital.usp.br/jupiterweb/obterDisciplina?nomdis=&sgldis=aga0210"
+
+        info:
+          - key: Lecture Credits
+            value: 4
+          - key: Work Credits
+            value: 0
+          - key: Total hours
+            value: 60h
+          - key: Type
+            value: Semester-long
+          - key: Language
+            value: Portuguese
+        
+        info_ptbr:
+          - key: Créditos Aula
+            value: 4
+          - key: Créditos Trabalho
+            value: 0
+          - key: Horas Totais
+            value: 60h
+          - key: Tipo
+            value: Semestral
+          - key: Idioma
+            value: Português
+          
+        language-code: br
+        language: portuguese 
         code: AGA0210
         semester: '2021.1'
         type: finished
         background-color: "#DB8802"
         text-color: "#FFF"
+
+        documents:
+          - name: Descrição do Curso
+            link: https://drive.google.com/file/d/1W_fDTlvyQkxQvoMzYX0oloJqaGtYXWGt/view?usp=sharing
+            type: pdf
+
+          - name: Calendário
+            link: https://drive.google.com/file/d/1HjxQoag3oJ2vXL9PAVwb6zyh6Qow-gGP/view?usp=sharing
+            type: pdf
+
+          - name: Lista 1
+            link: https://drive.google.com/file/d/1hqvvjohqC9ezG0PXCWLSEddo50MZc8ei/view?usp=sharing
+            type: pdf
+
+          - name: Lista 1 - Gabarito
+            link: https://drive.google.com/file/d/1Y1foMEZe8TCtxdJ4tshIkUc7YSUivx2O/view?usp=sharing
+            type: pdf
+
+          - name: Lista 2
+            link: https://drive.google.com/file/d/1IzpEyExxpQU6bp0P3XAwUnT6asunBB2K/view?usp=sharing
+            type: pdf
+
+          - name: Lista 2 - Gabarito
+            link: https://drive.google.com/file/d/1R8jc102PHBW2Ed3EY-uHQ1fyKE1dkCGS/view?usp=sharing
+            type: pdf
+
+          - name: Lista 3
+            link: https://drive.google.com/file/d/1GDkv9xCOFcWnz0BoIYpDQn-OZjXgfWm-/view?usp=sharing
+            type: pdf
+
+          - name: Lista 3 - Gabarito
+            link: https://drive.google.com/file/d/1mxM9BJmOhBDTR5faNrsDVph0Y8jTQSXV/view?usp=sharing
+            type: pdf
+
+          - name: AP 2 - Gabarito
+            link: https://drive.google.com/file/d/1kXos1aDTlW7bcYCNgFipNGBzLn1zyup5/view?usp=sharing
+            type: pdf
+
+          - name: AP 3 & 4 - Gabarito
+            link: https://drive.google.com/file/d/1eUVydwmetyWDOKlvd-Z0zRVYztbT7Bna/view?usp=drive_link
+            type: pdf
+
+          - name: AP 5 & 6 - Gabarito
+            link: https://drive.google.com/file/d/1trB86BbevXkiaTUf5mzrwVx3VX1xaBL6/view?usp=drive_link
+            type: pdf
+
+          - name: AP 7 & 8 - Gabarito
+            link: https://drive.google.com/file/d/1orYgGmTYO6RZ4gPawXDm0z9-pwrUsVj2/view?usp=drive_link
+            type: pdf
+
+          - name: AP 9 & 10 - Gabarito
+            link: https://drive.google.com/file/d/1vG-vBddGs_R-0lGlTPEN_xUHRaKDAcao/view?usp=drive_link
+            type: pdf
+
+          - name: AP 11 & 12 - Gabarito
+            link: https://drive.google.com/file/d/1w9VJ9RY1dEVvfCTKXVShsA1_nrLT5kZO/view?usp=drive_link
+            type: pdf
+
+          - name: AP 13 & 14 - Gabarito
+            link: https://drive.google.com/file/d/1iGLTV_pYOYqfW4lGhAJBmMlVkfBuT_gB/view?usp=drive_link
+            type: pdf
+
+          - name: AP 15 & 16 - Gabarito
+            link: https://drive.google.com/file/d/1YHNpfy1Ex_7pz594DKBxpcMttRWv5Oxx/view?usp=drive_link
+            type: pdf
+
+          - name: AP 17_18 & 19 & 20 - Gabarito
+            link: https://drive.google.com/file/d/1FjA4YT1tvLTTmBheRa165K-qb2Epx0kC/view?usp=drive_link
+            type: pdf
+
+          - name: AP 21 & 22 - Gabarito
+            link: https://drive.google.com/file/d/16HNW75J7_1a42vBMFfSSFFKAGY-UgCBY/view?usp=drive_link
+            type: pdf
+
         sections:
           - name: Apresentação
-            color: 
+            color: "#4F5459"
           - name: Parte 1
-            color:
+            color: "#cb9134"
           - name: Parte 2
-            color:
+            color: "#DB8802"
           - name: Parte 3
-            color: 
+            color: "#ab6a01"
           - name: Conteúdo Extra
-            color:
+            color: "#4F5459"
 
         lectures:
-          - name: 'Aula 1:'
+          - name: 'Apresentação do Curso'
             intro:
+            link: https://youtu.be/ANE0gJs_bnI
+            section: Apresentação
+            language-code: br
+            date: 12/04
+            video: https://youtu.be/ANE0gJs_bnI
+            pdf: 
+            drive: 
+            blog:
+
+          - name: 'Aula 1: Astronomia de Posição I'
+            intro:
+            link: https://youtu.be/hdrE318EUYM
             section: Parte 1
             language-code: br
-            date: 
-            video:
-            pdf:
-            extra:
+            date: 12/04
+            video: https://youtu.be/hdrE318EUYM
+            pdf: https://drive.google.com/file/d/1J2KYGFmPUuV47TKVeusnypBb-h-wc3xu/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1mDHWnnd8Nb5kRDVqD3hI6qSJ_PJQ0Q6ECrZskgkk3Og/edit?usp=drive_link
+            blog:
+
+          - name: 'Aula 2: Astronomia de Posição II'
+            intro:
+            link: https://youtu.be/UV0rUvRIU8c
+            section: Parte 1
+            language-code: br
+            date: 19/04
+            video: https://youtu.be/UV0rUvRIU8c
+            pdf: https://drive.google.com/file/d/1nDb6WwQwPzB5Y9ZjhSNpWN444vglsARR/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1_3BWJK-z9EpRuaYRJML1a7j9heWpD5EiGoz5M1KpYCU/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 3: Movimentos da Terra e da Lua'
+            intro:
+            link: https://youtu.be/W2fmfXTwK30
+            section: Parte 1
+            language-code: br
+            date: 26/04
+            video: https://youtu.be/W2fmfXTwK30
+            pdf: https://drive.google.com/file/d/1oG2Bkm6KWua-DB201igTnl8Q-US5JQGg/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1u4h8l_tvjkblOkdwiw-fscv-dPv6FZudDohU9zfnW1o/edit?usp=drive_link
+            blog:
+
+          - name: 'Aula 4: O Sol'
+            intro:
+            link: https://youtu.be/W-t-gCbhi3Q
+            section: Parte 1
+            language-code: br
+            date: 26/04
+            video: https://youtu.be/W-t-gCbhi3Q
+            pdf: https://drive.google.com/file/d/1anTPlWCODqP_9JD2u4tGz1XrEszzdmsx/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1XA3BhizqIEE3iHxOSPthnxCBVBsnaaKQ8hmxo5VWVzU/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 5: Sistema Solar'
+            intro:
+            link: https://youtu.be/ufficjoYQeI
+            section: Parte 1
+            language-code: br
+            date: 03/05
+            video: https://youtu.be/ufficjoYQeI
+            pdf: https://drive.google.com/file/d/1Q8NaRpcyJRD1N7CLDG-atb_2_O-573F6/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/189yjfqKwAe2e6XiCmPJbeyCOEci8_tXivj31iSzJuq0/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 6: Exoplanetas'
+            intro:
+            link: https://youtu.be/VnILC-LaBq0
+            section: Parte 1
+            language-code: br
+            date: 03/05
+            video: https://youtu.be/VnILC-LaBq0
+            pdf: https://drive.google.com/file/d/1UpTluEaPb9-b9hnlCOcEv1EQ3NH2uksT/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/18jB4Pnk6QWO9brPJQZF9ZNZ_xXf7E2bZABgdCfD7aO0/edit?usp=drive_link
+            blog: 
+          
+          - name: 'Lista 1'
+            intro:
+            link: https://drive.google.com/file/d/1hqvvjohqC9ezG0PXCWLSEddo50MZc8ei/view?usp=drive_link
+            section: Parte 1
+            language-code: br
+            date: 10/05
+            video: 
+            pdf: https://drive.google.com/file/d/1hqvvjohqC9ezG0PXCWLSEddo50MZc8ei/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 7: Radiação I'
+            intro:
+            link: https://youtu.be/6dMXtsvZoes
+            section: Parte 2
+            language-code: br
+            date: 17/05
+            video: https://youtu.be/6dMXtsvZoes
+            pdf: https://drive.google.com/file/d/1lsOh0DTmJvnzLpgYgN4N9YLu1bNqGBR0/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1VeXCzMquiKNjudLA53Q6pVqFcG__Qgte49hZ_y54OJY/edit?usp=drive_link
+
+          - name: 'Aula 8: Radiação II'
+            intro:
+            link: https://youtu.be/1dwPLzc4zFM
+            section: Parte 2
+            language-code: br
+            date: 17/05
+            video: https://youtu.be/1dwPLzc4zFM
+            pdf: https://drive.google.com/file/d/1XH1YlrN_jGPo092ZMz4WETzjml4cqoOS/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1P56g837uRV7jOUFz_xMkDw9qs1W9TGadvc4hXkC1wTw/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 9: Instrumentos na Astronomia'
+            intro:
+            link: https://youtu.be/XhRIOENfjKk
+            section: Parte 2
+            language-code: br
+            date: 24/05
+            video: https://youtu.be/XhRIOENfjKk
+            pdf: https://drive.google.com/file/d/1mJwWpG6T1x9oeRosoOvoTw537ftqVmv8/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1yMZ8Z-JsPxJoXy-svuZ5Q9FFO4z8vSB4hH1WfKumEuA/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 10: Estrelas I'
+            intro:
+            link: https://youtu.be/55kcjCRSlkU
+            section: Parte 2
+            language-code: br
+            date: 24/05
+            video: https://youtu.be/55kcjCRSlkU
+            pdf: https://drive.google.com/file/d/1ryUbQXjL_5Rn4sFWR04WzpvrT9A1iTk1/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1eMROD-sSIUi7SkZ6aCLYjldvDxZ1R4Xveve_7tz4Tto/edit?usp=drive_link
+            blog: 
+
+
+          - name: 'Aula 11: Estrelas II'
+            intro:
+            link: https://youtu.be/MzS21lNtW60
+            section: Parte 2
+            language-code: br
+            date: 31/05
+            video: https://youtu.be/MzS21lNtW60
+            pdf: https://drive.google.com/file/d/1509-NyW8AN4iiJ7sWho2lDtyB8TeiiYv/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1ARAPNGdFp9BCXqYVmeHTXYd374LnZIiT8QQOwv2eO-E/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 12: Estrelas III'
+            intro:
+            link: https://youtu.be/MXHi1i8gFzI
+            section: Parte 2
+            language-code: br
+            date: 31/05
+            video: https://youtu.be/MXHi1i8gFzI
+            pdf: https://drive.google.com/file/d/1Y0dUMIt3FPPlk5tP-GF6olWMloCHDZSz/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1_I46VKV4AbvW7Lazs8FTK271FNTo2dXuc3OBAoC7nuI/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 13: Estrelas IV'
+            intro:
+            link: https://youtu.be/LpKZfTIReyc
+            section: Parte 2
+            language-code: br
+            date: 07/06
+            video: https://youtu.be/LpKZfTIReyc
+            pdf: https://drive.google.com/file/d/1CPdSujmreHQFfVH7WwVSxOYhStiEIevB/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1srYH-iDW1MNb2K8lEH16IeBmSGqADdaZyvpjfGhZxKM/edit?usp=drive_link
+            blog: 
+
+          - name: 'Aula 14: Estrelas V'
+            intro:
+            link: https://youtu.be/zJ8xHnT57l4
+            section: Parte 2
+            language-code: br
+            date: 07/06
+            video: https://youtu.be/zJ8xHnT57l4
+            pdf: https://drive.google.com/file/d/1rk5rbM7jofXygg7NwZhMaNQS62Vv2R2E/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1XMTSyZNQfNgQeZb25IgL6LY-WbKMUUS0ITvRalF_dq8/edit?usp=drive_link
+            blog: 
+
+          - name: 'Lista 2'
+            intro:
+            link: https://drive.google.com/file/d/1IzpEyExxpQU6bp0P3XAwUnT6asunBB2K/view?usp=drive_link
+            section: Parte 2
+            language-code: br
+            date: 14/06
+            video: 
+            pdf: https://drive.google.com/file/d/1IzpEyExxpQU6bp0P3XAwUnT6asunBB2K/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 15: A Galáxia I'
+            intro:
+            link: https://youtu.be/pPW24g--d78
+            section: Parte 3
+            language-code: br
+            date: 21/06
+            video: https://youtu.be/pPW24g--d78
+            pdf: https://drive.google.com/file/d/1K-WUUQJ34QUH_slzbNB9QmeqoWJBnKV_/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 16: A Galáxia II'
+            intro:
+            link: https://youtu.be/pPW24g--d78
+            section: Parte 3
+            language-code: br
+            date: 21/06
+            video: https://youtu.be/pPW24g--d78
+            pdf: https://drive.google.com/file/d/1WgGjZZW-oiszGe37NptrcfcKGa2RsvJQ/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aulas 17 & 18: Outras Galáxias'
+            intro:
+            link: https://youtu.be/GR-Q2Hv5Bzg
+            section: Parte 3
+            language-code: br
+            date: 28/06
+            video: https://youtu.be/GR-Q2Hv5Bzg
+            pdf: https://drive.google.com/file/d/1b0GPs5tRlNriVnX3gRIG3AaQyLpn3DzC/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 19: Estrutura do Universo'
+            intro:
+            link: https://youtu.be/F1FKfwucQaM
+            section: Parte 3
+            language-code: br
+            date: 05/07
+            video: https://youtu.be/F1FKfwucQaM
+            pdf: https://drive.google.com/file/d/1Iy_X0RSvQ4EAFjm7u8gRWdszBH2Tc7uv/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 20: Galáxias Peculiares'
+            intro:
+            link: https://youtu.be/PS5emWjJPT4
+            section: Parte 3
+            language-code: br
+            date: 05/07
+            video: https://youtu.be/PS5emWjJPT4
+            pdf: https://drive.google.com/file/d/10ESjEXk04f_kTyxJjlgCEEbse6sdFycF/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 21: Cosmologia I'
+            intro:
+            link: https://youtu.be/c2W67btbUUY
+            section: Parte 3
+            language-code: br
+            date: 12/07
+            video: https://youtu.be/c2W67btbUUY
+            pdf: https://drive.google.com/file/d/1xP4q_McR7sAVNuXaSJ8POfTGBk3SbAw-/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 22: Cosmologia II'
+            intro:
+            link: https://youtu.be/c2W67btbUUY
+            section: Parte 3
+            language-code: br
+            date: 12/07
+            video: https://youtu.be/c2W67btbUUY
+            pdf: https://drive.google.com/file/d/1Ihx_wPCVC9eOvZ0AFq15q7AWjvXJJyPB/view?usp=drive_link
+            drive: 
+            blog: 
+        
+          - name: 'Lista 3'
+            intro:
+            link: https://drive.google.com/file/d/1GDkv9xCOFcWnz0BoIYpDQn-OZjXgfWm-/view?usp=drive_link
+            section: Parte 3
+            language-code: br
+            date: 19/07
+            video: 
+            pdf: https://drive.google.com/file/d/1GDkv9xCOFcWnz0BoIYpDQn-OZjXgfWm-/view?usp=drive_link
+            drive: 
+            blog: 
+
+          - name: 'Aula 23: Vida no Contexto Cósmico'
+            intro:
+            link: https://youtu.be/eP_fyKS2D6U
+            section: Conteúdo Extra
+            language-code: br
+            date: 26/07
+            video: https://youtu.be/eP_fyKS2D6U
+            pdf: https://drive.google.com/file/d/149c8v4HbqXXA3Jl_OpvrxaW0l12EXOnA/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1Atyuzy_hMirYOgiix7wGJ2vhlLoAafTmn_zmcFYe270/edit?usp=drive_link
+            blog: 
+
 
       - name: Introduction to Astronomy
         link: xx
