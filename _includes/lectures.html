@@ -20,12 +20,6 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for course in lectures.courses %}
-    {% if course.type == "ongoing" %}
-    <div class="course-card">{{ course.name }}</div>
-    {% endif %}
-  {% endfor %}
-
   <div class="course-cards">
     {% for course in lectures.courses %}
       {% if course.type == "ongoing" %}
@@ -48,7 +42,9 @@
     </div>
 
   <br>
-
+  <br>
+  <br>
+  
   <h2 class="section-title">
     <span class="fa-stack fa-sm">
       <i class="fas fa-square fa-stack-2x"></i>

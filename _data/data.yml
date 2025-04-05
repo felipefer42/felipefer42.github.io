@@ -2839,10 +2839,8 @@ lectures:
     title_ongoing: Ongoing Lectures
     title_ongoing_ptbr: Aulas em Andamento
     intro_ongoing: |
-      No ongoing classes at the moment =) <br><br><br>
     intro_ongoing_ptbr: |
-      Sem aulas em andamento =) <br><br><br>
-        
+
     title_finished: Finished Lectures
     intro_finished:
     title_finished_ptbr: Cursos Concluídos
@@ -2855,6 +2853,19 @@ lectures:
 
     courses:
 
+      - name: LAPIS25 Hands-on activities
+        link: LAPIS25.html
+        institute: UNLP, La Plata, Argentina
+        institute_long: Universidad Nacional de La Plata
+        
+        language-code: gb
+        language: english 
+        code: 
+        semester: '2025.1'
+        type: ongoing
+        background-color: "#257dc5"
+        text-color: "#FFF"
+        
       - name: Introduction to Astronomy
         link: lectures/aga0210_2021_2.html
         intro: |
