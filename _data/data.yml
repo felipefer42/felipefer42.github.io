@@ -111,12 +111,6 @@ summary:
       - key: Full name
         value: Felipe de Almeida Fernandes
         link:
-      - key: Born
-        value: March, 1993 (age 32)
-        link:
-      - key: Place of Birth
-        value: Juiz de Fora, MG, Brazil
-        link: 
       - key: Nationality
         value: Brazilian
         link:
@@ -140,18 +134,18 @@ summary:
         value: Claudia Mendes de Oliveira; Vinícius M. Placco; Karín M. Delmestre
         link:
       - key: Students
-        value: Pierre R. Martho, Guilherme F. Bolutavicius
+        value: Pierre R. Martho, Guilherme F. Bolutavicius, Murilo A. Menegati, Tainá B. de Andrade
         link:
     publication-title: Publications (Qualis A1)
     publication-info:
       - key: Publications
-        value: 26 (4 as 1st author)
+        value: 28 (4 as 1st author)
         link:
       - key: H-index
         value: 10
         link:
       - key: Citations
-        value: 416
+        value: 463
         link:
       - key: Most-cited paper
         value: Mendes de Oliveira et al. (2019) - 145 citations
@@ -176,9 +170,6 @@ summary_ptbr:
       - key: Nome Completo
         value: Felipe de Almeida Fernandes
         link:
-      - key: Naturalidade
-        value: Março, 1993; Juiz de Fora, MG, Brazil
-        link:
       - key: Nacionalidade
         value: Brasileiro
         link:
@@ -200,18 +191,18 @@ summary_ptbr:
         value: Claudia Mendes de Oliveira; Vinícius M. Placco; Karín M. Delmestre
         link:
       - key: Estudantes
-        value: Pierre R. Martho, Guilherme F. Bolutavicius
+        value: Pierre R. Martho, Guilherme F. Bolutavicius, Murilo A. Menegati, Tainá B. de Andrade
         link:
     publication-title: Publicações (Qualis A1)
     publication-info:
       - key: Publicações
-        value: 24 (4 de 1° autor)
+        value: 28 (4 de 1° autor)
         link:
       - key: H-index
         value: 10
         link:
       - key: Citações
-        value: 362
+        value: 463
         link:
       - key: Artigo mais citado
         value: Mendes de Oliveira et al. (2019) - 134 citations
@@ -2374,7 +2365,7 @@ selections:
 
       I have applied for multiple positions for every step of my academic trajectory. For that
       reason, the "Approved" status is not an indication that I have accepted the position.
-      Refer to the home page for a detailed history of my academic history.
+      Refer to the home page for a detailed view of my academic history.
 
       For transparency, all failed and withdrawn applications are also included. 
     intro_ptbr:
@@ -2523,14 +2514,6 @@ selections:
         type: Postdoc
         title-mark: true
         intro: |
-          Here I list the feedback received for the two postdoc applications I was 
-          not approved for: <br>
-          - University of Edinburgh: "We were fortunate to receive a great level of 
-          interest for the role and after reviewing your application thoroughly, we felt 
-          that other applicants were better suited for the role." <br>
-          - University of Bologna: "The call for selection requires a Master Degree (art. 2).
-          A PhD title can only be an asset (art. 4) and not replace the 
-          requirement."
 
       - title: FAPESP Fellowship - Postdoc
         title_ptbr: Bolsa de Pós-Doutorado FAPESP
@@ -2662,7 +2645,7 @@ selections:
         intro: |
          In Brazil, most applications for the Researcher Carreer as a government employee 
          involve a selection process known as "concurso público". The concursos can 
-         include exams, test classes, defense of academic trajectory, academic titles, 
+         include exams, test classes, defense of academic trajectory, and evaluation of academic titles
          and project proposals. <br><br>
 
          Note: In Observatorio Nacional I was considered 'approved' in the concurso, but only
@@ -2718,25 +2701,25 @@ selections:
         title-mark: true
         type: Ongoing
 
-      - title: Concurso Público - Professor (General Astrophysics)
-        title_ptbr: Concurso Público - Professor Doutor (Astrofísica Geral)
-        location: Observatório do Valongo
-        link:
-        date: 2024
-        status: Ongoing
-        rank: 
-        candidates: 
-        spots: 1
-        ratio: 
-        type: Ongoing
-        top5: 
-        note: 
-  
       - title: "Withdrawn"
         title_ptbr: "Desistências"
         type: Withdrawn
         title-mark: true
 
+      - title: Concurso Público - Professor (General Astrophysics)
+        title_ptbr: Concurso Público - Professor Doutor (Astrofísica Geral)
+        location: Observatório do Valongo
+        link:
+        date: 2025
+        status: Withdrawn
+        rank: 
+        candidates: 
+        spots: 1
+        ratio: 
+        type: Withdrawn
+        top5: 
+        note: 
+  
       - title: Concurso Público - Professor (Stellar Astrophysics)
         title_ptbr: Concurso Público - Professor Doutor (Astrofísica Estelar)
         location: Universidade Federal de Minas Gerais
@@ -2920,7 +2903,7 @@ lectures:
         code: AGA0210
         semester: '2021.2'
         type: finished
-        background-color: "#DB6D00"
+        background-color: "#DB8802"
         text-color: "#FFF"
 
         documents:
@@ -3728,7 +3711,7 @@ lectures:
 
 
       - name: Introduction to Astronomy
-        link: xx
+        link: under_construction
         intro:
         name_ptbr: Introdução à Astronomia
         institute: IAG/USP
@@ -3737,7 +3720,7 @@ lectures:
         code: AGA0210
         semester: '2020.2'
         type: finished
-        background-color: "#DBA800"
+        background-color: "#DB8802"
         text-color: "#FFF"
 
         documents:
@@ -3820,7 +3803,7 @@ lectures:
         code: AGA0210
         semester: '2020.1'
         type: finished
-        background-color: "#DBB945"
+        background-color: "#DB8802"
         text-color: "#FFF"
 
         documents:
@@ -3847,7 +3830,7 @@ lectures:
         lectures:
           - name: 'Aula 1: Astronomia de Posição I'
             intro:
-            link: xx
+            link: under_construction
             section: Parte 1
             language-code: br
             date: 16/08
@@ -3882,7 +3865,7 @@ lectures:
 
       - name: Galactic Structure
         name_ptbr: Estrutura da Galáxia
-        link: xx
+        link: under_construction
         intro:
         institute: INPE
         institute-link: 
@@ -3890,7 +3873,7 @@ lectures:
         code: AGA0210
         semester: '2025.3'
         type: upcoming
-        background-color: "#00A2F0"
+        background-color: "#4d7a3b"
         text-color: "#FFF"
         sections:
           - name: Apresentação
