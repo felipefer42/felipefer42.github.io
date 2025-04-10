@@ -1438,15 +1438,6 @@ event-participation:
     intro:
     events:
 
-      - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
-        link: "https://congresos.unlp.edu.ar/xilapis/"
-        date: 07-10/Apr/2025
-        location: La Plata, Argentina
-        country-code: ar
-        contribution: Lecturer
-        contrib-icon: fa-person-chalkboard
-        upcoming: true
-
       - title: "Seminar of the Astronomy Department at IAG/USP"
         link: ""
         date: 14/May/2025
@@ -1478,6 +1469,15 @@ event-participation:
 
       - title: "2025"
         year-mark: true
+        upcoming: false
+
+      - title: "XI La Plata International School (LAPIS) on Astronomy and Geophysics"
+        link: "https://congresos.unlp.edu.ar/xilapis/"
+        date: 07-10/Apr/2025
+        location: La Plata, Argentina
+        country-code: ar
+        contribution: Lecturer
+        contrib-icon: fa-person-chalkboard
         upcoming: false
 
       - title: "Defesa de Doutorado: Denis Bernardes"
@@ -2845,7 +2845,7 @@ lectures:
         language: english 
         code: 
         semester: '2025.1'
-        type: ongoing
+        type: finished
         background-color: "#257dc5"
         text-color: "#FFF"
         
