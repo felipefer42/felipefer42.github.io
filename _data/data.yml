@@ -1438,6 +1438,17 @@ event-participation:
     intro:
     events:
 
+ 
+       - title: "SOAR Science 2025"
+        link: "https://www.gov.br/lna/pt-br/assuntos/eventos/soar-science-2025"
+        date: 13-15/May/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
+        upcoming: true
+
       - title: "Seminar of the Astronomy Department at IAG/USP"
         link: ""
         date: 14/May/2025
