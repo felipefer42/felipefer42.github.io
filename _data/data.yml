@@ -1466,6 +1466,16 @@ event-participation:
         contribution: Poster
         upcoming: true
 
+      - title: "Exame de Proposta de Doutorado (Matheus Vieira da Costa)"
+        link: "https://www.gov.br/lna/pt-br/assuntos/eventos/soar-science-2025"
+        date: 30/May/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca (Suplente)
+        contrib-icon: 
+        upcoming: true
+        
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
         link: ""
         date: 14-18/Jul/2025
@@ -1473,6 +1483,16 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: Lecture
+        contrib-icon: 
+        upcoming: true
+
+      - title: "XX S-PLUS meeting"
+        link: ""
+        date: 18-20/Aug/2025
+        location: Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: LOC/SOC
         contrib-icon: 
         upcoming: true
 
