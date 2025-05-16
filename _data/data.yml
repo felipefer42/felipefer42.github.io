@@ -938,8 +938,8 @@ publications:
         authors:   Sifón, C.; Finoguenov, A.; Haines, C.; ...; (14th) Almeida-Fernandes, F.;
         more: "+42"
         journal: A&A
-        volume: ACPT
-        page: 
+        volume: 697
+        page: id.A92
         year: 2025
         show-home: False
         first-author: False
@@ -1421,8 +1421,8 @@ publications:
         authors: Almeida-Fernandes, F.; Rocha-Pinto, H. J.
         more:
         journal: MNRAS
-        volume: 486
-        page: 843
+        volume: 476
+        page: 184
         month: 05
         year: 2018
         show-home: True
