@@ -1437,15 +1437,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
-        link: ""
-        date:  19-23/May/2025
-        location: CBPF, Rio de Janeiro, Brasil
-        country-code: br
-        state-code: br-rj
-        contribution: Poster
-        upcoming: true
-
       - title: "Exame de Proposta de Doutorado (Matheus Vieira da Costa)"
         link: "https://www.gov.br/lna/pt-br/assuntos/eventos/soar-science-2025"
         date: 30/May/2025
@@ -1455,7 +1446,7 @@ event-participation:
         contribution: Banca (Suplente)
         contrib-icon: 
         upcoming: true
-        
+
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
         link: ""
         date: 14-18/Jul/2025
@@ -1466,7 +1457,7 @@ event-participation:
         contrib-icon: 
         upcoming: true
 
-      - title: "XX S-PLUS meeting"
+      - title: "20th S-PLUS meeting"
         link: ""
         date: 18-20/Aug/2025
         location: Rio de Janeiro, Brasil
@@ -1476,10 +1467,29 @@ event-participation:
         contrib-icon: 
         upcoming: true
 
+      - title: "Galaxy memoirs: inferring their past from their present "
+        link: "https://www.nottingham.ac.uk/astronomy/GalaxyMemoirs2025/"
+        date: 10-15/Aug/2025
+        location: Armação dos Búzios, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: Attend
+        contrib-icon: 
+        upcoming: true
+        
       - title: "2025"
         year-mark: true
         upcoming: false
 
+      - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
+        link: ""
+        date:  19-23/May/2025
+        location: CBPF, Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: Poster
+        upcoming: false
+        
       - title: "Seminar of the Astronomy Department at IAG/USP"
         link: ""
         date: 14/May/2025
