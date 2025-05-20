@@ -932,7 +932,19 @@ publications:
     intro:
     intro_ptbr:
     papers:
-
+      - title: "The S-PLUS Fornax Project (S+FP): Mapping emission in 77 Fornax galaxy members reaching ∼4 Rvir"
+        link: ""
+        authors: A.R. Lopes; A.V. Smith Castelli; A.C. Krabbe; ...; (30th) Almeida-Fernandes, F.;
+        more: "+31"
+        journal: A&A
+        volume: Acpt
+        page: 
+        year: 2025
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 14   
+        
       - title: "CHANCES, The Chilean Cluster Galaxy Evolution Survey: selection and initial characterization of clusters and superclusters"
         link: "https://ui.adsabs.harvard.edu/abs/2024arXiv241113655S/abstract"
         authors:   Sifón, C.; Finoguenov, A.; Haines, C.; ...; (14th) Almeida-Fernandes, F.;
