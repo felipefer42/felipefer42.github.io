@@ -641,6 +641,10 @@ experiences_ptbr:
 experiences_plus:
     title: Additional Experience
     info:
+      - role: Deputy Coordinator of the Graduate Program in Astrophysics
+        time: 2025 -
+        company: Instituto Nacional de Pesquisas Espaciais
+        
       - role: Peer-Reviewer for Astronomy and Astrophysics
         time: 2024 - 
         company: EDP Sciences
@@ -660,12 +664,20 @@ experiences_plus:
 experiences_plus_ptbr:
     title: Experiência Adicional
     info:
+      - role: Coordenador Substituto do Programa de Pós-graduação em Astrofísica
+        time: 2025 -
+        company: Instituto Nacional de Pesquisas Espaciais
+        
+      - role: Revisor para a revista "Astronomy and Astrophysics"
+        time: 2024 - 
+        company: EDP Sciences
+
       - role: Revisor para a revista "Astronomy and Computing"
-        time: 2023
+        time: 2023 - 
         company: Elsevier
 
       - role: Revisor para a revista "The Astrophysical Journal"
-        time: 2022
+        time: 2022 - 
         company: AAS Journals
 
       - role: Representante Discente (pós-graduandos)
