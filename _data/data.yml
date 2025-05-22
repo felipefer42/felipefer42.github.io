@@ -1473,6 +1473,17 @@ event-participation:
         contrib-icon: 
         upcoming: true
 
+      - title: "Treinamento em Comunicação aBertha Fapesp"
+        link: ""
+        date: 03-05/Jun/2025
+        location: Remote Course
+        country-code: br
+        state-code: br-sp
+        remote: True
+        contribution: Attend
+        contrib-icon: 
+        upcoming: true
+
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
         link: ""
         date: 14-18/Jul/2025
