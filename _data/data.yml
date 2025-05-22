@@ -1477,8 +1477,8 @@ event-participation:
         link: ""
         date: 03-05/Jun/2025
         location: Remote Course
-        country-code: br
-        state-code: br-sp
+        country-code: 
+        state-code: 
         remote: True
         contribution: Attend
         contrib-icon: 
