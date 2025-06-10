@@ -1462,48 +1462,7 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:
-      - title: "NVIDIA: Introdução à Programação em GPU com CUDA e C++ Moderno"
-        link: ""
-        date: 28/May/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-
-      - title: "NVIDIA Rapids: Data science acelerado por GPU"
-        link: ""
-        date: 29/May/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-        
-      - title: "Exame de Proposta de Doutorado (Matheus Vieira da Costa)"
-        link: "https://www.gov.br/lna/pt-br/assuntos/eventos/soar-science-2025"
-        date: 30/May/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Banca (Suplente)
-        contrib-icon: 
-        upcoming: true
-
-      - title: "Treinamento em Comunicação aBertha Fapesp"
-        link: ""
-        date: 03-05/Jun/2025
-        location: Remote Course
-        country-code: 
-        state-code: 
-        remote: True
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-
+    events:        
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
         link: ""
         date: 14-18/Jul/2025
@@ -1536,6 +1495,37 @@ event-participation:
 
       - title: "2025"
         year-mark: true
+        upcoming: false
+
+      - title: "Treinamento em Comunicação aBertha Fapesp"
+        link: ""
+        date: 03-05/Jun/2025
+        location: Remote Course
+        country-code: 
+        state-code: 
+        remote: True
+        contribution: Attend
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "Exame de Proposta de Doutorado (Matheus Vieira da Costa)"
+        link: "https://www.gov.br/lna/pt-br/assuntos/eventos/soar-science-2025"
+        date: 30/May/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca (Suplente)
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "NVIDIA: Introdução à Programação em GPU com CUDA e C++ Moderno"
+        link: ""
+        date: 28/May/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
         upcoming: false
 
       - title: " Shaping the Future of Time Domain Astronomy in the Rubin Era"
