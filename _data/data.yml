@@ -1462,7 +1462,18 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:        
+    events:
+      - title: "Entrevista no Olhar Espacial"
+        link: ""
+        date: 04/Jul/2025
+        location: Remoto (canal Olhar Digital)
+        country-code: br
+        state-code:
+        remote: True
+        contribution: Participação
+        contrib-icon: 
+        upcoming: true
+        
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
         link: ""
         date: 14-18/Jul/2025
@@ -1493,6 +1504,26 @@ event-participation:
         contrib-icon: 
         upcoming: true
 
+      - title: "Workshop PGAST-DIAST/INPE 2025"
+        link: ""
+        date: 21-22/Aug/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Organizing Committee
+        contrib-icon: 
+        upcoming: true
+
+      - title: "XLVIII Reunião Anual da SAB"
+        link: ""
+        date: 28/Sep-02/Oct/2025
+        location: Caxambu, Brasil
+        country-code: br
+        state-code: br-mg
+        contribution: TBD
+        contrib-icon: 
+        upcoming: true
+        
       - title: "2025"
         year-mark: true
         upcoming: false
