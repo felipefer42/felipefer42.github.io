@@ -23,14 +23,14 @@
   <div class="course-cards">
     {% for course in lectures.courses %}
       {% if course.type == "ongoing" %}
-      <a class="course-card" href="{{ course.link }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
+      <a class="course-card" href="{{ course.link }}" style="border-color: {{ course.background-color | default('#666') | safe }};">
         <h3>
           {% if course.language-code %}
           <span class="fi fi-{{ course.language-code }}" style="border-color: #aaa"></span>
           {% endif %}
           {{ course.code }} - {{ course.semester }}
         </h3>
-        <h4>
+        <h4 style="color: {{ course.background-color | default('#666') | safe }};">
           {{ course.name }}
         </h4>
         <h5>
@@ -56,19 +56,22 @@
   <div class="course-cards">
     {% for course in lectures.courses %}
       {% if course.type == "upcoming" %}
-      <a class="course-card" href="{{ course.link }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
+      <a class="course-card" href="{{ course.link }}" style="border-color: {{ course.background-color | default('#666') | safe }};">
         <h3>
           {% if course.language-code %}
           <span class="fi fi-{{ course.language-code }}" style="border-color: #aaa"></span>
           {% endif %}
           {{ course.code }} - {{ course.semester }}
         </h3>
-        <h4>
+        <h4 style="color: {{ course.background-color | default('#666') | safe }};">
           {{ course.name }}
         </h4>
         <h5>
           {{ course.institute }}
         </h5>
+        {% if course.lectures.size > 1 %}
+          {{ course.lectures | size }} lectures
+        {% endif %}  
       </a>
       {% endif %}
     {% endfor %}
@@ -89,19 +92,24 @@
   <div class="course-cards">
   {% for course in lectures.courses %}
     {% if course.type == "finished" %}
-    <a class="course-card"  href="{{ course.link }}" style="background-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.text-color | default('#FFF') | safe }};">
+    <a class="course-card" href="{{ course.link }}" style="border-color: {{ course.background-color | default('#666') | safe }};">
       <h3>
         {% if course.language-code %}
         <span class="fi fi-{{ course.language-code }}" style="border-color: #aaa"></span>
         {% endif %}
         {{ course.code }} - {{ course.semester }}
       </h3>
-      <h4>
+      <h4 style="color: {{ course.background-color | default('#666') | safe }};">
         {{ course.name }}
       </h4>
       <h5>
         {{ course.institute }}
       </h5>
+      <h5>
+      {% if course.lectures.size > 1 %}
+        {{ course.lectures | size }} lectures
+      {% endif %} 
+      </h5> 
     </a>
     {% endif %}
   {% endfor %}
