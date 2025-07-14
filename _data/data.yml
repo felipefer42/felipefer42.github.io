@@ -1532,7 +1532,17 @@ event-participation:
         country-code: br
         state-code:
         remote: True
-        contribution: Participação
+        contribution: Entrevistado
+        contrib-icon: 
+        upcoming: false
+
+      - title: "Defesa de Mestrado: Pierre Martho"
+        link: ""
+        date: 30/Jun/2025
+        location: IAG/USP, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca (Suplente)
         contrib-icon: 
         upcoming: false
         
