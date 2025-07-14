@@ -643,6 +643,10 @@ experiences_ptbr:
 experiences_plus:
     title: Additional Experience
     info:
+      - role: Reviewer for FAPESP
+        time: 2025 -
+        company: FAPESP (Young Researcher related responsability)
+        
       - role: Deputy Coordinator of the Graduate Program in Astrophysics
         time: 2025 -
         company: Instituto Nacional de Pesquisas Espaciais
@@ -666,6 +670,10 @@ experiences_plus:
 experiences_plus_ptbr:
     title: Experiência Adicional
     info:
+      - role: Parecerista FAPESP
+        time: 2025 -
+        company: FAPESP (responsabilidade vinculada ao Auxílio JP)
+        
       - role: Coordenador Substituto do Programa de Pós-graduação em Astrofísica
         time: 2025 -
         company: Instituto Nacional de Pesquisas Espaciais
@@ -1463,27 +1471,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Entrevista no Olhar Espacial"
-        link: ""
-        date: 04/Jul/2025
-        location: Remoto (canal Olhar Digital)
-        country-code: br
-        state-code:
-        remote: True
-        contribution: Participação
-        contrib-icon: 
-        upcoming: true
-        
-      - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
-        link: ""
-        date: 14-18/Jul/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Lecture
-        contrib-icon: 
-        upcoming: true
-
       - title: "Galaxy memoirs: inferring their past from their present "
         link: "https://www.nottingham.ac.uk/astronomy/GalaxyMemoirs2025/"
         date: 10-15/Aug/2025
@@ -1527,7 +1514,28 @@ event-participation:
       - title: "2025"
         year-mark: true
         upcoming: false
-
+      
+      - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
+        link: ""
+        date: 14-18/Jul/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Lecture
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "Entrevista no Olhar Espacial"
+        link: ""
+        date: 04/Jul/2025
+        location: Remoto (canal Olhar Digital)
+        country-code: br
+        state-code:
+        remote: True
+        contribution: Participação
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Treinamento em Comunicação aBertha Fapesp"
         link: ""
         date: 03-05/Jun/2025
