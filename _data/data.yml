@@ -139,23 +139,23 @@ summary:
     publication-title: Publications (Qualis A1)
     publication-info:
       - key: Publications
-        value: 28 (4 as 1st author)
+        value: 30 (4 as 1st author)
         link:
       - key: H-index
         value: 10
         link:
       - key: Citations
-        value: 463
+        value: 532
         link:
       - key: Most-cited paper
-        value: Mendes de Oliveira et al. (2019) - 145 citations
+        value: Mendes de Oliveira et al. (2019) - 179 citations
         link:
       - key: 1st Paper
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Most-recent paper
-        value: Schwarz et al. (2025)
-        link: 
+        value: Cristóbal et al. (2025)
+        link: https://ui.adsabs.harvard.edu/abs/2025A%26A...697A..92S/abstract
     additional-title: Additional Information
     additional-info:
       - key: Languages
@@ -196,23 +196,23 @@ summary_ptbr:
     publication-title: Publicações (Qualis A1)
     publication-info:
       - key: Publicações
-        value: 28 (4 de 1° autor)
+        value: 30 (4 de 1° autor)
         link:
       - key: H-index
         value: 10
         link:
       - key: Citações
-        value: 463
+        value: 532
         link:
       - key: Artigo mais citado
-        value: Mendes de Oliveira et al. (2019) - 134 citations
+        value: Mendes de Oliveira et al. (2019) - 179 citations
         link:
       - key: 1° Artigo
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Artigo mais recente
-        value: Schwarz et al. (2025)
-        link: https://ui.adsabs.harvard.edu/abs/2024MNRAS.532..563S/abstract
+        value: Cristóbal et al. (2025)
+        link: https://ui.adsabs.harvard.edu/abs/2025A%26A...697A..92S/abstract
     additional-title: Informações Adicionais
     additional-info:
       - key: Idiomas
@@ -947,15 +947,28 @@ oss_ptbr:
         tagline:
 
 publications:
-    home-title: Top-10 Selected Publications
-    home-title_ptbr: Top-10 Publicações Selecionadas
     title: Publications
     title_ptbr: Publicações
+    home-title: Top-10 Selected Publications
+    home-title_ptbr: Top-10 Publicações Selecionadas
     intro:
     intro_ptbr:
     papers:
+      - title: "Identifying a protocluster formation at z ∼4.5 in the COSMOS field: an extension of Taralay protocluster, traced by Ly-alpha emitters surrounding a submm galaxy"
+        link: "https://ui.adsabs.harvard.edu/abs/2025arXiv250711804R/abstract"
+        authors: Rubet, M.; Menéndez-Delmestre, K.; Signorini Gonçalves, T.; Almeida-Fernandes, F.; 
+        more: "+7"
+        journal: ApJ
+        volume: Acpt
+        page: 
+        year: 2025
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 4
+
       - title: "The S-PLUS Fornax Project (S+FP): Mapping emission in 77 Fornax galaxy members reaching ∼4 Rvir"
-        link: ""
+        link: "https://ui.adsabs.harvard.edu/abs/2025arXiv250516738L/abstract"
         authors: A.R. Lopes; A.V. Smith Castelli; A.C. Krabbe; ...; (30th) Almeida-Fernandes, F.;
         more: "+31"
         journal: A&A
@@ -984,7 +997,7 @@ publications:
         link: "https://ui.adsabs.harvard.edu/abs/2025A%26C....5100899S/abstract"
         authors: Schwarz, G. B. O.; Herpich, F. ; Almeida-Fernandes, F. ; Nakazono, L.;
         more: "+9"
-        journal: Astronomy & Computing
+        journal: A&C
         volume: 51
         page: id.100899
         year: 2025
