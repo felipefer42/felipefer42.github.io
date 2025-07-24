@@ -155,7 +155,7 @@ summary:
         link:
       - key: Most-recent paper
         value: Cristóbal et al. (2025)
-        link: https://ui.adsabs.harvard.edu/abs/2025A%26A...697A..92S/abstract
+        link: 
     additional-title: Additional Information
     additional-info:
       - key: Languages
@@ -212,7 +212,7 @@ summary_ptbr:
         link:
       - key: Artigo mais recente
         value: Cristóbal et al. (2025)
-        link: https://ui.adsabs.harvard.edu/abs/2025A%26A...697A..92S/abstract
+        link: 
     additional-title: Informações Adicionais
     additional-info:
       - key: Idiomas
@@ -972,8 +972,8 @@ publications:
         authors: A.R. Lopes; A.V. Smith Castelli; A.C. Krabbe; ...; (30th) Almeida-Fernandes, F.;
         more: "+31"
         journal: A&A
-        volume: Acpt
-        page: 
+        volume: 699
+        page: A331
         year: 2025
         show-home: False
         first-author: False
