@@ -442,7 +442,7 @@ career-profile_ptbr:
 
 education:
 
-    title: Education
+    title: Education and Postdocs
     info:
 
       - degree: BSc in Astronomy
@@ -474,9 +474,9 @@ education:
         university: University of São Paulo
         details: |          
 
-      - role: Research Internship Abroad
+      - degree: Research Internship Abroad
         time: 2022
-        company: NOIRLab
+        university: NOIRLab
         details: |
           Supported by the Post-doctorate research internship abroad (BEPE) of 
           FAPESP (São Paulo Research Funding Agency), I spent the year of 2022
@@ -525,9 +525,9 @@ education_ptbr:
         university: IAG (USP)
         details: |
 
-      - role: Estágio de Pesquisa no Exterior
+      - degree: Estágio de Pesquisa no Exterior
         time: 2022
-        company: NOIRLab
+        university: NOIRLab
         details: |
           
       - degree: Pós-doutorado
