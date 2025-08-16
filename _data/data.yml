@@ -1472,16 +1472,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Galaxy memoirs: inferring their past from their present "
-        link: "https://www.nottingham.ac.uk/astronomy/GalaxyMemoirs2025/"
-        date: 10-15/Aug/2025
-        location: Armação dos Búzios, Brasil
-        country-code: br
-        state-code: br-rj
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-
       - title: "20th S-PLUS meeting"
         link: ""
         date: 18-20/Aug/2025
@@ -1515,7 +1505,17 @@ event-participation:
       - title: "2025"
         year-mark: true
         upcoming: false
-      
+
+      - title: "Galaxy memoirs: inferring their past from their present "
+        link: "https://www.nottingham.ac.uk/astronomy/GalaxyMemoirs2025/"
+        date: 10-15/Aug/2025
+        location: Armação dos Búzios, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: Attend
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
         link: ""
         date: 14-18/Jul/2025
