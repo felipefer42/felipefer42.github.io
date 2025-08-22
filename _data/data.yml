@@ -1472,26 +1472,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "20th S-PLUS meeting"
-        link: ""
-        date: 18-20/Aug/2025
-        location: Rio de Janeiro, Brasil
-        country-code: br
-        state-code: br-rj
-        contribution: LOC/SOC
-        contrib-icon: 
-        upcoming: true
-
-      - title: "Workshop PGAST-DIAST/INPE 2025"
-        link: ""
-        date: 21-22/Aug/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Organizing Committee
-        contrib-icon: 
-        upcoming: true
-
       - title: "XLVIII Reunião Anual da SAB"
         link: ""
         date: 28/Sep-02/Oct/2025
@@ -1502,10 +1482,40 @@ event-participation:
         contrib-icon: 
         upcoming: true
         
+      - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
+        link: ""
+        date: 13-17/Oct/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
+        upcoming: true
+        
       - title: "2025"
         year-mark: true
         upcoming: false
 
+      - title: "Workshop PGAST-DIAST/INPE 2025"
+        link: ""
+        date: 21-22/Aug/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Organizing Committee
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "20th S-PLUS meeting"
+        link: ""
+        date: 18-20/Aug/2025
+        location: Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: LOC/SOC
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Galaxy memoirs: inferring their past from their present "
         link: "https://www.nottingham.ac.uk/astronomy/GalaxyMemoirs2025/"
         date: 10-15/Aug/2025
