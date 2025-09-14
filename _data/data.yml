@@ -1472,6 +1472,16 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
+      - title: "1st International Latin American Conference on Gravitational Waves"
+        link: "https://agenda.infn.it/event/45592"
+        date: 15-19/Sep/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Conference Opening
+        contrib-icon: 
+        upcoming: true
+        
       - title: "XLVIII Reunião Anual da SAB"
         link: ""
         date: 28/Sep-02/Oct/2025
@@ -1479,6 +1489,17 @@ event-participation:
         country-code: br
         state-code: br-mg
         contribution: Talk
+        contrib-icon: 
+        upcoming: true
+
+      - title: "S-PLUS seminar for Armando Bernui's group at Observatório Nacional"
+        link: ""
+        date: 06/Oct/2025
+        location: Rio de Janeiro, Brasil
+        country-code: br
+        state-code: br-rj
+        contribution: Invited Talk
+        remote: true
         contrib-icon: 
         upcoming: true
         
