@@ -1472,16 +1472,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "1st International Latin American Conference on Gravitational Waves"
-        link: "https://agenda.infn.it/event/45592"
-        date: 15-19/Sep/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Conference Opening
-        contrib-icon: 
-        upcoming: true
-        
       - title: "XLVIII Reunião Anual da SAB"
         link: ""
         date: 28/Sep-02/Oct/2025
@@ -1517,6 +1507,16 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "1st International Latin American Conference on Gravitational Waves"
+        link: "https://agenda.infn.it/event/45592"
+        date: 15-19/Sep/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Conference Opening
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Workshop PGAST-DIAST/INPE 2025"
         link: ""
         date: 21-22/Aug/2025
