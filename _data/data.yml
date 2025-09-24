@@ -943,12 +943,12 @@ publications:
     intro_ptbr:
     papers:
       - title: "Identifying a protocluster formation at z ∼4.5 in the COSMOS field: an extension of Taralay protocluster, traced by Ly-alpha emitters surrounding a submm galaxy"
-        link: "https://ui.adsabs.harvard.edu/abs/2025arXiv250711804R/abstract"
+        link: "https://ui.adsabs.harvard.edu/abs/2025ApJ...991...35R/abstract"
         authors: Rubet, M.; Menéndez-Delmestre, K.; Signorini Gonçalves, T.; Almeida-Fernandes, F.; 
         more: "+7"
         journal: ApJ
-        volume: Acpt
-        page: 
+        volume: 991
+        page: id.35
         year: 2025
         show-home: False
         first-author: False
@@ -1473,7 +1473,7 @@ event-participation:
     intro:
     events:
       - title: "XLVIII Reunião Anual da SAB"
-        link: ""
+        link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/xlviii-reuniao-anual-da-sab/"
         date: 28/Sep-02/Oct/2025
         location: Caxambu, Brasil
         country-code: br
@@ -1494,12 +1494,22 @@ event-participation:
         upcoming: true
         
       - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
-        link: ""
+        link: "https://www.gov.br/inpe/pt-br/eventos/bawg-workshop"
         date: 13-17/Oct/2025
         location: São José dos Campos, Brasil
         country-code: br
         state-code: br-sp
         contribution: Attend
+        contrib-icon: 
+        upcoming: true
+
+      - title: "Workshop SPAnet de Instrumentação em Astronomia - 2025"
+        link: "https://instrumentos.iag.usp.br/workshop-spanet-Instrumentacao-em-Astronomia-2025"
+        date: 03-04/Nov/2025
+        location: Universidade Presbiteriana Mackenzie, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: TBD
         contrib-icon: 
         upcoming: true
         
@@ -1528,7 +1538,7 @@ event-participation:
         upcoming: false
         
       - title: "20th S-PLUS meeting"
-        link: ""
+        link: "https://sites.usp.br/splus/"
         date: 18-20/Aug/2025
         location: Rio de Janeiro, Brasil
         country-code: br
@@ -1548,7 +1558,7 @@ event-participation:
         upcoming: false
         
       - title: "Aula: A estrutura da nossa Galáxia - CIAA 2025"
-        link: ""
+        link: "https://www.gov.br/inpe/pt-br/eventos/ciaa-2025"
         date: 14-18/Jul/2025
         location: São José dos Campos, Brasil
         country-code: br
