@@ -3025,7 +3025,144 @@ lectures:
         type: finished
         background-color: "#257dc5"
         text-color: "#FFF"
+
+      - name: Galactic Structure
+        link: lectures/ast_418_2025_3.html
+        intro: |
+          Observação: Curso em andamento
+        description: |
+          (1) Revisão de propriedades estelares, formação e evolução estelar, e processos de nucleossíntese.
+          (2) Componentes da Via Láctea: bojo, barra, discos fino/espesso, halo e aglomerados globulares, gás e poeira. 
+          (3) Arqueologia Galáctica: datação estelar, abundâncias químicas, cinemática de populações estelares na Galáxia; formação da Galáxia. 
+          (4) Cinemática de estrelas no disco: curva de rotação, estrutura espiral. 
+          (5) Subestruturas: correntes estelares, grupos moventes e subestruturas do halo.
+          (6) Modelos da Galáxia: distribuição de massa e potencial gravitacional, histórico de formação estelar, função de massa inicial e evolução química da Galáxia.
+        name_ptbr: Estrutura da Galáxia
         
+        bibliography: |
+          BINNEY, J. & MERRIFIELD, M. Galactic Astronomy. Princeton University Press, New Jersey, 1998. <br>
+          BINNEY, J. & TREMAINE, S. Galactic Dynamics: Second Edition. Princeton University Press, Princeton, NJ, USA, 2008. <br>
+          NEWBERG, H. & CARLIN, J. Tidal Streams in the Local Group and Beyond: Observations and Implications. Astrophysics and Space Science Library, 2016. <br>
+          MACIEL, W. Fundamentos de Evolução Química da Galáxia. IAG/USP, São Paulo, 2020.  <br>
+          MINCHEV, I. Constraining the Milky Way assembly history with Galactic Archaeology. Astronomische Nachrichten, Vol. 337, Issue 7, p. 703, 2016. <br>
+          Artigos especializados da área 
+        institute: INPE
+        institute_long: Instituto Nacional de Pesquisas Espaciais
+        department: Divisão de Astrofísica
+        institute-link: "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/catalogo-de-disciplinas"
+
+        info:
+          - key: Lecture Credits
+            value: 3
+          - key: Work Credits
+            value: 0
+          - key: Total hours
+            value: 60h
+          - key: Type
+            value: Period-long
+          - key: Language
+            value: Portuguese
+        
+        info_ptbr:
+          - key: Créditos Aula
+            value: 3
+          - key: Créditos Trabalho
+            value: 0
+          - key: Horas Totais
+            value: 60h
+          - key: Tipo
+            value: Período
+          - key: Idioma
+            value: Português
+          
+        language-code: br
+        language: portuguese 
+        code: AST418
+        semester: '2025.3'
+        type: ongoing
+        background-color: "#4d7a3b"
+        text-color: "#FFF"
+
+        documents:
+          - name: Descrição do Curso
+            link: https://drive.google.com/file/d/1aJ1-IF7nHL59jBDPsSl6cEue8LE8CWBc/view?usp=sharing
+            type: pdf
+
+          - name: Calendário
+            link: https://drive.google.com/file/d/1ZTz-K6z4bwi690WP1m9Aa0BNSv9qYVkg/view?usp=sharing
+            type: pdf
+
+        sections:
+          - name: Parte 1
+            color: "#425ac7"
+          - name: Atividade de Programação 1
+            color: "#425ac7"
+          - name: Apresentações 1
+            color: "#425ac7"
+          - name: Parte 2
+            color: "#31734c"
+          - name: Parte 3
+            color: "#a55b2a"
+
+
+
+        lectures:
+
+          - name: 'Aula 1: História da Astronomia Galáctica'
+            intro:
+            link: https://drive.google.com/file/d/1s77N5UPfZjE_tigiql5owJsH3yW91VKP/view?usp=sharing
+            section: Parte 1
+            language-code: br
+            date: 24/09
+            video: 
+            pdf: https://drive.google.com/file/d/1s77N5UPfZjE_tigiql5owJsH3yW91VKP/view?usp=sharing
+            drive: https://docs.google.com/presentation/d/1RjFRHMpNwROnusGszvk0Lt_fL5rTeqSf9tkhx93t8hU/edit?usp=sharing
+            blog:
+
+          - name: 'Atividade de Programação 1'
+            intro:
+            link: https://drive.google.com/drive/folders/1INkIb0KI4tdB1e74hb-JeH2OvZ_x-nch?usp=sharing
+            section: Atividade de Programação 1
+            language-code: br
+            date: entrega até 10/10
+            video: 
+            pdf: https://drive.google.com/file/d/1gpkG6TvCU541YSq3LUbbJkavkNrhddcd/view?usp=sharing
+            drive: https://drive.google.com/drive/folders/1INkIb0KI4tdB1e74hb-JeH2OvZ_x-nch?usp=sharing
+            blog:
+
+          - name: 'Camilla: Bailer-Jones et al. (2021)'
+            intro:
+            link: https://drive.google.com/file/d/1nV9qwQH3e39xQb5TGgdyholGfug3kNFV/view?usp=sharing
+            section: Apresentações 1
+            language-code: br
+            date: 17/10
+            video: 
+            pdf: https://drive.google.com/file/d/1nV9qwQH3e39xQb5TGgdyholGfug3kNFV/view?usp=sharing
+            drive:
+            blog:
+
+          - name: 'Murilo: Kobayashi et al. (2020)'
+            intro:
+            link: https://drive.google.com/file/d/1SFzo6s9iBqKC6GUACWL2sPHIr6epwfMQ/view?usp=sharing
+            section: Apresentações 1
+            language-code: br
+            date: 17/10
+            video: 
+            pdf: https://drive.google.com/file/d/1SFzo6s9iBqKC6GUACWL2sPHIr6epwfMQ/view?usp=sharing
+            drive:
+            blog:
+
+          - name: 'Tainá: Green et al. (2019)'
+            intro:
+            link: https://drive.google.com/file/d/14AAEbioAgQq9KDDlLVSXqTf0mptIoJjS/view?usp=sharing
+            section: Apresentações 1
+            language-code: br
+            date: 17/10
+            video: 
+            pdf: https://drive.google.com/file/d/14AAEbioAgQq9KDDlLVSXqTf0mptIoJjS/view?usp=sharing
+            drive:
+            blog:
+
       - name: Introduction to Astronomy
         link: lectures/aga0210_2021_2.html
         intro: |
@@ -4039,29 +4176,3 @@ lectures:
             video:
             pdf:
             drive:
-
-      - name: Galactic Structure
-        name_ptbr: Estrutura da Galáxia
-        link: under_construction
-        intro:
-        institute: INPE
-        institute-link: 
-        language-code: br 
-        code: AGA0210
-        semester: '2025.3'
-        type: upcoming
-        background-color: "#4d7a3b"
-        text-color: "#FFF"
-        sections:
-          - name: Apresentação
-            color: 
-
-        lectures:
-          - name: 
-            intro:
-            section: 
-            language-code:
-            date: 
-            video:
-            pdf:
-            extra:
