@@ -1512,6 +1512,16 @@ event-participation:
         contribution: TBD
         contrib-icon: 
         upcoming: true
+      
+      - title: "2º Evento Jovens Pesquisadores: 30 anos do Programa FAPESP"
+        link: "https://aciesp.org.br/aciesp-e-fapesp-alinham-iniciativas-e-anunciam-celebracoes/"
+        date: 06/Nov/2025
+        location:  Auditório da FAPESP, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: TBD
+        contrib-icon: 
+        upcoming: true
         
       - title: "2025"
         year-mark: true
