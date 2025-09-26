@@ -3114,8 +3114,6 @@ lectures:
           - name: Parte 3
             color: "#a55b2a"
 
-
-
         lectures:
 
           - name: 'Aula 1: História da Astronomia Galáctica'
@@ -3129,6 +3127,17 @@ lectures:
             drive: https://docs.google.com/presentation/d/1RjFRHMpNwROnusGszvk0Lt_fL5rTeqSf9tkhx93t8hU/edit?usp=sharing
             blog:
 
+          - name: 'Aula 2: Medidas Astronômicas'
+            intro:
+            link: https://drive.google.com/file/d/1govMH2gAXZHSMEsN920GQB2ZsiyNZUDf/view?usp=sharing
+            section: Parte 1
+            language-code: br
+            date: 26/09
+            video: 
+            pdf: https://drive.google.com/file/d/1govMH2gAXZHSMEsN920GQB2ZsiyNZUDf/view?usp=sharing
+            drive: https://docs.google.com/presentation/d/14wbRpOop96csAM_Q4Ao3KHUFGRWDLRnYBikLQB1uikU/edit?usp=sharing
+            blog:
+            
           - name: 'Atividade de Programação 1'
             intro:
             link: https://drive.google.com/drive/folders/1INkIb0KI4tdB1e74hb-JeH2OvZ_x-nch?usp=sharing
