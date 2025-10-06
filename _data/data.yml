@@ -1583,6 +1583,7 @@ event-participation:
         location: Remoto (canal Olhar Digital)
         country-code: br
         state-code:
+        remote: true
         contribution: Entrevistado
         contrib-icon: 
         upcoming: false
@@ -1603,6 +1604,7 @@ event-participation:
         location:  Course
         country-code: 
         state-code: 
+        remote: true
         contribution: Attend
         contrib-icon: 
         upcoming: false
@@ -1911,7 +1913,7 @@ event-participation:
         location: Universidade Federal de Uberlândia, Brazil
         country-code: br
         state-code: br-mg
-        : true
+        remote: true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1945,7 +1947,7 @@ event-participation:
         date: 29/Nov/2022
         location:  meeting
         country-code:
-        : true
+        remote: true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1954,7 +1956,7 @@ event-participation:
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlv-reuniao-anual-da-sab/"
         date: 26-30/Sep/2022
         location:  meeting
-        : true
+        remote: true
         country-code:
         contribution: Talk/Chair
         contrib-icon: fa-person-chalkboard
@@ -1993,7 +1995,7 @@ event-participation:
         location: CBPF, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        : true
+        remote: true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -2004,7 +2006,7 @@ event-participation:
         location: OV, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        : true
+        remote: true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -2023,7 +2025,7 @@ event-participation:
         date: 07/Mar/2022
         location:  meeting
         country-code:
-        : true
+        remote: true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -2058,7 +2060,7 @@ event-participation:
         date: 18/Oct/2021
         location:  meeting
         country-code:
-        : true
+        remote: true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
