@@ -224,8 +224,8 @@ summary_ptbr:
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education # set to False if you want education in main section instead of in sidebar
-    complementary_education # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    complementary_education: True # set to False if you want education in main section instead of in sidebar
     
     # Profile information
     first_name: Felipe
@@ -305,8 +305,8 @@ sidebar:
 sidebar_ptbr:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education # set to False if you want education in main section instead of in sidebar
-    complementary_education # set to False if you want education in main section instead of in sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+    complementary_education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     first_name: Felipe
@@ -952,7 +952,7 @@ publications:
         year: 2025
         show-home: False
         first-author: False
-        refereed
+        refereed: True
         rank: 4
 
       - title: "The S-PLUS Fornax Project (S+FP): Mapping emission in 77 Fornax galaxy members reaching ∼4 Rvir"
@@ -965,7 +965,7 @@ publications:
         year: 2025
         show-home: False
         first-author: False
-        refereed
+        refereed: True
         rank: 14   
         
       - title: "CHANCES, The Chilean Cluster Galaxy Evolution Survey: selection and initial characterization of clusters and superclusters"
@@ -1471,7 +1471,7 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:       
+    events:
       - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
         link: "https://www.gov.br/inpe/pt-br/eventos/bawg-workshop"
         date: 13-17/Oct/2025
@@ -1509,7 +1509,7 @@ event-participation:
       - title: "S-PLUS seminar for Armando Bernui's group at Observatório Nacional"
         link: ""
         date: 06/Oct/2025
-        location: "(remote) Rio de Janeiro, Brasil"
+        location: Rio de Janeiro, Brasil
         country-code: br
         state-code: br-rj
         contribution: Invited Talk
@@ -1583,7 +1583,7 @@ event-participation:
         location: Remoto (canal Olhar Digital)
         country-code: br
         state-code:
-        remote: true
+        remote: True
         contribution: Entrevistado
         contrib-icon: 
         upcoming: false
@@ -1601,10 +1601,10 @@ event-participation:
       - title: "Treinamento em Comunicação aBertha Fapesp"
         link: ""
         date: 03-05/Jun/2025
-        location:  Course
+        location: Remote Course
         country-code: 
         state-code: 
-        remote: true
+        remote: True
         contribution: Attend
         contrib-icon: 
         upcoming: false
@@ -1706,6 +1706,7 @@ event-participation:
         location: UFRJ, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
+        remote: true
         contribution: Evaluator
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1716,6 +1717,7 @@ event-participation:
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
+        remote: true
         contribution: Evaluator
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1744,6 +1746,7 @@ event-participation:
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
+        remote: true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1945,7 +1948,7 @@ event-participation:
       - title: "S-PLUS Collaboration telecon: metal-poor stars in S-PLUS"
         link: ""
         date: 29/Nov/2022
-        location:  meeting
+        location: Remote meeting
         country-code:
         remote: true
         contribution: Talk
@@ -1955,7 +1958,7 @@ event-participation:
       - title: "XLV Reunião Anual da SAB"
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlv-reuniao-anual-da-sab/"
         date: 26-30/Sep/2022
-        location:  meeting
+        location: Remote meeting
         remote: true
         country-code:
         contribution: Talk/Chair
@@ -2023,7 +2026,7 @@ event-participation:
       - title: "S-PLUS Collaboration telecon: S-PLUS iDR4"
         link: ""
         date: 07/Mar/2022
-        location:  meeting
+        location: Remote meeting
         country-code:
         remote: true
         contribution: Talk
@@ -2058,7 +2061,7 @@ event-participation:
       - title: "S-PLUS Collaboration telecon: updates for iDR4"
         link: ""
         date: 18/Oct/2021
-        location:  meeting
+        location: Remote meeting
         country-code:
         remote: true
         contribution: Talk
