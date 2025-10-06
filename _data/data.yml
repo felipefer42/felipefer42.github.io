@@ -1471,28 +1471,7 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:
-      - title: "XLVIII Reunião Anual da SAB"
-        link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/xlviii-reuniao-anual-da-sab/"
-        date: 28/Sep-02/Oct/2025
-        location: Caxambu, Brasil
-        country-code: br
-        state-code: br-mg
-        contribution: Talk
-        contrib-icon: 
-        upcoming: true
-
-      - title: "S-PLUS seminar for Armando Bernui's group at Observatório Nacional"
-        link: ""
-        date: 06/Oct/2025
-        location: Rio de Janeiro, Brasil
-        country-code: br
-        state-code: br-rj
-        contribution: Invited Talk
-        remote: true
-        contrib-icon: 
-        upcoming: true
-        
+    events:       
       - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
         link: "https://www.gov.br/inpe/pt-br/eventos/bawg-workshop"
         date: 13-17/Oct/2025
@@ -1527,6 +1506,27 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "S-PLUS seminar for Armando Bernui's group at Observatório Nacional"
+        link: ""
+        date: 06/Oct/2025
+        location: (remote) Rio de Janeiro, Brasil 
+        country-code: br
+        state-code: br-rj
+        contribution: Invited Talk
+        remote: true
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "XLVIII Reunião Anual da SAB"
+        link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/xlviii-reuniao-anual-da-sab/"
+        date: 28/Sep-02/Oct/2025
+        location: Caxambu, Brasil
+        country-code: br
+        state-code: br-mg
+        contribution: Talk
+        contrib-icon: 
+        upcoming: false
+        
       - title: "1st International Latin American Conference on Gravitational Waves"
         link: "https://agenda.infn.it/event/45592"
         date: 15-19/Sep/2025
@@ -1583,7 +1583,7 @@ event-participation:
         location: Remoto (canal Olhar Digital)
         country-code: br
         state-code:
-        remote: True
+        : True
         contribution: Entrevistado
         contrib-icon: 
         upcoming: false
@@ -1601,10 +1601,10 @@ event-participation:
       - title: "Treinamento em Comunicação aBertha Fapesp"
         link: ""
         date: 03-05/Jun/2025
-        location: Remote Course
+        location:  Course
         country-code: 
         state-code: 
-        remote: True
+        : True
         contribution: Attend
         contrib-icon: 
         upcoming: false
@@ -1706,7 +1706,7 @@ event-participation:
         location: UFRJ, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        remote: true
+        : true
         contribution: Evaluator
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1717,7 +1717,7 @@ event-participation:
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        remote: true
+        : true
         contribution: Evaluator
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1746,7 +1746,7 @@ event-participation:
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        remote: true
+        : true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1916,7 +1916,7 @@ event-participation:
         location: Universidade Federal de Uberlândia, Brazil
         country-code: br
         state-code: br-mg
-        remote: true
+        : true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1948,9 +1948,9 @@ event-participation:
       - title: "S-PLUS Collaboration telecon: metal-poor stars in S-PLUS"
         link: ""
         date: 29/Nov/2022
-        location: Remote meeting
+        location:  meeting
         country-code:
-        remote: true
+        : true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1958,8 +1958,8 @@ event-participation:
       - title: "XLV Reunião Anual da SAB"
         link: "https://sab-astro.org.br/eventos/reuniao-anual-da-sab/eventos-anteriores/xlv-reuniao-anual-da-sab/"
         date: 26-30/Sep/2022
-        location: Remote meeting
-        remote: true
+        location:  meeting
+        : true
         country-code:
         contribution: Talk/Chair
         contrib-icon: fa-person-chalkboard
@@ -1998,7 +1998,7 @@ event-participation:
         location: CBPF, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        remote: true
+        : true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -2009,7 +2009,7 @@ event-participation:
         location: OV, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        remote: true
+        : true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -2026,9 +2026,9 @@ event-participation:
       - title: "S-PLUS Collaboration telecon: S-PLUS iDR4"
         link: ""
         date: 07/Mar/2022
-        location: Remote meeting
+        location:  meeting
         country-code:
-        remote: true
+        : true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -2061,9 +2061,9 @@ event-participation:
       - title: "S-PLUS Collaboration telecon: updates for iDR4"
         link: ""
         date: 18/Oct/2021
-        location: Remote meeting
+        location:  meeting
         country-code:
-        remote: true
+        : true
         contribution: Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
