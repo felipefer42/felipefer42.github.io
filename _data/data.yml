@@ -224,8 +224,8 @@ summary_ptbr:
 sidebar:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-    complementary_education: True # set to False if you want education in main section instead of in sidebar
+    education # set to False if you want education in main section instead of in sidebar
+    complementary_education # set to False if you want education in main section instead of in sidebar
     
     # Profile information
     first_name: Felipe
@@ -305,8 +305,8 @@ sidebar:
 sidebar_ptbr:
     position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-    complementary_education: True # set to False if you want education in main section instead of in sidebar
+    education # set to False if you want education in main section instead of in sidebar
+    complementary_education # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     first_name: Felipe
@@ -952,7 +952,7 @@ publications:
         year: 2025
         show-home: False
         first-author: False
-        refereed: True
+        refereed
         rank: 4
 
       - title: "The S-PLUS Fornax Project (S+FP): Mapping emission in 77 Fornax galaxy members reaching ∼4 Rvir"
@@ -965,7 +965,7 @@ publications:
         year: 2025
         show-home: False
         first-author: False
-        refereed: True
+        refereed
         rank: 14   
         
       - title: "CHANCES, The Chilean Cluster Galaxy Evolution Survey: selection and initial characterization of clusters and superclusters"
@@ -1603,7 +1603,6 @@ event-participation:
         location:  Course
         country-code: 
         state-code: 
-        : True
         contribution: Attend
         contrib-icon: 
         upcoming: false
@@ -1705,7 +1704,6 @@ event-participation:
         location: UFRJ, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        : true
         contribution: Evaluator
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1716,7 +1714,6 @@ event-participation:
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        : true
         contribution: Evaluator
         contrib-icon: fa-person-chalkboard
         upcoming: false
@@ -1745,7 +1742,6 @@ event-participation:
         location: Observatório do Valongo, Rio de Janeiro, Brazil
         country-code: br
         state-code: br-rj
-        : true
         contribution: Invited Talk
         contrib-icon: fa-person-chalkboard
         upcoming: false
