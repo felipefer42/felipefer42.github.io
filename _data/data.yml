@@ -1472,16 +1472,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
-        link: "https://www.gov.br/inpe/pt-br/eventos/bawg-workshop"
-        date: 13-17/Oct/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-
       - title: "Workshop SPAnet de Instrumentação em Astronomia - 2025"
         link: "https://instrumentos.iag.usp.br/workshop-spanet-Instrumentacao-em-Astronomia-2025"
         date: 03-04/Nov/2025
@@ -1506,6 +1496,16 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
+        link: "https://www.gov.br/inpe/pt-br/eventos/bawg-workshop"
+        date: 13-17/Oct/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
+        upcoming: false
+        
       - title: "S-PLUS seminar for Armando Bernui's group at Observatório Nacional"
         link: ""
         date: 06/Oct/2025
