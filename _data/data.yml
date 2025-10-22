@@ -3237,6 +3237,17 @@ lectures:
             drive:
             blog:
 
+          - name: 'Aula 7: A Via Láctea'
+            intro:
+            link: https://drive.google.com/file/d/1NiDKuC_kiihCbyBBt-21WUQ5zMj6eq9h/view?usp=sharing
+            section: Parte 2
+            language-code: br
+            date: 22/10
+            video: 
+            pdf: https://drive.google.com/file/d/1NiDKuC_kiihCbyBBt-21WUQ5zMj6eq9h/view?usp=sharing
+            drive: https://docs.google.com/presentation/d/1G7FekIeDsqWIsgR933cj51QSbGUN1rSWPcuTL6L06RA/edit?usp=sharing
+            blog:
+            
       - name: Introduction to Astronomy
         link: lectures/aga0210_2021_2.html
         intro: |
