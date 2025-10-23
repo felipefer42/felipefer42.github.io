@@ -1496,6 +1496,17 @@ event-participation:
         year-mark: true
         upcoming: false
 
+
+      - title: "Integração dos Novos Pesquisadores do INPE / 2025"
+        link: 
+        date: 20-24/Oct/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
+        upcoming: false
+        
       - title: "11th Annual BRICS Astronomy Working Group (BAWG) Workshop"
         link: "https://www.gov.br/inpe/pt-br/eventos/bawg-workshop"
         date: 13-17/Oct/2025
