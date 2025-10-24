@@ -3121,6 +3121,8 @@ lectures:
             color: "#425ac7"
           - name: Parte 2
             color: "#31734c"
+          - name: Apresentações 2
+            color: "#31734c"
           - name: Parte 3
             color: "#a55b2a"
 
@@ -3256,6 +3258,39 @@ lectures:
             video: 
             pdf: https://drive.google.com/file/d/1NiDKuC_kiihCbyBBt-21WUQ5zMj6eq9h/view?usp=sharing
             drive: https://docs.google.com/presentation/d/1G7FekIeDsqWIsgR933cj51QSbGUN1rSWPcuTL6L06RA/edit?usp=sharing
+            blog:
+
+          - name: 'Wegg et al. (2015)'
+            intro:
+            link: https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.4050W/abstract
+            section: Apresentações 2
+            language-code: br
+            date: 14/11
+            video: 
+            pdf: https://drive.google.com/file/d/1BIJZ5EXxzJvSH7NmxOhs6TuKv734TqOC/view?usp=sharing
+            drive:
+            blog:
+
+          - name: 'Hayden et al. (2015)'
+            intro:
+            link: https://ui.adsabs.harvard.edu/abs/2015ApJ...808..132H/abstract
+            section: Apresentações 2
+            language-code: br
+            date: 14/11
+            video: 
+            pdf: https://drive.google.com/file/d/10aRxMotDWgRVK1v964uQOEQvw7LI6ysf/view?usp=sharing
+            drive:
+            blog:
+
+          - name: 'Deason et al. (2011)'
+            intro:
+            link: https://ui.adsabs.harvard.edu/abs/2011MNRAS.416.2903D/abstract
+            section: Apresentações 2
+            language-code: br
+            date: 14/11
+            video: 
+            pdf: https://drive.google.com/file/d/1e-5SGpbpBycL6Pxsh3DHeBuejjCLk1pJ/view?usp=sharing
+            drive:
             blog:
             
       - name: Introduction to Astronomy
