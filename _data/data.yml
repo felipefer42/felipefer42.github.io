@@ -1478,7 +1478,7 @@ event-participation:
         location: Universidade Presbiteriana Mackenzie, São Paulo, Brasil
         country-code: br
         state-code: br-sp
-        contribution: TBD
+        contribution: Talk
         contrib-icon: 
         upcoming: true
       
@@ -1489,6 +1489,16 @@ event-participation:
         country-code: br
         state-code: br-sp
         contribution: TBD
+        contrib-icon: 
+        upcoming: true
+
+      - title: "Exame de Qualificação - Patricia Santos"
+        link: ""
+        date: TBD/Dec/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca (Presidente)
         contrib-icon: 
         upcoming: true
         
