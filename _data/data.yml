@@ -942,6 +942,19 @@ publications:
     intro:
     intro_ptbr:
     papers:
+      - title: "Targeting cluster galaxies for the 4MOST CHANCES Low-z sub-survey with photometric redshifts"
+        link: "https://ui.adsabs.harvard.edu/abs/2025arXiv251019958M/abstract"
+        authors: Méndez-Hernández, H.; Lima-Dias, C.; Monachesi, A.; ...; (42th) Almeida-Fernandes, F.;
+        more: "+53"
+        journal: A&A
+        volume: ACPT
+        page: 
+        year: 2025
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 42
+        
       - title: "Identifying a protocluster formation at z ∼4.5 in the COSMOS field: an extension of Taralay protocluster, traced by Ly-alpha emitters surrounding a submm galaxy"
         link: "https://ui.adsabs.harvard.edu/abs/2025ApJ...991...35R/abstract"
         authors: Rubet, M.; Menéndez-Delmestre, K.; Signorini Gonçalves, T.; Almeida-Fernandes, F.; 
