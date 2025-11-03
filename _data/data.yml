@@ -139,22 +139,22 @@ summary:
     publication-title: Publications (Qualis A1)
     publication-info:
       - key: Publications
-        value: 30 (4 as 1st author)
+        value: 32 (4 as 1st author)
         link:
       - key: H-index
-        value: 10
+        value: 11
         link:
       - key: Citations
-        value: 532
+        value: 587
         link:
       - key: Most-cited paper
-        value: Mendes de Oliveira et al. (2019) - 179 citations
+        value: Mendes de Oliveira et al. (2019) - 195 citations
         link:
       - key: 1st Paper
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Most-recent paper
-        value: Cristóbal et al. (2025)
+        value: Rubet et al. (2025)
         link: 
     additional-title: Additional Information
     additional-info:
@@ -196,22 +196,22 @@ summary_ptbr:
     publication-title: Publicações (Qualis A1)
     publication-info:
       - key: Publicações
-        value: 30 (4 de 1° autor)
+        value: 32 (4 de 1° autor)
         link:
       - key: H-index
-        value: 10
+        value: 11
         link:
       - key: Citações
-        value: 532
+        value: 587
         link:
       - key: Artigo mais citado
-        value: Mendes de Oliveira et al. (2019) - 179 citations
+        value: Mendes de Oliveira et al. (2019) - 195 citations
         link:
       - key: 1° Artigo
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Artigo mais recente
-        value: Cristóbal et al. (2025)
+        value: Rubet et al. (2025)
         link: 
     additional-title: Informações Adicionais
     additional-info:
