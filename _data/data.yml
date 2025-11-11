@@ -1498,16 +1498,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "2º Evento Jovens Pesquisadores: 30 anos do Programa FAPESP"
-        link: "https://aciesp.org.br/aciesp-e-fapesp-alinham-iniciativas-e-anunciam-celebracoes/"
-        date: 06/Nov/2025
-        location:  Auditório da FAPESP, São Paulo, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: TBD
-        contrib-icon: 
-        upcoming: true
-
       - title: "Exame de Qualificação - Patricia Santos"
         link: ""
         date: TBD/Dec/2025
@@ -1522,6 +1512,16 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "2º Evento Jovens Pesquisadores: 30 anos do Programa FAPESP"
+        link: "https://aciesp.org.br/aciesp-e-fapesp-alinham-iniciativas-e-anunciam-celebracoes/"
+        date: 06/Nov/2025
+        location:  Auditório da FAPESP, São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: TBD
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Workshop SPAnet de Instrumentação em Astronomia - 2025"
         link: "https://instrumentos.iag.usp.br/workshop-spanet-Instrumentacao-em-Astronomia-2025"
         date: 03-04/Nov/2025
