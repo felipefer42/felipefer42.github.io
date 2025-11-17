@@ -1507,6 +1507,16 @@ event-participation:
         contribution: Banca (Presidente)
         contrib-icon: 
         upcoming: true
+
+      - title: "Comissão de Admissão de Estudantes para a Pós-Graduação em Astrofísica do INPE"
+        link: ""
+        date: 17-19/Dec/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Membro
+        contrib-icon: 
+        upcoming: true
         
       - title: "2025"
         year-mark: true
