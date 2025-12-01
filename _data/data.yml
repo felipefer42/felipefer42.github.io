@@ -3171,8 +3171,14 @@ lectures:
             color: "#425ac7"
           - name: Apresentações 1
             color: "#425ac7"
+          - name: Atividade de Programação 2
+            color: "#31734c"
           - name: Apresentações 2
             color: "#31734c"
+          - name: Atividade de Programação 3
+            color: "#a55b2a"
+          - name: Apresentações 3
+            color: "#a55b2a"
 
         lectures:
 
