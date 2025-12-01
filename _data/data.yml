@@ -3362,6 +3362,17 @@ lectures:
             pdf: https://drive.google.com/file/d/1R6MS8mHNOXXi1fw3IupuPd4rl6cWx8X_/view?usp=sharing
             drive: https://docs.google.com/presentation/d/1uOiJmqG76ju51rtKZ87ZmsRZxbb-ZTYj-jA5h1muEek/edit?usp=sharing
             blog:
+
+          - name: 'Atividade de Programação 2'
+            intro:
+            link: https://drive.google.com/drive/folders/1MWfNiCLVytB_0iozIyHnR-1_e6RM9MnI?usp=sharing
+            section: Atividade de Programação 2
+            language-code: br
+            date: entrega até 17/12
+            video: 
+            pdf: 
+            drive: https://drive.google.com/drive/folders/1MWfNiCLVytB_0iozIyHnR-1_e6RM9MnI?usp=sharing
+            blog:
             
           - name: 'Wegg et al. (2015)'
             intro:
@@ -3394,6 +3405,83 @@ lectures:
             video: 
             pdf: https://drive.google.com/file/d/1e-5SGpbpBycL6Pxsh3DHeBuejjCLk1pJ/view?usp=sharing
             drive:
+            blog:
+
+          - name: 'Aula 13: Cinemática Estelar'
+            intro:
+            link: https://docs.google.com/presentation/d/1CknwDMYy5STNltnGMRlAqLjWf9-I8H_FxjR6vGOYJXk/edit?usp=sharing
+            section: Parte 3
+            language-code: br
+            date: 21/11
+            video: 
+            pdf: 
+            drive: https://docs.google.com/presentation/d/1CknwDMYy5STNltnGMRlAqLjWf9-I8H_FxjR6vGOYJXk/edit?usp=sharing
+            blog:
+  
+          - name: 'Aula 14: Idades Estelares'
+            intro:
+            link: https://docs.google.com/presentation/d/1bUWhjG5nWq7jghCKM-c6iHfeXVAwqaF-93tOMC0L750/edit?usp=sharing
+            section: Parte 3
+            language-code: br
+            date: 26/11
+            video: 
+            pdf: 
+            drive: https://docs.google.com/presentation/d/1bUWhjG5nWq7jghCKM-c6iHfeXVAwqaF-93tOMC0L750/edit?usp=sharing
+            blog:
+
+          - name: 'Aula 15: Espectroscopia e Abundâncias Químicas'
+            intro:
+            link: https://docs.google.com/presentation/d/1umk536Sqip4zhY6EQMZHq5sdGMuNbEbLK1CO6dPzK_8/edit?usp=sharing
+            section: Parte 3
+            language-code: br
+            date: 03/12
+            video: 
+            pdf: 
+            drive: https://docs.google.com/presentation/d/1umk536Sqip4zhY6EQMZHq5sdGMuNbEbLK1CO6dPzK_8/edit?usp=sharing
+            blog:
+
+          - name: 'Casagrande et al. (2011) - Camilla'
+            intro:
+            link: https://ui.adsabs.harvard.edu/abs/2011A%26A...530A.138C/abstract
+            section: Apresentações 3
+            language-code: br
+            date: 12/12
+            video: 
+            pdf: https://drive.google.com/file/d/12ckHifA3kAH4mCl_GAjZvlypFvbCk0s7/view?usp=sharing
+            drive:
+            blog:
+
+          - name: 'Haywood et al. (2013) - Murilo'
+            intro:
+            link: https://ui.adsabs.harvard.edu/abs/2013A%26A...560A.109H/abstract
+            section: Apresentações 3
+            language-code: br
+            date: 12/12
+            video: 
+            pdf: https://drive.google.com/file/d/1JQxkmlepxPvBkTBaQUkNXYx4Z81kD4uV/view?usp=sharing
+            drive:
+            blog:
+
+          - name: 'Horta et al. (2023) - Tainá'
+            intro:
+            link: https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H/abstract
+            section: Apresentações 3
+            language-code: br
+            date: 12/12
+            video: 
+            pdf: https://drive.google.com/file/d/1iI38YAFxTtaiAnKnjo9EsFU_pmJjKT2M/view?usp=sharing
+            drive:
+            blog:
+            
+          - name: 'Atividade de Programação 3'
+            intro:
+            link: https://drive.google.com/drive/folders/1gWD6Nz_7BAjKxFN_eJGZLGgLH7kZMj5S?usp=sharing
+            section: Atividade de Programação 3
+            language-code: br
+            date: entrega até 17/12
+            video: 
+            pdf: 
+            drive: https://drive.google.com/drive/folders/1gWD6Nz_7BAjKxFN_eJGZLGgLH7kZMj5S?usp=sharing
             blog:
             
       - name: Introduction to Astronomy
