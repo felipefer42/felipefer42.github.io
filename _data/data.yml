@@ -3078,7 +3078,36 @@ lectures:
     intro_upcoming_ptbr:
 
     courses:
-
+      - name: Observational Astrophysics Techniques
+        link: under_construction
+        name_ptbr: Técnicas Observacionais em Astrofísica
+        institute: INPE
+        institute_long: Instituto Nacional de Pesquisas Espaciais
+        department: Divisão de Astrofísica
+        institute-link: "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/catalogo-de-disciplinas"
+        language-code: br
+        language: portuguese 
+        code: AST-203-4
+        semester: '2026.2'
+        type: upcoming
+        background-color: "#8253ac"
+        text-color: "#FFF"
+        
+      - name: Galactic Structure
+        link: under_construction
+        name_ptbr: Estrutura da Galáxia
+        institute: INPE
+        institute_long: Instituto Nacional de Pesquisas Espaciais
+        department: Divisão de Astrofísica
+        institute-link: "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/catalogo-de-disciplinas"
+        language-code: br
+        language: portuguese 
+        code: AST-418-4
+        semester: '2027.1'
+        type: upcoming
+        background-color: "#4d7a3b"
+        text-color: "#FFF"
+        
       - name: LAPIS25 Hands-on activities
         link: LAPIS25.html
         institute: UNLP, La Plata, Argentina
@@ -3143,7 +3172,7 @@ lectures:
           
         language-code: br
         language: portuguese 
-        code: AST418
+        code: AST-418-4
         semester: '2025.3'
         type: ongoing
         background-color: "#4d7a3b"
