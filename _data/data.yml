@@ -3090,7 +3090,7 @@ lectures:
         code: AST-203-4
         semester: '2026.2'
         type: upcoming
-        background-color: "#8253ac"
+        background-color: "#9cac4a"
         text-color: "#FFF"
         
       - name: Galactic Structure
