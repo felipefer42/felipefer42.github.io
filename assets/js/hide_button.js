@@ -31,6 +31,17 @@ function toggleTeachDetails() {
   });
 }
 
+function toggleSupervisions() {
+  var elements = document.querySelectorAll('.supervision-details');
+  elements.forEach(function(element) {
+    if (element.style.display === "none" || element.style.display === "") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  });
+}
+
 function toggleOutreachDetails() {
   var elements = document.querySelectorAll('.outreach-details');
   elements.forEach(function(element) {

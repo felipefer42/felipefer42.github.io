@@ -625,8 +625,9 @@ managements:
     info:
     
       - role: Data Release Manager
-        time: 2022 - present
+        time: 2022 -
         company: Southern Photometric Local Universe Survey (S-PLUS)
+        ongoing: true
         details: |
           As the data release manager of the survey, I am responsible 
           for coordinating calibration, photometric quality control, 
@@ -634,8 +635,9 @@ managements:
           public data releases.
                     
       - role: Coordinator of the Graduate Program in Astrophysics
-        time: 2025 - present
-        company: Instituto Nacional de Pesquisas Espaciais
+        time: 2025 -
+        company:  Instituto Nacional de Pesquisas Espaciais
+        ongoing: true
         details: |
           As coordinator of the graduate program I am responsible for 
           overseeing academic standards, managing program operations, 
@@ -643,8 +645,9 @@ managements:
           with institutional and CAPES regulations.
 
       - role: Member of the General Graduate Council
-        time: 2025 - present
+        time: 2025 -
         company:  Instituto Nacional de Pesquisas Espaciais
+        ongoing: true
         details: |
           Together with the other coordinators of graduate programs
           at INPE, I am a member of the general graduate council of
@@ -653,10 +656,12 @@ managements:
       - role: Deputy Coordinator of the Graduate Program in Astrophysics
         time: 2025
         company: Instituto Nacional de Pesquisas Espaciais
+        ongoing: false
         details: |
 
       - role: Graduate Student's representative
         time: 2017 - 2018
+        ongoing: false
         company: Instituto Nacional de Pesquisas Espaciais
         details: |
 
@@ -665,8 +670,9 @@ managements_ptbr:
   info:
 
     - role: Gerente de Data Release
-      time: 2022 - presente
+      time: 2022 - 
       company: Southern Photometric Local Universe Survey (S-PLUS)
+      ongoing: true
       details: |
         Como gerente de data releases do levantamento, sou responsável
         por coordenar a calibração, o controle de qualidade fotométrica,
@@ -674,23 +680,71 @@ managements_ptbr:
         públicos de dados.
 
     - role: Coordenador do Programa de Pós-Graduação em Astrofísica
-      time: 2025 - presente
+      time: 2025 - 
       company: Instituto Nacional de Pesquisas Espaciais
+      ongoing: true
       details: |
         Como coordenador do programa de pós-graduação, sou responsável
         por supervisionar os padrões acadêmicos, gerenciar as operações
         do programa, presidir o Conselho de Pós-Graduação e garantir a
         conformidade com as regulamentações institucionais e da CAPES.
 
+    - role: Membro do conselho geral de pós-graduação
+      time: 2025 -
+      company:  Instituto Nacional de Pesquisas Espaciais
+      ongoing: true
+      details: |
+        Juntamente com os demais coordenadores de outros programas de
+        Pós-Graduação do INPE, sou membro do Conselho de Pós-Graduação
+        do Instituto.
+
     - role: Coordenador-Substituto do Programa de Pós-Graduação em Astrofísica
       time: 2025
       company: Instituto Nacional de Pesquisas Espaciais
+      ongoing: false
       details: |
 
     - role: Representante Discente de Pós-Graduação
       time: 2017-2018
       company: Instituto Nacional de Pesquisas Espaciais
+      ongoing: false
       details: |
+
+supervisions:
+    title: supervisions
+    description: 
+    students:
+      - name: Murilo Antonio Menegati
+        time: 2025 - 
+        type: MSc
+        project: Estimation of photometric metalicities for stars observed in the S-PLUS survey
+        fellowship: FAPESP fellowship
+        institute: INPE
+        ongoing: true
+
+      - name: Tainá Bueno de Andrade
+        time: 2025 - 
+        type: MSc
+        project: Selection of metal-poor stars using narrow-band photometry
+        fellowship: FAPESP fellowship
+        institute: INPE
+        ongoing: true
+
+      - name: Guilherme Fabricio Bolutavicius
+        time: 2021 - 2022
+        type: Undergraduate
+        project: Stellar parameters to S-PLUS stars through SED fitting
+        fellowship: FAPESP fellowship
+        institute: IAG/USP
+        ongoing: false
+
+      - name: Pierre R. Martho
+        time: 2020 - 2022
+        type: Undergraduate
+        project: Busca por novas sobre-densidades na Galáxia no S-PLUS
+        fellowship: 
+        institute: IAG/USP
+        ongoing: false
 
 grants:
     title: Research Grants
