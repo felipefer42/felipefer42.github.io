@@ -620,6 +620,145 @@ experiences_ptbr:
           several different majors. In each of the four semesters, I had around 
           50 students in my class.
 
+managements:
+    title: Managements and Committees
+    info:
+    
+      - role: Data Release Manager
+        time: 2022 - present
+        company: Southern Photometric Local Universe Survey (S-PLUS)
+        details: |
+          As the data release manager of the survey, I am responsible 
+          for coordinating calibration, photometric quality control, 
+          catalog production, and the preparation of internal and 
+          public data releases.
+                    
+      - role: Coordinator of the Graduate Program in Astrophysics
+        time: 2025 - present
+        company: Instituto Nacional de Pesquisas Espaciais
+        details: |
+          As coordinator of the graduate program I am responsible for 
+          overseeing academic standards, managing program operations, 
+          presiding over the Graduate Council, and ensuring compliance 
+          with institutional and CAPES regulations.
+
+      - role: Member of the General Graduate Council
+        time: 2025 - present
+        company:  Instituto Nacional de Pesquisas Espaciais
+        details: |
+          Together with the other coordinators of graduate programs
+          at INPE, I am a member of the general graduate council of
+          the institute.
+
+      - role: Deputy Coordinator of the Graduate Program in Astrophysics
+        time: 2025
+        company: Instituto Nacional de Pesquisas Espaciais
+        details: |
+
+      - role: Graduate Student's representative
+        time: 2017 - 2018
+        company: Instituto Nacional de Pesquisas Espaciais
+        details: |
+
+managements_ptbr:
+  title: Comitês e Coordenações
+  info:
+
+    - role: Gerente de Data Release
+      time: 2022 - presente
+      company: Southern Photometric Local Universe Survey (S-PLUS)
+      details: |
+        Como gerente de data releases do levantamento, sou responsável
+        por coordenar a calibração, o controle de qualidade fotométrica,
+        a produção de catálogos e a preparação de releases internos e
+        públicos de dados.
+
+    - role: Coordenador do Programa de Pós-Graduação em Astrofísica
+      time: 2025 - presente
+      company: Instituto Nacional de Pesquisas Espaciais
+      details: |
+        Como coordenador do programa de pós-graduação, sou responsável
+        por supervisionar os padrões acadêmicos, gerenciar as operações
+        do programa, presidir o Conselho de Pós-Graduação e garantir a
+        conformidade com as regulamentações institucionais e da CAPES.
+
+    - role: Coordenador-Substituto do Programa de Pós-Graduação em Astrofísica
+      time: 2025
+      company: Instituto Nacional de Pesquisas Espaciais
+      details: |
+
+    - role: Representante Discente de Pós-Graduação
+      time: 2017-2018
+      company: Instituto Nacional de Pesquisas Espaciais
+      details: |
+
+grants:
+    title: Research Grants
+    description: (excluding fellowships)
+    info:
+      - item: PI - Narrow-Band Photometry Applications for Galactic Archaeology
+        time: 2024 -
+        detail: Auxílio Jovem-Pesquisador FAPESP (2024/00822-5)
+
+      - item: Member - Confrontando Simulações com Observações de Galáxias Próximas...
+        time: 2025 -
+        detail: |
+          CNPq/MCTI/FNDCT Nº 44/2024 - UNIVERSAL (420733/2025-6) <br>
+          PI: Karín Menendez-Delmestre (OV/UFRJ)
+
+      - item: Member - Science with the Brazilian Robotic Telescope
+        time: 2019 -
+        detail: |
+          Programas Estratégicos e Infraestrutura - FAPESP (2019/26492-3) <br>
+          PI: Claudia Lucia Mendes de Oliveira (IAG/USP)
+
+reviews:
+    title: Peer-Review Activities
+    info:
+      - role: Ad-hoc Reviewer for FAPESP
+        time: 2025 -
+        company: FAPESP (Young Researcher related responsability)
+
+      - role: Ad-hoc Reviewer for CBP/SOAR
+        time: 2024 -
+        company: Volunteer service for CBP/SOAR
+
+      - role: Peer-Reviewer for Astronomy and Astrophysics
+        time: 2024 - 
+        company: Volunteer service for  EDP Sciences
+
+      - role: Peer-Reviewer for Astronomy and Computing
+        time: 2023 - 
+        company: Volunteer service for Elsevier
+
+      - role: Peer-Reviewer for The Astrophysical Journal
+        time: 2022 - 
+        company: Volunteer service for AAS Journals
+
+reviews_ptbr:
+    title: Experiência Adicional
+    info:
+      - role: Parecerista FAPESP
+        time: 2025 -
+        company: FAPESP (responsabilidade vinculada ao Auxílio JP)
+        
+      - role: Revisor Ad-hoc para o CBP/SOAR
+        time: 2024 -
+        company: Serviço voluntário para CBP/SOAR
+        
+      - role: Revisor para a revista "Astronomy and Astrophysics"
+        time: 2024 - 
+        company: Serviço voluntário para EDP Sciences
+        
+      - role: Revisor para a revista "Astronomy and Computing"
+        time: 2023 - 
+        company: Serviço voluntário para Elsevier
+
+      - role: Revisor para a revista "The Astrophysical Journal"
+        time: 2022 - 
+        company: Serviço voluntário para AAS Journals
+
+
 experiences_plus:
     title: Additional Experience
     info:
@@ -725,6 +864,11 @@ certifications_ptbr:
 teaching:
       title: Teaching Experience
       list:
+        - name: Galactic Structure (AST418)
+          role: Professor
+          semester: 2025.3
+          location: INPE
+          details: |
         - name: Introduction to Astronomy (AGA210)
           role: Professor
           semester: 2020.1, 2020.2, 2021.1, 2021.2
@@ -745,15 +889,15 @@ teaching:
           semester: 2012.2, 2014.1, 2014.2
           location: IF/UFRJ
           details: |  
-        - name: + Invited Lectures
-          role:
-          semester:
-          location: IAG/USP, OV/UFRJ & UFU
-          details: |  
 
 teaching_ptbr:
       title: Experiência de Ensino
       list:
+        - name: Estrutura da Galáxia (AST418)
+          role: Professor
+          semester: 2025.3
+          location: INPE
+          details: |
         - name: Introdução à Astronomia (AGA210)
           role: Professor
           semester: 2020.1, 2020.2, 2021.1, 2021.2
@@ -773,11 +917,6 @@ teaching_ptbr:
           role: Monitor
           semester: 2012.2, 2014.1, 2014.2
           location: IF/UFRJ
-          details: |  
-        - name: + Aulas Convidadas
-          role:
-          semester:
-          location: IAG/USP, OV/UFRJ & UFU
           details: |  
 
 outreach:
@@ -1500,14 +1639,34 @@ event-participation:
     events:
       - title: "Comissão de Admissão de Estudantes para a Pós-Graduação em Astrofísica do INPE"
         link: ""
-        date: 17-19/Dec/2025
+        date: 15-19/Dec/2025
         location: São José dos Campos, Brasil
         country-code: br
         state-code: br-sp
         contribution: Membro
         contrib-icon: 
         upcoming: true
-        
+
+      - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
+        link: ""
+        date: TBD/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: TBD
+        contrib-icon: 
+        upcoming: true
+
+      - title: "8ª Escola Avançada de Astrofísica do INPE"
+        link: ""
+        date: TBD/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Organizer
+        contrib-icon: 
+        upcoming: true
+
       - title: "2025"
         year-mark: true
         upcoming: false

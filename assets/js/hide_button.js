@@ -9,6 +9,17 @@ function toggleJobDetails() {
   });
 }
 
+function toggleManagerDetails() {
+  var elements = document.querySelectorAll('.manager-details');
+  elements.forEach(function(element) {
+    if (element.style.display === "none" || element.style.display === "") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  });
+}
+
 function toggleTeachDetails() {
   var elements = document.querySelectorAll('.teach-details');
   elements.forEach(function(element) {
