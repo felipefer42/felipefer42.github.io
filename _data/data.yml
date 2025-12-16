@@ -766,6 +766,45 @@ grants:
           Programas Estratégicos e Infraestrutura - FAPESP (2019/26492-3) <br>
           PI: Claudia Lucia Mendes de Oliveira (IAG/USP)
 
+fellowships:
+    title: Fellowships
+    description: (as awardee)
+    itens:
+      - name: Young Researcher (fellowship) at INPE
+        funding: FAPESP
+        time: 2024-2025
+        supervisor: "(independent)"
+
+      - name: Postdoc at Observatório do Valongo (OV/UFRJ)
+        funding: Serrapilheira
+        time: 2024
+        supervisor: "supervisor: Karin Menendez-Delmestre"
+
+      - name: Postdoc at IAG/USP
+        funding: FAPESP
+        time: 2019-2021 / 2023-2024
+        supervisor: "supervisor: Claudia Mendes de Oliveira"
+
+      - name: Research Internship Abroad at NOIRLab, US 
+        funding: FAPESP (Postdoc)
+        time: 2022
+        supervisor: "supervisor: Vinicius Placco"
+
+      - name: PhD scholarship at Observatório do Valongo (OV/UFRJ)
+        funding: CAPES (DS)
+        time: 2015-2019
+        supervisor: "advisor: Helio Rocha-Pinto"
+
+      - name: Scientific Initiation Scholarship at OV/UFRJ
+        funding: CNPq (PIBIC)
+        time: 2013
+        supervisor: "advisor: Helio Rocha-Pinto"
+
+      - name: Undergraduate Student Tutor (Physics III) at IF/UFRJ
+        funding: IF/UFRJ
+        time: 2012 / 2014
+        supervisor: "supervisor: Maurício Calvão"
+
 reviews:
     title: Peer-Review Activities
     info:
@@ -938,11 +977,6 @@ teaching:
           semester: 2015.2
           location: OV/UFRJ
           details: |    
-        - name: Physics III (FIM231)
-          role: Student Tutor
-          semester: 2012.2, 2014.1, 2014.2
-          location: IF/UFRJ
-          details: |  
 
 teaching_ptbr:
       title: Experiência de Ensino
