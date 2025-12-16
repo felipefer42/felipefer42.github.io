@@ -233,7 +233,7 @@ sidebar:
     country-code: br
     pronoun: PhD - He/Him
     tagline: Astrophysicist
-    avatar: felipe_profile_v2.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: felipe_profile_v3.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     institute-logo: inpe_branco.png
 
     # Sidebar links
