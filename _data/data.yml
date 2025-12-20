@@ -1725,16 +1725,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Comissão de Admissão de Estudantes para a Pós-Graduação em Astrofísica do INPE"
-        link: ""
-        date: 15-19/Dec/2025
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Membro
-        contrib-icon: 
-        upcoming: true
-
       - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
         link: ""
         date: TBD/2026
@@ -1759,6 +1749,16 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "Comissão de Admissão de Estudantes para a Pós-Graduação em Astrofísica do INPE - 2026.1"
+        link: ""
+        date: 16-19/Dec/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Membro
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Exame de Qualificação - Patricia Santos"
         link: ""
         date: 02/Dec/2025
@@ -1867,6 +1867,16 @@ event-participation:
         country-code: br
         state-code: br-rj
         contribution: Attend
+        contrib-icon: 
+        upcoming: false
+
+      - title: "Comissão de Admissão de Estudantes para a Pós-Graduação em Astrofísica do INPE - 2025.3"
+        link: ""
+        date: 28-29/Jul/2025
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Membro
         contrib-icon: 
         upcoming: false
         
