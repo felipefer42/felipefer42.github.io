@@ -3335,6 +3335,62 @@ lectures:
     intro_upcoming_ptbr:
 
     courses:
+      - name: Galactic Structure
+        link: under_construction
+        intro: |
+        description: |
+          (1) Revisão de propriedades estelares, formação e evolução estelar, e processos de nucleossíntese.
+          (2) Componentes da Via Láctea: bojo, barra, discos fino/espesso, halo e aglomerados globulares, gás e poeira. 
+          (3) Arqueologia Galáctica: datação estelar, abundâncias químicas, cinemática de populações estelares na Galáxia; formação da Galáxia. 
+          (4) Cinemática de estrelas no disco: curva de rotação, estrutura espiral. 
+          (5) Subestruturas: correntes estelares, grupos moventes e subestruturas do halo.
+          (6) Modelos da Galáxia: distribuição de massa e potencial gravitacional, histórico de formação estelar, função de massa inicial e evolução química da Galáxia.
+        name_ptbr: Estrutura da Galáxia
+        
+        bibliography: |
+          BINNEY, J. & MERRIFIELD, M. Galactic Astronomy. Princeton University Press, New Jersey, 1998. <br>
+          BINNEY, J. & TREMAINE, S. Galactic Dynamics: Second Edition. Princeton University Press, Princeton, NJ, USA, 2008. <br>
+          NEWBERG, H. & CARLIN, J. Tidal Streams in the Local Group and Beyond: Observations and Implications. Astrophysics and Space Science Library, 2016. <br>
+          MACIEL, W. Fundamentos de Evolução Química da Galáxia. IAG/USP, São Paulo, 2020.  <br>
+          MINCHEV, I. Constraining the Milky Way assembly history with Galactic Archaeology. Astronomische Nachrichten, Vol. 337, Issue 7, p. 703, 2016. <br>
+          Artigos especializados da área 
+        institute: INPE
+        institute_long: Instituto Nacional de Pesquisas Espaciais
+        department: Divisão de Astrofísica
+        institute-link: "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/catalogo-de-disciplinas"
+
+        info:
+          - key: Lecture Credits
+            value: 4
+          - key: Work Credits
+            value: 0
+          - key: Total hours
+            value: 60h
+          - key: Type
+            value: Period-long
+          - key: Language
+            value: Portuguese
+        
+        info_ptbr:
+          - key: Créditos Aula
+            value: 4
+          - key: Créditos Trabalho
+            value: 0
+          - key: Horas Totais
+            value: 60h
+          - key: Tipo
+            value: Período
+          - key: Idioma
+            value: Português
+          
+        language-code: br
+        language: portuguese 
+        code: AST418
+        semester: '2027.1'
+        type: upcoming
+        background-color: "#4d7a3b"
+        text-color: "#FFF"
+        
       - name: Observational Astrophysics Techniques
         link: under_construction
         name_ptbr: Técnicas Observacionais em Astrofísica
@@ -3381,7 +3437,6 @@ lectures:
       - name: Galactic Structure
         link: lectures/ast_418_2025_3.html
         intro: |
-          Observação: Curso em andamento
         description: |
           (1) Revisão de propriedades estelares, formação e evolução estelar, e processos de nucleossíntese.
           (2) Componentes da Via Láctea: bojo, barra, discos fino/espesso, halo e aglomerados globulares, gás e poeira. 
