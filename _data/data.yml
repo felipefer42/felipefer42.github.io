@@ -1725,6 +1725,16 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
+      - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
+        link: ""
+        date: 28/Apr/2026
+        location: São Paulo, Brsil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: 
+        upcoming: true
+        
       - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
         link: ""
         date: TBD/2026
