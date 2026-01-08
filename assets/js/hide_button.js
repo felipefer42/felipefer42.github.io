@@ -20,6 +20,17 @@ function toggleManagerDetails() {
   });
 }
 
+function togglePhDMScCommitteesDetails() {
+  var elements = document.querySelectorAll('.phd_msc_comittee-details');
+  elements.forEach(function(element) {
+    if (element.style.display === "none" || element.style.display === "") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  });
+}
+
 function toggleTeachDetails() {
   var elements = document.querySelectorAll('.teach-details');
   elements.forEach(function(element) {

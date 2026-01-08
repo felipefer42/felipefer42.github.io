@@ -746,6 +746,59 @@ supervisions:
         institute: IAG/USP
         ongoing: false
 
+phd_msc_committees:
+    title: PhD/Msc Committees Participation
+    description:
+    types:
+      - PhD Thesis Defense
+      - MSc Dissertation Defense
+      - PhD Project Proposal Evaluation
+      - PhD Qualifying Examination
+
+    types_to_add_when_needed:
+      - MSc Project Proposal Evaluation
+
+    committees:
+      - student: "Candidate: Patricia Maria dos Santos"
+        title: "Evolução De Estrelas De Massa Intermediária (1 a 8 Massa_sol)""
+        type: PhD Qualifying Examination
+        location: Instituto Nacional de Pesquisas Espaciais
+        date: 02/Dec/2025
+        link: https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/defesas
+        description: Committee's president
+
+      - student: "Candidate: Pierre Martho"
+        title: "Busca por galáxias anãs compactas no aglomerado de Fornax"
+        type: MSc Dissertation Defense
+        location: Universidade de São Paulo (IAG)
+        date: 30/Jun/2025
+        link: https://www.iag.usp.br/eventos/mestrado-pierre-martho-30.06.25
+        description: (alternate member)
+
+      - student: "Candidate: Matheus Vieira da Costa"
+        title: "Conexão química entre estrelas anãs G-K e planetas de tipo rochoso-terrestre: oxigênio, litófilos e siderófilos"
+        type: PhD Project Proposal Evaluation
+        location: Instituto Nacional de Pesquisas Espaciais
+        date: 30/May/2025
+        link: https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/defesas
+        description: (alternate member)
+
+      - student: "Candidate: Denis Varise Bernardes"
+        title: "Instrumental Development of SPARC4: Acquisition Control System and Image Simulator"
+        type: PhD Thesis Defense
+        location: Instituto Nacional de Pesquisas Espaciais
+        date: 27/Mar/2025
+        link: https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/defesas
+        description: Committee's member
+
+      - student: "Candidate: Paulo Vitor Souza dos Santos"
+        title: 
+        type: PhD Qualifying Examination
+        location: Universidade Federal do Rio de Janeiro (OV)
+        date: 26/Aug/2024
+        link: 
+        description: (alternate member)
+
 grants:
     title: Research Grants
     description: (excluding fellowships)
