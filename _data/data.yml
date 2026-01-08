@@ -42,7 +42,7 @@ navbar:
     - title: Press Releases
       url: "/press"
       icon: "fa-solid fa-microphone-stand"
-    - title: My Applications
+    - title: Admittance History
       url: "/selections"
       icon: "fa-solid fa-ranking-star"
     - title: Open applications
@@ -2926,22 +2926,14 @@ event-participation:
 selections:
     home_title: Top-5 Selection Processes Performance
     home_title_ptbr: Top-5 Performance em Processos Seletivos
-    title: Selection Processes' Performance
-    title_ptbr: Performance em Processos Seletivos
+    title: Admittance Processes History
+    title_ptbr: Histórico em Processos de Admissão
     intro: |
-      During my academic life, I had to undergo a series of selection process, which are 
-      detailed below. The tables include the status of the application (e.g. Approved / 
-      not Approved), as well as my ranking and number of applicants, the number of available 
-      spots for the position and the ratio between applicants and spots available. 
-      In some cases, the ranking or number of candidates were not published and is listed as 
-      "??". In some other cases, the application is not directly competitive against other
-      candidates, these are listed as a single spot with no assigned ranking or ratio.
-
-      I have applied for multiple positions for every step of my academic trajectory. For that
-      reason, the "Approved" status is not an indication that I have accepted the position.
-      Refer to the home page for a detailed view of my academic history.
-
-      For transparency, all failed and withdrawn applications are also included. 
+      This section provides a transparent record of all academic admittance processes I have 
+      participated in. The data includes ranking, competitiveness ratios, and application 
+      status. Note that 'Approved' status indicates selection, not necessarily acceptance of
+      the position; To ensure full transparency, this log includes all successful, 
+      unsuccessful, and withdrawn applications.
     intro_ptbr:
     types:
       - name: Vestibular
@@ -2958,8 +2950,7 @@ selections:
         type: Vestibular
         title-mark: true
         intro: |
-          In Brazil, the admittance to universities happens through competitive exams. Here I list
-          my results in such exams.
+          Results from competitive entrance examinations for undergraduate programs in Brazil.
 
       - title: Admittance Exam UFRJ-2011 - Astronomy
         title_ptbr: Vestibular UFRJ-2011 - Astronomia
@@ -3217,30 +3208,24 @@ selections:
         type: Job
         title-mark: true
         intro: |
-         In Brazil, most applications for the Researcher Carreer as a government employee 
-         involve a selection process known as "concurso público". The concursos can 
-         include exams, test classes, defense of academic trajectory, and evaluation of academic titles
-         and project proposals. <br><br>
-
-         Note: In Observatorio Nacional I was considered 'approved' in the concurso, but only
-         a single spot was available. Which means I would only be offered the position in case
-         a new spot was created within 12 months after the 'concurso'.
+         Selection outcomes for permanent research and faculty positions. In Brazil, 
+         these are conducted via public competitive examinations (Concursos Públicos), 
+         which typically include written exams, teaching demonstrations, and a formal 
+         defense of the candidate's research trajectory and project proposals.
 
       - title: Concurso Público - Researcher (Stellar Astrophysics)
         title_ptbr: Concurso Público - Pesquisador (Astrofísica Estelar)
         location: Observatório Nacional
         link:
         date: 2024
-        status: Approved*
-        rank: 2
+        status: Approved
+        rank: 3
         candidates: 17
-        spots: 1
-        ratio: 17
+        spots: 3
+        ratio: 5.67
         type: Job
         top5: true
-        note: |
-          Aprovado no concurso, porém não classificado dentro do 
-          quantitativo de vagas (1 vaga).
+        note:
 
       - title: Concurso Público - Researcher
         title_ptbr: Concurso Público - Pesquisador
