@@ -792,7 +792,7 @@ phd_msc_committees:
         description: Committee's member
 
       - student: "Candidate: Paulo Vitor Souza dos Santos"
-        title: 
+        title: "Estrutura fina da relação idade−atividade cromosférica em estrelas de tipo solar."
         type: PhD Qualifying Examination
         location: Universidade Federal do Rio de Janeiro (OV)
         date: 26/Aug/2024
@@ -1009,28 +1009,39 @@ certifications_ptbr:
 
 teaching:
       title: Teaching Experience
+      types:
+        - Graduate
+        - Undergraduate
+        
       list:
         - name: Galactic Structure (AST418)
           role: Professor
           semester: 2025.3
           location: INPE
           details: |
+          type: Graduate
+
         - name: Introduction to Astronomy (AGA210)
           role: Professor
           semester: 2020.1, 2020.2, 2021.1, 2021.2
           location: IAG/USP
           details: |
+          type: Undergraduate
+
         - name: Astrobiology (OVL504)
           role: Teaching Internship
           semester: 2015.1
           location: OV/UFRJ
           details: |
+          type: Undergraduate
+          
         - name: General Astrophysics (OVL241)
           role: Teaching Internship
           semester: 2015.2
           location: OV/UFRJ
-          details: |    
-
+          details: |
+          type: Undergraduate
+          
 teaching_ptbr:
       title: Experiência de Ensino
       list:
