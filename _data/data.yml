@@ -142,19 +142,22 @@ summary:
         value: 32 (4 as 1st author)
         link:
       - key: H-index
-        value: 11
+        value: 12
         link:
       - key: Citations
-        value: 587
+        value: 605
         link:
       - key: Most-cited paper
-        value: Mendes de Oliveira et al. (2019) - 195 citations
+        value: Mendes de Oliveira et al. (2019) - 199 citations
+        link:
+      - key: Most-cited paper (as 1st author)
+        value: Almeida-Fernandes et al. (2022) - 52 citations
         link:
       - key: 1st Paper
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Most-recent paper
-        value: Rubet et al. (2025)
+        value: Baier-Soto et al. (2025)
         link: 
     additional-title: Additional Information
     additional-info:
@@ -199,19 +202,22 @@ summary_ptbr:
         value: 32 (4 de 1° autor)
         link:
       - key: H-index
-        value: 11
+        value: 12
         link:
       - key: Citações
-        value: 587
+        value: 605
         link:
       - key: Artigo mais citado
-        value: Mendes de Oliveira et al. (2019) - 195 citations
+        value: Mendes de Oliveira et al. (2019) - 199 citações
+        link:
+      - key: Artigo mais citado (1° autor)
+        value: Almeida-Fernandes et al. (2022) - 52 citações
         link:
       - key: 1° Artigo
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Artigo mais recente
-        value: Rubet et al. (2025)
+        value: Baier-Soto et al. (2025)
         link: 
     additional-title: Informações Adicionais
     additional-info:
@@ -385,60 +391,40 @@ sidebar_ptbr:
 career-profile:
     title: Career Profile
     summary: |
-      I hold a bachelor's degree in Astronomy from the Federal University of Rio 
-      de Janeiro and completed my Ph.D. in Astronomy, at the Valongo Observatory 
-      (OV/UFRJ), with a CAPES scholarship. The main focus of my doctoral thesis 
-      was stellar dating through Galactic kinematics, involving work with 
-      theoretical evolutionary models and Bayesian isochronal dating. I am 
-      currently working on the S-PLUS survey, where I am responsible for the 
-      photometric calibration and the organization of the Main Survey Data 
-      Releases. I was a postdoctoral fellow at the University of São Paulo, 
-      supported by a FAPESP fellowship, and at the Observatório do Valongo,
-      supported by a Serrapilheira fellowship; I am currently a researcher at
-      the "Instituto Nacional de Pesquisas Espaciais".
-      My main areas of research are the 
-      Galactic structure and the exploration and characterization of 
-      low-metallicity stars. I also have international academic experience as a 
-      year-long Research Visitor at the NOIRLab institute, supported by a FAPESP 
-      research internship abroad (BEPE).
+      I am a Researcher and Professor at the Instituto Nacional de Pesquisas Espaciais (INPE), 
+      where I am also the Coordinator of the Graduate Program in Astrophysics. I hold a BSc in 
+      Astronomy and a (direct) PhD in Astronomy, both from the Valongo Observatory (UFRJ). I 
+      conducted postdoctoral research at the University of São Paulo, NOIRLab (AZ, USA), and 
+      Valongo Observatory. I have experience teaching and advising at undergraduate and 
+      graduate levels. <br><br>
+      My research is focused on Galactic Archaeology, in particular utilizing narrow-band 
+      hotometry from large-scale surveys to investigate the structure and evolution of the 
+      Milky Way. I am the Principal Investigator of the FAPESP Young Investigator project 
+      'Narrow-Band Photometry Applications for Galactic Archaeology', and I currently serve as 
+      the Data Release Manager for the S-PLUS survey, overseeing photometric calibration and 
+      data dissemination. My technical expertise includes stellar evolution, Bayesian isochronal 
+      dating, and the characterization of low-metallicity stars.
+
     summary-more:
-      <br>
-      During my postdoctoral fellowship, I was selected as a
-      Collaborating Professor under the "USP's Talent Attraction and Retention
-      Program", where I instructed the "Introduction to Astronomy" course for
-      four semesters. Furthermore, I completed two teaching internships during
-      my Ph.D. and served as a student tutor for three semesters during my
-      undergraduate years. 
-      <br><br>
-      I also have experience in the field of science
-      outreach, as one of the founders of the Astrotubers YouTube channel, a
-      contributor to the Ad Astra program, and an organizer of the "Astronomia
-      ao Meio Dia" lecture series. Additionaly, for a year during my Ph.D., 
-      I held the position of Graduate Student's representative.
+     
 
 career-profile_ptbr:
     title: Perfil de Carreira
     summary: |
-      Possuo graduação em Astronomia pela Universidade Federal do Rio de Janeiro e concluí meu doutorado em 
-      Astronomia no Observatório do Valongo (OV/UFRJ), com bolsa CAPES. O foco principal da minha tese de 
-      doutorado foi a datação estelar por meio da cinemática galáctica, envolvendo o uso de modelos estelares evolutivos 
-      teóricos e datação isocronal Bayesiana. Atualmente, estou trabalhando no levantamento S-PLUS, onde sou 
-      responsável pela calibração fotométrica e organização das divulgações de dados do levantamento principal. Realizei um 
-      pós-doutorando na Universidade de São Paulo (IAG/USP), com apoio de uma bolsa da FAPESP, e um pós-doutorando no
-      Observatório do Valongo (OV/UFRJ), com apoio de uma bolsa do Serrapilheira. Atualmente sou pesquisador no
-      Instituto Nacional de Pesquisas Espaciais. Minhas principais áreas de pesquisa incluem a estrutura galáctica e a 
-      busca e caracterização de estrelas de baixa metalicidade. Também tenho experiência acadêmica internacional como 
-      Pesquisador Visitante, durante um ano, no instituto NOIRLab, com apoio de uma Bolsa de Estágio de Pesquisa no Exterior 
-      (FAPESP/BEPE)."
+      Sou Pesquisador e Docente Permanente no Instituto Nacional de Pesquisas Espaciais (INPE), 
+      onde também atuo como Coordenador do Programa de Pós-Graduação em Astrofísica. Possuo 
+      bacharelado e doutorado (direto) em Astronomia, ambos pelo Observatório do Valongo (UFRJ). 
+      Realizei pesquisas de pós-doutorado na Universidade de São Paulo (USP), no NOIRLab (AZ, EUA) 
+      e no Observatório do Valongo. Tenho experiência em ensino e orientação nos níveis de 
+      graduação e pós-graduação. <br><br>
+      Minha pesquisa é focada em Arqueologia Galáctica, utilizando particularmente fotometria de 
+      banda estreita de grandes levantamentos para investigar a estrutura e evolução da Via Láctea. 
+      Sou o Pesquisador Responsável pelo projeto Jovem Pesquisador FAPESP 'Narrow-Band Photometry 
+      Applications for Galactic Archaeology' e atuo como Data Release Manager do levantamento S-PLUS, 
+      supervisionando a calibração fotométrica e a disseminação de dados. Minha expertise técnica 
+      inclui evolução estelar, datação isocronal bayesiana e a caracterização de estrelas de baixa 
+      metalicidade.
     summary-more:
-      <br>
-      Durante meu pós-doutorado, fui selecionado como Professor Colaborador através do "Programa de Atração e Retenção 
-      de Talentos da USP", onde ministrei o curso "Introdução à Astronomia" por quatro semestres. Além disso, realizei 
-      dois estágios de docência durante meu doutorado e atuei como monitor por três semestres durante minha graduação. 
-      <br><br>
-      Tenho também experiência na área de divulgação científica, sendo um dos fundadores do canal Astrotubers no 
-      YouTube, colaborador do programa Ad Astra, e organizador da série de palestras "Astronomia ao Meio Dia". 
-      Além disso, durante meu doutorado, ocupei o cargo de representante dos estudantes de pós-graduação.
 
 education:
 
@@ -2936,15 +2922,51 @@ selections:
       unsuccessful, and withdrawn applications.
     intro_ptbr:
     types:
+      - name: Ongoing
       - name: Vestibular
       - name: PG
       - name: Postdoc
       - name: Temporary
       - name: Job
-      - name: Ongoing
+      - name: Grants
       - name: Withdrawn
 
     process:
+      - title: "Ongoing Applications"
+        title_ptbr: "Processo de Seleção em Andamento"
+        title-mark: true
+        type: Ongoing
+
+      - title: "9ª chamada pública de apoio à ciência"
+        title_ptbr: "9ª chamada pública de apoio à ciência"
+        location: Serrapilheira
+        link:
+        date: 2025
+        status: Ongoing
+        rank: -1
+        candidates: ?? 
+        spots: 10
+        ratio: ??
+        type: Ongoing
+        top5: true
+        decision: 
+        note:
+
+      - title: "Research Productivity - PQ (Chamada 23-2025)"
+        title_ptbr: "Bolsa de Produtividade - PQ (Chamada 23-2025)"
+        location: CNPq
+        link:
+        date: 2025
+        status: Ongoing
+        rank: -1
+        candidates: ?? 
+        spots: ??
+        ratio: ??
+        type: Ongoing
+        top5: true
+        decision: 
+        note:
+
       - title: "University Admittance Exams"
         title_ptbr: "Vestibulares"
         type: Vestibular
@@ -2964,6 +2986,7 @@ selections:
         ratio: 22.25 
         type: Vestibular
         top5: true
+        decision: Accepted
 
       - title: PISM UFJF-2011 - Exact Sciences
         title_ptbr: PISM UFJF-2011 - Ciências Exatas
@@ -2977,6 +3000,7 @@ selections:
         ratio: 1.72
         type: Vestibular
         top5: false
+        decision: Declined
 
       - title: SISU/ENEM UFJF-2011 - Exact Sciences
         title_ptbr: SISU/ENEM UFJF-2011 - Ciências Exatas
@@ -2990,6 +3014,7 @@ selections:
         ratio: 17.41
         type: Vestibular
         top5: false
+        decision: Declined
 
       - title: Admittance Exam UERJ-2011 - Physics
         title_ptbr: Vestibular Estadual UERJ-2011 - Física
@@ -3003,6 +3028,7 @@ selections:
         ratio: 2.04
         type: Vestibular
         top5: false
+        decision: Declined
 
       - title: Admittance Exam FUVEST-2011 - Astronomy
         title_ptbr: Vestibular FUVEST-2011 - Astronomia
@@ -3016,6 +3042,7 @@ selections:
         ratio: 60
         type: Vestibular
         top5: true
+        decision: Declined
 
       - title: Admittance Exam UFJF/EAD-2018 - Physics
         title_ptbr: Vestibular UFJF/EAD-2018 - Licenciatura em Física
@@ -3029,6 +3056,7 @@ selections:
         ratio: 1.56
         type: Vestibular
         top5: false
+        decision: Accepted/Withdrawn
 
       - title: "Graduate Program Admittance Process"
         title_ptbr: "Seleção em Programa de Pós-Graduação"
@@ -3047,6 +3075,7 @@ selections:
         ratio: 2
         type: PG
         top5: false
+        decision: Declined
 
       - title: MSc Admittance Process - ON/2015.1
         title_ptbr: Processo Seletivo - Mestrado ON/2015.1
@@ -3060,6 +3089,7 @@ selections:
         ratio: 
         type: PG
         top5: false
+        decision: Declined
 
       - title: Direct PhD Admittance Process - OV/2015.1
         title_ptbr: Processo Seletivo - Doutorado Direto OV/2015.1
@@ -3073,6 +3103,7 @@ selections:
         ratio: 1
         type: PG
         top5: true
+        decision: Accepted
 
       - title: "Postdoc Admittance Process"
         title_ptbr: "Seleção em Programa de Pós-Doutorado"
@@ -3092,6 +3123,7 @@ selections:
         ratio: "-"
         type: Postdoc
         top5: true
+        decision: Accepted
 
       - title: FAPESP Fellowship - Postdoc/BEPE
         title_ptbr: Bolsa de Estágio em Pesquisa no Exterior (FAPESP/BEPE)
@@ -3105,6 +3137,7 @@ selections:
         ratio: "-"
         type: Postdoc
         top5: true
+        decision: Accepted
       
       - title: Postdoctoral Research Associate in Galaxy Archaeology
         title_ptbr: Pós-Doutorado em Arqueologia Galáctica
@@ -3119,6 +3152,7 @@ selections:
         ratio: "??"
         type: Postdoc
         top5: false
+        decision: "-"
         note: |
           Feedback: We were fortunate to receive a great level of interest for 
           the role and after reviewing your application thoroughly, we felt 
@@ -3129,7 +3163,7 @@ selections:
         location: Dipartimento di Fisica e Astronomia, University of Bologna
         link:
         date: 2024
-        status: Not approved
+        status: Rejected Submission
         aproved: false
         rank: 0
         candidates: "??"
@@ -3137,6 +3171,7 @@ selections:
         ratio: "??"
         type: Postdoc
         top5: false
+        decision: "-"
         note: |
           Feedback: "The call for selection requires a Master Degree (art. 2).
           A PhD title can only be an asset (art. 4) and not replace the 
@@ -3147,15 +3182,16 @@ selections:
         location: Observatório do Valongo
         link:
         date: 2024
-        status: Approved
+        status: Approved/Withdrawn
         rank: 1
         candidates: 5
         spots: 1
         ratio: 5
         type: Postdoc
         top5: true
+        decision: "-"
 
-      - title: FUNARBE - Postdoc
+      - title: Serrapilheira - Postdoc
         title_ptbr: Pós-Doutorado com bolsa FUNARBE
         location: Observatório do Valongo
         link:
@@ -3167,6 +3203,7 @@ selections:
         ratio: "-"
         type: Postdoc
         top5: true
+        decision: Accepted
 
       - title: "Temporary Positions"
         title_ptbr: "Vagas Temporárias"
@@ -3186,22 +3223,9 @@ selections:
         ratio: 3.02
         type: Temporary
         top5: true
+        decision: Accepted
         note: |
           Programa de Atração e Retenção de Talentos da USP
-
-      - title: Young-Researcher - FAPESP Fellowship
-        title_ptbr: Jovem Pesquisador - FAPESP
-        location: Instituto Nacional de Pesquisas Espaciais
-        link:
-        date: 2024
-        status: Approved
-        rank: -1
-        candidates: 1
-        spots: 1
-        ratio: "-"
-        type: Temporary
-        top5: true
-        note:
 
       - title: "Permanent Positions"
         title_ptbr: "Vagas Permanentes"
@@ -3225,6 +3249,7 @@ selections:
         ratio: 5.67
         type: Job
         top5: true
+        decision: Declined
         note:
 
       - title: Concurso Público - Researcher
@@ -3239,6 +3264,7 @@ selections:
         ratio: 14
         type: Job
         top5: true
+        decision: Declined
         note:
 
       - title: Concurso Público - Researcher (Stellar Astrophysics)
@@ -3252,13 +3278,45 @@ selections:
         spots: 1
         ratio: 30
         type: Job
+        decision: Accepted
         top5: 
         note: 
 
-      - title: "Ongoing Selection Processes"
-        title_ptbr: "Processo de Seleção em Andamento"
+      - title: "Research Grants"
+        title_ptbr: "Fomentos à Pesquisa"
+        type: Grants
         title-mark: true
-        type: Ongoing
+        intro: |
+
+      - title: Young-Researcher - FAPESP Fellowship
+        title_ptbr: Jovem Pesquisador - FAPESP
+        location: Instituto Nacional de Pesquisas Espaciais
+        link:
+        date: 2024
+        status: Approved
+        rank: -1
+        candidates: 1
+        spots: 1
+        ratio: "-"
+        type: Grants
+        top5: true
+        decision: Accepted
+        note:
+
+      - title: "Research Productivity - PQ (Chamada 18-2024)"
+        title_ptbr: "Bolsa de Produtividade - PQ (Chamada 18-2024)"
+        location: CNPq
+        link:
+        date: 2024
+        status: Not approved
+        rank: 369
+        candidates: 668
+        spots: 357
+        ratio: 1.87
+        type: Grants
+        top5: true
+        decision: "-"
+        note:
 
       - title: "Withdrawn"
         title_ptbr: "Desistências"
@@ -3276,6 +3334,7 @@ selections:
         spots: 1
         ratio: 
         type: Withdrawn
+        decision: "-"
         top5: 
         note: 
   
@@ -3290,6 +3349,7 @@ selections:
         spots: 1
         ratio: 
         type: Withdrawn
+        decision: "-"
         top5: 
         note: 
 
@@ -3304,6 +3364,7 @@ selections:
         spots: 1
         ratio: 17
         type: Withdrawn
+        decision: "-"
         top5: 
         note: 
 

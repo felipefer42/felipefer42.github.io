@@ -35,6 +35,7 @@
               <th>Spots</th>
               <th>Ratio</th>
               <th>Status</th>
+              <th>My Decision</th>
             </tr>
         {% else %}
             <tr>
@@ -51,8 +52,11 @@
                 {% if process.rank == 3 %}
                   <td style="background-color: #ffdf9f;">{{process.rank}}rd/{{process.candidates}}</td>
                 {% endif %}
-                {% if process.rank > 3 %}
+                {% if process.rank == 4 %}
                   <td style="background-color: #cfcfff;">{{process.rank}}th/{{process.candidates}}</td>
+                {% endif %}  
+                {% if process.rank > 4 %}
+                  <td>{{process.rank}}th/{{process.candidates}}</td>
                 {% endif %}  
               {% else %}
                   {% if process.rank == -1 %}
@@ -70,19 +74,28 @@
                   <td style="background-color: #ffdcdc; font-weight: bold">{{process.status}}</td>
                 {% else %}
                   {% if process.status == "Ongoing" %}
-                    <td style="background-color: #ffed84; font-weight: bold">{{process.status}}</td>
+                    <td style="background-color: #ffe4c4; font-weight: bold">{{process.status}}</td>
                   {% else %}
                     {% if process.status == "Withdrawn" %}
                       <td style="background-color: #efcfff; font-weight: bold">{{process.status}}</td>
                     {% else %}
-                      {% if process.status == "Approved*" %}
-                        <td style="background-color: #ffed84; font-weight: bold">{{process.status}}</td>
+                      {% if process.status == "Rejected Submission" %}
+                        <td style="background-color: #CCC; font-weight: bold">{{process.status}}</td>
                       {% else %}
-                        <td>{{process.status}}</td>
+                        {% if process.status == "Approved/Withdrawn" %}
+                          <td style="background-color: #dfffdf; font-weight: bold">{{process.status}}</td>
+                        {% else %}
+                          <td>{{process.status}}</td>
+                        {% endif %}
                       {% endif %}
                     {% endif %}
                   {% endif %}
                 {% endif %}
+              {% endif %}
+              {% if process.decision == "Accepted" %}
+                <td style="background-color: #cbecff; font-weight: bold">{{process.decision}}</td>
+              {% else %}
+                <td>{{process.decision}}</td>
               {% endif %}
             </tr>
         {% endif %}
@@ -92,6 +105,11 @@
     </table>
     {% assign has_item = false %}
     {% endif %}
+    
+    {% if type.name == "Ongoing" %}
+      <hr>
+    {% endif %}
+    
   {% endfor %}
 
 
