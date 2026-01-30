@@ -1775,6 +1775,16 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
+      - title: "Defesa de Mestrado - Gustavo Henrique da Silva Santos"
+        link: ""
+        date: TBD/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca (Presidente)
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
         link: ""
         date: 28/Apr/2026
