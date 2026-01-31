@@ -847,6 +847,10 @@ fellowships:
 reviews:
     title: Peer-Review Activities
     info:
+      - role: T80-S Time Allocation Committee
+        time: 2026
+        company: S-PLUS Survey
+
       - role: Ad-hoc Reviewer for FAPESP
         time: 2025 -
         company: FAPESP (Young Researcher related responsability)
@@ -1783,7 +1787,7 @@ event-participation:
         state-code: br-sp
         contribution: Banca (Presidente)
         contrib-icon: 
-        upcoming: false
+        upcoming: true
         
       - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
         link: ""
