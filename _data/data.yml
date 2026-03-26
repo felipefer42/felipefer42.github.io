@@ -1778,27 +1778,7 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:
-      - title: "II SouthPol Workshop"
-        link: ""
-        date: 09-13/Mar/2026
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-
-      - title: "Oficina de Produção de Roteiro para Podcast Científico"
-        link: ""
-        date: 25/Mar/2026
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Attend
-        contrib-icon: 
-        upcoming: true
-        
+    events:       
       - title: "Defesa de Mestrado - Gustavo Henrique da Silva Santos"
         link: ""
         date: 02/Apr/2026
@@ -1841,6 +1821,26 @@ event-participation:
 
       - title: "2025"
         year-mark: true
+        upcoming: false
+
+      - title: "Oficina de Produção de Roteiro para Podcast Científico"
+        link: ""
+        date: 25/Mar/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "II SouthPol Workshop"
+        link: ""
+        date: 09-13/Mar/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        contrib-icon: 
         upcoming: false
 
       - title: "Comissão de Admissão de Estudantes para a Pós-Graduação em Astrofísica do INPE - 2026.1"
