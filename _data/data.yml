@@ -134,7 +134,7 @@ summary:
         value: Claudia Mendes de Oliveira; Vinícius M. Placco; Karín M. Delmestre
         link:
       - key: Students
-        value: Pierre R. Martho, Guilherme F. Bolutavicius, Murilo A. Menegati, Tainá B. de Andrade
+        value: Pierre R. Martho, Guilherme F. Bolutavicius, Murilo A. Menegati, Tainá B. de Andrade, Matheus Agenor G. da Costa, João Vitor N. dos Santos
         link:
     publication-title: Publications (Qualis A1)
     publication-info:
@@ -194,7 +194,7 @@ summary_ptbr:
         value: Claudia Mendes de Oliveira; Vinícius M. Placco; Karín M. Delmestre
         link:
       - key: Estudantes
-        value: Pierre R. Martho, Guilherme F. Bolutavicius, Murilo A. Menegati, Tainá B. de Andrade
+        value: Pierre R. Martho, Guilherme F. Bolutavicius, Murilo A. Menegati, Tainá B. de Andrade, Matheus Agenor G. da Costa, João Vitor N. dos Santos
         link:
     publication-title: Publicações (Qualis A1)
     publication-info:
@@ -700,6 +700,22 @@ supervisions:
     title: supervisions
     description: 
     students:
+      - name: João Vitor Nogueira dos Santos
+        time: 2026 - 
+        type: PhD
+        project: Identification and Characterization of metal-poor stars within halo substructures
+        fellowship: FAPESP fellowship
+        institute: INPE
+        ongoing: true
+        
+      - name: Matheus Agenor Gomes da Costa
+        time: 2026 - 
+        type: MSc
+        project: The metallicity gradient near the Sagittarius stream core
+        fellowship: CAPES fellowship
+        institute: INPE
+        ongoing: true
+        
       - name: Murilo Antonio Menegati
         time: 2025 - 
         type: MSc
