@@ -703,7 +703,7 @@ supervisions:
       - name: João Vitor Nogueira dos Santos
         time: 2026 - 
         type: PhD
-        project: Identification and Characterization of metal-poor stars within halo substructures
+        project: Identification and characterization of low-metallicity stars in the S-PLUS survey
         fellowship: FAPESP fellowship
         institute: INPE
         ongoing: true
@@ -711,7 +711,7 @@ supervisions:
       - name: Matheus Agenor Gomes da Costa
         time: 2026 - 
         type: MSc
-        project: The metallicity gradient near the Sagittarius stream core
+        project: Chemodynamical Characterization of the Sagittarius System using narrow-band Photometry
         fellowship: CAPES fellowship
         institute: INPE
         ongoing: true
