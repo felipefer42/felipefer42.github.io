@@ -769,6 +769,14 @@ phd_msc_committees:
         link: https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/defesas
         description: Committee's president
 
+      - student: "Candidate: Gustavo Henrique da Silva Santos"
+        title: "Mapeamento polarimétrico multibanda na direção de nuvens escuras do plano Galáctico"
+        type: MSc Dissertation Defense
+        location: Instituto Nacional de Pesquisas Espaciais
+        date: 02/Apr/2026
+        link: https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/defesas
+        description: Committee's president
+        
       - student: "Candidate: Pierre Martho"
         title: "Busca por galáxias anãs compactas no aglomerado de Fornax"
         type: MSc Dissertation Defense
