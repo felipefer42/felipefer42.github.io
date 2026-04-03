@@ -1802,17 +1802,17 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:       
-      - title: "Defesa de Mestrado - Gustavo Henrique da Silva Santos"
+    events:
+      - title: "Workshop da Astrofísica PGAST-DIAST 2026"
         link: ""
-        date: 02/Apr/2026
+        date: 22-24/Apr/2026
         location: São José dos Campos, Brasil
         country-code: br
         state-code: br-sp
-        contribution: Banca (Presidente)
+        contribution: Talk/Organizer
         contrib-icon: 
         upcoming: true
-        
+
       - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
         link: ""
         date: 28/Apr/2026
@@ -1823,12 +1823,32 @@ event-participation:
         contrib-icon: 
         upcoming: true
         
+      - title: "I Workshop da Rede AstroPT"
+        link: ""
+        date: 10-12/Jun/2026
+        location: Universidade Estadual de Feira de Santana, Bahia, Brasil
+        country-code: br
+        state-code: br-ba
+        contribution: TBD
+        contrib-icon: 
+        upcoming: true
+        
       - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
         link: ""
-        date: TBD/2026
+        date: 20-24/Jul/2026
         location: São José dos Campos, Brasil
         country-code: br
         state-code: br-sp
+        contribution: Lecturer
+        contrib-icon: 
+        upcoming: true
+
+      - title: "21st S-PLUS Collaboration Meeting"
+        link: ""
+        date: 16-20/Aug/2026
+        location: Paraty, Brasil
+        country-code: br
+        state-code: br-rj
         contribution: TBD
         contrib-icon: 
         upcoming: true
@@ -1843,8 +1863,28 @@ event-participation:
         contrib-icon: 
         upcoming: true
 
+      - title: "XLIX Reunião Anual da Sociedade Astronômica Brasileira"
+        link: ""
+        date: 25-30/Oct/2026
+        location: Praiamar Natal Hotel, Natal-RN, Brasil
+        country-code: br
+        state-code: br-rn
+        contribution: TBD
+        contrib-icon: 
+        upcoming: true
+        
       - title: "2026"
         year-mark: true
+        upcoming: false
+
+      - title: "Defesa de Mestrado - Gustavo Henrique da Silva Santos"
+        link: ""
+        date: 02/Apr/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Banca (Presidente)
+        contrib-icon: 
         upcoming: false
 
       - title: "Oficina de Produção de Roteiro para Podcast Científico"
