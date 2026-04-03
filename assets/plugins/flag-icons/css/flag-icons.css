@@ -1645,3 +1645,15 @@
 .fi-br-sp.fis {
   background-image: url(../flags/1x1/br-sp.svg);
 }
+.fi-br-ba {
+  background-image: url(../flags/4x3/br-ba.svg);
+}
+.fi-br-ba.fis {
+  background-image: url(../flags/1x1/br-ba.svg);
+}
+.fi-br-rn {
+  background-image: url(../flags/4x3/br-rn.svg);
+}
+.fi-br-rn.fis {
+  background-image: url(../flags/1x1/br-rn.svg);
+}
