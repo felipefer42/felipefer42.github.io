@@ -125,7 +125,7 @@ summary:
         value: OV/UFRJ; IAG/USP; CSDC/NOIRLab
         link:
       - key: Research Groups
-        value: S-PLUS (2017-); Tapirapé (2018-); LASEX (2024-)
+        value: S-PLUS (2017-); Tapirapé (2018-); LASEX (2024-); GAG (2025-)
         link:
       - key: Advisors
         value: Helio J. Rocha-Pinto
@@ -145,19 +145,19 @@ summary:
         value: 12
         link:
       - key: Citations
-        value: 605
+        value: 675
         link:
       - key: Most-cited paper
-        value: Mendes de Oliveira et al. (2019) - 199 citations
+        value: Mendes de Oliveira et al. (2019) - 211 citations
         link:
       - key: Most-cited paper (as 1st author)
-        value: Almeida-Fernandes et al. (2022) - 52 citations
+        value: Almeida-Fernandes et al. (2022) - 53 citations
         link:
       - key: 1st Paper
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Most-recent paper
-        value: Baier-Soto et al. (2025)
+        value: Huang et al. (2026)
         link: 
     additional-title: Additional Information
     additional-info:
@@ -185,7 +185,7 @@ summary_ptbr:
         value: OV/UFRJ; IAG/USP; CSDC/NOIRLab
         link:
       - key: Grupos de Pesquisa
-        value: S-PLUS (2017-); Tapirapé (2018-); LASEX (2024-)
+        value: S-PLUS (2017-); Tapirapé (2018-); LASEX (2024-);  GAG (2025-)
         link:
       - key: Orientadores
         value: Helio J. Rocha-Pinto
@@ -205,19 +205,19 @@ summary_ptbr:
         value: 12
         link:
       - key: Citações
-        value: 605
+        value: 675
         link:
       - key: Artigo mais citado
-        value: Mendes de Oliveira et al. (2019) - 199 citações
+        value: Mendes de Oliveira et al. (2019) - 211 citações
         link:
       - key: Artigo mais citado (1° autor)
-        value: Almeida-Fernandes et al. (2022) - 52 citações
+        value: Almeida-Fernandes et al. (2022) - 53 citações
         link:
       - key: 1° Artigo
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
         link:
       - key: Artigo mais recente
-        value: Baier-Soto et al. (2025)
+        value: Huang et al. (2026)
         link: 
     additional-title: Informações Adicionais
     additional-info:
@@ -1247,31 +1247,44 @@ publications:
     intro:
     intro_ptbr:
     papers:
+      - title: "S-PLUS: Beyond Spectroscopy. IV. Stellar Parameters and Elemental-abundance Ratios for Six Million Stars from DR4 and First Results for the Magellanic Clouds"
+        link: "https://ui.adsabs.harvard.edu/abs/2025A%26A...704A.228B/abstract"
+        authors: Huang, Y.; Beers, T.; Xiao, K.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;
+        more: "+21"
+        journal: ApJ
+        volume: 1000
+        page: id.263
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 5
+
+      - title: "Targeting cluster galaxies for the 4MOST CHANCES Low-z sub-survey with photometric redshifts"
+        link: "https://ui.adsabs.harvard.edu/abs/2026A%26A...706A..34M/abstract"
+        authors: Méndez-Hernández, H.; Lima-Dias, C.; Monachesi, A.; ...; (42th) Almeida-Fernandes, F.;
+        more: "+53"
+        journal: A&A
+        volume: 706
+        page: id.A34
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 42
+        
       - title: "The role of supercluster filaments in shaping galaxy clusters"
-        link: "https://arxiv.org/abs/2510.23311"
+        link: "https://ui.adsabs.harvard.edu/abs/2025A%26A...704A.228B/abstract"
         authors: Baier-Soto, R.; Jaffé, Y.; Finoguenov, A.; ...; (24th) Almeida-Fernandes, F.;
         more: "+42"
         journal: A&A
-        volume: ACPT
-        page: 
+        volume: 704
+        page: id.A228
         year: 2025
         show-home: False
         first-author: False
         refereed: True
         rank: 24
-        
-      - title: "Targeting cluster galaxies for the 4MOST CHANCES Low-z sub-survey with photometric redshifts"
-        link: "https://ui.adsabs.harvard.edu/abs/2025arXiv251019958M/abstract"
-        authors: Méndez-Hernández, H.; Lima-Dias, C.; Monachesi, A.; ...; (42th) Almeida-Fernandes, F.;
-        more: "+53"
-        journal: A&A
-        volume: ACPT
-        page: 
-        year: 2025
-        show-home: False
-        first-author: False
-        refereed: True
-        rank: 42
         
       - title: "Identifying a protocluster formation at z ∼4.5 in the COSMOS field: an extension of Taralay protocluster, traced by Ly-alpha emitters surrounding a submm galaxy"
         link: "https://ui.adsabs.harvard.edu/abs/2025ApJ...991...35R/abstract"
