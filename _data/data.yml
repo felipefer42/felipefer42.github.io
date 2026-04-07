@@ -1835,6 +1835,16 @@ event-participation:
         contribution: Talk
         contrib-icon: 
         upcoming: true
+
+      - title: "Apresentação do Grupo de Arqueologia Galáctia do INPE para o Milky Way Brazilian Group"
+        link: ""
+        date: 05/May/2026
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: true
         
       - title: "I Workshop da Rede AstroPT"
         link: ""
