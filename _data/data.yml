@@ -1826,6 +1826,15 @@ event-participation:
         contrib-icon: 
         upcoming: true
 
+      - title: "Talk in S-PLUS bi-weekly meeting"
+        link: ""
+        date: 27/Apr/2026
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        upcoming: true
+        
       - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
         link: ""
         date: 28/Apr/2026
@@ -1854,6 +1863,15 @@ event-participation:
         state-code: br-ba
         contribution: TBD
         contrib-icon: 
+        upcoming: true
+
+      - title: "S-PLUS mini-Workshop on Galactic Archaeology with Narrow-band Photometry"
+        link: ""
+        date: 22/Jun/2026
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Organizer
         upcoming: true
         
       - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
