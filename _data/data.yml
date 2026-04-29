@@ -1816,35 +1816,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Workshop da Astrofísica PGAST-DIAST 2026"
-        link: ""
-        date: 22-24/Apr/2026
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Talk/Organizer
-        contrib-icon: 
-        upcoming: true
-
-      - title: "Talk in S-PLUS bi-weekly meeting"
-        link: ""
-        date: 27/Apr/2026
-        location: Remote meeting
-        country-code:
-        remote: true
-        contribution: Talk
-        upcoming: true
-        
-      - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
-        link: ""
-        date: 28/Apr/2026
-        location: São Paulo, Brsil
-        country-code: br
-        state-code: br-sp
-        contribution: Talk
-        contrib-icon: 
-        upcoming: true
-
       - title: "Apresentação do Grupo de Arqueologia Galáctia do INPE para o Milky Way Brazilian Group"
         link: ""
         date: 05/May/2026
@@ -1918,6 +1889,45 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
+        link: ""
+        date: 28/Apr/2026
+        location: São Paulo, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "Talk in S-PLUS bi-weekly meeting"
+        link: ""
+        date: 27/Apr/2026
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        upcoming: false
+
+      - title: "O contexto atual do Programa de Pós-Graduação da Astrofísica - Workshop da Astrofísica PGAST-DIAST 2026"
+        link: ""
+        date: 24/Apr/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk
+        contrib-icon: 
+        upcoming: false
+        
+      - title: "Workshop da Astrofísica PGAST-DIAST 2026"
+        link: ""
+        date: 22-24/Apr/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Talk/Organizer
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Defesa de Mestrado - Gustavo Henrique da Silva Santos"
         link: ""
         date: 02/Apr/2026
