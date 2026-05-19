@@ -1816,23 +1816,13 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "Apresentação do Grupo de Arqueologia Galáctia do INPE para o Milky Way Brazilian Group"
-        link: ""
-        date: 05/May/2026
-        location: Remote meeting
-        country-code:
-        remote: true
-        contribution: Talk
-        contrib-icon: fa-person-chalkboard
-        upcoming: true
-        
       - title: "I Workshop da Rede AstroPT"
         link: ""
         date: 10-12/Jun/2026
         location: Universidade Estadual de Feira de Santana, Bahia, Brasil
         country-code: br
         state-code: br-ba
-        contribution: TBD
+        contribution: Poster
         contrib-icon: 
         upcoming: true
 
@@ -1889,6 +1879,16 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "Apresentação do Grupo de Arqueologia Galáctia do INPE para o Milky Way Brazilian Group"
+        link: ""
+        date: 05/May/2026
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Talk
+        contrib-icon: fa-person-chalkboard
+        upcoming: false
+        
       - title: "Colóquios da Pós-Graduação em Astrofísica e Física da UNICID"
         link: ""
         date: 28/Apr/2026
