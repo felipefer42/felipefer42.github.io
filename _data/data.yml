@@ -1260,6 +1260,19 @@ publications:
         refereed: True
         rank: 5
 
+      - title: "The S-PLUS Fornax Project (S+FP): An extragalactic catalog covering ∼5 virial radii around NGC1399 with galaxy properties "
+        link: "https://ui.adsabs.harvard.edu/abs/2026A%26A...706A..34M/abstract"
+        authors: Haack, R. F.; Smith Castelli, A. V.; Sodré, L., Jr.; ...; (12th) Almeida-Fernandes, F.;
+        more: "+21"
+        journal: A&A
+        volume: 708
+        page: id.A204
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 12
+        
       - title: "Targeting cluster galaxies for the 4MOST CHANCES Low-z sub-survey with photometric redshifts"
         link: "https://ui.adsabs.harvard.edu/abs/2026A%26A...706A..34M/abstract"
         authors: Méndez-Hernández, H.; Lima-Dias, C.; Monachesi, A.; ...; (42th) Almeida-Fernandes, F.;
