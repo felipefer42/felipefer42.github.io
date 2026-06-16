@@ -3656,7 +3656,7 @@ lectures:
         institute-link: "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/catalogo-de-disciplinas"
         language-code: br
         language: portuguese 
-        code: AST-203-4
+        code: AST203
         semester: '2026.2'
         type: ongoing
         background-color: "#9cac4a"
@@ -3733,7 +3733,7 @@ lectures:
         institute-link: "https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/catalogo-de-disciplinas"
         language-code: br
         language: portuguese 
-        code: AST-418-4
+        code: AST418
         semester: '2027.1'
         type: upcoming
         background-color: "#4d7a3b"
