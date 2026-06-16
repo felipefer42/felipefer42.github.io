@@ -3697,20 +3697,20 @@ lectures:
         sections:
           - name: Parte 1
             color: "#425ac7"
-          - name: Parte 2
-            color: "#31734c"
-          - name: Parte 3
-            color: "#a55b2a"
-          - name: Avaliações
-            color: "#444444"
-          - name: Atividade 1
-            color: "#425ac7"
-          - name: Atividade 2
-            color: "#31734c"
-          - name: Atividade 3
-            color: "#a55b2a"
-          - name: Atividade Final
-            color: "#ff4141"
+          #- name: Parte 2
+          #  color: "#31734c"
+          #- name: Parte 3
+          #  color: "#a55b2a"
+          #- name: Avaliações
+          #  color: "#444444"
+          #- name: Atividade 1
+          #  color: "#425ac7"
+          #- name: Atividade 2
+          #  color: "#31734c"
+          #- name: Atividade 3
+          #  color: "#a55b2a"
+          #- name: Atividade Final
+          #  color: "#ff4141"
 
         lectures:
           - name: 'Aula 1: Visão Geral e Conceitos Fundamentais'
