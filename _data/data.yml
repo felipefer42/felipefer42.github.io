@@ -1829,16 +1829,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "I Workshop da Rede AstroPT"
-        link: ""
-        date: 10-12/Jun/2026
-        location: Universidade Estadual de Feira de Santana, Bahia, Brasil
-        country-code: br
-        state-code: br-ba
-        contribution: Poster
-        contrib-icon: 
-        upcoming: true
-
       - title: "S-PLUS mini-Workshop on Galactic Archaeology with Narrow-band Photometry"
         link: ""
         date: 22/Jun/2026
@@ -1846,6 +1836,15 @@ event-participation:
         country-code:
         remote: true
         contribution: Organizer
+        upcoming: true
+
+      - title: "Participação no podcast Ciência em Órbita"
+        link: ""
+        date: 24/Jun/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Interviewed
         upcoming: true
         
       - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
@@ -1892,6 +1891,16 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "I Workshop da Rede AstroPT"
+        link: ""
+        date: 10-12/Jun/2026
+        location: Universidade Estadual de Feira de Santana, Bahia, Brasil
+        country-code: br
+        state-code: br-ba
+        contribution: Poster
+        contrib-icon: 
+        upcoming: false
+        
       - title: "Apresentação do Grupo de Arqueologia Galáctia do INPE para o Milky Way Brazilian Group"
         link: ""
         date: 05/May/2026
