@@ -3631,8 +3631,22 @@ lectures:
 
     courses:
       - name: Observational Astrophysics Techniques
-        link: under_construction
+        link: lectures/ast_203_2026_2.html
+        intro: |
+        description: |
+          Coordenadas astronômicas. A atmosfera terrestre; estrutura, absorção, emissão e difusão de radiação. O que se observa em Astrofísica. Transformada de Fourier. Tratamento estatístico de dados. Detectores: princípios físicos de detecção. Detectores quânticos, térmicos e em radio frequências. Medida do sinal. Fotometria e polarimetria: definição de grandezas. Métodos de  calibração. Vetor Stokes. Imagem: formação (telescópios), degradação e tratamento. Análise  espectral: instrumentos. Medida de contínuo e de linhas espectrais.
         name_ptbr: Técnicas Observacionais em Astrofísica
+        
+        bibliography: |
+          BEVINGTON, P. R. & ROBINSON, D. K. Data reduction and error analysis for the physical sciences, 3rd edition, McGraw-Hill Inc., 2002 <br>
+          BRADT, H. Astronomy Methods: A Physical Approach to Astronomical Observations, Cambridge Univ. Press, 2004. <br>
+          GRAY, D. F. Observation and analysis of stellar photospheres, 3rd edition, Cambridge Univ. Press, 2008. <br>
+          HOWELL, S. B. Handbook of CCD Astronomy, 2nd edition, Cambridge, 2006 <br>
+          KITCHIN, C. R. Astrophysical Techniques, 5th edition, CRC, 2008. <br>
+          LÉNA, P., LEBRUN, F. & MIGNARD, F. Observational Astrophysics, 2nd edition, Springer-Ver, 1998. <br>
+          MCLEAN, I. S. Electronic imaging in astronomy: detectors and instrumentation. Springer & Praxis. 2008. <br> 
+          WALKER, G. Astronomical observations: an optical perspective. Cambridge Univ. Press, 1987. <br>
+          Artigos especializados da área 
         institute: INPE
         institute_long: Instituto Nacional de Pesquisas Espaciais
         department: Divisão de Astrofísica
@@ -3641,10 +3655,72 @@ lectures:
         language: portuguese 
         code: AST-203-4
         semester: '2026.2'
-        type: upcoming
+        type: ongoing
         background-color: "#9cac4a"
         text-color: "#FFF"
+        info:
+          - key: Lecture Credits
+            value: 4
+          - key: Work Credits
+            value: 0
+          - key: Total hours
+            value: 60h
+          - key: Type
+            value: Period-long
+          - key: Language
+            value: Portuguese
         
+        info_ptbr:
+          - key: Créditos Aula
+            value: 4
+          - key: Créditos Trabalho
+            value: 0
+          - key: Horas Totais
+            value: 60h
+          - key: Tipo
+            value: Período
+          - key: Idioma
+            value: Português
+
+        documents:
+          - name: Descrição do Curso
+            link: https://drive.google.com/file/d/1nqn4Ct9pPeUr4S4-14fBVPRli7-1f2A5/view?usp=sharing
+            type: pdf
+
+          - name: Calendário
+            link: https://drive.google.com/file/d/1E2anB_Kqh1WJYTwmSRvmGkbd_xVHRhgU/view?usp=sharing
+            type: pdf
+
+        sections:
+          - name: Parte 1
+            color: "#425ac7"
+          - name: Parte 2
+            color: "#31734c"
+          - name: Parte 3
+            color: "#a55b2a"
+          - name: Avaliações
+            color: "#444444"
+          - name: Atividade 1
+            color: "#425ac7"
+          - name: Atividade 2
+            color: "#31734c"
+          - name: Atividade 3
+            color: "#a55b2a"
+          - name: Atividade Final
+            color: "#ff4141"
+
+        lectures:
+          - name: 'Aula 1: Visão Geral e Conceitos Fundamentais'
+            intro:
+            link: https://docs.google.com/presentation/d/1tBWtUUGf4uN6QtuH-3fmjxy1-yl8JLikdGAzTH5vBIs/edit?usp=sharing
+            section: Parte 1
+            language-code: br
+            date: 16/06
+            video: 
+            pdf: https://docs.google.com/presentation/d/1tBWtUUGf4uN6QtuH-3fmjxy1-yl8JLikdGAzTH5vBIs/edit?usp=sharing
+            drive: https://docs.google.com/presentation/d/1tBWtUUGf4uN6QtuH-3fmjxy1-yl8JLikdGAzTH5vBIs/edit?usp=sharing
+            blog:
+            
       - name: Galactic Structure
         link: under_construction
         name_ptbr: Estrutura da Galáxia
