@@ -3634,7 +3634,10 @@ lectures:
         link: lectures/ast_203_2026_2.html
         intro: |
         description: |
-          Coordenadas astronômicas. A atmosfera terrestre; estrutura, absorção, emissão e difusão de radiação. O que se observa em Astrofísica. Transformada de Fourier. Tratamento estatístico de dados. Detectores: princípios físicos de detecção. Detectores quânticos, térmicos e em radio frequências. Medida do sinal. Fotometria e polarimetria: definição de grandezas. Métodos de  calibração. Vetor Stokes. Imagem: formação (telescópios), degradação e tratamento. Análise  espectral: instrumentos. Medida de contínuo e de linhas espectrais.
+          Coordenadas astronômicas. A atmosfera terrestre; estrutura, absorção, emissão e difusão de radiação. O que se observa em Astrofísica. 
+          Transformada de Fourier. Tratamento estatístico de dados. Detectores: princípios físicos de detecção. Detectores quânticos, térmicos e 
+          em radio frequências. Medida do sinal. Fotometria e polarimetria: definição de grandezas. Métodos de  calibração. Vetor Stokes. 
+          Imagem: formação (telescópios), degradação e tratamento. Análise  espectral: instrumentos. Medida de contínuo e de linhas espectrais.
         name_ptbr: Técnicas Observacionais em Astrofísica
         
         bibliography: |
