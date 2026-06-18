@@ -3723,6 +3723,17 @@ lectures:
             pdf: https://drive.google.com/file/d/118CLeU0j2jtA4QrIELEjyx_72Huy1X1i/view?usp=drive_link
             drive: https://docs.google.com/presentation/d/1tBWtUUGf4uN6QtuH-3fmjxy1-yl8JLikdGAzTH5vBIs/edit?usp=sharing
             blog:
+
+          - name: 'Aula 2: Sistemas de Coordenadas'
+            intro:
+            link: https://drive.google.com/file/d/1na_wJxyrhnqJInvGWCFdyj3NT5RbeH6N/view?usp=drive_link
+            section: Parte 1
+            language-code: br
+            date: 18/06
+            video: 
+            pdf: https://drive.google.com/file/d/1na_wJxyrhnqJInvGWCFdyj3NT5RbeH6N/view?usp=drive_link
+            drive: https://docs.google.com/presentation/d/1F-XyKYPI-g2DtGaKdgWKCC8EIcyjmlrzWe4-pl4NS0g/edit?usp=sharing
+            blog:
             
       - name: Galactic Structure
         link: under_construction
