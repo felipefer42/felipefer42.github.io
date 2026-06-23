@@ -1829,15 +1829,6 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:
-      - title: "S-PLUS mini-Workshop on Galactic Archaeology with Narrow-band Photometry"
-        link: ""
-        date: 22/Jun/2026
-        location: Remote meeting
-        country-code:
-        remote: true
-        contribution: Organizer
-        upcoming: true
-
       - title: "Participação no podcast Ciência em Órbita"
         link: ""
         date: 24/Jun/2026
@@ -1891,6 +1882,15 @@ event-participation:
         year-mark: true
         upcoming: false
 
+      - title: "S-PLUS mini-Workshop on Galactic Archaeology with Narrow-band Photometry"
+        link: ""
+        date: 22/Jun/2026
+        location: Remote meeting
+        country-code:
+        remote: true
+        contribution: Organizer
+        upcoming: false
+        
       - title: "I Workshop da Rede AstroPT"
         link: ""
         date: 10-12/Jun/2026
