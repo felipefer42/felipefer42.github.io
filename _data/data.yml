@@ -1828,16 +1828,7 @@ event-participation:
     title: Past participations
     title_ptbr: Participações Passadas
     intro:
-    events:
-      - title: "Participação no podcast Ciência em Órbita"
-        link: ""
-        date: 24/Jun/2026
-        location: São José dos Campos, Brasil
-        country-code: br
-        state-code: br-sp
-        contribution: Interviewed
-        upcoming: true
-        
+    events:  
       - title: "XXVI Curso de Introdução a Astronomia e Astrofísica - CIAA 2026"
         link: ""
         date: 20-24/Jul/2026
@@ -1877,11 +1868,29 @@ event-participation:
         contribution: TBD
         contrib-icon: 
         upcoming: true
+
+      - title: " III Workshop do Programa de Pós-Graduação em Física - IFQ/UNIFEI"
+        link: ""
+        date: 17/Nov/2026
+        location: Itajubá, Brasil
+        country-code: br
+        state-code: br-mg
+        contribution: Invited Talk
+        upcoming: true
         
       - title: "2026"
         year-mark: true
         upcoming: false
 
+      - title: "Participação no podcast Ciência em Órbita"
+        link: ""
+        date: 24/Jun/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Interviewed
+        upcoming: false
+        
       - title: "S-PLUS mini-Workshop on Galactic Archaeology with Narrow-band Photometry"
         link: ""
         date: 22/Jun/2026
