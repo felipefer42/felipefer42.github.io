@@ -1909,6 +1909,26 @@ event-participation:
         contribution: Poster
         contrib-icon: 
         upcoming: false
+
+      - title: "Defesa de Proposta de Dissertação - Tainá Bueno de Andrade"
+        link: ""
+        date: 29/May/2026
+        location: Auditório CEA II (modo híbrido)
+        country-code: br
+        state-code: br-sp
+        contribution: Advisor
+        contrib-icon: 
+        upcoming: false
+
+      - title: "Defesa de Proposta de Dissertação - Murilo Antonio Menegati"
+        link: ""
+        date: 28/May/2026
+        location: Auditório CEA II (modo híbrido)
+        country-code: br
+        state-code: br-sp
+        contribution: Advisor
+        contrib-icon: 
+        upcoming: false
         
       - title: "Apresentação do Grupo de Arqueologia Galáctia do INPE para o Milky Way Brazilian Group"
         link: ""
