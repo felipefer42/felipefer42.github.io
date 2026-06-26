@@ -3777,12 +3777,12 @@ lectures:
 
           - name: 'Aula 4: Atmosfera terrestre'
             intro:
-            link: 
+            link: https://drive.google.com/file/d/1JDuV6v3ybqEEsqk1Y4n0Fuw7vOAQz6bQ/view?usp=drive_link
             section: Parte 1
             language-code: br
             date: 25/06
-            video: 
-            pdf: 
+            video: https://youtu.be/0ibuqQRImCo
+            pdf: https://drive.google.com/file/d/1JDuV6v3ybqEEsqk1Y4n0Fuw7vOAQz6bQ/view?usp=drive_link
             drive: 
             blog:
 
