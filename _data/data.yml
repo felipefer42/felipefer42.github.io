@@ -3723,7 +3723,7 @@ lectures:
             link: https://drive.google.com/file/d/1E2anB_Kqh1WJYTwmSRvmGkbd_xVHRhgU/view?usp=sharing
             type: pdf
           
-          - name: Ferramenta - fotometria sintética
+          - name: Tool - fotometria sintética
             link: /fotometria
             type: tool
 
@@ -3749,7 +3749,7 @@ lectures:
           - name: 'Aula 1: Visão Geral e Conceitos Fundamentais'
             intro:
             link: https://drive.google.com/file/d/118CLeU0j2jtA4QrIELEjyx_72Huy1X1i/view?usp=drive_link
-            section: Parte 1
+            section: Parte 1 - Felipe
             language-code: br
             date: 16/06
             video: 
@@ -3760,7 +3760,7 @@ lectures:
           - name: 'Aula 2: Sistemas de Coordenadas'
             intro:
             link: https://drive.google.com/file/d/1na_wJxyrhnqJInvGWCFdyj3NT5RbeH6N/view?usp=drive_link
-            section: Parte 1
+            section: Parte 1 - Felipe
             language-code: br
             date: 18/06
             video: https://youtu.be/DzdVdPz8rQI
@@ -3771,7 +3771,7 @@ lectures:
           - name: 'Aula 3: Radiação e magnitude'
             intro:
             link: https://drive.google.com/file/d/1GEy6qw4dlHKWX-93OG-Hre30xq9-9U7y/view?usp=sharing
-            section: Parte 1
+            section: Parte 1 - Felipe
             language-code: br
             date: 23/06
             video: https://youtu.be/gXwcihksDhk
@@ -3782,7 +3782,7 @@ lectures:
           - name: 'Aula 4: Atmosfera terrestre'
             intro:
             link: https://drive.google.com/file/d/1JDuV6v3ybqEEsqk1Y4n0Fuw7vOAQz6bQ/view?usp=drive_link
-            section: Parte 1
+            section: Parte 1 - Felipe
             language-code: br
             date: 25/06
             video: https://youtu.be/0ibuqQRImCo
@@ -3793,7 +3793,7 @@ lectures:
           - name: 'Aula 5: Filtros fotométricos'
             intro:
             link: 
-            section: Parte 1
+            section: Parte 1 - Felipe
             language-code: br
             date: 30/06
             video: 
@@ -3804,7 +3804,7 @@ lectures:
           - name: 'Aula 6: Fundamentos de estatística'
             intro:
             link: 
-            section: Parte 1
+            section: Parte 1 - Felipe
             language-code: br
             date: 02/07
             video: 
