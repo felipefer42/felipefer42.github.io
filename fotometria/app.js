@@ -5,7 +5,7 @@ const C = {c: 299792458, h: 6.62607015e-34, k: 1.380649e-23, pc: 3.0856775814913
 const GRID_MIN=100,GRID_MAX=3000;
 const grid = Array.from({length: GRID_MAX-GRID_MIN+1}, (_, i) => GRID_MIN+i);
 const state = {
-  mode:"components", source:"blackbody", axisMode:"lambda", photometricSystem:"AB", showReference:true, vegaSpectrum:null, spectrum:null, spectra:[], activeSpectrum:-1,
+  mode:"components", source:"blackbody", axisMode:"lambda", photometricSystem:"AB", showReference:false, vegaSpectrum:null, spectrum:null, spectra:[], activeSpectrum:-1,
   filters:[], activeFilter:-1, files:{}, fileNames:{}, realBand:null,
   xMin:200,xMax:1200,
   params:{shape:"rect",center:550,width:100,peak:1,top:60,sigma:45},
@@ -16,11 +16,11 @@ const state = {
   }
 };
 const stages = [
-  ["Comece pelo essencial","Escolha uma fonte e altere as bordas do filtro. O que acontece com a magnitude?"],
-  ["Coloque a atmosfera no caminho","Ative a atmosfera e procure no gráfico as bandas de absorção idealizadas."],
-  ["Agora, a óptica","Compare a magnitude antes e depois das perdas nos espelhos e lentes."],
-  ["Fótons viram elétrons","Ative a eficiência quântica e observe como ela muda a resposta total."],
-  ["Encontre o mundo real","Use o espectro e as passbands Gaia. A curva Gaia já representa todo o sistema."]
+  ["",""],
+  ["",""],
+  ["",""],
+  ["",""],
+  ["",""]
 ];
 const ABSORPTION_LINES = [
   {nm:393.4,strength:.85,label:"Ca K"},{nm:396.8,strength:.75,label:"Ca H"},
@@ -319,7 +319,7 @@ function setMode(mode){
   if(isReal&&!state.realBand)document.querySelector('[data-gaia="G"]').click();
 }
 function reset(){
-  state.mode="components";state.source="blackbody";state.axisMode="lambda";state.photometricSystem="AB";state.showReference=true;state.xMin=200;state.xMax=1200;state.spectrum=null;state.spectra=[];state.activeSpectrum=-1;state.filters=[];state.activeFilter=-1;state.files={};state.fileNames={};state.realBand=null;state.params={shape:"rect",center:550,width:100,peak:1,top:60,sigma:45};
+  state.mode="components";state.source="blackbody";state.axisMode="lambda";state.photometricSystem="AB";state.showReference=false;state.xMin=200;state.xMax=1200;state.spectrum=null;state.spectra=[];state.activeSpectrum=-1;state.filters=[];state.activeFilter=-1;state.files={};state.fileNames={};state.realBand=null;state.params={shape:"rect",center:550,width:100,peak:1,top:60,sigma:45};
   state.componentParams={
     atmosphere:{shape:"atmospheric",center:700,width:600,top:400,peak:.88},
     instrument:{shape:"smooth",center:650,width:700,top:500,peak:.82},
@@ -332,7 +332,7 @@ function reset(){
   document.querySelectorAll(".source-tab").forEach(b=>b.classList.toggle("active",b.dataset.source==="blackbody"));
   document.querySelectorAll("[data-axis]").forEach(b=>b.classList.toggle("active",b.dataset.axis==="lambda"));
   document.querySelectorAll("[data-photometric-system]").forEach(b=>b.classList.toggle("active",b.dataset.photometricSystem==="AB"));
-  $("referenceToggle").textContent="Ocultar referência";$("referenceToggle").setAttribute("aria-pressed","true");$("referenceLegendItem").hidden=false;
+  $("referenceToggle").textContent="Mostrar referência";$("referenceToggle").setAttribute("aria-pressed","false");$("referenceLegendItem").hidden=true;
   $("blackbodyControls").hidden=false;$("absorptionControls").hidden=true;$("fileControls").hidden=true;updateCollectionUI("spectrum");updateCollectionUI("filter");filterControls();
   ["atmosphere","instrument","detector"].forEach(componentControls);setMode("components");
 }
@@ -462,7 +462,7 @@ function drawSpectrumChart(flux,response){
 }
 function drawTransmissionChart(id,curves,color,active=0,fill=false){
   const {ctx,W,H}=setupCanvas(id),p={l:57,r:34,t:10,b:28};
-  const visibleMax=Math.max(...curves.flatMap(visibleValues),0),max=visibleMax>0?visibleMax:1;
+  const max=1.05;
   const {ph,x}=axes(ctx,W,H,p,true,max),y=v=>p.t+ph-clamp(v/max)*ph;
   withPlotClip(ctx,p,W,H,()=>curves.forEach((curve,i)=>{
     if(fill&&i===active){ctx.save();ctx.globalAlpha=.13;ctx.fillStyle=color;ctx.beginPath();ctx.moveTo(x(state.xMin),y(0));curve.forEach((v,j)=>ctx.lineTo(x(grid[j]),y(v)));ctx.lineTo(x(state.xMax),y(0));ctx.fill();ctx.restore()}
@@ -540,12 +540,45 @@ $("loadRubinInstrument").onclick=()=>loadExampleCurve("instrument","Curvas_Reais
 $("loadRubinDetector").onclick=()=>loadExampleCurve("detector","Curvas_Reais/Rubin/detector_lsstcam.csv","Rubin · detector LSSTCam");
 $("spectrumSelect").onchange=e=>activateCollection("spectrum",e.target.value);
 $("filterSelect").onchange=e=>activateCollection("filter",e.target.value);
-$("loadGaiaSpectrum").onclick=async()=>{try{
-  const name="Gaia 2341866690928009216";
+const gaiaSpectrumIds=[
+  "2341850159597487360",
+  "2341866690928009216",
+  "2772085696588395776",
+  "2772097619417608704",
+  "564638051664676992"
+];
+$("loadGaiaSpectrum").onclick=async()=>{
+  const firstNewIndex=state.spectra.length;
+  const missingIds=gaiaSpectrumIds.filter(id=>!state.spectra.some(s=>s.gaiaId===id));
+  try{
+    const loaded=await Promise.all(missingIds.map(async id=>({
+      name:`Gaia ${id}`,
+      gaiaId:id,
+      data:parseTwoColumns(await loadText(`Espectros/Gaia/gaia_spectra_${id}.csv`),1,false)
+    })));
+    state.spectra.push(...loaded);
+    const index=loaded.length?firstNewIndex:state.spectra.findIndex(s=>gaiaSpectrumIds.includes(s.gaiaId));
+    if(index>=0)activateCollection("spectrum",index);
+  }catch{
+    $("spectrumStatus").textContent="Não foi possível carregar todos os espectros Gaia. Abra a atividade via servidor local e confira os arquivos da pasta.";
+  }
+};
+$("loadVegaSpectrum").onclick=async()=>{
+  const name="Vega (CALSPEC)";
   let index=state.spectra.findIndex(s=>s.name===name);
-  if(index<0){const text=await loadText("Espectros/Gaia/gaia_spectra_2341866690928009216.csv");state.spectra.push({name,data:parseTwoColumns(text,1,false)});index=state.spectra.length-1}
-  activateCollection("spectrum",index);
-}catch{$("spectrumStatus").textContent="Abra via servidor local para usar o atalho; ou selecione o arquivo manualmente."}};
+  try{
+    if(index<0){
+      const data=state.vegaSpectrum||parseTwoColumns(await loadText("Espectros/Vega/vega_calspec.csv"),1,false);
+      state.vegaSpectrum=data;
+      state.spectra.push({name,data});
+      index=state.spectra.length-1;
+    }
+    document.querySelector('[data-source="file"]').click();
+    activateCollection("spectrum",index);
+  }catch{
+    $("spectrumStatus").textContent="Não foi possível carregar o espectro de Vega. Abra a atividade via servidor local e confira o arquivo CALSPEC.";
+  }
+};
 document.querySelectorAll("[data-gaia]").forEach(b=>b.onclick=async()=>{
   try{const band=b.dataset.gaia,name=`Gaia ${band}`;let index=state.filters.findIndex(f=>f.name===name);
     if(index<0){const text=await loadText(`Filtros/GAIA_GAIA3.${band}.dat`);state.filters.push({name,data:parseTwoColumns(text,.1,true),band});index=state.filters.length-1}

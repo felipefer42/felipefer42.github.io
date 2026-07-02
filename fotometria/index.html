@@ -10,7 +10,7 @@
   <header class="topbar">
     <div class="brand">
       <span class="brand-mark">A1</span>
-      <div><strong>Sistema fotométrico</strong><small>AST-202-3 (2026.2) - Felipe Almeida-Fernandes</small></div>
+      <div><strong>Laboratório de Fotometria</strong><small>AST-203-4 (2026.2) - Felipe Almeida-Fernandes</small></div>
     </div>
     <nav class="stages" aria-label="Modo da atividade">
       <button class="stage active" data-mode="components"><b>◆</b> Componentes</button>
@@ -34,6 +34,7 @@
             <button class="source-tab" data-source="flatfnu">fν = 3631 Jy</button>
             <button class="source-tab" data-source="file">Espectro real</button>
           </div>
+          <button class="ghost wide" id="loadVegaSpectrum">Carregar espectro de Vega</button>
           <div id="blackbodyControls">
             <label>Temperatura <output id="tempOut">5.800 K</output>
               <input id="temperature" type="range" min="2500" max="30000" step="100" value="5800">
@@ -54,7 +55,7 @@
             <p class="hint">O raio e a distância fixam a normalização física do fluxo.</p>
           </div>
           <div id="fileControls" hidden>
-            <button class="primary wide" id="loadGaiaSpectrum">Usar espectro Gaia da pasta</button>
+            <button class="primary wide" id="loadGaiaSpectrum">Carregar espectros Gaia da pasta</button>
             <label class="file-btn">Carregar um ou vários CSV/TXT<input id="spectrumFile" type="file" accept=".csv,.txt,.dat" multiple></label>
             <label id="spectrumSelectLabel" hidden>Espectro ativo<select id="spectrumSelect"></select></label>
             <div class="two-col">
@@ -149,8 +150,8 @@
               <div class="axis-toggle" aria-label="Variável do eixo espectral">
                 <button class="active" data-axis="lambda">λ</button><button data-axis="nu">ν</button>
               </div>
-              <button class="reference-toggle" id="referenceToggle" type="button" aria-pressed="true">Ocultar referência</button>
-              <div class="legend"><span class="dot spectrum"></span><span id="spectrumLegend">Fλ</span> <span id="referenceLegendItem"><span class="dot reference"></span><span id="referenceLegend">Referência AB · 3631 Jy</span></span> <span class="dot measured"></span>Fração medida</div>
+              <button class="reference-toggle" id="referenceToggle" type="button" aria-pressed="false">Mostrar referência</button>
+              <div class="legend"><span class="dot spectrum"></span><span id="spectrumLegend">Fλ</span> <span id="referenceLegendItem" hidden><span class="dot reference"></span><span id="referenceLegend">Referência AB · 3631 Jy</span></span> <span class="dot measured"></span>Fração medida</div>
             </div>
           </div>
           <div class="chart-wrap spectrum-chart"><canvas id="spectrumChart"></canvas><div id="tooltip" hidden></div></div>
