@@ -114,6 +114,12 @@
       <a class="doc-card"  href="{{ document.link }}" target="_blank" style="border-color: {{ course.background-color | default('#666') | safe }}; color: {{ course.background-color | default('#FFF') | safe }};">
         {% if document.type == "pdf" %}
         <div class="doc-icon"><i class="fa-solid fa-file-pdf"></i></div>
+        {% elsif document.type == "drive" %}
+        <div class="doc-icon"><i class="fa-brands fa-google-drive"></i></div>
+        {% elsif document.type == "video" %}
+        <div class="doc-icon"><i class="fa-solid fa-play"></i></div>
+        {% elsif document.type == "tool" %}
+        <div class="doc-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
         {% else %}
         <div class="doc-icon"><i class="fa-solid fa-file"></i></div>
         {% endif %}

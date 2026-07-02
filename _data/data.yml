@@ -3722,9 +3722,15 @@ lectures:
           - name: Calendário
             link: https://drive.google.com/file/d/1E2anB_Kqh1WJYTwmSRvmGkbd_xVHRhgU/view?usp=sharing
             type: pdf
+          
+          - name: Ferramenta - fotometria sintética
+            link: /fotometria
+            type: tool
 
         sections:
-          - name: Parte 1
+          - name: Parte 1 - Felipe
+            color: "#425ac7"
+          - name: Atividade 1
             color: "#425ac7"
           #- name: Parte 2
           #  color: "#31734c"
@@ -3732,8 +3738,6 @@ lectures:
           #  color: "#a55b2a"
           #- name: Avaliações
           #  color: "#444444"
-          #- name: Atividade 1
-          #  color: "#425ac7"
           #- name: Atividade 2
           #  color: "#31734c"
           #- name: Atividade 3
@@ -3807,7 +3811,18 @@ lectures:
             pdf: 
             drive: 
             blog:
-            
+
+          - name: 'Atividade 1: Filtros fotométricos'
+            intro:
+            link: 
+            section: Atividade 1
+            language-code: br
+            date: 02/07
+            video: 
+            pdf: 
+            drive: 
+            blog:
+
       - name: Galactic Structure
         link: under_construction
         name_ptbr: Estrutura da Galáxia

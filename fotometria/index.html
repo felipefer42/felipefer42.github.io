@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratório de Fotometria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">A1</span>
+      <div><strong>Sistema fotométrico</strong><small>AST-202-3 (2026.2) - Felipe Almeida-Fernandes</small></div>
+    </div>
+    <nav class="stages" aria-label="Modo da atividade">
+      <button class="stage active" data-mode="components"><b>◆</b> Componentes</button>
+      <button class="stage" data-mode="real"><b>★</b> Sistema real</button>
+    </nav>
+    <div class="calibration-selector" aria-label="Sistema fotométrico">
+      <span>Calibração</span>
+      <div class="axis-toggle"><button class="active" data-photometric-system="AB">AB</button><button data-photometric-system="Vega">Vega</button></div>
+    </div>
+    <button class="ghost" id="resetBtn">Recomeçar</button>
+  </header>
+
+  <main>
+    <section class="workspace">
+      <aside class="controls">
+        <article class="panel">
+          <div class="panel-title"><span class="num">A</span><div><h2>Fonte</h2><p>Fluxo antes do sistema</p></div></div>
+          <div class="segmented">
+            <button class="source-tab active" data-source="blackbody">Corpo negro</button>
+            <button class="source-tab" data-source="absorption">C. negro + linhas</button>
+            <button class="source-tab" data-source="flatfnu">fν = 3631 Jy</button>
+            <button class="source-tab" data-source="file">Espectro real</button>
+          </div>
+          <div id="blackbodyControls">
+            <label>Temperatura <output id="tempOut">5.800 K</output>
+              <input id="temperature" type="range" min="2500" max="30000" step="100" value="5800">
+            </label>
+            <div class="two-col">
+              <label>Raio (R☉)<input id="radius" type="number" min="0.001" step="0.1" value="1"></label>
+              <label>Distância (pc)<input id="distance" type="number" min="0.01" step="1" value="10"></label>
+            </div>
+            <div id="absorptionControls" hidden>
+              <label>Profundidade das linhas <output id="lineDepthOut">55%</output>
+                <input id="lineDepth" type="range" min="5" max="90" step="5" value="55">
+              </label>
+              <label>Largura FWHM <output id="lineWidthOut">4 nm</output>
+                <input id="lineWidth" type="range" min="1" max="20" step="1" value="4">
+              </label>
+              <p class="hint">Linhas gaussianas idealizadas: Ca H&amp;K, Hγ, Hβ, Mg, Na e Hα.</p>
+            </div>
+            <p class="hint">O raio e a distância fixam a normalização física do fluxo.</p>
+          </div>
+          <div id="fileControls" hidden>
+            <button class="primary wide" id="loadGaiaSpectrum">Usar espectro Gaia da pasta</button>
+            <label class="file-btn">Carregar um ou vários CSV/TXT<input id="spectrumFile" type="file" accept=".csv,.txt,.dat" multiple></label>
+            <label id="spectrumSelectLabel" hidden>Espectro ativo<select id="spectrumSelect"></select></label>
+            <div class="two-col">
+              <label>λ<input id="spectrumWaveUnit" value="nm" disabled></label>
+              <label>Fluxo<input value="W m⁻² nm⁻¹" disabled></label>
+            </div>
+            <p class="status" id="spectrumStatus">Duas colunas: comprimento de onda, fluxo.</p>
+          </div>
+        </article>
+
+        <aside class="mission" aria-live="polite">
+          <span id="stageLabel">MODO COMPONENTES</span>
+          <strong id="stageTitle">Construa o caminho óptico</strong>
+          <p id="stagePrompt">Ative atmosfera, instrumento e detector para compor a transmissão total.</p>
+        </aside>
+
+        <article class="panel axis-range-panel">
+          <div class="panel-title"><span class="num">↔</span><div><h2>Intervalo dos gráficos</h2><p>Limites compartilhados do eixo x</p></div></div>
+          <div class="two-col">
+            <label>λ mínimo (nm)<input id="axisMin" type="number" min="100" max="2999" step="1" value="200"></label>
+            <label>λ máximo (nm)<input id="axisMax" type="number" min="101" max="3000" step="1" value="1200"></label>
+          </div>
+          <p class="hint" id="axisRangeHint">Faixa disponível: 100–3000 nm.</p>
+        </article>
+
+        <article class="panel optical active-card" id="filterControlsCard" data-component="filter">
+          <div class="panel-title"><span class="num">B</span><div><h2>Filtro</h2><p>Seleção da banda</p></div><label class="switch"><input type="checkbox" checked disabled><i></i></label></div>
+          <select id="filterShape">
+            <option value="rect">Retangular</option>
+            <option value="triangle">Triangular</option>
+            <option value="trapezoid">Trapezoidal</option>
+            <option value="gaussian">Gaussiano</option>
+            <option value="file">Curva carregada</option>
+          </select>
+          <div id="filterParams"></div>
+          <label class="file-btn small" id="filterFileLabel" hidden>Carregar uma ou várias curvas<input id="filterFile" type="file" accept=".csv,.txt,.dat" multiple></label>
+          <label id="filterSelectLabel" hidden>Filtro ativo<select id="filterSelect"></select></label>
+        </article>
+
+        <article class="panel optical" id="atmosphereControlsCard" data-component="atmosphere">
+          <div class="panel-title"><span class="num">C</span><div><h2>Atmosfera</h2><p>Absorção terrestre</p></div><label class="switch"><input id="atmosphereEnabled" type="checkbox"><i></i></label></div>
+          <div class="component-body">
+            <select id="atmosphereShape"><option value="atmospheric">Modelo atmosférico</option><option value="rect">Retangular</option><option value="trapezoid">Trapezoidal</option><option value="triangle">Triangular</option><option value="file">Curva carregada</option></select>
+            <button class="example-curve-btn" id="loadRubinAtmosphere">Usar atmosfera real Rubin · X = 1,2</button>
+            <div id="atmosphereParams"></div>
+            <label class="file-btn small" id="atmoFileLabel" hidden>Carregar curva<input id="atmosphereFile" type="file" accept=".csv,.txt,.dat"></label>
+          </div>
+        </article>
+
+        <article class="panel optical" id="instrumentControlsCard" data-component="instrument">
+          <div class="panel-title"><span class="num">D</span><div><h2>Instrumento</h2><p>Óptica e espelhos</p></div><label class="switch"><input id="instrumentEnabled" type="checkbox"><i></i></label></div>
+          <div class="component-body">
+            <select id="instrumentShape"><option value="smooth">Óptica suave</option><option value="rect">Retangular</option><option value="trapezoid">Trapezoidal</option><option value="triangle">Triangular</option><option value="file">Curva carregada</option></select>
+            <button class="example-curve-btn" id="loadRubinInstrument">Usar óptica real Rubin</button>
+            <div id="instrumentParams"></div>
+            <label class="file-btn small" id="instFileLabel" hidden>Carregar curva<input id="instrumentFile" type="file" accept=".csv,.txt,.dat"></label>
+          </div>
+        </article>
+
+        <article class="panel optical" id="detectorControlsCard" data-component="detector">
+          <div class="panel-title"><span class="num">E</span><div><h2>Detector</h2><p>Eficiência quântica</p></div><label class="switch"><input id="detectorEnabled" type="checkbox"><i></i></label></div>
+          <div class="component-body">
+            <select id="detectorShape"><option value="ccd">CCD idealizado</option><option value="rect">Retangular</option><option value="trapezoid">Trapezoidal</option><option value="triangle">Triangular</option><option value="file">Curva carregada</option></select>
+            <button class="example-curve-btn" id="loadRubinDetector">Usar detector real LSSTCam</button>
+            <div id="detectorParams"></div>
+            <label class="file-btn small" id="detFileLabel" hidden>Carregar curva<input id="detectorFile" type="file" accept=".csv,.txt,.dat"></label>
+          </div>
+        </article>
+
+        <article class="panel gaia-panel" id="realSystems" hidden>
+          <div class="panel-title"><span class="num">★</span><div><h2>Sistemas reais</h2><p>Passbands Gaia DR3</p></div></div>
+          <div class="gaia-grid">
+            <button data-gaia="G">G</button><button data-gaia="Gbp">G<sub>BP</sub></button>
+            <button data-gaia="Grp">G<sub>RP</sub></button><button data-gaia="Grvs">G<sub>RVS</sub></button>
+          </div>
+          <p class="warning">Curva combinada: filtro + instrumento + eficiência do detector. Não multiplique esses componentes outra vez.</p>
+        </article>
+      </aside>
+
+      <section class="results">
+        <article class="plot-card spectral-strip-card">
+          <div class="plot-head">
+            <div><h2>Cor espectral da fonte</h2><p>Brilho proporcional à intensidade do espectro</p></div>
+          </div>
+          <div class="spectral-strip"><canvas id="sourceColorChart"></canvas></div>
+        </article>
+
+        <article class="plot-card spectrum-plot">
+          <div class="plot-head">
+            <div><h2>Espectro da fonte</h2><p id="plotSubtitle">Corpo negro · 5.800 K</p></div>
+            <div class="plot-actions">
+              <div class="axis-toggle" aria-label="Variável do eixo espectral">
+                <button class="active" data-axis="lambda">λ</button><button data-axis="nu">ν</button>
+              </div>
+              <button class="reference-toggle" id="referenceToggle" type="button" aria-pressed="true">Ocultar referência</button>
+              <div class="legend"><span class="dot spectrum"></span><span id="spectrumLegend">Fλ</span> <span id="referenceLegendItem"><span class="dot reference"></span><span id="referenceLegend">Referência AB · 3631 Jy</span></span> <span class="dot measured"></span>Fração medida</div>
+            </div>
+          </div>
+          <div class="chart-wrap spectrum-chart"><canvas id="spectrumChart"></canvas><div id="tooltip" hidden></div></div>
+          <div class="axis-label">Comprimento de onda (nm)</div>
+        </article>
+
+        <article class="plot-card spectral-strip-card transmitted-strip-card">
+          <div class="plot-head">
+            <div><h2>Cor espectral da luz transmitida</h2><p>Intensidade da fonte multiplicada por S</p></div>
+          </div>
+          <div class="spectral-strip"><canvas id="transmittedColorChart"></canvas></div>
+        </article>
+
+        <article class="plot-card total-plot">
+          <div class="plot-head">
+            <div><h2 id="totalResponseTitle">Transmissão total S(λ)</h2><p>Produto das curvas ativas no caminho óptico</p></div>
+            <div class="legend"><span class="dot response"></span><span id="responseLegend">S(λ)</span></div>
+          </div>
+          <div class="chart-wrap total-chart"><canvas id="totalChart"></canvas></div>
+          <div class="axis-label">Comprimento de onda (nm)</div>
+        </article>
+
+        <section class="transmission-scroller" id="componentPlotsScroller" aria-label="Curvas de transmissão individuais">
+        <section class="component-plots" id="componentPlots" aria-label="Curvas de transmissão individuais">
+          <article class="plot-card mini-plot" id="filterPlotCard"><div class="plot-head"><div><h2 id="filterPanelTitle">Filtro: T(λ)</h2><p id="filterPlotLabel">Retangular</p></div><span class="curve-swatch filter"></span></div><div class="mini-chart"><canvas id="filterChart"></canvas></div></article>
+          <article class="plot-card mini-plot" id="instrumentPlotCard"><div class="plot-head"><div><h2 id="instrumentPanelTitle">Instrumento: T<sub>inst</sub>(λ)</h2><p id="instrumentPlotLabel">Não incluído</p></div><span class="curve-swatch instrument"></span></div><div class="mini-chart"><canvas id="instrumentChart"></canvas></div></article>
+          <article class="plot-card mini-plot" id="atmospherePlotCard"><div class="plot-head"><div><h2 id="atmospherePanelTitle">Atmosfera: T<sub>atm</sub>(λ)</h2><p id="atmospherePlotLabel">Não incluída</p></div><span class="curve-swatch atmosphere"></span></div><div class="mini-chart"><canvas id="atmosphereChart"></canvas></div></article>
+          <article class="plot-card mini-plot" id="detectorPlotCard"><div class="plot-head"><div><h2 id="detectorPanelTitle">Eficiência do detector: EQ(λ)</h2><p id="detectorPlotLabel">Não incluída</p></div><span class="curve-swatch detector"></span></div><div class="mini-chart"><canvas id="detectorChart"></canvas></div></article>
+        </section>
+        </section>
+
+      </section>
+
+      <aside class="metrics-sidebar" aria-label="Resultados fotométricos">
+        <div class="sidebar-heading"><span>RESULTADOS</span><strong>Fotometria sintética</strong></div>
+        <article class="magnitude-card">
+          <p>MAGNITUDE SINTÉTICA</p>
+          <div><strong id="magnitude">—</strong><span id="magnitudeUnit">mag<sub>AB</sub></span></div>
+          <small id="magNote">Calculada com resposta ponderada por fótons</small>
+          <div class="metric-calculation magnitude-calculation">
+            <strong>Como foi calculado</strong>
+            <div class="calculation-body">
+              <div class="display-equation"><span>⟨f<sub>ν</sub>⟩</span><span>=</span><span class="math-fraction"><span><i>∫</i> f<sub>λ</sub>(λ) S(λ) λ dλ</span><span>c <i>∫</i> S(λ) dλ/λ</span></span></div>
+              <div class="display-equation" id="magnitudeEquation"><span>m<sub>AB</sub></span><span>=</span><span>−2,5 log<sub>10</sub></span><span class="math-fraction"><span>⟨f<sub>ν</sub>⟩</span><span>3631 Jy</span></span></div>
+              <p id="magnitudeExplanation">A referência AB possui f<sub>ν</sub> constante de 3631 Jy.</p>
+            </div>
+          </div>
+        </article>
+        <article class="metric"><span id="effectiveLabel">λ efetivo</span><strong id="effectiveWave">—</strong><small id="effectiveUnit">nm</small><details class="metric-calculation"><summary>Como foi calculado</summary><div class="calculation-body"><div class="display-equation" id="effectiveEquation"><span>λ<sub>ef</sub></span><span>=</span><span class="math-fraction"><span><i>∫</i> λ W(λ) dλ</span><span><i>∫</i> W(λ) dλ</span></span></div><p>W(λ) = f<sub>λ</sub>(λ) S(λ) λ é o peso dos fótons detectados.</p></div></details></article>
+        <article class="metric"><span>Largura equivalente</span><strong id="equivWidth">—</strong><small id="equivWidthUnit">nm</small><details class="metric-calculation"><summary>Como foi calculado</summary><div class="calculation-body"><div class="display-equation" id="equivEquation"><span>W<sub>eq</sub></span><span>=</span><span class="math-fraction"><span><i>∫</i> S(λ) dλ</span><span>máx[S(λ)]</span></span></div><p>Largura de uma banda retangular com a mesma área e transmissão máxima.</p></div></details></article>
+        <article class="metric"><span>Fν médio</span><strong id="meanFnu">—</strong><small>Jy</small><details class="metric-calculation"><summary>Como foi calculado</summary><div class="calculation-body"><div class="display-equation"><span>⟨f<sub>ν</sub>⟩</span><span>=</span><span class="math-fraction"><span><i>∫</i> f<sub>λ</sub>(λ) S(λ) λ dλ</span><span>c <i>∫</i> S(λ) dλ/λ</span></span></div><p>S(λ) é o produto das transmissões ativas; o resultado é convertido para jansky.</p></div></details></article>
+        <p class="sidebar-note">Os valores acompanham a fonte e o produto S(λ) mostrados ao centro.</p>
+      </aside>
+    </section>
+  </main>
+  <footer><span>Todos os cálculos são feitos localmente no navegador.</span><span id="footerStatus">Amostragem: 1 nm · 100–3000 nm</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
