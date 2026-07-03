@@ -3801,12 +3801,12 @@ lectures:
             drive: https://docs.google.com/presentation/d/1o_8FP3xCX8vdkPIwLIhbBsCB7ZAfrWrpk2VZo0vcRas/edit?usp=sharing
             blog:
 
-          - name: 'Aula 6: [remanejada]'
+          - name: ''
             intro:
             link: 
             section: Parte 1 - Felipe
             language-code: br
-            date: 
+            date: Aula 6: [remanejada]
             video: 
             pdf: 
             drive: 
@@ -3834,7 +3834,7 @@ lectures:
             drive:
             blog: https://www.astrofelipe.com/fotometria/
 
-          - name: 'Vídeo: experimento para visualizar a transmissão dos filtros da atividade'
+          - name: 'Experimento de visualização da transmissão dos filtros'
             intro:
             link: https://youtube.com/shorts/-44gNkE95HE
             section: Atividade 1
