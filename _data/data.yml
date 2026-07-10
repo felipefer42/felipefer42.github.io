@@ -3719,11 +3719,11 @@ lectures:
 
           - name: Prova 1
             link: https://drive.google.com/file/d/19B3m2nuv3a4TXAVoJm4v2jEeBkDk3nHJ/view?usp=sharing
-            type: tool
+            type: pdf
 
           - name: Prova 1 - Gabarito
             link: https://drive.google.com/file/d/1UVNqESzjGyunDWKk0fuF-r6FRv3U35Mc/view?usp=sharing
-            type: tool
+            type: pdf
             
         sections:
           - name: Parte 1 - Felipe
