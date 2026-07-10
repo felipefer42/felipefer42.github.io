@@ -3713,10 +3713,18 @@ lectures:
             link: https://drive.google.com/file/d/1E2anB_Kqh1WJYTwmSRvmGkbd_xVHRhgU/view?usp=sharing
             type: pdf
           
-          - name: Tool - Laboratório de Fotometria
+          - name: Tool - Lab. de Fotometria
             link: /fotometria
             type: tool
 
+          - name: Prova 1
+            link: https://drive.google.com/file/d/19B3m2nuv3a4TXAVoJm4v2jEeBkDk3nHJ/view?usp=sharing
+            type: tool
+
+          - name: Prova 1 - Gabarito
+            link: https://drive.google.com/file/d/1UVNqESzjGyunDWKk0fuF-r6FRv3U35Mc/view?usp=sharing
+            type: tool
+            
         sections:
           - name: Parte 1 - Felipe
             color: "#425ac7"
@@ -3802,6 +3810,17 @@ lectures:
             drive: 
             blog:
 
+          - name: Prova 1
+            intro:
+            link: https://drive.google.com/file/d/19B3m2nuv3a4TXAVoJm4v2jEeBkDk3nHJ/view?usp=sharing
+            section: Parte 1 - Felipe
+            language-code: br
+            date: 07/06
+            video: 
+            pdf: https://drive.google.com/file/d/19B3m2nuv3a4TXAVoJm4v2jEeBkDk3nHJ/view?usp=sharing
+            drive: 
+            blog:
+            
           - name: '[entrega até 17/07] Atividade 1: Filtros fotométricos'
             intro:
             link: https://docs.google.com/document/d/1fQmIi3w1zIybdNLp1ykVqZWXJfoIg_rWL_OVNCpWWck/edit?usp=sharing
