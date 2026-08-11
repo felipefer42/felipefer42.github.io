@@ -3724,22 +3724,26 @@ lectures:
           - name: Prova 1 - Gabarito
             link: https://drive.google.com/file/d/1UVNqESzjGyunDWKk0fuF-r6FRv3U35Mc/view?usp=sharing
             type: pdf
+
+          - name: Dados S-PLUS - Atividade 3
+            link: https://drive.google.com/file/d/11Ef7309qlkDK4j5Ccv8sCU6soBM3TLp6/view?usp=sharing
+            type: tool
             
         sections:
           - name: Parte 1 - Felipe
             color: "#425ac7"
           - name: Atividade 1
             color: "#425ac7"
-          #- name: Parte 2
-          #  color: "#31734c"
-          #- name: Parte 3
-          #  color: "#a55b2a"
+          - name: Parte 2 - Ted
+            color: "#31734c"
+          - name: Parte 3
+            color: "#a55b2a"
+          - name: Atividade 3
+            color: "#a55b2a"
           #- name: Avaliações
           #  color: "#444444"
           #- name: Atividade 2
           #  color: "#31734c"
-          #- name: Atividade 3
-          #  color: "#a55b2a"
           #- name: Atividade Final
           #  color: "#ff4141"
 
@@ -3819,7 +3823,7 @@ lectures:
             video: 
             pdf: https://drive.google.com/file/d/19B3m2nuv3a4TXAVoJm4v2jEeBkDk3nHJ/view?usp=sharing
             drive: 
-            blog:
+            blog: 
             
           - name: '[entrega até 17/07] Atividade 1: Filtros fotométricos'
             intro:
@@ -3852,6 +3856,39 @@ lectures:
             video: https://youtube.com/shorts/-44gNkE95HE
             pdf:
             drive:
+            blog:
+
+          - name: 'Link para o conteúdo da parte 2'
+            intro:
+            link: https://monolipo.github.io/lectures/ast203_2026.html
+            section: Parte 2 - Ted
+            language-code: br
+            date: '[externo]'
+            video:
+            pdf:
+            drive:
+            blog: https://monolipo.github.io/lectures/ast203_2026.html
+            
+          - name: 'Aula 14: Grandes Levantamentos e Bases de Dados Astronômicos'
+            intro:
+            link: https://drive.google.com/file/d/1Te5m-EowneP12qK12H_dex4K5Ug5xIEt/view?usp=sharing
+            section: Parte 3
+            language-code: br
+            date: 11/08
+            video: https://youtu.be/8HHXe8uvfEk
+            pdf: https://drive.google.com/file/d/1Te5m-EowneP12qK12H_dex4K5Ug5xIEt/view?usp=sharing
+            drive: https://docs.google.com/presentation/d/1v-T3vUMu869wLH_Fbody3PwgtmUcVf-Cdf6wx1uiYBc/edit?usp=sharing
+            blog:
+
+          - name: '[entrega até 24/08] Atividade 3: Diagrama cor-magnitude de M2'
+            intro:
+            link: https://docs.google.com/document/d/1TNmFKtfLmkX6VhYvvKRBKGcUNNibTIs43SazM9lUpaE/edit?usp=sharing
+            section: Atividade 3
+            language-code: br
+            date: 11/08
+            video: 
+            pdf: https://drive.google.com/file/d/1GqDdFpJAIjGCcD0_N0lur-JXjNlVYIPY/view?usp=sharing
+            drive: https://docs.google.com/document/d/1TNmFKtfLmkX6VhYvvKRBKGcUNNibTIs43SazM9lUpaE/edit?usp=sharing
             blog:
             
       - name: Galactic Structure
