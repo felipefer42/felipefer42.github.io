@@ -1247,6 +1247,58 @@ publications:
     intro:
     intro_ptbr:
     papers:
+      - title: "S-PLUS Clusters And Large-scale Environments (SCALE): I. A catalog of known clusters and groups in DR5 and a pilot study of Abell 4038"
+        link: https://ui.adsabs.harvard.edu/abs/2026arXiv260702704M/abstract"
+        authors:   Mendes de Oliveira, C., Cardoso, N. M., Lopes, P. A. A.; ... (26th) Almeida-Fernandes, F.;
+        more: "+25"
+        journal: ApJ
+        volume: Acpt
+        page: 
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 26
+        
+      - title: "The S-PLUS Fifth Data-Release: Over 4500 square degrees of the Southern Sky and a multicolor view of the Hydra and Antlia galaxy clusters "
+        link: https://ui.adsabs.harvard.edu/abs/2026arXiv260715891V/abstract"
+        authors:   Vinicius Rodrigues de Lima, E.; Oliveira Schwarz,G. B.; Herpich, F.R.; Almeida-Fernandes, Felipe; 
+        more: "+54"
+        journal: ApJ
+        volume: Acpt
+        page: 
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 4
+        
+      - title: "Something new under the Sun: A magnetically driven CH/CN anti-correlation"
+        link: "https://ui.adsabs.harvard.edu/abs/2026arXiv260802721M/abstract"
+        authors:  Momany, Y. ; Monaco, L. ; Villanova, S. ; ... (14th) Almeida-Fernandes, F.;
+        more: "+10"
+        journal: A&A
+        volume: Acpt
+        page: 
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 14
+        
+      - title: "Variables in S-PLUS: I. Multiband period-luminosity relations and reddening maps of the Magellanic Clouds using classical Cepheids"
+        link: "https://ui.adsabs.harvard.edu/abs/2026arXiv260620953H/abstract"
+        authors: Hazarika, D.; Ferreira Lopes, C. E.; Catelan, M.; Almeida-Fernandes, F.;
+        more: "+11"
+        journal: A&A
+        volume: 712
+        page: A95
+        year: 2026
+        show-home: False
+        first-author: False
+        refereed: True
+        rank: 4
+        
       - title: "S-PLUS: Beyond Spectroscopy. IV. Stellar Parameters and Elemental-abundance Ratios for Six Million Stars from DR4 and First Results for the Magellanic Clouds"
         link: "https://ui.adsabs.harvard.edu/abs/2026ApJ..1000..263H/abstract"
         authors: Huang, Y.; Beers, T.; Xiao, K.; Mendes de Oliveira, C.; Almeida-Fernandes, F.;
