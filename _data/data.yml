@@ -761,6 +761,14 @@ phd_msc_committees:
       - MSc Project Proposal Evaluation
 
     committees:
+      - student: "Candidate: Camilla Mylena de Sousa da Silva"
+        title: "Atmosferas de exoplanetas rochosos: detectabilidade, modelagem, atmosfera primária e secundária (escape e reposição) e habitabilidade."
+        type: PhD Qualifying Examination
+        location: Instituto Nacional de Pesquisas Espaciais
+        date: 25/Aug/2025
+        link: https://www.gov.br/inpe/pt-br/area-conhecimento/posgraduacao/ast/defesas
+        description: Committee's member
+
       - student: "Candidate: Patricia Maria dos Santos"
         title: "Evolução De Estrelas De Massa Intermediária (1 a 8 Massa_sol)"
         type: PhD Qualifying Examination
@@ -1032,6 +1040,12 @@ teaching:
         - Undergraduate
         
       list:
+        - name: Observational Astrophysics Techniques (AST203)
+          role: Professor
+          semester: 2026.2
+          location: INPE
+          details: |
+
         - name: Galactic Structure (AST418)
           role: Professor
           semester: 2025.3
@@ -1063,6 +1077,11 @@ teaching:
 teaching_ptbr:
       title: Experiência de Ensino
       list:
+        - name: Técnicas Observacionais em Astrofísica (AST203)
+          role: Professor
+          semester: 2026.2
+          location: INPE
+          details: |
         - name: Estrutura da Galáxia (AST418)
           role: Professor
           semester: 2025.3
@@ -5413,3 +5432,18 @@ lectures:
             video:
             pdf:
             drive:
+
+vacations:
+    title: Programmed Vacations
+    info:
+      - title: "[2026] 1st installment"
+        time: 13/Oct/2026 - 23/Oct/2026
+        show: true
+
+      - title: "[2026] 2nd installment"
+        time: 03/Nov/2026 - 17/Nov/2026
+        show: true
+
+      - title: "[2026] 3rd installment"
+        time: 23/Nov/2026 - 26/Nov/2026
+        show: true

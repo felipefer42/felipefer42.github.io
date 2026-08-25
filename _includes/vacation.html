@@ -1,0 +1,34 @@
+{% assign vacations = site.data.data.vacations %}
+{% if vacations %}
+<section class="section experiences_plus-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-sm">
+      <i class="fas fa-square fa-stack-2x"></i>
+      <i class="fas fa-island-tropical fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ vacations.title }}
+  </h2>
+
+  {% for vacation in vacations.info %}
+
+    {% if vacation.show == false %}
+      {% continue %}
+    {% endif %}
+    
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ vacation.title }}</h3>
+        <div class="time">{{ vacation.time }}</div>
+      </div><!--//upper-row-->
+
+    </div><!--//meta-->
+
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
+
