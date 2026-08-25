@@ -871,6 +871,10 @@ fellowships:
 reviews:
     title: Peer-Review Activities
     info:
+      - role: Peer-Reviewer for Publications of the Astronomical Society of Japan
+        time: 2026
+        company: Volunteer service for Oxford University Press
+        
       - role: T80-S Time Allocation Committee
         time: 2026
         company: S-PLUS Survey
@@ -885,7 +889,7 @@ reviews:
 
       - role: Peer-Reviewer for Astronomy and Astrophysics
         time: 2024
-        company: Volunteer service for  EDP Sciences
+        company: Volunteer service for EDP Sciences
 
       - role: Peer-Reviewer for Astronomy and Computing
         time: 2023
