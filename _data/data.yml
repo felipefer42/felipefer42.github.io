@@ -5436,14 +5436,14 @@ lectures:
 vacations:
     title: Programmed Vacations
     info:
-      - title: "[2026] 1st installment"
+      - title: "1st installment"
         time: 13/Oct/2026 - 23/Oct/2026
         show: true
 
-      - title: "[2026] 2nd installment"
+      - title: "2nd installment"
         time: 03/Nov/2026 - 17/Nov/2026
         show: true
 
-      - title: "[2026] 3rd installment"
+      - title: "3rd installment"
         time: 23/Nov/2026 - 26/Nov/2026
         show: true
