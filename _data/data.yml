@@ -3216,36 +3216,6 @@ selections:
         title-mark: true
         type: Ongoing
 
-      - title: "9ª chamada pública de apoio à ciência"
-        title_ptbr: "9ª chamada pública de apoio à ciência"
-        location: Serrapilheira
-        link:
-        date: 2025
-        status: Ongoing
-        rank: -1
-        candidates: ?? 
-        spots: 10
-        ratio: ??
-        type: Ongoing
-        top5: true
-        decision: 
-        note:
-
-      - title: "Research Productivity - PQ (Chamada 23-2025)"
-        title_ptbr: "Bolsa de Produtividade - PQ (Chamada 23-2025)"
-        location: CNPq
-        link:
-        date: 2025
-        status: Ongoing
-        rank: -1
-        candidates: ?? 
-        spots: ??
-        ratio: ??
-        type: Ongoing
-        top5: true
-        decision: 
-        note:
-
       - title: "University Admittance Exams"
         title_ptbr: "Vestibulares"
         type: Vestibular
@@ -3597,6 +3567,36 @@ selections:
         decision: "-"
         note:
 
+      - title: "9ª chamada pública de apoio à ciência"
+        title_ptbr: "9ª chamada pública de apoio à ciência"
+        location: Serrapilheira
+        link:
+        date: 2025
+        status: Not Approved
+        rank: -1
+        candidates: ?? 
+        spots: 10
+        ratio: ??
+        type: Grants
+        top5: true
+        decision: 
+        note:
+
+      - title: "Research Productivity - PQ (Chamada 23-2025)"
+        title_ptbr: "Bolsa de Produtividade - PQ (Chamada 23-2025)"
+        location: CNPq
+        link:
+        date: 2025
+        status: Approved
+        rank: -1
+        candidates: ?? 
+        spots: ??
+        ratio: ??
+        type: Grants
+        top5: true
+        decision: Accepted
+        note:
+        
       - title: "Withdrawn"
         title_ptbr: "Desistências"
         type: Withdrawn
