@@ -3813,6 +3813,10 @@ lectures:
           - name: Dados S-PLUS - Atividade 3
             link: https://drive.google.com/file/d/11Ef7309qlkDK4j5Ccv8sCU6soBM3TLp6/view?usp=sharing
             type: tool
+
+          - name: Lista de Polarimetria
+            link: https://drive.google.com/file/d/1mWDYMq_XMuMXa-za33T__Z-gxSbtGpYf/view?usp=sharing
+            type: pdf
             
         sections:
           - name: Parte 1 - Felipe
@@ -3953,6 +3957,17 @@ lectures:
             pdf:
             drive:
             blog: https://monolipo.github.io/lectures/ast203_2026.html
+
+          - name: 'Aula 13: Polarimetria (Cláudia)'
+            intro:
+            link: https://drive.google.com/file/d/1oc-jBHThMc_iqF-ujWBkESeTqStHSFpa/view?usp=drive_link
+            section: Parte 3
+            language-code: br
+            date: 06/08
+            video: 
+            pdf: https://drive.google.com/file/d/1oc-jBHThMc_iqF-ujWBkESeTqStHSFpa/view?usp=drive_link
+            drive: 
+            blog:
             
           - name: 'Aula 14: Grandes Levantamentos e Bases de Dados Astronômicos'
             intro:
@@ -3965,6 +3980,28 @@ lectures:
             drive: https://docs.google.com/presentation/d/1v-T3vUMu869wLH_Fbody3PwgtmUcVf-Cdf6wx1uiYBc/edit?usp=sharing
             blog:
 
+          - name: 'Aula 15: Ondas Gravitacionais (Tábata)'
+            intro:
+            link: 
+            section: Parte 3
+            language-code: br
+            date: 25/08
+            video: 
+            pdf: 
+            drive: 
+            blog:
+
+          - name: 'Aula 16: Radioastronomia (Zulema)'
+            intro:
+            link: https://drive.google.com/file/d/1ACx6lfH7aKDWv-d-023d3lVpTcNtq5W8/view?usp=drive_link
+            section: Parte 3
+            language-code: br
+            date: 27/08
+            video: 
+            pdf: https://drive.google.com/file/d/1ACx6lfH7aKDWv-d-023d3lVpTcNtq5W8/view?usp=drive_link
+            drive: 
+            blog:
+            
           - name: '[entrega até 24/08] Atividade 3: Diagrama cor-magnitude de M2'
             intro:
             link: https://docs.google.com/document/d/1TNmFKtfLmkX6VhYvvKRBKGcUNNibTIs43SazM9lUpaE/edit?usp=sharing
