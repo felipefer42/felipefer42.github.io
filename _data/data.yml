@@ -3817,6 +3817,11 @@ lectures:
           - name: Lista de Polarimetria
             link: https://drive.google.com/file/d/1mWDYMq_XMuMXa-za33T__Z-gxSbtGpYf/view?usp=sharing
             type: pdf
+
+          - name: Aula 16 - Conteúdo Extra
+            link: https://drive.google.com/file/d/1ACx6lfH7aKDWv-d-023d3lVpTcNtq5W8/view?usp=sharing
+            type: pdf
+            
             
         sections:
           - name: Parte 1 - Felipe
@@ -3982,23 +3987,23 @@ lectures:
 
           - name: 'Aula 15: Ondas Gravitacionais (Tábata)'
             intro:
-            link: 
+            link: https://drive.google.com/file/d/183Virt9oB8Wx0ih3xxkogIxD2rphwrir/view?usp=sharing
             section: Parte 3
             language-code: br
             date: 25/08
             video: 
-            pdf: 
+            pdf: https://drive.google.com/file/d/183Virt9oB8Wx0ih3xxkogIxD2rphwrir/view?usp=sharing
             drive: 
             blog:
 
           - name: 'Aula 16: Radioastronomia (Zulema)'
             intro:
-            link: https://drive.google.com/file/d/1ACx6lfH7aKDWv-d-023d3lVpTcNtq5W8/view?usp=drive_link
+            link: https://drive.google.com/file/d/1II6A73MCZ5zL8ZxnGDVMN9gH2eR00H7L/view?usp=sharing
             section: Parte 3
             language-code: br
             date: 27/08
             video: 
-            pdf: https://drive.google.com/file/d/1ACx6lfH7aKDWv-d-023d3lVpTcNtq5W8/view?usp=drive_link
+            pdf: https://drive.google.com/file/d/1II6A73MCZ5zL8ZxnGDVMN9gH2eR00H7L/view?usp=sharing
             drive: 
             blog:
             
