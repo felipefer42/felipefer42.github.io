@@ -1905,6 +1905,15 @@ event-participation:
     title_ptbr: Participações Passadas
     intro:
     events:  
+      - title: "AIA 2026: Workshop SPAnet de Inteligência Artificial em Astronomia"
+        link: ""
+        date: 18/Sep/2026
+        location: São José dos Campos, Brasil
+        country-code: br
+        state-code: br-sp
+        contribution: Attend
+        upcoming: true
+        
       - title: "XLIX Reunião Anual da Sociedade Astronômica Brasileira"
         link: ""
         date: 25-30/Oct/2026
