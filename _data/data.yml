@@ -1045,6 +1045,7 @@ teaching:
           semester: 2026.2
           location: INPE
           details: |
+          type: Graduate
 
         - name: Galactic Structure (AST418)
           role: Professor
@@ -3762,7 +3763,7 @@ lectures:
         language: portuguese 
         code: AST203
         semester: '2026.2'
-        type: ongoing
+        type: finished
         background-color: "#9cac4a"
         text-color: "#FFF"
         info:
