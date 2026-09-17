@@ -199,19 +199,19 @@ summary_ptbr:
     publication-title: Publicações (Qualis A1)
     publication-info:
       - key: Publicações
-        value: 32 (4 de 1° autor)
+        value: 38 (4 de 1° autor)
         link:
       - key: H-index
-        value: 12
+        value: 14
         link:
       - key: Citações
-        value: 675
+        value: 984
         link:
       - key: Artigo mais citado
-        value: Mendes de Oliveira et al. (2019) - 211 citações
+        value: Mendes de Oliveira et al. (2019) - 323 citações
         link:
       - key: Artigo mais citado (1° autor)
-        value: Almeida-Fernandes et al. (2022) - 53 citações
+        value: Almeida-Fernandes et al. (2022) - 70 citações
         link:
       - key: 1° Artigo
         value: Almeida-Fernandes & Rocha-Pinto (2018a)
